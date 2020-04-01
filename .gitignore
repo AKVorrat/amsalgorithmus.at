@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+
+.vscode/
+.venv/
+.history/
+
+*.log
+*-log.txt
+
+*.sqlite3
+/run/static/*
