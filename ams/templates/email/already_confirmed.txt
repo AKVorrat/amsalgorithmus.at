@@ -1,0 +1,12 @@
+Hallo {{ full_name }}, 
+            
+danke für deine Unterstützung! 
+
+Du warst allerdings bereits als UnterstützerIn eingetragen. Unsere 
+Petition kann erfolgreicher sein, wenn du sie auf Social Media 
+teilst. 
+
+Vielen Dank für deine Hilfe! 
+
+Liebe Grüße,
+epicenter.works

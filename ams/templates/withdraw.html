@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div>
+    {% if withdrawn %}
+        <h1>Alles klar,</h1>
+        <h3>wir haben deinen Widerruf erhalten und deine Daten gelöscht.</h3> <br/>
+    {% else %}
+        <h3>Ein Fehler ist aufgetreten oder deine Daten wurden bereits gelöscht.</h3> <br/>
+        <div> Bitte wende dich an ??? um sicherzugehen, dass deine Daten gelöscht wurden. </div>
+        <!-- TODO: insert support email address. -->
+    {% endif %}
+    </div>
+{% endblock %}

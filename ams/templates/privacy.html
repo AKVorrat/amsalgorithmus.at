@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <div>
+        PRIVACY POLICY
+    </div>
+    <div class="col-xs-12 col-md-8 col-md-offset-2">
+        <a name="withdrawal"></a>
+        <h3>Widerruf der Einwilligung zur Verarbeitung</h3>
+        <p>Zum Widerruf gib die E-Mail-Adresse ein, mit der du unterschrieben hast. Du erhältst wieder eine E-Mail mit einem Link, mit dem du den Widerruf bestätigst.</p>
+        <form method="post" action="#withdrawal">
+            {% csrf_token %}
+            {{ form.email.errors }}
+            {{ form.email.label }}
+            {{ form.email }}
+            <input class="petition-input" type="submit" value="Einwilligung widerrufen">
+        </form>
+    </div>
+{% endblock %}
+

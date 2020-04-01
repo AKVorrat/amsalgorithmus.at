@@ -1,0 +1,22 @@
+
+{% load petition_filters %}
+
+<div class="petition" id="petition">
+    <form method="post" novalidate>
+        {% csrf_token %}
+
+        {% for field in form %}
+            {% if field|field_type:'checkboxinput' %}
+            {{ field.errors }}
+            {{ field }}
+            {{ field.label_tag }}
+            {% else %}
+            {{ field.label_tag }}
+            {{ field.errors }}
+            {{ field }}
+            {% endif %}
+        {% endfor %}
+        <input class="petition-input" type="submit" value="Unterschreiben">
+        <label>* Pflichtfelder</label>
+    </form>
+</div>
