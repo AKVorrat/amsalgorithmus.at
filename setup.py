@@ -29,6 +29,7 @@ setup(
     ### Dependencies
     install_requires=[
         'python-dotenv',
+        'django-sass-processor>=0.8'
         
         'Django==2.2',
     ],

@@ -15,8 +15,12 @@ pip install .[dev]
 python ./manage.py migrate
 ```
 
-## Running 
+## Running
 
 ```bash
 python ./manage.py runserver
 ```
+
+## Scss
+
+Scss source files are located in `ams/static/scss`.
