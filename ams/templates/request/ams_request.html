@@ -1,0 +1,74 @@
+{% load sass_tags %}
+
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#FFFFFF">
+    </head>
+    <body>
+        <div>
+            <h3> Antrag gemäß Art. 15 DSGVO auf Auskunft </h3>
+            <p>
+                An/Verantwortliche:<br>
+                Arbeitsmarktservice Österreich, Bundesgeschäftsstelle<br>
+                z.Hd. Datenschutzbeauftragter<br>
+                Treustraße 35-43, 1200 Wien
+            </p>
+            <p>
+                Ort und Datum: _______________________________
+            </p>
+            <p>
+                Sehr geehrte Damen und Herren!
+            </p>
+            <p>
+                Hiermit stelle ich gemäß Art. 15 Datenschutz-Grundverordnung (Verordnung (EU) 2016/679
+                des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher
+                Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur
+                Aufhebung der Richtlinie 95/46/EG, DSGVO) einen <strong>Antrag auf Auskunft über meine
+                personenbezogenen Daten.</strong>
+                <br>
+                Diese Auskunft soll all jene Daten enthalten, die das AMS selbst erhebt, jedoch auch solche,
+                die das AMS für die Erfüllung seiner Aufgaben und rechtlichen Verpflichtungen von anderen
+                Rechtsträgern (wie beispielsweise dem Hauptverband der Sozialversicherungsträger, ZMR,
+                Finanzämter, PVAs, BMI, usw.)  erhält.
+                <br>
+                Insbesondere interessiert mich, welche meiner persönlichen Daten zur Erstellung eines
+                statistischen Modells zur Kategorisierung von Arbeitslosen verwendet werden bzw. wurden,
+                sowie an wen und in welcher Form diese Daten weitergegeben wurden und wie meine
+                Einstufung im endgültigen Modell aussieht. Ich verlange, dass diese Auskunft so vollständig
+                wie möglich erteilt wird. 
+            </p>
+
+            <p>
+                <strong> AntragstellerIn: </strong><br>
+                Name: {{ name }} <br>
+                Adresse: {{ address }}<br> 
+                PLZ/Ort: {{ zipcode }} / {{ municipality }}<br>
+                E-Mail: {{ email }}<br>
+            </p>
+
+            <p>
+                Sie sind verpflichtet, mich innerhalb eines Monats nach Eingang des Antrags zu informieren, welche Maßnahmen
+                Sie getroffen haben. Diese Frist kann um weitere zwei Monate verlängert werden, wenn dies unter
+                Berücksichtigung der Komplexität und der Anzahl von Anträgen erforderlich ist. Sie haben mich innerhalb eines
+                Monats nach Eingang des Antrags über eine Fristverlängerung, zusammen mit den Gründen für die Verzögerung,
+                zu informieren. Wenn Sie der Meinung sind, dass Sie auf den Antrag nicht eingehen müssen, so haben Sie mich
+                spätestens aber innerhalb eines Monats nach Eingang des Antrags über die Gründe dafür und über die
+                Möglichkeit, bei einer Aufsichtsbehörde Beschwerde einzulegen zu informieren. Ich wünsche auf elektronischem
+                Weg unterrichtet zu werden.
+            </p>
+            <p>
+                <strong>Zur Bestätigung meiner Identität lege ich eine Ausweiskopie bei.</strong>
+            </p>
+            <p>
+                <strong>Mit freundlichen Grüßen</strong><br>
+                {{ name }}<br>
+                _______________________________
+            </p>
+
+
+        </div>
+
+    </body>
+</html>

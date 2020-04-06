@@ -31,6 +31,8 @@ setup(
         'python-dotenv',
         'django-sass-processor>=0.8'
         
+        'weasyprint==51',
+
         'Django==2.2',
     ],
     extras_require={
