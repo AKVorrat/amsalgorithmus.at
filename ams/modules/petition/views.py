@@ -1,4 +1,3 @@
-import math
 from django.views.generic.edit import FormView
 from django.views.generic import TemplateView
 from .forms import SignatureForm, WithdrawalForm
