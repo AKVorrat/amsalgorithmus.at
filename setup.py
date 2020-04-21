@@ -30,7 +30,8 @@ setup(
     install_requires=[
         'python-dotenv',
         'django-sass-processor>=0.8',
-        
+                
+        'libsass>=0.19.4',
         'weasyprint==51',
 
         'Django==2.2',
