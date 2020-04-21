@@ -82,8 +82,10 @@ function quantizePos(pos) {
 }
 
 function drawPixel(pos, context) {
-  context.fillStyle = "#ECECEC";
+  context.fillStyle = "#969DA8";
+  context.globalAlpha = 0.2;
   context.fillRect(pos.x * pixelSize, pos.y * pixelSize, pixelSize, pixelSize);
+  context.globalAlpha = 1;
 }
 
 setup();
