@@ -1,0 +1,18 @@
+{
+  "name": "amsalgorithmus.at",
+  "version": "1.0.0",
+  "description": "The code for the petition module closely resembles that of istkicklschonweg.at. Go to [AKVorrat/istkicklschonweg.at](https://github.com/AKVorrat/istkicklschonweg.at) for a more detailed commit history.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.cando.sh:meks/amsalgorithmus.at.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@drewbot/sass-flexbox-grid": "^2.0.7"
+  }
+}

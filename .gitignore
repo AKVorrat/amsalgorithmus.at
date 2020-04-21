@@ -10,3 +10,6 @@ __pycache__/
 
 *.sqlite3
 /run/static/*
+
+node_modules/
+package-lock.json

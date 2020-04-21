@@ -7,13 +7,13 @@
 
         {% for field in form %}
             {% if field|field_type:'checkboxinput' %}
-            {{ field.errors }}
             {{ field }}
             {{ field.label_tag }}
+            {{ field.errors }}
             {% else %}
             {{ field.label_tag }}
-            {{ field.errors }}
             {{ field }}
+            {{ field.errors }}
             {% endif %}
         {% endfor %}
         <input class="petition-input" type="submit" value="Unterschreiben">

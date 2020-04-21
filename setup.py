@@ -29,7 +29,7 @@ setup(
     ### Dependencies
     install_requires=[
         'python-dotenv',
-        'django-sass-processor>=0.8'
+        'django-sass-processor>=0.8',
         
         'weasyprint==51',
 
