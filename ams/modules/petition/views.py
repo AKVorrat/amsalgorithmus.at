@@ -12,7 +12,7 @@ class PetitionView(FormView):
     def get_context_data(self, **kwargs):
         kwargs['signature_count'] = Signature.objects.filter(confirmed=True).count()
         kwargs['goal'] = 1000
-        kwargs['progress'] = math.floor((kwargs['signature_count'] / kwargs['goal']) * 100)
+        kwargs['progress'] = str((kwargs['signature_count'] / kwargs['goal']) * 100).replace(',', '.')
         return super(PetitionView, self).get_context_data(**kwargs)
 
     def post(self, request, *args, **kwargs):
