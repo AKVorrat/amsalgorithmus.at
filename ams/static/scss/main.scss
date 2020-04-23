@@ -94,6 +94,18 @@ h2, h3, h4 {
     font-weight: 400;
 }
 
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+  
+@media only screen and (max-width: 400px) {
+    h1 {
+      font-size: 1.5em;
+    }
+}
+
 p.text-display {
     font-size: 1.2em;
     font-weight: 600;
