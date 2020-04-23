@@ -26,7 +26,7 @@ function setup() {
     var rect = cont.getBoundingClientRect();
     c.width = rect.width;
     c.height = rect.height;
-    canvases.push({ canvas: c, container: cont });
+    canvases.push({ canvas: c, container: cont, change: false });
     var context = c.getContext('2d');
     context.fillStyle = '#FCFCFC';
     context.fillRect(0, 0, c.width, c.height);
@@ -46,8 +46,8 @@ function animDraw() {
 function draw(event) {
   for (let obj of canvases) {
     c = obj.canvas;
+    if (c != event.target) {continue}
     var pos = getMousePos(c, event);
-    console.log(pos)
     pos = quantizePos(pos);
     var context = c.getContext("2d");
     for (var x = -drawRadius; x < drawRadius; x++) {

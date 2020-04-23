@@ -13,6 +13,7 @@ $font-display: 'Poppins', sans-serif;
 
 %floating {
     box-shadow: 0px -4px $shadow;
+    z-index: 10;
 }
 %inset {
     box-shadow: 0px -4px $shadow inset;
@@ -66,6 +67,11 @@ $font-display: 'Poppins', sans-serif;
     @extend %dark;
 }
 
+.align-end {
+    text-align: end;
+    float: inline-end;
+}
+
 body {
     @extend %light;
     margin: 0;
@@ -76,6 +82,8 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: $font-display;
+    display: inline-block;
+    margin: 0;
 }
 
 h1 {
@@ -89,11 +97,15 @@ h2, h3, h4 {
 p.text-display {
     font-size: 1.2em;
     font-weight: 600;
+    max-width: 50ch;
 }
 
 #hero {
     height: 75vh;
+}
+.pixelate-container {
     position: relative;
+
     div {
         z-index: 10;
         pointer-events: none;
@@ -102,7 +114,6 @@ p.text-display {
         }
     }
 
-    h1 { margin: 0; }
     canvas {
         position: absolute;
         top: 0;
@@ -112,6 +123,10 @@ p.text-display {
 
 #petition-section {
     @extend %floating;
+}
+
+.title {
+    min-height: 320px;
 }
 
 .petition-bar {
@@ -151,7 +166,7 @@ textarea {
 }
 input[type="submit"] {
     cursor: pointer;
-    transition: all .1s ease;
+    transition: box-shadow .1s linear;
 }
 input[type="submit"]:hover {
     box-shadow: 0px 4px $shadow inset;
