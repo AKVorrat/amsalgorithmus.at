@@ -1,14 +1,27 @@
 {% extends "base.html" %}
 
-{% block content %}
-    <div>
-    {% if withdrawn %}
-        <h1>Alles klar,</h1>
-        <h3>wir haben deinen Widerruf erhalten und deine Daten gelöscht.</h3> <br/>
-    {% else %}
-        <h3>Ein Fehler ist aufgetreten oder deine Daten wurden bereits gelöscht.</h3> <br/>
-        <div> Bitte wende dich an ??? um sicherzugehen, dass deine Daten gelöscht wurden. </div>
+{% block hero %}
+  <div class="row bottom-xs">
+    <div class="col-xs-12">
+      {% if withdrawn %}
+        <h1><strong>Alles klar!</strong></h1>
+        <p class="text-display">
+          Wir haben deinen Widerruf erhalten und deine Daten gelöscht.
+        </p>
+      {% else %}
+        <h1><strong>Ein Fehler ist aufgetreten.</strong></h1>
+        <p class="text-display">
+          Vielleicht wurden deine Daten bereits gelöscht?
+          Bitte wende dich an ??? um sicherzugehen, dass deine Daten gelöscht wurden.
+        </p>
         <!-- TODO: insert support email address. -->
-    {% endif %}
+      {% endif %}    
     </div>
+  </div>     
+{% endblock %}
+
+{% block content %}
+<section class="dark">
+  {% include "share.html" %}
+</section>
 {% endblock %}

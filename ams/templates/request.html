@@ -1,27 +1,41 @@
 {% extends "base.html" %}
 {% load petition_filters %}
 
-{% block content %}
-
-    <div> DSGVO Auskunftsbegehren </div>
-
-    <form method="post" novalidate>
-        {% csrf_token %}
-
-        {% for field in form %}
-            {% if field|field_type:'checkboxinput' %}
-            {{ field.errors }}
-            {{ field }}
-            {{ field.label_tag }}
-            {% else %}
-            {{ field.label_tag }}
-            {{ field.errors }}
-            {{ field }}
-            {% endif %}
-        {% endfor %}
-        <input type="submit" value="Generieren">
-        <label>* Pflichtfelder</label>
-    </form>
-
+{% block hero %}
+  <div class="row bottom-xs">
+    <div class="col-xs-12">
+      <h1><strong>DSGVO Auskunftsbegehren</strong></h1>
+    </div>
+  </div>     
 {% endblock %}
 
+{% block content %}
+    <section class="dark">
+      <div class="row center-xs">
+        <div class="col-xs-11 col-sm-7 col-md-5 col-lg-4">
+          <p>
+            Mithilfe dieses Formulars kannst du ein Auskunftsbegehren generieren, 
+            welches dazu dient personenbezogene Daten die das Arbeitsmarktservice über dich 
+            gesammelt hat einzusehen.
+          </p>
+          <form method="post" novalidate>
+              {% csrf_token %}
+
+              {% for field in form %}
+                  {% if field|field_type:'checkboxinput' %}
+                  {{ field.errors }}
+                  {{ field }}
+                  {{ field.label_tag }}
+                  {% else %}
+                  {{ field.label_tag }}
+                  {{ field.errors }}
+                  {{ field }}
+                  {% endif %}
+              {% endfor %}
+              <input type="submit" value="Generieren">
+              <label>* Pflichtfelder</label>
+          </form>
+        </div>
+      </div>
+    </section>
+{% endblock %}

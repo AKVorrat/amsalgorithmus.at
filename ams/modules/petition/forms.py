@@ -8,18 +8,18 @@ class SignatureForm(forms.ModelForm):
     first_name = forms.CharField(
         label="Vorname",
         max_length=255,
-        widget=forms.TextInput(attrs={'class': "petition-input"})
+        widget=forms.TextInput(attrs={'class': "form-input"})
     )
     last_name = forms.CharField(
         label="Nachname",
         max_length=255,
-        widget=forms.TextInput(attrs={'class': "petition-input"})
+        widget=forms.TextInput(attrs={'class': "form-input"})
     )
 
     email = forms.EmailField(
         label="E-Mail Adresse",
         max_length=255,
-        widget=forms.TextInput(attrs={'class': "petition-input"})
+        widget=forms.TextInput(attrs={'class': "form-input"})
     )
 
     newsletter = forms.BooleanField(
@@ -57,7 +57,7 @@ class WithdrawalForm(forms.Form):
     email = forms.EmailField(
         label="E-Mail-Adresse",
         max_length=255,
-        widget=forms.TextInput(attrs={'class': "petition-input"})
+        widget=forms.TextInput(attrs={'class': "form-input"})
     )
 
     def clean(self):

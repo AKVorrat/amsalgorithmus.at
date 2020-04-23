@@ -1,11 +1,30 @@
 {% extends "base.html" %}
 
+{% block hero %}
+  <div class="row bottom-xs">
+    <div class="col-xs-12">
+      <h1><strong>
+      {% if confirmed %}
+          :)
+      {% else %}
+          Ein Fehler ist aufgetreten.
+      {% endif %}
+      </strong></h1>
+      <p class="text-display">
+        {% if confirmed %}
+          Deine teilnahme an der Petition wurde erfolgreich bestätigt.
+          Vielen Dank für deine Unterstützung!
+        {% else %}
+          Bitte wende dich an [insert support mail] um deine Unterschrift zu bestätigen.
+          <!-- TODO: insert support email address. -->
+        {% endif %}
+      </p>
+    </div>
+  </div>     
+{% endblock %}
+
 {% block content %}
-  <div>
-    {% if confirmed %}
-        CONFIRMED
-    {% else %}
-        ERROR
-    {% endif %}
-  </div>
+  <section class="dark">
+    {% include "share.html" %}
+  </section>
 {% endblock %}

@@ -1,15 +1,14 @@
 
 {% extends "base.html" %}
+{% load petition_filters %}
 
-{% block content %}
-    <style>
-      .petition-bar .progress {
-          width: {{ progress }}%;
-      }
-    </style>
-    <section id="hero" class="light pixelate-container row bottom-xs">
-      <canvas class="pixelate" onmousemove="draw(event)"></canvas>
-      <div class="row bottom-xs">
+{% block hero %}
+  <style>
+    .petition-bar .progress {
+        width: {{ progress }}%;
+    }
+  </style>
+  <div class="row bottom-xs">
         <div class="col-xs-12">
           <h1>Stoppt den</h1><br>
           <h1><strong>AMS&#8209;Algorithmus!</strong></h1>
@@ -27,12 +26,29 @@
           </div>
           <span> Bisher {{ signature_count }} von {{ goal }} Unterschriften. </span>
         </div>
-      </div>       
-    </section>
+      </div>     
+{% endblock %}
 
+{% block content %}
     <section id="petition-section" class="dark row center-xs"> 
       <div class="col-xs-11 col-sm-7 col-md-5 col-lg-4">
-        {% include "form.html" %}
+        <form method="post" novalidate>
+          {% csrf_token %}
+
+          {% for field in form %}
+              {% if field|field_type:'checkboxinput' %}
+              {{ field }}
+              {{ field.label_tag }}
+              {{ field.errors }}
+              {% else %}
+              {{ field.label_tag }}
+              {{ field }}
+              {{ field.errors }}
+              {% endif %}
+          {% endfor %}
+          <input class="form-input" type="submit" value="Unterschreiben">
+          <label>* Pflichtfelder</label>
+        </form>
       </div>
     </section>
     <section class="light">
@@ -112,7 +128,9 @@
           <h1>Algorithmus nur</h1><br>
           <h1><strong>Optional</strong></h1>
           <p class="text-display">
-            Wir fordern eine umfassende proaktive Aufklärung über die Rechte von Arbeitssuchenden.
+            Wir fordern eine Optionale Teilnahme am AMS Algorithmus (Opt-In) 
+            und Entkoppelung von jeder Fördervergabe. 
+            Wir wollen ein System, das so gut ist, dass die Betroffenen freiwillig daran teilnehmen.
           </p>
         </div> 
       </div>

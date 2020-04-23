@@ -8,18 +8,20 @@
       <meta name="theme-color" content="#FFFFFF">
 
       <link href="{% sass_src 'scss/main.scss' %}" rel="stylesheet" type="text/css" />
-      <!-- TODO: opengraph 
-      <meta property="og:url"           content="???" />
+      <meta property="og:url"           content="https://amsalgorithmus.at/" />
       <meta property="og:type"          content="website" />
-      <meta property="og:title"         content="???" />
-      <meta property="og:description"   content="???" />
+      <meta property="og:title"         content="Stoppt den AMS-Algorithmus!" />
+      <meta property="og:description"   content="Wollen Sie, dass Computer darüber entscheiden, wen das AMS geförderte Ausbildungen und Schulungen machen lässt?"/>
       <meta property="og:image"         content="???" />
-      -->
 
       <title>amsalgorithmus.at</title>
     </head>
     <body>
+      <section id="hero" class="light pixelate-container row bottom-xs">
+        {% block hero %}{% endblock %}
+        <canvas class="pixelate" onmousemove="draw(event)"></canvas>
+      </section>
       {% block content %}{% endblock %}
     </body>
-    <script src="static/js/pixelate.js"></script>
+    <script src="/static/js/pixelate.js"></script>
 </html>

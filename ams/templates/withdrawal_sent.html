@@ -1,9 +1,19 @@
 {% extends "base.html" %}
 
+{% block hero %}
+  <div class="row bottom-xs">
+    <div class="col-xs-12">
+      <h1><strong>Bestätige deinen Widerruf</strong></h1>
+      <p class="text-display">
+        Wir haben dir eine E-Mail zur Bestätigung geschickt, 
+        klicke auf den Link in dieser E-Mail, um deinen Widerruf durchzuführen.      
+      </p>
+    </div>
+  </div>     
+{% endblock %}
 
 {% block content %}
-<div>
-    <h2>Wir haben dir eine E-Mail zur Bestätigung geschickt,</h2>
-    <h3>klicke auf den Link in dieser E-Mail, um deinen Widerruf durchzuführen.</h3> <br/>
-</div>
+<section class="dark">
+  {% include "share.html" %}
+</section>
 {% endblock %}
