@@ -45,7 +45,7 @@ class Signature(models.Model):
             'full_name': self.full_name()
         }
         send_mail(
-            '[???] Bitte bestätige deine E-Mail Adresse.',
+            '[amsalgorithmus.at] Bitte bestätige deine E-Mail Adresse.',
             render_to_string('email/confirm.txt', context),
             'noreply@epicenter.works',
             [self.email],
@@ -60,7 +60,7 @@ class Signature(models.Model):
             'full_name': self.full_name()
         }
         send_mail(
-            '[???] Du hast bereits an der Petition teilgenommen.',
+            '[amsalgorithmus.at] Du hast bereits an der Petition teilgenommen.',
             render_to_string('email/already_confirmed.txt', context),
             'noreply@epicenter.works',
             [self.email],
@@ -89,7 +89,7 @@ class Signature(models.Model):
             'full_name': self.full_name()
         }
         send_mail(
-            '[???] Bitte bestätige deinen Widerruf.',
+            '[amsalgorithmus.at] Bitte bestätige deinen Widerruf.',
             render_to_string('email/withdraw.txt', context),
             'noreply@epicenter.works',
             [self.email],

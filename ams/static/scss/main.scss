@@ -91,7 +91,7 @@ h1 {
     font-weight: 700;
 }
 h2, h3, h4 {
-    font-weight: 400;
+    font-weight: 700;
 }
 
 @media only screen and (max-width: 480px) {
@@ -137,7 +137,7 @@ p.text-display {
     @extend %floating;
 }
 
-.title {
+.space {
     min-height: 320px;
 }
 
@@ -154,6 +154,23 @@ p.text-display {
         background-color: $dark;
         box-shadow: 2px 0px $shadow;
     }
+}
+
+.tile {
+    @extend %floating;
+    .title {
+        @extend %dark;
+        padding: 1rem;
+    }
+    .subtitle {
+        @extend %light;
+        padding: 1rem;
+        border: 1px solid $dark;
+        p {
+            margin: 0;
+        }
+    }
+    margin-bottom: 1rem;
 }
 
 // Input 
