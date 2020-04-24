@@ -19,7 +19,7 @@ $font-display: 'Poppins', sans-serif;
     box-shadow: 0px -4px $shadow inset;
 }
 %stripes {
-    background-image: repeating-linear-gradient(45deg, $grey, $grey 30px, $dark 30px, $dark 60px);
+    background-image: repeating-linear-gradient(45deg, $grey, $grey 30px, $white 30px, $white 60px);
     background-size: 400% 400%;
     animation: slide 120s linear infinite;
     background-position: 75% 50%;
@@ -43,12 +43,6 @@ $font-display: 'Poppins', sans-serif;
 %dark {
     background-color: $dark;
     color: $white;
-    a {
-        color: $white;
-    }
-    a:visited {
-        color: $white;
-    }
 }
 %red {
     background-color: $red;
@@ -62,8 +56,11 @@ $font-display: 'Poppins', sans-serif;
         padding: .25em .5em;
         line-height: 2em;
     }
-    .tile {
+    .button {
+        @extend %dark;
         @extend %floating;
+    }
+    .tile {
         .title {
             @extend %dark;
         }
@@ -81,6 +78,16 @@ $font-display: 'Poppins', sans-serif;
         padding: .25em .5em;
         line-height: 2em;
     }
+    .button {
+        @extend %light;
+        @extend %inset;
+    }
+    a {
+        color: $white !important;
+    }
+    a:visited {
+        color: $white !important;
+    }
 
     .tile {
         .title {
@@ -90,6 +97,37 @@ $font-display: 'Poppins', sans-serif;
             @extend %dark;
             border: 1px solid $white;
         }
+    }
+}
+.button {
+    cursor: pointer;
+    display: inline-block;
+    font-family: $font-display;
+    font-weight: 700;
+    font-size: 1em;
+    padding: .5em .75em;
+    border-radius: 2px;
+    transition: all .2s cubic-bezier(.36,.07,.19,.97);
+    text-decoration: none;
+    margin-right: .5rem;
+}
+.button:last-child {
+    margin-bottom: 0;
+}
+
+.button:hover {
+    box-shadow: 0px -6px $shadow;
+    transform: translateY(2px);
+}
+
+.button:active {
+    box-shadow: 0px -4px $shadow;
+    transform: translateY(0);
+}
+
+@media only screen and (max-width: 40rem) {
+    .button {
+        margin-bottom: 1rem;
     }
 }
 
@@ -133,9 +171,20 @@ h2, h3, h4 {
     font-weight: 700;
 }
 
+p.text-display {
+    font-size: 1.2em;
+    font-weight: 600;
+    max-width: 50ch;
+    margin-bottom: 2rem;
+}
+
 @media only screen and (max-width: 500px) {
     h1 {
         font-size: 2em;
+    }
+
+    p.text-display {
+        font-size: 1em;
     }
 }
   
@@ -143,29 +192,29 @@ h2, h3, h4 {
     h1 {
       font-size: 1.5em;
     }
-}
 
-p.text-display {
-    font-size: 1.2em;
-    font-weight: 600;
-    max-width: 50ch;
+    p.text-display {
+        font-size: 1em;
+    }
 }
 
 #hero {
-    height: 75vh;
+    min-height: 75vh;
 }
-
+.petition-bar-container {
+    margin-bottom: 2rem;
+}
 .petition-bar {
-    @extend %floating;
+    @extend %inset;
     @extend %stripes;
     border-radius: 3px;
     overflow: hidden;
     height: 3rem;
     width: 100%;
-
+    margin-bottom: .25em;
     .progress {
         height: 100%;
-        background-color: $dark;
+        background-color: $white;
         box-shadow: 2px 0px $shadow;
     }
 }
@@ -176,7 +225,7 @@ p.text-display {
     div {
         z-index: 10;
         pointer-events: none;
-        h1, h2, h3, h4, h5, h6, p, span {
+        h1, h2, h3, h4, h5, h6, p, span, iframe, a {
             pointer-events: all;
         }
     }
@@ -188,13 +237,18 @@ p.text-display {
     }
 }
 
-#petition-section {
-    @extend %floating;
+#petition {
+    padding: 2rem 0;
+    form {
+        margin-bottom: 2rem;
+    }
 }
 
-.space {
-    min-height: 320px;
-    margin-bottom: 1rem;
+section.pad {
+    padding: 4rem 0;
+    h1 {
+        margin-bottom: 1rem; 
+    }
 }
 
 .read-more {
@@ -204,7 +258,6 @@ p.text-display {
 }
 
 .read-more::after {
-    @extend %dark;
     content: "Weiterlesen >";
     display: inline-block;
     overflow: hidden;
@@ -216,9 +269,31 @@ p.text-display {
     padding: .5rem 1rem;
     transform: translateY(100%);
 }
-
+.light .read-more::after {
+    @extend %dark;
+}
+.dark .read-more::after {
+    @extend %light;
+}
 .read-more:hover::after {
     transform: translateY(0%);
+}
+
+.video-container {
+    margin-bottom: 1rem;
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 2rem;
+    height: 0;
+}
+.video-container iframe, .video-container video, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    max-width: 100%;
+    min-width: 0;
+    min-height: 0;
 }
 // Input 
 
