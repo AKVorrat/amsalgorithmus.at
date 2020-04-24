@@ -154,6 +154,22 @@ p.text-display {
 #hero {
     height: 75vh;
 }
+
+.petition-bar {
+    @extend %floating;
+    @extend %stripes;
+    border-radius: 3px;
+    overflow: hidden;
+    height: 3rem;
+    width: 100%;
+
+    .progress {
+        height: 100%;
+        background-color: $dark;
+        box-shadow: 2px 0px $shadow;
+    }
+}
+
 .pixelate-container {
     position: relative;
 
@@ -181,21 +197,29 @@ p.text-display {
     margin-bottom: 1rem;
 }
 
-.petition-bar {
-    @extend %floating;
-    @extend %stripes;
-    border-radius: 3px;
+.read-more {
+    position: relative;
     overflow: hidden;
-    height: 3rem;
-    width: 100%;
-
-    .progress {
-        height: 100%;
-        background-color: $dark;
-        box-shadow: 2px 0px $shadow;
-    }
+    cursor: pointer;
 }
 
+.read-more::after {
+    @extend %dark;
+    content: "Weiterlesen >";
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: transform 0.2s linear;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: .5rem 1rem;
+    transform: translateY(100%);
+}
+
+.read-more:hover::after {
+    transform: translateY(0%);
+}
 // Input 
 
 input[type="text"],
