@@ -62,9 +62,48 @@ $font-display: 'Poppins', sans-serif;
         padding: .25em .5em;
         line-height: 2em;
     }
+    .tile {
+        @extend %floating;
+        .title {
+            @extend %dark;
+        }
+        .subtitle {
+            @extend %light;
+            border: 1px solid $dark;
+        }
+    }
 }
 .dark {
     @extend %dark;
+    strong {
+        @extend %light;
+        @extend %inset;
+        padding: .25em .5em;
+        line-height: 2em;
+    }
+
+    .tile {
+        .title {
+            @extend %light;
+        }
+        .subtitle {
+            @extend %dark;
+            border: 1px solid $white;
+        }
+    }
+}
+
+.tile {
+    .title {
+        padding: 1rem;
+    }
+    .subtitle {
+        padding: 1rem;
+        p {
+            margin: 0;
+        }
+    }
+    margin-bottom: 1rem;
 }
 
 .align-end {
@@ -94,7 +133,7 @@ h2, h3, h4 {
     font-weight: 700;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
     h1 {
         font-size: 2em;
     }
@@ -139,6 +178,7 @@ p.text-display {
 
 .space {
     min-height: 320px;
+    margin-bottom: 1rem;
 }
 
 .petition-bar {
@@ -154,23 +194,6 @@ p.text-display {
         background-color: $dark;
         box-shadow: 2px 0px $shadow;
     }
-}
-
-.tile {
-    @extend %floating;
-    .title {
-        @extend %dark;
-        padding: 1rem;
-    }
-    .subtitle {
-        @extend %light;
-        padding: 1rem;
-        border: 1px solid $dark;
-        p {
-            margin: 0;
-        }
-    }
-    margin-bottom: 1rem;
 }
 
 // Input 
