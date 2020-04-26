@@ -1,6 +1,7 @@
 
 {% extends "base.html" %}
 {% load petition_filters %}
+{% load svg %}
 
 {% block hero %}
 
@@ -155,65 +156,28 @@
     <section class="dark pad">
       <div class="row bottom-xs">
         <div class="col-xs-12 row center-xs">
-          <h1>Kontaktiere die <strong>Verantwortlichen!</strong></h1>
+          <h1>Kontaktiere deine <strong>Ministerin!</strong></h1>
         </div> 
       </div> 
        <div class="row center-xs">
         <div class="col-xs-12 col-sm-8 col-md-6">
           <div class="tile">
             <div class="title">
-              <h2>Bundesministerium für Arbeit, Familie und Jugend</h2>
+              <h2>Mag. (FH) Christine Aschbacher</h2>
             </div>
             <div class="subtitle">
-              <h3>Mag. (FH) Christine Aschbacher</h3>
+              <h3>Bundesministerin für Arbeit, Familie und Jugend</h3>
               <p>
-                Bundesministerin für Arbeit, Familie und Jugend<br>
-                <br>
-                <a target="_blank" href="mailto:christine.aschbacher@bmafj.gv.at">christine.aschbacher@bmafj.gv.at</a><br>
-                <a target="_blank" href="https://www.facebook.com/ChristineAschbacher/">Facebook</a><br>
-                <br>
+                <div class="divider"></div>
+
+                <a target="_blank" href="https://www.facebook.com/ChristineAschbacher/">
+                {% svg 'facebook' %}</a>
+                <a target="_blank" href="mailto:christine.aschbacher@bmafj.gv.at">
+                {% svg 'email' %}</a>
+                <div class="divider"></div>
                 Bundesministerium für Arbeit, Familie und Jugend<br>
                 Untere Donaustraße 13-15<br>
                 1020 Wien<br>
-              </p>
-            </div> 
-          </div> 
-
-          <div class="tile">
-            <div class="title">
-              <h2>Industriellen<wbr>vereinigung</h2>
-            </div>
-            <div class="subtitle">
-              <h3>MMag. Dr. Helwig Aubauer</h3>
-              <p>
-                <br>
-                <a target="_blank" href="mailto:helwig.aubauer@iv.at">helwig.aubauer@iv.at</a><br>
-                <a target="_blank" href="tel:+431711352299">+43 1 711 35-2299</a>
-              </p>
-            </div> 
-          </div> 
-          <div class="tile">
-            <div class="title">
-              <h2>Österreichischer Gewerkschaftsbund</h2>
-            </div>
-            <div class="subtitle">
-              <h3>Ing. Alexander Prischl</h3>
-              <p>
-                Stellvertreter<br>
-                <br>
-                <a target="_blank" href="mailto:alexander.prischl@oegb.at">alexander.prischl@oegb.at</a><br>
-              </p>
-            </div> 
-          </div> 
-          <div class="tile">
-            <div class="title">
-              <h2>Bundesministerium für Finanzen</h2>
-            </div>
-            <div class="subtitle">
-              <h3>Dr. Dietmar Schuster</h3>
-              <p>
-                <br>
-                <a target="_blank" href="mailto:dietmar.schuster@bmf.gv.at">dietmar.schuster@bmf.gv.at</a><br>
               </p>
             </div> 
           </div> 
