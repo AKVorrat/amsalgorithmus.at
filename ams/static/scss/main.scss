@@ -39,10 +39,12 @@ $font-display: 'Poppins', sans-serif;
 %light {
     background-color: $white;
     color: $dark;  
+    border-color:  $dark
 }
 %dark {
     background-color: $dark;
     color: $white;
+    border-color: $white;
 }
 %red {
     background-color: $red;
@@ -50,10 +52,6 @@ $font-display: 'Poppins', sans-serif;
 }
 .light {
     @extend %light;
-    strong {
-        @extend %dark;
-        @extend %floating;
-    }
     a {
         color: $dark;
     }
@@ -84,10 +82,6 @@ $font-display: 'Poppins', sans-serif;
 }
 .dark {
     @extend %dark;
-    strong {
-        @extend %light;
-        @extend %inset;
-    }
     .button {
         @extend %light;
         @extend %inset;
@@ -118,6 +112,13 @@ $font-display: 'Poppins', sans-serif;
             border: 1px solid $white;
         }
     }
+}
+
+.container {
+  max-width: 70em;
+  margin: auto;
+  padding: 0 1em;
+  
 }
 
 .button {
@@ -186,11 +187,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $font-display;
     display: inline-block;
     margin: 0;
-    strong {
-        padding: .25em .5em;
-        line-height: 2em;
-        border-radius: 2px;
-    }
 }
 
 h1 {
@@ -429,4 +425,91 @@ input[type="checkbox"]:hover + label:before {
     padding: .25rem;
     padding-bottom: .5rem;
     margin: 0 0 8px 0;
+}
+
+
+
+// Demands on main page
+.demands {
+  display: grid;
+  @media(min-width:800px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  grid-gap: 3em;
+  .demand {
+    .demand__title {
+      h3 {
+        font-size: 1.4em;
+        margin-bottom: .3em;
+        strong {
+          border-bottom: 4px solid;
+          line-height: 1.1em;
+          display: inline-block;
+        }
+      }
+    }
+    .demand__summary {
+      p {
+        margin: 0 0 .5em;
+      }
+    }
+    .demand__more {
+      cursor: pointer;
+      display: inline-block;
+      padding: .1em 0;
+      &:after {
+        content: " »"
+      }
+    }
+  }
+}
+
+// lightbox .. used for demand detail view
+
+.lightbox {
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  .lightbox__ground {
+    background: rgba(0,0,0,.4);
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+  .lightbox__content {
+    background: #fff;
+    padding: 1em;
+    max-width: 30em;
+    margin: 1em;
+    border-radius: 3px;
+    max-height: calc(95vh - 2em);
+    overflow: auto;
+    z-index: 1;
+  }
+  .lightbox__closebt {
+    float: right;
+    margin-top: -.15em;
+    font-size: 2em;
+    width: 1em;
+    height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1em;
+    cursor: pointer;
+    border-radius: 50%;
+    &:hover {
+      background: $dark;
+      color: $white;
+    }
+  }
 }

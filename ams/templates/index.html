@@ -13,6 +13,11 @@
         wen das AMS geförderte Ausbildungen und Schulungen
         machen lässt?
       </p>
+      <a href="#unterschreiben" class="big button">Petition</a>
+      
+
+      
+      
     </div>
     <div class="col-xs-6">
     </div>
@@ -67,91 +72,30 @@
     </section>
     <section class="light pad">
       <div id="demands" class="row bottom-xs">
+        
         <div class="col-xs-12 row center-xs">
             <h1>Unsere <strong>Forderungen</strong></h1>
         </div> 
       </div> 
-      <div class="row center-xs">
-        <div class="col-xs-12 col-sm-8 col-md-6">
-          <a href="/menschen" class="block-anchor">
-            <div class="tile read-more">
-              <div class="title">
-                <h2>Menschen, nicht Computer, sollen entscheiden.</h2>
-              </div>
-              <div class="subtitle">
-                <p>
-                  Menschen sollen anhand nachvollziehbarer Kriterien 
-                  über den Zugang zu staatlichen Leistungen entscheiden, 
-                  statt Entscheidungen eines Computers nur abzunicken.
-                </p>
-              </div> 
-            </div> 
-          </a>
-          <div class="tile read-more">
-            <div class="title">
-              <h2>Mehr Ressourcen für das AMS.</h2>
-            </div>
-
-            <div class="subtitle">
-              <p>
-                Wer Geld sparen will investiert in Bildung.
-              </p>
-            </div> 
-          </div> 
-          <div class="tile read-more">
-            <div class="title">
-              <h2>Fähigkeiten fördern, statt Schwächen bestrafen.</h2>
-            </div>
-            <div class="subtitle">
-              <p>
-                Stärkere Fokussierung auf Stärken statt auf Schwächen der Arbeitssuchenden.
-              </p>
-            </div>
-          </div> 
-          <div class="tile read-more">
-            <div class="title">
-              <h2>Umfassende Transparenz.</h2>
-            </div>
-            <div class="subtitle">
-              <p>
-                Ich habe dafür gezahlt, nun möchte ich auch wissen was ich dafür bekomme.
-              </p>
-            </div>
-          </div> 
-          <div class="tile read-more">
-            <div class="title">
-              <h2>Recht auf Information.</h2>
-            </div>
-
-            <div class="subtitle">
-              <p>
-                Wir fordern eine umfassende proaktive Aufklärung über die Rechte von Arbeitssuchenden.
-              </p>
-            </div>
-          </div> 
-          <div class="tile read-more">
-            <div class="title">
-              <h2>Risikocheck für Algorithmen.</h2>
-            </div>
-            <div class="subtitle">
-              <p>
-                Wir fordern ein verpflichtendes Algorithmic Impact Assessment (eine sozio-technische Überprüfung von Algorithmen) vor Einführung. Dies muss bei allen Algorithmen geschehen, die potentiell in Grundrechte eingreifen.
-              </p>
-            </div>
-          </div> 
-          <div class="tile read-more">
-            <div class="title">
-              <h2>Algorithmus nur Optional.</h2>
-            </div>
-            <div class="subtitle">
-              <p>
-                Wir fordern eine Optionale Teilnahme am AMS Algorithmus (Opt-In) und Entkoppelung von jeder Fördervergabe. Wir wollen ein System, das so gut ist, dass die Betroffenen freiwillig daran teilnehmen.
-              </p>
-            </div>
-          </div> 
-        </div> 
+      
+      
+      <div class="container">
+      {% with 'menschen ressourcen faehigkeiten transparenz information risikocheck optional' as demands %}
+        <div class="demands">
+          {% for demand in demands.split %}
+          <div class="demand">
+           {% with "demands/"|add:demand|add:".html" as templatepath %}
+           {% include templatepath %}
+           {% endwith %}
+          </div>
+          {% endfor %}      
+        </div>
+        {% endwith %}
       </div>
-    </section>    
+
+
+    </section>
+            
     <section class="dark pad">
       <div class="row bottom-xs">
         <div class="col-xs-12 row center-xs">
