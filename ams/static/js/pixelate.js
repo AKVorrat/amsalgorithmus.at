@@ -39,9 +39,18 @@ function animDraw() {
     var context = c.getContext('2d');
     context.fillStyle = "#FCFCFC20";
     context.fillRect(0, 0, c.width, c.height);
-    obj.container.style.background = 'url(' + c.toDataURL() + ')';
+
+    /*if(c.msToBlob) {
+      c.msToBlob(setBlobBg);
+    } else {
+      c.toBlob(setBlobBg);
+    }*/
   }
 }
+/*function setBlobBg(blob) {
+  var url = URL.createObjectURL(blob);
+  obj.container.style.background = 'url(' + url + ')';
+};*/
 
 function draw(event) {
   for (let obj of canvases) {
