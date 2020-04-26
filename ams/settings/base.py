@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.sites',
 
+    'svg',
     'sass_processor',
 
     'ams.modules.petition',
@@ -93,4 +94,8 @@ STATICFILES_FINDERS = [
 SASS_PROCESSOR_INCLUDE_DIRS = [
     os.path.join(BASE_DIR, 'static/scss'),
     os.path.join(BASE_DIR, '../node_modules'),
+]
+
+SVG_DIRS=[
+    os.path.join(BASE_DIR, 'static/svg'),
 ]

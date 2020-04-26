@@ -1,4 +1,5 @@
 {% load sass_tags %}
+{% load svg %}
 
 <!DOCTYPE html>
 <html lang="de">
@@ -22,14 +23,27 @@
         <canvas class="pixelate" onmousemove="draw(event)"></canvas>
       </section>
       {% block content %}{% endblock %}
-      <section id="footer" class="light row">
-        <div class="col-xs-12 col-sm-6">
-          <div>built by ???</div>
-          <div><a target="_blank" href="https://github.com/AKVorrat/amsalgorithmus.at">Code auf Github</a></div>
-        </div>
-        <div class="col-xs-12 col-sm-6 align-end">
-          <div>Impressum:</div>
-          <div>epicenter.works, Widerhofergasse 8/2/4, 1090 Wien</div>
+      <section id="footer" class="light row center-xs">
+        <div class="pa-0 col-xs-12 col-sm-8 col-md-6">
+          <div class="row bottom-xs">
+            <div class="col-xs-12 col-md-6">
+              <div>Website von:</div>
+              <div><a target="_blank" href="https://i.notice.at/">Andreas Demmelbauer</a></div>
+              <div>&amp;</div>
+              <div><a target="_blank" href="https://meks.io/">Max Wolschlager</a></div>
+            </div>
+            <div class="col-xs-12 col-md-6 align-end">
+              <div>epicenter.works</div>
+              <div>Widerhofergasse 8/2/4, </div>
+              <div>1090 Wien</div>
+              <div>
+                <a target="_blank" href="https://github.com/AKVorrat/amsalgorithmus.at">
+                {% svg 'github' %}</a>
+                <a target="_blank" href="mailto:feedback@amsalgorithmus.at?subject=Feedback zu amsalgorithmus.at">
+                {% svg 'email' %}</a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </body>

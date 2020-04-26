@@ -1,7 +1,14 @@
+{% load svg %}
 
 <div>
     <h2>Jede Stimme zählt!</h2>
     <p> 
       Teile diese Seite auf Social Media damit wir unser Ziel erreichen!
     </p>
+    <a target="_blank" class="button icon" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Famsalgorithmus.at">
+    {% svg 'facebook' %}</a>
+    <a target="_blank" class="button icon" href="https://twitter.com/intent/tweet?text=Stoppt+den+AMS-Algorithmus%21%0D%0Ahttps%3A%2F%2Famsalgorithmus.at">
+    {% svg 'twitter' %}</a>
+    <a target="_blank" class="button icon" href="mailto:?subject=Stoppt den AMS-Algorithmus!">
+    {% svg 'email' %}</a>
 </div>
