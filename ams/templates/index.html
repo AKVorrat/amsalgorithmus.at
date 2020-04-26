@@ -14,35 +14,27 @@
         machen lässt?
       </p>
     </div>
-   
-  </div>     
-  <div class="row center-xs bottom-xs">
-    <div class="col">
-      <a href="#petition" class="button">Petition</a>
-      <a href="#video" class="button">Erklärvideo</a>
-      <a href="#demands" class="button">Forderungen</a>
-      <a href="/request" class="button">Auskunftsbegehren</a>
+    <div class="col-xs-6">
     </div>
   </div>     
+  <div class="col-xs-12">
+    <div id="menu" class="row center-xs bottom-xs">
+        <a href="#petition" class="button">Petition</a>
+        <a href="#video" class="button">Erklärvideo</a>
+        <a href="#demands" class="button">Forderungen</a>
+        <a href="#request" class="button">Auskunftsbegehren</a>
+    </div>      
+  </div>    
+ 
+
 {% endblock %}
 
 {% block content %}
     <section id="petition" class="dark"> 
       <div class="row center-xs">
         <div class="col-xs-11 col-sm-7 col-md-5 col-lg-4">
-          <style>
-            .petition-bar .progress {
-                width: {{ progress }}%;
-            }
-          </style>
-          <div class="petition-bar-container">
-            <div class="petition-bar">
-              <div class="progress"></div>
-            </div>
-            <span> Bisher {{ signature_count }} von {{ goal }} Unterschriften. </span>
-          </div>
+          {% include 'progressbar.html' %}
           <h2>Jetzt Unterschreiben!</h2>
-          <p>Du kannst deine Unterschrift jederzeit <a target="_blank" href="/privacy#withdrawal">hier</a> widerrufen.</p>
           <form method="post" action="#petition" novalidate>
             {% csrf_token %}
 
@@ -81,18 +73,20 @@
       </div> 
       <div class="row center-xs">
         <div class="col-xs-12 col-sm-8 col-md-6">
-          <div class="tile read-more">
-            <div class="title">
-              <h2>Menschen, nicht Computer, sollen entscheiden.</h2>
-            </div>
-            <div class="subtitle">
-              <p>
-                Menschen sollen anhand nachvollziehbarer Kriterien 
-                über den Zugang zu staatlichen Leistungen entscheiden, 
-                statt Entscheidungen eines Computers nur abzunicken.
-              </p>
+          <a href="/menschen" class="block-anchor">
+            <div class="tile read-more">
+              <div class="title">
+                <h2>Menschen, nicht Computer, sollen entscheiden.</h2>
+              </div>
+              <div class="subtitle">
+                <p>
+                  Menschen sollen anhand nachvollziehbarer Kriterien 
+                  über den Zugang zu staatlichen Leistungen entscheiden, 
+                  statt Entscheidungen eines Computers nur abzunicken.
+                </p>
+              </div> 
             </div> 
-          </div> 
+          </a>
           <div class="tile read-more">
             <div class="title">
               <h2>Mehr Ressourcen für das AMS.</h2>
@@ -157,7 +151,7 @@
           </div> 
         </div> 
       </div>
-    </section>
+    </section>    
     <section class="dark pad">
       <div class="row bottom-xs">
         <div class="col-xs-12 row center-xs">
@@ -226,5 +220,4 @@
         </div> 
       </div>
     </section>
-
 {% endblock %}

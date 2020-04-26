@@ -8,19 +8,17 @@
     </head>
     <body>
         <div>
-            <h3> Antrag gemäß Art. 15 DSGVO auf Auskunft </h3>
+            <h2> Antrag gemäß Art. 15 DSGVO auf Auskunft </h2>
             <p>
                 An/Verantwortliche:<br>
                 Arbeitsmarktservice Österreich, Bundesgeschäftsstelle<br>
                 z.Hd. Datenschutzbeauftragter<br>
                 Treustraße 35-43, 1200 Wien
             </p>
-            <p>
-                Ort und Datum: _______________________________
-            </p>
-            <p>
+        
+            <h3>
                 Sehr geehrte Damen und Herren!
-            </p>
+            </h3>
             <p>
                 Hiermit stelle ich gemäß Art. 15 Datenschutz-Grundverordnung (Verordnung (EU) 2016/679
                 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher
@@ -40,13 +38,23 @@
                 wie möglich erteilt wird. 
             </p>
 
-            <p>
+            <div>
                 <strong> AntragstellerIn: </strong><br>
-                Name: {{ name }} <br>
-                Adresse: {{ address }}<br> 
-                PLZ/Ort: {{ zipcode }} / {{ municipality }}<br>
-                E-Mail: {{ email }}<br>
-            </p>
+            </div>
+            <div class="row">
+                <div class="col-xs-4 mr-1">
+                    <div>Name:</div>
+                    <div>Adresse:</div>
+                    <div>PLZ/Ort:</div>
+                    <div>E-Mail:</div>                
+                </div>
+                <div class="col-xs-8">
+                    <div>{{ name }}</div>
+                    <div>{{ address }}</div>
+                    <div>{{ zipcode }} / {{ municipality }}</div>
+                    <div>{{ email }}</div>
+                </div>
+            </div>
 
             <p>
                 Sie sind verpflichtet, mich innerhalb eines Monats nach Eingang des Antrags zu informieren, welche Maßnahmen
@@ -61,14 +69,15 @@
             <p>
                 <strong>Zur Bestätigung meiner Identität lege ich eine Ausweiskopie bei.</strong>
             </p>
-            <p>
-                <strong>Mit freundlichen Grüßen</strong><br>
-                {{ name }}<br>
-                _______________________________
-            </p>
-
-
+            <div><strong>Mit freundlichen Grüßen,</strong></div>
+            <div class="row">
+                <div class="col-xs-8 mr-1 databox">
+                    <span>{{ name }}</span>
+                </div>
+                <div class="col-xs-4 databox">
+                    <span>Ort und Datum</span>
+                </div>
+            </div>
         </div>
-
     </body>
 </html>

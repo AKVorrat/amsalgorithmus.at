@@ -53,14 +53,26 @@ $font-display: 'Poppins', sans-serif;
     strong {
         @extend %dark;
         @extend %floating;
-        padding: .25em .5em;
-        line-height: 2em;
+    }
+    a {
+        color: $dark;
+    }
+    a:visited {
+        color: $dark;
     }
     .button {
         @extend %dark;
+        color: $white !important;
         @extend %floating;
     }
+    .button:hover {
+        box-shadow: 0px -6px $shadow;
+        transform: translateY(2px);
+    } 
+    
     .tile {
+        @extend %floating;
+
         .title {
             @extend %dark;
         }
@@ -75,12 +87,20 @@ $font-display: 'Poppins', sans-serif;
     strong {
         @extend %light;
         @extend %inset;
-        padding: .25em .5em;
-        line-height: 2em;
     }
     .button {
         @extend %light;
         @extend %inset;
+        color: $dark !important;
+    }
+    .button:hover {
+        box-shadow: 0px 4px $shadow inset;
+    }
+    .button:active {
+        box-shadow: 0px 6px $shadow inset;
+    }
+    .button:visited {
+        color: $dark !important;
     }
     a {
         color: $white !important;
@@ -99,6 +119,7 @@ $font-display: 'Poppins', sans-serif;
         }
     }
 }
+
 .button {
     cursor: pointer;
     display: inline-block;
@@ -110,14 +131,7 @@ $font-display: 'Poppins', sans-serif;
     transition: all .2s cubic-bezier(.36,.07,.19,.97);
     text-decoration: none;
     margin-right: .5rem;
-}
-.button:last-child {
-    margin-bottom: 0;
-}
-
-.button:hover {
-    box-shadow: 0px -6px $shadow;
-    transform: translateY(2px);
+    margin-bottom: 1rem;
 }
 
 .button:active {
@@ -131,7 +145,18 @@ $font-display: 'Poppins', sans-serif;
     }
 }
 
+a .read-more {
+    border: none;
+    outline: none !important;
+    text-decoration: none !important;
+}
+a.block-anchor{
+    text-decoration: none !important;
+}
+
 .tile {
+    border-radius: 2px;
+    overflow: hidden;
     .title {
         padding: 1rem;
     }
@@ -161,6 +186,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $font-display;
     display: inline-block;
     margin: 0;
+    strong {
+        padding: .25em .5em;
+        line-height: 2em;
+        border-radius: 2px;
+    }
 }
 
 h1 {
@@ -182,9 +212,11 @@ p.text-display {
     h1 {
         font-size: 2em;
     }
-
     p.text-display {
         font-size: 1em;
+    }
+    #menu .button {
+        font-size: .75em;
     }
 }
   
@@ -192,9 +224,11 @@ p.text-display {
     h1 {
       font-size: 1.5em;
     }
-
     p.text-display {
         font-size: 1em;
+    }
+    #menu .button {
+        font-size: .6em;
     }
 }
 
@@ -207,7 +241,7 @@ p.text-display {
 .petition-bar {
     @extend %inset;
     @extend %stripes;
-    border-radius: 3px;
+    border-radius: 2px;
     overflow: hidden;
     height: 3rem;
     width: 100%;
@@ -223,7 +257,7 @@ p.text-display {
     position: relative;
 
     div {
-        z-index: 10;
+        z-index: 20;
         pointer-events: none;
         h1, h2, h3, h4, h5, h6, p, span, iframe, a {
             pointer-events: all;
@@ -240,6 +274,7 @@ p.text-display {
 #petition {
     padding: 2rem 0;
     form {
+        margin-top: 2rem;
         margin-bottom: 2rem;
     }
 }
@@ -255,8 +290,16 @@ section.pad {
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    transition: all 0.2s linear;
 }
-
+.read-more:hover {
+    box-shadow: 0px -6px $shadow;
+    transform: translateY(2px);
+}
+.read-more:active {
+    box-shadow: 0px -4px $shadow;
+    transform: translateY(0px);
+}
 .read-more::after {
     content: "Weiterlesen >";
     display: inline-block;
@@ -267,7 +310,8 @@ section.pad {
     bottom: 0;
     right: 0;
     padding: .5rem 1rem;
-    transform: translateY(100%);
+    border-radius: 2px;
+    transform: translateY(110%);
 }
 .light .read-more::after {
     @extend %dark;
@@ -318,6 +362,7 @@ textarea {
 input[type="submit"] {
     cursor: pointer;
     transition: box-shadow .1s linear;
+    font-weight: 600;
 }
 input[type="submit"]:hover {
     box-shadow: 0px 4px $shadow inset;

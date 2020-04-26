@@ -12,7 +12,12 @@
 {% endblock %}
 
 {% block content %}
-<section class="dark">
-  {% include "share.html" %}
+<section class="dark"> 
+  <div class="row center-xs">
+    <div class="col-xs-11 col-sm-7 col-md-5 col-lg-4">
+      {% include "share.html" %}
+      {% include "donate.html" %}
+    </div>
+  </div>
 </section>
 {% endblock %}

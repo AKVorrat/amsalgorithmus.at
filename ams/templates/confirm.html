@@ -3,13 +3,12 @@
 {% block hero %}
   <div class="row bottom-xs">
     <div class="col-xs-12">
-      <h1><strong>
       {% if confirmed %}
-          :)
+        <h1><strong>Alles Klar!</strong></h1>
       {% else %}
-          Ein Fehler ist aufgetreten.
+        <h1><strong>Ein Fehler</strong> ist aufgetreten.</h1>
       {% endif %}
-      </strong></h1>
+
       <p class="text-display">
         {% if confirmed %}
           Deine teilnahme an der Petition wurde erfolgreich bestätigt.
@@ -25,6 +24,12 @@
 
 {% block content %}
   <section class="dark">
-    {% include "share.html" %}
+    <div class="row center-xs">
+      <div class="col-xs-11 col-sm-7 col-md-5 col-lg-4">
+        {% include "share.html" %}
+        {% include "donate.html" %}
+        {% include "request_call_to_action.html" %}
+      </div>
+    </div>
   </section>
 {% endblock %}

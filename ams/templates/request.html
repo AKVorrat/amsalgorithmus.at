@@ -4,21 +4,22 @@
 {% block hero %}
   <div class="row bottom-xs">
     <div class="col-xs-12">
-      <h1><strong>DSGVO Auskunftsbegehren</strong></h1>
+      <h1><strong>Auskunftsbegehren</strong></h1>
     </div>
   </div>     
 {% endblock %}
 
 {% block content %}
-    <section class="dark">
+    <section id="request" class="dark">
       <div class="row center-xs">
         <div class="col-xs-11 col-sm-7 col-md-5 col-lg-4">
           <p>
             Mithilfe dieses Formulars kannst du ein Auskunftsbegehren generieren, 
             welches dazu dient personenbezogene Daten die das Arbeitsmarktservice über dich 
             gesammelt hat einzusehen.
+            Schicke es an die enthaltene Adresse und lege eine Ausweiskopie bei!
           </p>
-          <form method="post" novalidate>
+          <form method="post" action="#request" novalidate>
               {% csrf_token %}
 
               {% for field in form %}
