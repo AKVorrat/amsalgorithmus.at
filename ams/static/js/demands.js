@@ -21,7 +21,6 @@ window.onload = function() {
       summary: el.getElementsByClassName('demand__summary')[0].innerHTML,
       detail: el.getElementsByClassName('demand__detail')[0].innerHTML
     }
-    console.log('demand',demand);
     var lightbox = document.createElement("div");
     lightbox.classList.add('lightbox')
     
@@ -37,7 +36,6 @@ window.onload = function() {
     `
     lightbox.innerHTML = lightboxContent;
 
-    console.log(lightbox);
     document.getElementsByTagName('body')[0].append(lightbox)
     document.getElementsByClassName('lightbox__ground')[0].onclick = function() {
       destroyLightbox(lightbox)
