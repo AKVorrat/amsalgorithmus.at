@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@drewbot/sass-flexbox-grid": "^2.0.7"
+    "@drewbot/sass-flexbox-grid": "^2.0.7",
+    "sass-svg": "^1.2.0"
   }
 }
