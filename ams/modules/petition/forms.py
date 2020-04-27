@@ -25,7 +25,7 @@ class SignatureForm(forms.ModelForm):
     newsletter = forms.BooleanField(
         initial=False,
         required=False,
-        label=mark_safe('Ich will den <a target="_blank" href="https://epicenter.works/newsletter">Newsletter</a> erhalten.')
+        label=mark_safe('Ich will den <a target="_blank" href="https://epicenter.works/newsletter">Newsletter</a> erhalten (optional).')
     )
     privacy_policy = forms.BooleanField(
         initial=False,

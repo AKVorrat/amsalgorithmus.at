@@ -35,6 +35,9 @@
       <p class="text-display">
         Computer dürfen nicht über die berufliche Zukunft von Menschen entscheiden!
       </p>
+      <div class="hero__progressbar">
+        {% include 'progressbar.html' %}
+      </div>
       <a href="#petition" id="bigPetitionBt" class="hero-button">
         <button class="button">
           Forderungen lesen & unterstützen
@@ -74,15 +77,17 @@
     </section>
 
     <section id="petition" class="lightbox">
+      <a href="#" class="lightbox__closebg"></a> 
       <div class="lightbox__frame">
-        <a href="#" class="lightbox__close"></a> 
         <div class="lightbox__content ">
           <div class="petition">
             <div class="dark petition__title">
-              <h2>Jetzt Forderungen unterschreiben!</h2>
+              <div>Forderungen unterschreiben</div>
+              <a href="#" class="lightbox__closebt"></a> 
             </div>
             <div class="light petition__text">
               <div class="petition__demands">
+                <h2>Stoppt den AMS-Algorithmus!</h2>
                 {% with 'menschen ressourcen faehigkeiten transparenz information risikocheck optional' as demands %}
                 {% for demand in demands.split %}
                 <div class="petition__demand">
@@ -95,23 +100,44 @@
               </div>
             </div>
             
-            {% include 'progressbar.html' %}
-            <div class="dark potition__form">
-              <form method="post" action="#petition" novalidate>
-                {% csrf_token %}
-                {% for field in form %}
-                {% if field|field_type:'checkboxinput' %}
-                {{ field }}
-                {{ field.label_tag }}
-                {{ field.errors }}
-                {% else %}
-                {{ field.label_tag }}
-                {{ field }}
-                {{ field.errors }}
-                {% endif %}
-                {% endfor %}
+            <div class="dark">
+              <form method="post" action="#petition" novalidate class="potition__form">
+
+                <div class="petition__inputs">
+                  <div class="petition__formcol">
+                    <div class="petition__field">
+                      {{ form.first_name.label_tag }}
+                      {{ form.first_name }}
+                      {{ form.first_name.errors }}
+                    </div>
+                    
+                    <div class="petition__field">
+                      {{ form.last_name.label_tag }}
+                      {{ form.last_name }}
+                      {{ form.last_name.errors }}
+                    </div>
+                    
+                    <div class="petition__field">
+                      {{ form.email.label_tag }}
+                      {{ form.email }}
+                      {{ form.email.errors }}
+                    </div>
+                  </div>
+
+                  <div class="petition__formcol petition__checkboxes">
+                    <div class="petition__field">
+                      {{ form.privacy_policy }}
+                      {{ form.privacy_policy.label_tag }}
+                      {{ form.privacy_policy.errors }}
+                    </div>
+                    <div class="petition__field">
+                      {{ form.newsletter }}
+                      {{ form.newsletter.label_tag }}
+                      {{ form.newsletter.errors }}
+                    </div>
+                  </div>
+                </div>
                 <input class="form-input" type="submit" value="Unterschreiben">
-                <label>* Pflichtfelder</label>
               </form>
             </div>
           </div>
