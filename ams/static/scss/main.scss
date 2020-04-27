@@ -202,11 +202,14 @@ $font-display: 'Poppins', sans-serif;
   // Lightbox content
   .lightbox__frame {
     max-width: 70rem;
-    position: relative;
     padding: 0;
     background-color: $white;
+    position: relative;
+    display: flex;
   }
   .lightbox__content {
+    max-height: 95vh;
+    overflow: auto;
     position: relative;
   }
   
@@ -238,10 +241,30 @@ $font-display: 'Poppins', sans-serif;
     content: "";
     cursor: default;
   }
-
-
 }
 
+.petition {
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  .petition__title {
+    padding: 1em 1.5em;
+  }
+  .petition__text {
+    flex-grow: 1;
+    overflow: auto;
+    box-shadow: 0 -5px 5px inset;
+    .petition__demands {
+      padding: 1.5em 1.5em 10em;
+    }
+    .demand__summary {
+      font-weight: 700;
+    }
+  }
+  .potition__form {
+    flex-grow: 0;
+  }
+}
 
 
 @media only screen and (max-width: 40rem) {
@@ -335,7 +358,7 @@ p.text-display {
     display: flex;
 }
 .hero-button {
-  display: inline-block; 
+  font-size: 1.4em;
 }
 
 .petition-bar-container {
