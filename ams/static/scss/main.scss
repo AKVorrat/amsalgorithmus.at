@@ -59,6 +59,7 @@ $font-display: 'Poppins', sans-serif;
         color: $dark;
     }
     .button {
+      border: 0;
         @extend %dark;
         color: $white !important;
         @extend %floating;
@@ -136,10 +137,16 @@ svg {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   max-width: 70em;
   margin: auto;
   padding: 0 1em;
-  
+}
+
+.big {
+  font-size: 1.5em;
 }
 
 .button {
@@ -236,9 +243,6 @@ p.text-display {
     p.text-display {
         font-size: 1em;
     }
-    #menu .button {
-        font-size: .75em;
-    }
 }
   
 @media only screen and (max-width: 400px) {
@@ -248,14 +252,16 @@ p.text-display {
     p.text-display {
         font-size: 1em;
     }
-    #menu .button {
-        font-size: .6em;
-    }
 }
 
 #hero {
     min-height: 75vh;
+    display: flex;
 }
+.hero-button {
+  display: inline-block; 
+}
+
 .petition-bar-container {
     margin-bottom: 2rem;
 }
@@ -277,7 +283,7 @@ p.text-display {
 .pixelate-container {
     position: relative;
 
-    div {
+    div, section {
         z-index: 20;
         pointer-events: none;
         h1, h2, h3, h4, h5, h6, p, span, iframe, a {
@@ -286,9 +292,11 @@ p.text-display {
     }
 
     canvas {
+        z-index: 0;
         position: absolute;
         top: 0;
         left: 0;
+        mix-blend-mode: darken;
     }
 }
 
@@ -457,6 +465,34 @@ input[type="checkbox"]:hover + label:before {
     padding: .25rem;
     padding-bottom: .5rem;
     margin: 0 0 8px 0;
+}
+
+
+// main navigation
+.mainnav {
+  display: flex;
+  .mainnav__first {
+    display: flex;
+  }
+  .mainnav__last {
+    display: flex;
+  }
+  .mainnav__item {
+    font-family: $font-display;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    border-color: lighten($dark, 10);
+    border-style: solid;
+    border-width: 0;
+    border-left-width: 2px;
+    transition: background-color .2s linear; 
+    &:last-child {
+      border-right-width: 2px;
+    }
+    &:hover {
+      background-color: lighten($dark, 10);
+    }
+  }
 }
 
  

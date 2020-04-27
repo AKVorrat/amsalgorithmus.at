@@ -18,7 +18,23 @@
       <title>amsalgorithmus.at</title>
     </head>
     <body>
-      <section id="hero" class="light pixelate-container row bottom-xs">
+      <nav class="dark" id="menu">
+        <div class="container">
+          <div class="mainnav">
+            <div class="mainnav__first">
+              <a href="#demands" class="mainnav__item">Forderungen</a>
+              <a href="#video" class="mainnav__item">Erklärvideo</a>
+              <a href="#petition" class="mainnav__item">Petition</a>
+              <a href="#request" class="mainnav__item">Auskunftsbegehren</a>
+            </div>
+            <div class="mainnav__last">
+            </div>
+          </div>
+        </div>      
+      </nav>    
+      
+      
+      <section id="hero" class="light pixelate-container">
         {% block hero %}{% endblock %}
         <canvas class="pixelate" onmousemove="draw(event)"></canvas>
       </section>
@@ -48,5 +64,6 @@
       </section>
     </body>
     <script src="/static/js/pixelate.js"></script>
+    <script src="/static/js/petition.js"></script>
     <script src="/static/js/demands.js"></script>
 </html>
