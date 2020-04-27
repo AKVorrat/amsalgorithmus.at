@@ -21,6 +21,32 @@
 {% endblock %}
 
 {% block content %}
+    <section class="light pad">
+      <div id="demands" class="row bottom-xs">
+        
+        <div class="col-xs-12 row center-xs">
+            <h1>Unsere <strong>Forderungen</strong></h1>
+        </div> 
+      </div> 
+      
+      
+      <div class="container">
+      {% with 'menschen ressourcen faehigkeiten transparenz information risikocheck optional' as demands %}
+        <div class="demands">
+          {% for demand in demands.split %}
+          <div class="demand">
+           {% with "demands/"|add:demand|add:".html" as templatepath %}
+           {% include templatepath %}
+           {% endwith %}
+          </div>
+          {% endfor %}      
+        </div>
+        {% endwith %}
+      </div>
+
+
+    </section>
+
     <section id="petition" class="dark"> 
       <div class="row center-xs">
         <div class="col-xs-11 col-sm-7 col-md-5 col-lg-4">
@@ -56,33 +82,8 @@
         </div>
       </div>
     </section>
+
     <section class="light pad">
-      <div id="demands" class="row bottom-xs">
-        
-        <div class="col-xs-12 row center-xs">
-            <h1>Unsere <strong>Forderungen</strong></h1>
-        </div> 
-      </div> 
-      
-      
-      <div class="container">
-      {% with 'menschen ressourcen faehigkeiten transparenz information risikocheck optional' as demands %}
-        <div class="demands">
-          {% for demand in demands.split %}
-          <div class="demand">
-           {% with "demands/"|add:demand|add:".html" as templatepath %}
-           {% include templatepath %}
-           {% endwith %}
-          </div>
-          {% endfor %}      
-        </div>
-        {% endwith %}
-      </div>
-
-
-    </section>
-            
-    <section class="dark pad">
       <div class="row bottom-xs">
         <div class="col-xs-12 row center-xs">
           <h1>Kontaktiere deine <strong>Ministerin!</strong></h1>
