@@ -255,6 +255,11 @@ $font-display: 'Poppins', sans-serif;
   }
 }
 
+@keyframes scrollDown {
+    from { margin-top: 200px; }
+      to { margin-top: 0; }
+}
+
 .petition {
   display: flex;
   flex-direction: column;
@@ -279,6 +284,9 @@ $font-display: 'Poppins', sans-serif;
     // box-shadow: rgba(0,0,0,.3) 0 -5px 5px inset;
     background: linear-gradient(#fff 97%,#aaa 100%);
     .petition__demands {
+      .lightbox:target & {
+        animation: scrollDown 1s;
+      }
       padding: 3.2em 1.5rem 10em;
       h2 {
         margin-bottom: 1em;
