@@ -54,6 +54,38 @@ $font-display: 'Poppins', sans-serif;
     background-color: $red;
     color: $white;  
 }
+
+
+@mixin back-to-top-icon($color) {
+    @include svg ((x: 0, y: 0, viewBox: 0 0 24 24, transform: 'rotate(180)')) {
+        @include svg('rect', (
+            fill: $color,
+            width: '5',
+            height: '14',
+            x: '0',
+            ry: '2',
+            transform: 'rotate(45, 5, 24)'
+        ));   
+        @include svg('rect', (
+            fill: $color,
+            width: '5',
+            height: '14',
+            x: '19',
+            ry: '2',
+            transform: 'rotate(-45, 19, 24)'
+        ));   
+    }
+}
+
+.back-to-top {
+    position: absolute;
+    bottom: 1rem; 
+    right: 1rem;
+    padding: .5rem;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
 .light {
     @extend %light;
     a {
@@ -76,23 +108,11 @@ $font-display: 'Poppins', sans-serif;
         box-shadow: 0px -6px $shadow;
         transform: translateY(2px);
     } 
-    
-    .tile {
-        @extend %floating;
-
-        .title {
-            @extend %dark;
-        }
-        .subtitle {
-            @extend %light;
-            border: 1px solid $dark;
-        }
-    }
     svg {
         fill: $dark;
     }
-    .divider {
-        border: 1px solid $dark;
+    .back-to-top {
+        @include back-to-top-icon($dark);
     }
 }
 .dark {
@@ -128,21 +148,11 @@ $font-display: 'Poppins', sans-serif;
     a:visited {
         color: $white !important;
     }
-
-    .tile {
-        .title {
-            @extend %light;
-        }
-        .subtitle {
-            @extend %dark;
-            border: 1px solid $white;
-        }
-    } 
     svg {
         fill: $white;
     } 
-    .divider {
-        border-bottom: 1px solid $white;
+    .back-to-top {
+        @include back-to-top-icon($white);
     }
 }
 .icon svg {
@@ -176,7 +186,6 @@ $font-display: 'Poppins', sans-serif;
     margin-bottom: 1rem;
     text-align: center;
 }
-
 .button:active {
     box-shadow: 0px -4px $shadow;
     transform: translateY(0);
@@ -273,33 +282,6 @@ $font-display: 'Poppins', sans-serif;
     }
 }
 
-a .read-more {
-    border: none;
-    outline: none !important;
-    text-decoration: none !important;
-}
-a.block-anchor{
-    text-decoration: none !important;
-}
-
-.tile {
-    border-radius: 2px;
-    overflow: hidden;
-    .title {
-        padding: 1rem;
-    }
-    .subtitle {
-        padding: 1rem;
-        p {
-            margin: 0;
-        }
-    }
-    .button {
-        margin-bottom: 0;
-        margin-top: .5rem;
-    }
-    margin-bottom: 1rem;
-}
 
 .align-end {
     text-align: end;
@@ -326,6 +308,10 @@ h1 {
 }
 h2, h3, h4 {
     font-weight: 700;
+}
+
+section {
+    position: relative;
 }
 
 p.text-display {
@@ -407,43 +393,6 @@ section.pad {
     }
 }
 
-.read-more {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    transition: all 0.2s linear;
-}
-.read-more:hover {
-    box-shadow: 0px -6px $shadow;
-    transform: translateY(2px);
-}
-.read-more:active {
-    box-shadow: 0px -4px $shadow;
-    transform: translateY(0px);
-}
-.read-more::after {
-    content: "Weiterlesen >";
-    display: inline-block;
-    overflow: hidden;
-    box-sizing: border-box;
-    transition: transform 0.2s linear;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: .5rem 1rem;
-    border-radius: 2px;
-    transform: translateY(110%);
-}
-.light .read-more::after {
-    @extend %dark;
-}
-.dark .read-more::after {
-    @extend %light;
-}
-.read-more:hover::after {
-    transform: translateY(0%);
-}
-
 .video-container {
     margin-bottom: 1rem;
     position: relative;
@@ -458,12 +407,6 @@ section.pad {
     max-width: 100%;
     min-width: 0;
     min-height: 0;
-}
-
-.divider {
-    margin: .5rem 0;
-    width: 100%;
-    height: 0;
 }
 
 // Input 
@@ -506,7 +449,6 @@ label {
 label.required:after {
   content: " *"
 }
-
 
 input[type="checkbox"] {
     box-sizing: border-box;
@@ -647,6 +589,7 @@ input[type="checkbox"]:hover + label:before {
 }
 
 // lightbox .. used for demand detail view
+
 .js-lightbox {
   position: fixed;
   top:0;
