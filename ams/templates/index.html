@@ -61,6 +61,11 @@
           {% endfor %}      
         </div>
         {% endwith %}
+        <div class="demands-petition-button">
+          <a class="button" href="#petition">
+            Jetzt Forderungen unterstützen!
+          </a>
+        </div>
       </div>
 
       <a href="#" class="back-to-top"></a>
@@ -68,9 +73,9 @@
     </section>
 
     <section id="petition" class="lightbox">
-      <a href="#" class="lightbox__close"></a> 
       <div class="lightbox__frame">
-        <div class="dark">
+        <a href="#" class="lightbox__close"></a> 
+        <div class="lightbox__content dark">
           {% include 'progressbar.html' %}
           <h2>Jetzt Forderungen unterschreiben!</h2>
           <form method="post" action="#petition" novalidate>
