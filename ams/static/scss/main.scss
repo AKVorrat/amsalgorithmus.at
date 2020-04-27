@@ -184,6 +184,61 @@ svg {
     padding: .35em .7em;
 }
 
+.lightbox {
+  display: none; // Unopened lightbox
+  &:target { // Opened lightbox
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+  }
+  // Lightbox content
+  .lightbox__frame {
+    max-width: 40rem;
+    position: relative;
+    padding: 1.5em;
+    background-color: $white;
+  }
+  
+  .lightbox__close:after {
+    right: -1rem;
+    top: -1rem;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    content: "×";
+    cursor: pointer;
+  }
+
+  // Lightbox overlay
+  .lightbox__close:before {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    content: "";
+    cursor: default;
+  }
+
+
+}
+
+
+
 @media only screen and (max-width: 40rem) {
     .button {
         margin-bottom: 1rem;
@@ -316,13 +371,6 @@ p.text-display {
     }
 }
 
-#petition {
-    padding: 2rem 0;
-    form {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    }
-}
 
 section.pad {
     padding: 4rem 0;
@@ -379,7 +427,6 @@ section.pad {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
     max-width: 100%;
     min-width: 0;
     min-height: 0;
@@ -567,8 +614,7 @@ input[type="checkbox"]:hover + label:before {
 }
 
 // lightbox .. used for demand detail view
-
-.lightbox {
+.js-lightbox {
   position: fixed;
   top:0;
   right: 0;
@@ -578,7 +624,7 @@ input[type="checkbox"]:hover + label:before {
   align-items: center;
   justify-content: center;
   z-index: 99;
-  .lightbox__ground {
+  .js-lightbox__ground {
     background: rgba(0,0,0,.4);
     position: fixed;
     top:0;
@@ -587,7 +633,7 @@ input[type="checkbox"]:hover + label:before {
     left: 0;
     z-index: 0;
   }
-  .lightbox__content {
+  .js-lightbox__content {
     background: #fff;
     padding: 1em;
     max-width: 30em;
@@ -597,7 +643,7 @@ input[type="checkbox"]:hover + label:before {
     overflow: auto;
     z-index: 1;
   }
-  .lightbox__closebt {
+  .js-lightbox__closebt {
     float: right;
     margin-top: -.15em;
     font-size: 2em;

@@ -22,25 +22,25 @@ window.onload = function() {
       detail: el.getElementsByClassName('demand__detail')[0].innerHTML
     }
     var lightbox = document.createElement("div");
-    lightbox.classList.add('lightbox')
+    lightbox.classList.add('js-lightbox')
     
     var lightboxContent = `
-    <div class="lightbox__ground"></div>
-    <div class="lightbox__content">
-      <div class="lightbox__closebt">×</div>
-      <h4 class="lightbox--demand__preheader">Forderung im Detail:</h4>
-      <div class="lightbox--demand__title">${demand.title}</div>
-      <div class="lightbox--demand__summary">${demand.summary}</div>
-      <div class="lightbox--demand__detail">${demand.detail}</div>
+    <div class="js-lightbox__ground"></div>
+    <div class="js-lightbox__content">
+      <div class="js-lightbox__closebt">×</div>
+      <h4 class="js-lightbox--demand__preheader">Forderung im Detail:</h4>
+      <div class="js-lightbox--demand__title">${demand.title}</div>
+      <div class="js-lightbox--demand__summary">${demand.summary}</div>
+      <div class="js-lightbox--demand__detail">${demand.detail}</div>
     </div>
     `
     lightbox.innerHTML = lightboxContent;
 
     document.getElementsByTagName('body')[0].append(lightbox)
-    document.getElementsByClassName('lightbox__ground')[0].onclick = function() {
+    document.getElementsByClassName('js-lightbox__ground')[0].onclick = function() {
       destroyLightbox(lightbox)
     };
-    document.getElementsByClassName('lightbox__closebt')[0].onclick = function() {
+    document.getElementsByClassName('js-lightbox__closebt')[0].onclick = function() {
       destroyLightbox(lightbox)
     };
 

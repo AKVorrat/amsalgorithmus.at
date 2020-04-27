@@ -47,38 +47,42 @@
 
     </section>
 
-    <section id="petition" class="dark"> 
-      <div class="row center-xs">
-        <div class="col-xs-11 col-sm-7 col-md-5 col-lg-4">
+    <section id="petition" class="lightbox">
+      <a href="#" class="lightbox__close"></a> 
+      <div class="lightbox__frame">
+        <div class="dark">
           {% include 'progressbar.html' %}
-          <h2>Jetzt Unterschreiben!</h2>
+          <h2>Jetzt Forderungen unterschreiben!</h2>
           <form method="post" action="#petition" novalidate>
             {% csrf_token %}
-
             {% for field in form %}
-                {% if field|field_type:'checkboxinput' %}
-                {{ field }}
-                {{ field.label_tag }}
-                {{ field.errors }}
-                {% else %}
-                {{ field.label_tag }}
-                {{ field }}
-                {{ field.errors }}
-                {% endif %}
+            {% if field|field_type:'checkboxinput' %}
+            {{ field }}
+            {{ field.label_tag }}
+            {{ field.errors }}
+            {% else %}
+            {{ field.label_tag }}
+            {{ field }}
+            {{ field.errors }}
+            {% endif %}
             {% endfor %}
             <input class="form-input" type="submit" value="Unterschreiben">
             <label>* Pflichtfelder</label>
           </form>
-          <div id="video">
-            <h2>Warum ist das wichtig?</h2>
-            <p>
-              Ein Algorithmus wie dieser bringt einige Probleme mit sich. 
-              Vielleicht klärt dich dieses kurze Video auf.
-            </p>
-            <div class="video-container">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section id="video" class="dark pad">
+      <div class="container">
+        
+        <h2>Warum ist das wichtig?</h2>
+        <p>
+          Ein Algorithmus wie dieser bringt einige Probleme mit sich. 
+          Vielleicht klärt dich dieses kurze Video auf.
+        </p>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </section>
