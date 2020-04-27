@@ -68,7 +68,8 @@ $font-display: 'Poppins', sans-serif;
         color: $white !important;
         @extend %floating;
     }  
-    .icon svg {
+    .button.icon svg {
+        margin-bottom: -2px ;
         fill: $white !important;
     }
     .button:hover {
@@ -144,7 +145,7 @@ $font-display: 'Poppins', sans-serif;
         border-bottom: 1px solid $white;
     }
 }
-svg {
+.icon svg {
     margin-top: 4px;
 }
 
