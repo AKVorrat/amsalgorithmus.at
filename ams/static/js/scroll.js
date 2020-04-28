@@ -11,7 +11,9 @@ function scrollToId(id) {
         target = el.getBoundingClientRect().top;
         pos += target * x;
         const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-        if ((target > 0 && up) || (target < vh && !up)){
+        if ((target > 0 && up) 
+            || (target < 0 && !up) 
+            || (target < vh && !up && pos >= (document.body.scrollHeight - vh))){
             window.scrollTo(0, pos + target);
         } else {
             window.scrollTo(0, pos);
