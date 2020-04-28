@@ -9,10 +9,10 @@
     <div class="container">
       <div class="mainnav">
         <div class="mainnav__first">
-          <a href="#demands" class="mainnav__item">Forderungen</a>
-          <a href="#video" class="mainnav__item">Erklärvideo</a>
-          <a href="#petition" class="mainnav__item">Petition</a>
-          <a href="#auskunftsbegehren" class="mainnav__item">Auskunftsbegehren</a>
+          <a onclick="scrollToId('demands')" href="#demands" class="scrollto mainnav__item">Forderungen</a>
+          <a onclick="scrollToId('video')" href="#video" class="scrollto mainnav__item">Erklärvideo</a>
+          <a onclick="scrollToId('petition')" href="#petition" class="scrollto mainnav__item">Petition</a>
+          <a onclick="scrollToId('auskunftsbegehren')" href="#auskunftsbegehren" class="scrollto mainnav__item">Auskunftsbegehren</a>
         </div>
         <div class="mainnav__last">
         </div>
@@ -24,7 +24,7 @@
 
 {% block hero %}
 
-  <div class="container">
+  <div id="top" class="container">
     <div>
       <h1>
         <div style="max-width:11em;">
@@ -191,6 +191,6 @@
           <div>Zum Generator!</div></a>
         </div>
       </div>
-        <a href="#" class="button back-to-top"></a>
+        <a onclick="scrollToId('top')" class="scrollto button back-to-top"></a>
     </section>
 {% endblock %}
