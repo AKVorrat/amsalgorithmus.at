@@ -18,13 +18,14 @@
       <title>amsalgorithmus.at</title>
     </head>
     <body>
-      {% block navigation %}{% endblock %}
       
       
       <section id="hero" class="dark pixelate-container">
         {% block hero %}{% endblock %}
         <canvas class="pixelate" onmousemove="draw(event)"></canvas>
       </section>
+      {% block navigation %}{% endblock %}
+
       {% block content %}{% endblock %}
       <section id="footer" class="light">
         <div class="container">
