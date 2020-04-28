@@ -269,6 +269,11 @@ $font-display: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
     padding: 1em 1.5rem;
+    @media(max-height:500px) {
+      font-size: 1em;
+      padding: .5em 1.5rem;
+    }
+
     font-size: 1.4em;
     font-family: $font-display;
     font-weight: 700;
@@ -289,9 +294,12 @@ $font-display: 'Poppins', sans-serif;
       .lightbox:target & {
         animation: scrollDown 1s;
       }
-      padding: 3.2em 1.5rem 10em;
-      h2 {
-        margin-bottom: 1em;
+      padding: .5em 1.5rem 10em;
+      @media(min-height:550px) {
+        padding-top: 3.2em;
+        h2 {
+          margin-bottom: 1em;
+        }
       }
     }
     .petition__demand {
@@ -416,6 +424,9 @@ p.text-display {
 #hero {
     min-height: 75vh;
     display: flex;
+    background: url('/static/images/robo.jpg');
+    background-size: cover;
+    background-position: right;
 }
 
 .hero__progressbar {
