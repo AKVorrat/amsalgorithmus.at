@@ -282,7 +282,8 @@ $font-display: 'Poppins', sans-serif;
     flex-grow: 1;
     overflow: auto;
     // box-shadow: rgba(0,0,0,.3) 0 -5px 5px inset;
-    background: linear-gradient(#fff 97%,#aaa 100%);
+    background: linear-gradient(#ccc 0%,#fff 3%,#fff 98%,#aaa 100%);
+    min-height: 6em;
     .petition__demands {
       .lightbox:target & {
         animation: scrollDown 1s;
@@ -679,7 +680,7 @@ input[type="checkbox"]:hover + label:before {
   justify-content: center;
   z-index: 99;
   .js-lightbox__ground {
-    background: rgba(0,0,0,.4);
+    background: rgba(0,0,0,.7);
     position: fixed;
     top:0;
     right: 0;
