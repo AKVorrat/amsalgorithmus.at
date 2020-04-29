@@ -17,9 +17,9 @@
         <div class="mainnav__last">
         </div>
       </div>
-    </div>      
+    </div>
   </nav>
-  
+
 {% endblock %}
 
 {% block hero %}
@@ -54,8 +54,8 @@
       <div id="demands">
         <div>
             <h1>Unsere <strong>Forderungen</strong></h1>
-        </div> 
-      </div> 
+        </div>
+      </div>
 
       {% with 'menschen ressourcen faehigkeiten transparenz information risikocheck optional' as demands %}
         <div class="demands">
@@ -65,7 +65,7 @@
            {% include templatepath %}
            {% endwith %}
           </div>
-          {% endfor %}      
+          {% endfor %}
         </div>
         {% endwith %}
         <div class="demands-petition-button">
@@ -77,13 +77,13 @@
     </section>
 
     <section id="petition" class="lightbox">
-      <a href="#" class="lightbox__closebg"></a> 
+      <a href="#" class="lightbox__closebg"></a>
       <div class="lightbox__frame">
         <div class="lightbox__content ">
           <div class="petition">
             <div class="dark petition__title">
               <div>Forderungen unterschreiben</div>
-              <a href="#" class="lightbox__closebt"></a> 
+              <a href="#" class="lightbox__closebt"></a>
             </div>
             <div class="light petition__text">
               <div class="petition__demands">
@@ -95,11 +95,11 @@
                   {% include templatepath %}
                   {% endwith %}
                 </div>
-                {% endfor %}      
+                {% endfor %}
                 {% endwith %}
               </div>
             </div>
-            
+
             <div class="dark">
               <form method="post" action="#petition" novalidate class="potition__form">
 
@@ -110,13 +110,13 @@
                       {{ form.first_name }}
                       {{ form.first_name.errors }}
                     </div>
-                    
+
                     <div class="petition__field">
                       {{ form.last_name.label_tag }}
                       {{ form.last_name }}
                       {{ form.last_name.errors }}
                     </div>
-                    
+
                     <div class="petition__field">
                       {{ form.email.label_tag }}
                       {{ form.email }}
@@ -146,11 +146,16 @@
     </section>
     <section id="video" class="dark pad">
       <div class="container">
-        
+
         <h2>Warum ist das wichtig?</h2>
         <p>
-          Ein Algorithmus wie dieser bringt einige Probleme mit sich. 
-          Vielleicht klärt dich dieses kurze Video auf.
+          Die Einführung des AMS-Algorithmus ist ein gefährlicher Präzedenzfall.
+War es bislang so, dass der Einsatz grundlegend neuer Technologien öffentlich debattiert wurde, eine demokratische Debatte stattfand und als Resultat ein Gesetz heraus kam, dass demokratisch legitimiert wurde ist das beim AMS-Algorithmus anders.
+Dieses System wurde ohne öffentliche Debatte entwickelt und präsentiert. Die Zivilgesellschaft war in diesem Prozess nicht eingebunden und bis heute fehlt es hier grundlegend an Transparenz, wie dieses System arbeitet.<br>
+
+Ein ähnliches System wurden in Polen vom Verfassungsgerichtshof aufgehoben. Auch in Belgien wurde ein algorithmenbasiertes System, das Sozialhilfeempfänger*innen kontrollieren sollte als rechtswidrig erklärt und eingestellt.<br>
+
+Wir Menschen in Österreich dürfen nicht zulassen, dass Faktoren, auf die man keinen Einfluss hat, entscheidend sind, ob Menschen Aus- und Weiterbildungen verbpten werden. Algorithmische Systeme, die Ungerechtigkeiten in unserem Arbeitsmarktsystem sichtbar machen dürfen nicht dazu verwendet werden diese Ungerechtigkeiten auch noch zu verstärken.
         </p>
         <div class="video-container">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -162,14 +167,14 @@
         <h1>Kontaktiere deine <strong>Ministerin!</strong></h1>
 
         <h2>Mag. (FH) Christine Aschbacher</h2>
-      
+
         <h3>Bundesministerin für Arbeit, Familie und Jugend</h3>
         <p>
-        
+
           Bundesministerium für Arbeit, Familie und Jugend<br>
           Untere Donaustraße 13-15<br>
           1020 Wien<br>
-          
+
         </p>
         <div>
           <a target="_blank" class="button icon" href="mailto:christine.aschbacher@bmafj.gv.at">
@@ -177,7 +182,7 @@
           <a target="_blank" class="button icon" href="https://www.facebook.com/ChristineAschbacher/">
           {% svg 'facebook' %}</a>
         </div>
-      </div> 
+      </div>
     </section>
 
     <section class="dark pad" id="auskunftsbegehren">
@@ -185,8 +190,8 @@
         <div>
           <h1>Generiere ein <strong>Auskunftsbegehren!</strong></h1>
           <p class="text-display">
-            {% lorem 1 b random %}
-          </p>        
+            Das AMS sammelt viele Daten über dich und speichert sie lange. Unserer Erfahrung nach kann ein Auskunftsbegehren über dich 80-120 Seiten lang sein. Wenn dich interessiert auf welche deiner Daten das AMS gesetzlich Zugriff hat und was sie sonst noch über dich wissen, mach hier Auskunftsbegehren. Dieses zu machen ist gratis, sofern es max. 1 Mal im Jahr geschieht.
+          </p>
           <a href="/request" class="button">
           <div>Zum Generator!</div></a>
         </div>
