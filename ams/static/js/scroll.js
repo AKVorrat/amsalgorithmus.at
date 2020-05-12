@@ -1,6 +1,8 @@
 
 function scrollToId(id) {
     const el = document.getElementById(id);
+    if (el == undefined) { return }
+
     let target = el.getBoundingClientRect().top;
     let pos = window.pageYOffset || document.documentElement.scrollTop;
     let frame = 1;
@@ -11,8 +13,8 @@ function scrollToId(id) {
         target = el.getBoundingClientRect().top;
         pos += target * x;
         const vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-        if ((target > 0 && up) 
-            || (target < 0 && !up) 
+        if ((target >= 0 && up) 
+            || (target <= 0 && !up) 
             || (target < vh && !up && pos >= (document.body.scrollHeight - vh))){
             window.scrollTo(0, pos + target);
         } else {
