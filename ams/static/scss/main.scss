@@ -453,6 +453,7 @@ p.text-display {
         height: 100%;
         background-color: $white;
         box-shadow: 2px 0px $shadow;
+        z-index: 10;
     }
 }
 
