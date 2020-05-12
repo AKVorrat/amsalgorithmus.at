@@ -5,7 +5,7 @@
 
 {% block navigation %}
 
-  <nav class="dark" id="menu">
+  <nav class="dark menu" id="menu">
     <div class="container">
       <div class="mainnav">
         <div class="mainnav__first">
@@ -32,7 +32,7 @@
           <strong>AMS&#8209;Algorithmus!</strong>
         </div>
       </h1>
-      <p class="text-display">
+      <p class="text-display" style="max-width: 20em;">
         Computer dürfen nicht über die berufliche Zukunft von Menschen entscheiden!
       </p>
       <div class="hero__progressbar">
@@ -50,21 +50,49 @@
 
 {% block content %}
 
-    <section id="video" class="dark pad">
+    <section id="info" class="dark pad info">
       <div class="container">
-
         <h2>Warum ist das wichtig?</h2>
-        <p>
-          Die Einführung des AMS-Algorithmus ist ein gefährlicher Präzedenzfall.
-          War es bislang so, dass der Einsatz grundlegend neuer Technologien öffentlich debattiert wurde, eine demokratische Debatte stattfand und als Resultat ein Gesetz heraus kam, dass demokratisch legitimiert wurde ist das beim AMS-Algorithmus anders.
-          Dieses System wurde ohne öffentliche Debatte entwickelt und präsentiert. Die Zivilgesellschaft war in diesem Prozess nicht eingebunden und bis heute fehlt es hier grundlegend an Transparenz, wie dieses System arbeitet.<br>
-
-          Ein ähnliches System wurden in Polen vom Verfassungsgerichtshof aufgehoben. Auch in Belgien wurde ein algorithmenbasiertes System, das Sozialhilfeempfänger*innen kontrollieren sollte als rechtswidrig erklärt und eingestellt.<br>
-
-          Wir Menschen in Österreich dürfen nicht zulassen, dass Faktoren, auf die man keinen Einfluss hat, entscheidend sind, ob Menschen Aus- und Weiterbildungen verbpten werden. Algorithmische Systeme, die Ungerechtigkeiten in unserem Arbeitsmarktsystem sichtbar machen dürfen nicht dazu verwendet werden diese Ungerechtigkeiten auch noch zu verstärken.
-        </p>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="info__content">
+          <div class="info__text">
+            <p>
+              Die Einführung des AMS-Algorithmus ist ein 
+              <strong>gefährlicher Präzedenzfall</strong>.
+            </p>
+            <p>
+              War es bislang so, dass der Einsatz grundlegend neuer Technologien 
+              öffentlich debattiert wurde, eine demokratische Debatte stattfand 
+              und als Resultat ein Gesetz heraus kam, dass demokratisch 
+              legitimiert wurde ist das beim AMS-Algorithmus nicht so.
+            </p>
+            <p>
+              Dieses <strong>System wurde ohne öffentliche Debatte 
+              entwickelt</strong> und präsentiert. Die 
+              <strong>Zivilgesellschaft</strong> war in diesem Prozess 
+              <strong>nicht eingebunden</strong> und bis heute fehlt es hier 
+              grundlegend an Transparenz, wie dieses System arbeitet.
+            </p>
+            <p>
+              Ein ähnliches System wurden in Polen vom Verfassungsgerichtshof 
+              aufgehoben. Auch in Belgien wurde ein algorithmenbasiertes System, 
+              das Sozialhilfeempfänger*innen kontrollieren sollte für 
+              rechtswidrig erklärt und eingestellt.
+            </p>
+            <p>
+              Wir Menschen in Österreich dürfen nicht zulassen, dass Faktoren, 
+              auf die man keinen Einfluss hat, entscheidend sind, ob Menschen 
+              Aus- und Weiterbildungen verboten werden. <strong>Algorithmische 
+              Systeme</strong>, die Ungerechtigkeiten in unserem 
+              Arbeitsmarktsystem sichtbar machen <strong>dürfen nicht</strong> 
+              dazu verwendet werden diese <strong>Ungerechtigkeiten</strong> 
+              auch noch zu <strong>verstärken</strong>.
+            </p>
+          </div>
+          <div class="info__video">
+            <div id="video" class="video-container">
+              <iframe src="https://embed.epicenter.works/yt/2d1u9k58J50" width="480" height="360" allowfullscreen="allowfullscreen" frameborder="0" style="border: 0"></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -164,21 +192,7 @@
         </div>
       </div>
     </section>
-    <section id="video" class="dark pad">
-      <div class="container">
-
-        <h2>Warum ist das wichtig?</h2>
-        <p>Die Einführung des AMS-Algorithmus ist ein <strong>gefährlicher Präzedenzfall</strong>.</p>
-<p>War es bislang so, dass der Einsatz grundlegend neuer Technologien öffentlich debattiert wurde, eine demokratische Debatte stattfand und als Resultat ein Gesetz heraus kam, dass demokratisch legitimiert wurde ist das beim AMS-Algorithmus nicht so.<br>
-Dieses <strong>System wurde ohne öffentliche Debatte entwickelt</strong> und präsentiert. Die <strong>Zivilgesellschaft</strong> war in diesem Prozess <strong>nicht eingebunden</strong> und bis heute fehlt es hier grundlegend an Transparenz, wie dieses System arbeitet.</p>
-<p>Ein ähnliches System wurden in Polen vom Verfassungsgerichtshof aufgehoben. Auch in Belgien wurde ein algorithmenbasiertes System, das Sozialhilfeempfänger*innen kontrollieren sollte für rechtswidrig erklärt und eingestellt.</p>
-<p>Wir Menschen in Österreich dürfen nicht zulassen, dass Faktoren, auf die man keinen Einfluss hat, entscheidend sind, ob Menschen Aus- und Weiterbildungen verboten werden. <strong>Algorithmische Systeme</strong>, die Ungerechtigkeiten in unserem Arbeitsmarktsystem sichtbar machen <strong>dürfen nicht</strong> dazu verwendet werden diese <strong>Ungerechtigkeiten</strong> auch noch zu <strong>verstärken</strong>.</p>
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-    </section>
-    <section class="light pad">
+    <section class="dark pad">
       <div class="container">
         <h1>Kontaktiere deine <strong>Ministerin!</strong></h1>
 
@@ -194,22 +208,48 @@ Dieses <strong>System wurde ohne öffentliche Debatte entwickelt</strong> und pr
         </p>
         <div>
           <a target="_blank" class="button icon" href="mailto:christine.aschbacher@bmafj.gv.at">
-          {% svg 'email' %}</a>
+          {% svg 'email' %} Eine Email schreiben</a>
           <a target="_blank" class="button icon" href="https://www.facebook.com/ChristineAschbacher/">
-          {% svg 'facebook' %}</a>
+          {% svg 'facebook' %} Per Facebook kontaktieren</a>
         </div>
       </div>
     </section>
 
-    <section class="dark pad" id="auskunftsbegehren">
+    <section class="light pad" id="auskunftsbegehren">
       <div class="container">
         <div>
-          <h1>Generiere ein <strong>Auskunftsbegehren!</strong></h1>
+          <div>
+            <h1>Generiere ein <strong>Auskunftsbegehren!</strong></h1>
+            <p class="text-display">
+              Das AMS sammelt viele Daten über dich und speichert sie lange. Unserer Erfahrung nach kann ein Auskunftsbegehren über dich 80-120 Seiten lang sein. Wenn dich interessiert auf welche deiner Daten das AMS gesetzlich Zugriff hat und was sie sonst noch über dich wissen, mach hier Auskunftsbegehren. Dieses zu machen ist gratis, sofern es max. 1 Mal im Jahr geschieht.
+            </p>
+            <a href="/request" class="button">
+              <div>Zum Generator!</div>
+            </a>
+          </div>
+          <div>
+            Antrag gemäß Art. 15 DSGVO auf Auskunft
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dark pad" id="share">
+      <div class="container">
+        <div>
+          <h1>Weitersagen!</h1>
           <p class="text-display">
-            Das AMS sammelt viele Daten über dich und speichert sie lange. Unserer Erfahrung nach kann ein Auskunftsbegehren über dich 80-120 Seiten lang sein. Wenn dich interessiert auf welche deiner Daten das AMS gesetzlich Zugriff hat und was sie sonst noch über dich wissen, mach hier Auskunftsbegehren. Dieses zu machen ist gratis, sofern es max. 1 Mal im Jahr geschieht.
+            Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug politischen Druck erzeugen um den AMS Algorithmus zu verhinden.
           </p>
-          <a href="/request" class="button">
-          <div>Zum Generator!</div></a>
+          <a target="_blank" class="button icon" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Famsalgorithmus.at">
+            {% svg 'facebook' %}
+          </a>
+          <a target="_blank" class="button icon" href="https://twitter.com/intent/tweet?text=Stoppt+den+AMS-Algorithmus%21%0D%0Ahttps%3A%2F%2Famsalgorithmus.at">
+            {% svg 'twitter' %}
+          </a>
+          <a target="_blank" class="button icon" href="mailto:?subject=Stoppt den AMS-Algorithmus!">
+            {% svg 'email' %}
+          </a>
         </div>
       </div>
         <a onclick="scrollToId('top')" class="scrollto button back-to-top"></a>

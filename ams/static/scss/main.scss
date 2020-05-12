@@ -387,6 +387,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 2.5em;
     font-weight: 700;
+    line-height: 1.3em;
 }
 h2, h3, h4 {
     font-weight: 700;
@@ -471,7 +472,8 @@ p.text-display {
         position: absolute;
         top: 0;
         left: 0;
-        mix-blend-mode: darken;
+        mix-blend-mode: multiply;
+        mix-blend-mode: color-burn;
     }
 }
 
@@ -483,21 +485,6 @@ section.pad {
     }
 }
 
-.video-container {
-    margin-bottom: 1rem;
-    position: relative;
-    padding-bottom: 50%;
-    padding-top: 2rem;
-    height: 0;
-}
-.video-container iframe, .video-container video, .video-container object, .video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-width: 100%;
-    min-width: 0;
-    min-height: 0;
-}
 
 // Input 
 
@@ -612,6 +599,9 @@ input[type="checkbox"]:hover + label:before {
 
 
 // main navigation
+.menu {
+  background: #141e2b;
+}
 .mainnav {
   display: flex;
   .mainnav__first {
@@ -638,8 +628,46 @@ input[type="checkbox"]:hover + label:before {
   }
 }
 
+// Info section on main page
+
+.info {
+  .info__content {
+    display: flex;
+    @media(max-width:800px) {
+      flex-direction: column;
+    }
+  }
+  .info__text {
+    flex-basis: 100%;
+    margin-right: 3em;
+  }
+  .info__video {
+    width: 100%;
+    max-width: 480px;
+    margin-top: 1em;
+  }
+}
+
+
+.video-container {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    iframe, video, object, embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      max-width: 100%;
+      min-width: 0;
+      min-height: 0;
+    }
+}
+
+
  
-// Demands on main page
+// Demand section on main page
 .demands {
   display: grid;
   @media(min-width:800px) {
