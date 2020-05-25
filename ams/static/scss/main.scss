@@ -159,9 +159,6 @@ $font-display: 'Poppins', sans-serif;
         @include back-to-top-icon($dark);
     }
 }
-.icon svg {
-    margin-top: 4px;
-}
 
 .container {
   display: flex;
@@ -200,7 +197,14 @@ $font-display: 'Poppins', sans-serif;
 }
 
 .button.icon {
-    padding: .35em .7em;
+    padding: .6em .7em;
+    padding-bottom: .8em;
+    display: inline-flex;
+    align-items: center;
+}
+.button.icon div {
+  display: inline-block;
+  margin-left: .7em;
 }
 
 .lightbox {
@@ -453,7 +457,6 @@ p.text-display {
         height: 100%;
         background-color: $white;
         box-shadow: 2px 0px $shadow;
-        z-index: 10;
     }
 }
 
