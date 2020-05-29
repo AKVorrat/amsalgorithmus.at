@@ -1,0 +1,15 @@
+stages:
+    - build
+
+build-test:
+    stage: build
+    image: local-python-nodejs-cairo
+    script:
+        - export PATH=/opt/node/bin:$PATH
+        - python3 -m venv .venv
+        - . .venv/bin/activate
+        - npm install
+        - python3 setup.py install
+        - DJANGO_SETTINGS_MODULE=ams.settings.dev ./manage.py migrate
+    only:
+        - master
