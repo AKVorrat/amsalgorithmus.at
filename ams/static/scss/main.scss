@@ -7,9 +7,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 $white: #FCFCFC;
-$dark: #525769;
+$dark: #444a60;
 $grey: #969DA8;
-$red: #FF8782;
+$red: #F06D6D;
 $shadow: #0002;
 
 $font-serif: 'Zilla Slab', serif;
@@ -388,7 +388,7 @@ section {
     position: relative;
 }
 
-p.text-display {
+.text-display {
     font-size: 1.2em;
     font-weight: 600;
     max-width: 50ch;
@@ -399,7 +399,7 @@ p.text-display {
     h1 {
         font-size: 2em;
     }
-    p.text-display {
+    .text-display {
         font-size: 1em;
     }
 }
@@ -427,6 +427,11 @@ p.text-display {
 
 .hero-button {
   font-size: 1.4em;
+  .button {
+    color: $white !important;
+    background-color: $red;
+    border-color: #795050;
+  }
 }
 
 .petition-bar-container {
@@ -588,6 +593,24 @@ input[type="checkbox"]:hover + label:before {
     margin: 0 0 8px 0;
 }
 
+.auskunft__content {
+  display: flex;
+  .auskunft__info {
+    flex-grow: 1;
+  }
+  .auskunft__action {
+    flex-grow: 1;
+  }
+}
+
+.supporters__grid {
+  display: grid;
+  grid-template-columns: 4;
+  grid-gap: 5%;
+  img {
+    max-width: 100%;
+  }
+}
 
 // main navigation
 .menu {
@@ -695,6 +718,11 @@ input[type="checkbox"]:hover + label:before {
 .demands-petition-button {
   font-size: 1.7em;
   margin: 1em;
+  text-align: center;
+}
+
+
+.footer__donate {
   text-align: center;
 }
 
