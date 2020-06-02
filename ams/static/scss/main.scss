@@ -24,19 +24,6 @@ $font-display: 'Poppins', sans-serif;
 }
 %stripes {
     background-image: repeating-linear-gradient(45deg, $grey, $grey 30px, $white 30px, $white 60px);
-    background-size: 400% 400%;
-    animation: slide 120s linear infinite;
-    background-position: 75% 50%;
-}
-
-@keyframes slide {
-    0% {
-    background-position: 0% 50%;
-    }
-
-    100% {
-    background-position: 100% 50%;
-    }
 }
 
 
@@ -858,5 +845,10 @@ input[type="checkbox"]:hover + label:before {
 
 .pa-0 {
     padding: 0 !important;
+}
+
+.px-0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 

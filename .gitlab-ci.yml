@@ -1,5 +1,6 @@
 stages:
     - build
+    - deploy
 
 build-test:
     stage: build
@@ -11,5 +12,20 @@ build-test:
         - npm install
         - python3 setup.py install
         - DJANGO_SETTINGS_MODULE=ams.settings.dev ./manage.py migrate
+    only:
+        - master
+
+push:
+    stage: deploy
+    image: local-git-ssh
+    before_script:
+        - mkdir -p ~/.ssh
+        - eval $(ssh-agent -s)
+        - 'echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+        - 'echo "$STAGING_PRIVATE_KEY" > ~/.ssh/id_ed25519'
+        - chmod 600 ~/.ssh/id_ed25519
+    script:
+        - git remote add deploy gl-amsalgo@obrien.akvorrat.at:/home/git/amsalgorithmus.at || true
+        - git push deploy HEAD:master
     only:
         - master
