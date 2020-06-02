@@ -30,7 +30,7 @@ window.onload = function() {
       <div class="js-lightbox__closebt">×</div>
       <h4 class="js-lightbox--demand__preheader">Forderung im Detail:</h4>
       <div class="js-lightbox--demand__title">${demand.title}</div>
-      <div class="js-lightbox--demand__summary">${demand.summary}</div>
+      <div class="js-lightbox--demand__summary"><div class="text-display">${demand.summary}</div></div>
       <div class="js-lightbox--demand__detail">${demand.detail}</div>
     </div>
     `

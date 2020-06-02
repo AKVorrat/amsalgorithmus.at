@@ -40,7 +40,7 @@
       </div>
       <a href="#petition" id="bigPetitionBt" class="hero-button">
         <button class="button">
-          Forderungen lesen & unterstützen
+          Forderungen lesen & unterstützen!
         </button>
       </a>
     </div>
@@ -62,7 +62,7 @@
             <p>
               War es bislang so, dass der Einsatz ganz neuer Technologien
               zumindest öffentlich debattiert, und mit einem Gesetz
-              demokratische legitimiert wurde. Das ist beim AMS-Algorithmus nicht so.
+              demokratisch legitimiert wurde. Das ist beim AMS-Algorithmus nicht so.
             </p>
             <p>
               Dieses <strong>System wurde ohne öffentliche Debatte
@@ -128,12 +128,12 @@
         <div class="lightbox__content ">
           <div class="petition">
             <div class="dark petition__title">
-              <div>Forderungen unterschreiben</div>
+              <div>AMS Algorithmus stoppen</div>
               <a href="#" class="lightbox__closebt"></a>
             </div>
             <div class="light petition__text">
               <div class="petition__demands">
-                <h2>Stoppt den AMS-Algorithmus!</h2>
+                <h2>Unsere Forderungen</h2>
                 {% with 'menschen ressourcen faehigkeiten transparenz information risikocheck optional' as demands %}
                 {% for demand in demands.split %}
                 <div class="petition__demand">
@@ -218,17 +218,22 @@
         <div>
           <div>
             <h1>Generiere ein <strong>Auskunftsbegehren!</strong></h1>
-            <p class="text-display">
-              Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und Behörden anfordern. Hier kannst du das für das AMS tun.
-              <strong>Wenn du seit 2019 arbeitslos warst, werden ca 2 Seiten des Auskunftsbegehrens den AMS-Algorithmus betreffen (eine Infoseite und eine Auskunftsseite).</strong> Durchschnittlich gesehen hat ein Auskunftsbegehren beim AMS (bei älteren Personen) ca 80-150 Seiten. Auf Nachfrage kann dir stattdessen auch <strong>dein/e AMS-Berater*in über deine algorithmische Einstufung Auskunft erteilen.</strong>
-            </p>
-            <a href="/request" class="button">
-              <div>Zum Generator!</div>
-            </a>
-          </div>
-          <div>
-            Antrag gemäß Art. 15 DSGVO auf Auskunft
-          </div>
+            <div class="auskunft__content">
+              <div class="auskunft__info">
+                <p class="text-display">
+                  Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und Behörden anfordern. Hier kannst du das für das AMS tun.
+                </p>
+                <p>
+                  <strong>Wenn du seit 2019 arbeitslos warst, werden ca 2 Seiten des Auskunftsbegehrens den AMS-Algorithmus betreffen (eine Infoseite und eine Auskunftsseite).</strong> Durchschnittlich gesehen hat ein Auskunftsbegehren beim AMS (bei älteren Personen) ca 80-150 Seiten. Auf Nachfrage kann dir stattdessen auch <strong>dein/e AMS-Berater*in über deine algorithmische Einstufung Auskunft erteilen.</strong>
+                </p>
+                <a href="/request" class="button">
+                  <div>Zum Generator!</div>
+                </a>
+                <div>
+                  <p>Antrag gemäß Art. 15 DSGVO auf Auskunft</p>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </section>
@@ -253,4 +258,19 @@
       </div>
         <a onclick="scrollToId('top')" class="scrollto button back-to-top"></a>
     </section>
+
+
+    
+    <section class="light pad" id="supporters">
+      <div class="container">
+        <h1>Unterstützer*innen</h1>
+        <p>Die Petition wird von folgenden Organisationen unterstützt:</p>
+        <div class="supporters__grid">
+          <a></a>
+        </div>
+        
+      </div>
+    </section>
+
+
 {% endblock %}
