@@ -1,6 +1,12 @@
 <style>
+  @keyframes petitionbar {
+    from {width: 0;}
+    to {width: {{ progress }}%;}
+  }
   .petition-bar .progress {
       width: {{ progress }}%;
+      animation-name: petitionbar;
+      animation-duration: .6s;
   }
 </style>
 <div class="petition-bar-container">

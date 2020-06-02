@@ -6,7 +6,7 @@ window.onload = function() {
   for (let el of demandDetails) {
     el.getElementsByClassName('demand__detail')[0].style.display = 'none';
     var moreBt = document.createElement("div");
-    moreBt.classList.add('demand__more')
+    moreBt.classList.add('demand__more', 'text-display')
     moreBt.append("mehr");
     el.append(moreBt);
     moreBt.onclick = function() {
