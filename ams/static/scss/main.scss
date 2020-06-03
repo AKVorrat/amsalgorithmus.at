@@ -3,8 +3,8 @@
 @import 'node_modules/sassdash/index';
 @import 'node_modules/sass-svg/index';
 
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('/static/fonts/zilla-slab/font.css');
+@import url('/static/fonts/poppins/font.css');
 
 $white: #FCFCFC;
 $dark: #444a60;
