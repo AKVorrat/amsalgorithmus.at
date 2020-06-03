@@ -734,6 +734,11 @@ input[type="checkbox"]:hover + label:before {
   padding-top: 4rem;
   padding-bottom: 4rem;
 } 
+
+.demands__title {
+  display: block;
+  text-align: center;
+}
 // Demand section on main page
 .demands {
   display: grid;
