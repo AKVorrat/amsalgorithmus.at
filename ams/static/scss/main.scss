@@ -595,12 +595,58 @@ input[type="checkbox"]:hover + label:before {
 
 .auskunft__content {
   display: flex;
+  flex-grow: 1;
+  @media(max-width: 1200px) {
+    flex-direction: column;
+    .auskunft__pile {
+      max-height: 14em;
+      max-width: 20%;
+    }
+    .auskunft__info {
+      flex-direction: row-reverse;
+    }
+  }
+  align-items: flex-end;
+  .auskunft__primary {
+    width: 100%;
+    margin-top: 3rem;
+    @media(min-width: 1201px) {
+      margin-bottom: 3rem;
+    }
+  }
+  .auskunft__pile {
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    img {
+      max-width: 100%;
+    }
+    @media(min-width: 1201px) {
+      width: 100%;
+      margin: 0 2em;
+      img {
+        max-width: 12em;
+      }
+    }
+  }
   .auskunft__info {
-    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+
   }
-  .auskunft__action {
-    flex-grow: 1;
+  .auskunft__text {
+    line-height: 1.35em;
+    margin: 3rem 0;
   }
+  .auskunft__legal {
+    margin: 0;
+  }
+}
+.auskunft__button {
+  font-size: 1.4em;
 }
 
 .supporters__grid {
@@ -647,7 +693,7 @@ input[type="checkbox"]:hover + label:before {
 .info {
   .info__content {
     display: flex;
-    @media(max-width:800px) {
+    @media(max-width:1100px) {
       flex-direction: column;
     }
   }
@@ -667,7 +713,7 @@ input[type="checkbox"]:hover + label:before {
     width: 100%;
     max-width: 100%;
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 75%;
     height: 0;
     iframe, video, object, embed {
       position: absolute;
