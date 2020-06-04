@@ -1,8 +1,8 @@
 
-function animate() {
+/*function animate() {
   requestAnimFrame(animate);
   animDraw();
-}
+}*/
 
 var canvases = []
 var pixelSize = 25;
