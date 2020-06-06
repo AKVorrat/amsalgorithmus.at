@@ -85,7 +85,7 @@ $font-display: 'Poppins', sans-serif;
     .button {
       border: 0;
       @extend %dark;
-      box-shadow: 0px -4px darken($dark, 20) inset;
+      box-shadow: 0px -4px darken($dark, 5) inset;
       color: $white !important;
     }
     .button.icon svg,
@@ -98,11 +98,11 @@ $font-display: 'Poppins', sans-serif;
         transform: translateY(2px);
     }
     .button:hover {
-        box-shadow: 0px 4px darken($dark, 20) inset;
+        box-shadow: 0px 4px darken($dark, 5) inset;
         transform: translateY(2px);
     }
     .button:active {
-      box-shadow: 0px 6px darken($dark, 20) inset;
+      box-shadow: 0px 6px darken($dark, 5) inset;
     }
     svg {
         fill: $dark;
