@@ -1,4 +1,5 @@
 from django.db import models
+from django.conf import settings
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.urls import reverse
@@ -42,7 +43,8 @@ class Signature(models.Model):
 
         context = {
             'confirmation_url': confirmation_url,
-            'full_name': self.full_name()
+            'full_name': self.full_name(),
+            'wants_newsletter': self.newsletter
         }
         send_mail(
             '[amsalgorithmus.at] Bitte bestätige deine E-Mail Adresse.',
@@ -76,6 +78,9 @@ class Signature(models.Model):
             self.confirmed = True
             self.emails_sent = 0
             self.save()
+            if self.newsletter and hasattr(settings, 'DIALOGMAIL_SECRET'):
+                from .dialogmail import dialogmail_subscribe
+                dialogmail_subscribe(self.email)
 
     def send_withdrawal_email(self, request):
         if not self.withdrawal_token:
@@ -86,7 +91,8 @@ class Signature(models.Model):
 
         context = {
             'withdrawal_url': withdrawal_url,
-            'full_name': self.full_name()
+            'full_name': self.full_name(),
+            'has_newsletter': self.newsletter
         }
         send_mail(
             '[amsalgorithmus.at] Bitte bestätige deinen Widerruf.',
@@ -101,5 +107,8 @@ class Signature(models.Model):
 
     def withdraw(self, token):
         if generator.check_token(self, token):
+            if self.newsletter and hasattr(settings, 'DIALOGMAIL_SECRET'):
+                from .dialogmail import dialogmail_unsubscribe
+                dialogmail_unsubscribe(self.email)
             self.delete()
 
