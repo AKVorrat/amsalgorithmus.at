@@ -20,6 +20,7 @@
     <body>
       
       
+      <div  id="top"></div>
       <section id="hero" class="dark pixelate-container">
         {% block hero %}{% endblock %}
         <canvas class="pixelate" onmousemove="draw(event)"></canvas>
@@ -39,9 +40,10 @@
               <div><a target="_blank" href="https://i.notice.at/">Andreas Demmelbauer</a></div>
             </div>
             <div class="col-xs-12 col-md-4 footer__donate">
-              <div>
-                Du findest unsere Arbeit gut?
-              </div>
+              <a href="https://epicenter.works/" target="_blank">
+                <img class="footer__epicenter-logo" src="/static/svg/epicenter-logo-white.svg" alt="epicenter.works Logo">
+              </a>
+              Du findest unsere Arbeit gut?
               <a href="https://spenden.epicenter.works/" target="_blank" class="footer__bubble">
                 <b>Bitte <u>unterstütze uns</u>!</b>
               </a>
@@ -59,6 +61,8 @@
             </div>
           </div>
         </div>
+        <a onclick="scrollToId('top')" class="scrollto button back-to-top"></a>
+
       </section>
     </body>
     <script src="/static/js/anim.js"></script>
