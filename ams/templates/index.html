@@ -129,8 +129,8 @@
             </div>
             <div class="light petition__text">
               <div class="petition__demands">
-                <h2>Unsere Forderungen</h2>
-                {% with 'menschen ressourcen faehigkeiten transparenz information risikocheck optional' as demands %}
+                <h2>Unsere 7 Forderungen</h2>
+                {% with 'menschen faehigkeiten ressourcen information transparenz risikocheck optional' as demands %}
                 {% for demand in demands.split %}
                 <div class="petition__demand">
                   {% with "demands/"|add:demand|add:".html" as templatepath %}
