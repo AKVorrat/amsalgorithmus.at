@@ -616,9 +616,9 @@ input[type="checkbox"]:hover + label:before {
   align-items: flex-end;
   .auskunft__primary {
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 5rem;
     @media(min-width: 1201px) {
-      margin-bottom: 3rem;
+      margin-bottom: 6rem;
     }
   }
   .auskunft__pile {
@@ -658,10 +658,34 @@ input[type="checkbox"]:hover + label:before {
 
 .supporters__grid {
   display: grid;
-  grid-template-columns: 4;
-  grid-gap: 5%;
-  img {
-    max-width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  @media(max-width: 800px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media(max-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media(max-width: 400px) {
+    grid-template-columns: 1fr;
+  }
+  grid-gap: 50px 50px;
+  margin: 2em 0;
+  .supporter {
+    width: 100%;
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    filter: grayscale(1);
+    transition: filter .4s linear;
+    &:hover {
+      filter: grayscale(0);
+    }
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
   }
 }
 
@@ -871,6 +895,10 @@ input[type="checkbox"]:hover + label:before {
       margin: -80px 0;
     }
   }
+}
+
+#footer {
+  padding-bottom: 3em;
 }
 
 .footer__donate {
