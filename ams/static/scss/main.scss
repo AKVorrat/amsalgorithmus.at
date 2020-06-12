@@ -264,6 +264,7 @@ $font-display: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
     padding: 1em 1.5rem;
+    border-bottom: 3px solid rgb(59, 64, 83);
     @media(max-height:500px) {
       font-size: 1em;
       padding: .5em 1.5rem;
@@ -278,6 +279,11 @@ $font-display: 'Poppins', sans-serif;
     @media(max-width:500px) {
       font-size: .8em;
     }
+  }
+  .petition__content {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
   }
   .petition__text {
     flex-grow: 1;
@@ -306,13 +312,13 @@ $font-display: 'Poppins', sans-serif;
       margin: .3em 0;
     }
   }
-  .potition__form {
+  .petition__form {
     padding: 1em 1.5rem;
+    min-width: 16em;
     flex-grow: 0;
     display: flex;
-    @media(max-width:800px) {
-      flex-direction: column;
-    }
+    flex-direction: column;
+    background: rgb(59, 64, 83);
   }
   .petition__inputs {
     display: flex;
@@ -321,9 +327,7 @@ $font-display: 'Poppins', sans-serif;
   .petition__formcol {
     flex-grow: 1;
     display: flex;
-    @media(max-width:600px) {
-      flex-direction: column;
-    }
+    flex-direction: column;
   }
   .petition__checkboxes {
     @media(max-width:800px) {
@@ -331,10 +335,6 @@ $font-display: 'Poppins', sans-serif;
     }
   }
   .petition__field {
-    margin-right: 1em;
-    @media(max-width:600px) {
-      margin-right: 0em;
-    }
     flex-grow: 1;
     .errorlist {
       font-size: .85em;

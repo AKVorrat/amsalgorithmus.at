@@ -127,23 +127,23 @@
               <div>AMS Algorithmus stoppen</div>
               <a href="#" class="lightbox__closebt"></a>
             </div>
-            <div class="light petition__text">
-              <div class="petition__demands">
-                <h2>Unsere 7 Forderungen</h2>
-                {% with 'menschen faehigkeiten ressourcen information transparenz risikocheck optional' as demands %}
-                {% for demand in demands.split %}
-                <div class="petition__demand">
-                  {% with "demands/"|add:demand|add:".html" as templatepath %}
-                  {% include templatepath %}
+            <div class="petition__content">
+              <div class="light petition__text">
+                <div class="petition__demands">
+                  <h2>Unsere 7 Forderungen</h2>
+                  {% with 'menschen faehigkeiten ressourcen information transparenz risikocheck optional' as demands %}
+                  {% for demand in demands.split %}
+                  <div class="petition__demand">
+                    {% with "demands/"|add:demand|add:".html" as templatepath %}
+                    {% include templatepath %}
+                    {% endwith %}
+                  </div>
+                  {% endfor %}
                   {% endwith %}
                 </div>
-                {% endfor %}
-                {% endwith %}
               </div>
-            </div>
 
-            <div class="dark">
-              <form method="post" action="#petition" novalidate class="potition__form">
+              <form method="post" action="#petition" novalidate class="dark petition__form">
 
                 <div class="petition__inputs">
                   <div class="petition__formcol">
