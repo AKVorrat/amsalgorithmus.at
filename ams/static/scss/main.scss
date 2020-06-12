@@ -282,7 +282,7 @@ $font-display: 'Poppins', sans-serif;
   }
   .petition__content {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     overflow: auto;
   }
   .petition__text {
