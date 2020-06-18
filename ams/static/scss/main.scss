@@ -282,8 +282,12 @@ $font-display: 'Poppins', sans-serif;
   }
   .petition__content {
     display: flex;
-    flex-direction: row-reverse;
     overflow: auto;
+    flex-direction: row-reverse;
+    @media(max-width:700px) {
+      font-size: 1em;
+      flex-direction: column;
+    }
   }
   .petition__text {
     flex-grow: 1;
@@ -295,7 +299,7 @@ $font-display: 'Poppins', sans-serif;
       .lightbox:target & {
         animation: scrollDown 1s;
       }
-      padding: .5em 1.5rem 10em;
+      padding: .5em 1.5rem 6em;
       @media(min-height:550px) {
         padding-top: 3.2em;
         h2 {
@@ -319,6 +323,13 @@ $font-display: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     background: rgb(59, 64, 83);
+    input[type="submit"] {
+      font-family: $font-display;
+      font-weight: bold;
+      background-color: $red !important; 
+      color: $white !important;
+      margin-top: .5em;
+    }
   }
   .petition__inputs {
     display: flex;
@@ -423,9 +434,14 @@ section {
 #hero {
     min-height: 75vh;
     display: flex;
-    background: url('/static/images/robo.jpg');
+    background: url('/static/images/header-landscape.jpg');
     background-size: cover;
     background-position: right;
+    @media (max-width: 800px) {
+      background: url('/static/images/header-portrait.png');
+      background-position: bottom right;
+      padding-bottom: 200px;
+    }
 }
 
 .hero__progressbar {
@@ -668,7 +684,7 @@ input[type="checkbox"]:hover + label:before {
   @media(max-width: 400px) {
     grid-template-columns: 1fr;
   }
-  grid-gap: 50px 50px;
+  grid-gap: 60px 60px;
   margin: 2em 0;
   .supporter {
     width: 100%;
@@ -677,10 +693,9 @@ input[type="checkbox"]:hover + label:before {
     align-items: center;
     justify-content: center;
     text-align: center;
-    filter: grayscale(1);
-    transition: filter .4s linear;
+    transition: transform .3s ease-in;
     &:hover {
-      filter: grayscale(0);
+      transform: scale(1.1);
     }
     img {
       max-width: 100%;
@@ -784,6 +799,9 @@ input[type="checkbox"]:hover + label:before {
 // Demand section on main page
 .demands {
   display: grid;
+  @media only print {
+    display: block;
+  }
   margin-top: 2rem;
   @media(min-width:800px) {
     grid-template-columns: 1fr 1fr;
@@ -813,6 +831,15 @@ input[type="checkbox"]:hover + label:before {
       &:after {
         content: " »"
       }
+      @media only print {
+        display: none;
+      }
+    }
+    .demand__detail-nojs {
+      display: none;
+      @media only print {
+        display: block;
+      }
     }
   }
 }
@@ -828,6 +855,9 @@ input[type="checkbox"]:hover + label:before {
     &:hover {
       box-shadow:  0px -4px darken($red, 25), 0px -4px lighten($red, 0) inset;
       background-color: darken($red, 20);      
+    }
+    @media(max-width: 450px) {
+      line-height: 1.2em;
     }
   }
 }
@@ -845,7 +875,7 @@ input[type="checkbox"]:hover + label:before {
       height: 100%;  
       opacity: .3; 
       z-index: 0;
-      background-image: url('/static/images/christine-aschbacher-ams-monochrom.jpg');
+      background-image: url('/static/images/christine-aschbacher-ams.jpg');
       background-size: cover;
       background-position: center;
     }
@@ -884,6 +914,9 @@ input[type="checkbox"]:hover + label:before {
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
+  @media(max-width: 700px) {
+    flex-direction: column;   
+  }
   .share__content {
     flex-grow: 1;
   }
@@ -894,6 +927,26 @@ input[type="checkbox"]:hover + label:before {
       width: 80%;
       margin: -80px 0;
     }
+  }
+}
+
+.newsletter {
+  background-color: lighten($dark, 10%);
+  .newsletter__layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 0;
+    @media(max-width: 480px) {
+      flex-direction: column;   
+    }
+  }
+  .newsletter__text {
+    max-width: 23em;
+    margin-right: 2em;
+  }
+  .newsletter__button {
+    font-size: 1.3em;
   }
 }
 
