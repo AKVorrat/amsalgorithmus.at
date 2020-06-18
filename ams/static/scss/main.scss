@@ -155,7 +155,7 @@ $font-display: 'Poppins', sans-serif;
   margin: auto;
   padding: 0 1em;
 }
-.row {
+.row-indent {
   margin: 0 -1em;
   width: auto;
 }
@@ -931,7 +931,7 @@ input[type="checkbox"]:hover + label:before {
 }
 
 .newsletter {
-  background-color: lighten($dark, 10%);
+  background-color: #f2f2f2;
   .newsletter__layout {
     display: flex;
     flex-direction: row;
@@ -1038,6 +1038,17 @@ input[type="checkbox"]:hover + label:before {
       color: $white;
     }
   }
+}
+
+#request {
+  input[type="submit"] {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    background-color: #F06D6D !important;
+    color: #FCFCFC !important;
+    margin-top: .5em;    
+  }
+  padding: 1em 0 3em;
 }
 
 // Helper classes 
