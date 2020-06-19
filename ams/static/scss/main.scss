@@ -1051,6 +1051,11 @@ input[type="checkbox"]:hover + label:before {
   padding: 1em 0 3em;
 }
 
+.petition-input {
+  background: $dark;
+  color: $white;
+}
+
 // Helper classes 
 
 .pa-0 {
