@@ -2,6 +2,7 @@ from django.views.generic.edit import FormView
 from django.views.generic import TemplateView
 from .forms import SignatureForm, WithdrawalForm
 from .models import Signature
+from math import log10, trunc
 
 class PetitionView(FormView):
     template_name = 'index.html'
@@ -9,8 +10,15 @@ class PetitionView(FormView):
     success_url = '/thanks/'
 
     def get_context_data(self, **kwargs):
-        kwargs['signature_count'] = Signature.objects.filter(confirmed=True).count()
-        kwargs['goal'] = 3
+        count = Signature.objects.filter(confirmed=True).count()
+        if count >= 100:
+            goal = 10**(trunc(log10(count)) + 1)
+            if count < goal//2:
+                goal //= 2
+        else:
+            goal = 100
+        kwargs['signature_count'] = count 
+        kwargs['goal'] = goal
         kwargs['progress'] = str((kwargs['signature_count'] / kwargs['goal']) * 100).replace(',', '.')
         return super(PetitionView, self).get_context_data(**kwargs)
 
