@@ -1,0 +1,101 @@
+@import 'node_modules/@drewbot/sass-flexbox-grid/public/sass-flexbox/scss/main.scss';
+
+@import 'node_modules/sassdash/index';
+@import 'node_modules/sass-svg/index';
+
+@import url('/static/fonts/zilla-slab/font.css');
+@import url('/static/fonts/poppins/font.css');
+
+$white: #FCFCFC;
+$dark: #444a60;
+$grey: #969DA8;
+$red: #F06D6D;
+$shadow: #0002;
+
+$font-serif: 'Zilla Slab', serif;
+$font-display: 'Poppins', sans-serif;
+
+
+body {
+  font-family: $font-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-display;
+}
+
+.lightbox, 
+.menu, 
+.info__video, 
+.share__content .button.icon,
+.share__image,
+.demand__more,
+.pixelate,
+.footer__epicenter-logo
+{
+  display: none;
+}
+
+.auskunft__pile {
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  img {
+    max-width: 100%;
+  }
+  width: 100%;
+  margin: 0 2em;
+  img {
+    max-width: 8em;
+  }
+}
+.auskunft__info {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+
+}
+.auskunft__text {
+  line-height: 1.35em;
+  margin: 3rem 0;
+}
+.auskunft__legal {
+  margin: 0;
+}
+
+.ministerin {
+  display: flex;
+  .ministerin__photo {
+    img {
+      max-height: 30em;
+      margin-left: 3em;
+    }
+  }
+}
+
+.supporters__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 60px 60px;
+  margin: 2em 0;
+  .supporter {
+    width: 100%;
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform .3s ease-in;
+    &:hover {
+      transform: scale(1.1);
+    }
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+}
+
+
