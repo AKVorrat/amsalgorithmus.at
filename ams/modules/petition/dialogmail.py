@@ -1,4 +1,5 @@
 from dialogmail import DialogMail
+from django.conf import settings
 
 
 def use_dm(f):
