@@ -294,7 +294,6 @@ $font-display: 'Poppins', sans-serif;
     overflow: auto;
     // box-shadow: rgba(0,0,0,.3) 0 -5px 5px inset;
     background: linear-gradient(#ccc 0%,#fff 3%,#fff 98%,#aaa 100%);
-    min-height: 6em;
     .petition__demands {
       .lightbox:target & {
         animation: scrollDown 1s;
@@ -315,20 +314,74 @@ $font-display: 'Poppins', sans-serif;
       font-weight: 700;
       margin: .3em 0;
     }
+    transition: height .3s linear;
+    @media (max-width: 700px) {
+      height: 30%;
+      &.shrink {
+        height: 10%;
+      }
+      &.grow {
+        height: 90%;
+      }
+    }
+  }
+  .petition__switch {
+    display: none;
+    @media (max-width: 700px) {
+      display: block;
+      background: red;
+      height: 0em;
+      width: 0em;
+      border-radius: 50%;
+      margin: -1em auto;
+      padding: 1em;
+      z-index: 9;
+      position: relative;
+      &:before {
+        content: "";
+        width: .6em;
+        height: .6em;
+        margin: -.4em -0.3em;
+        border-bottom: 3px solid $white;
+        border-right: 3px solid $white;
+        position: absolute;
+        transform: rotate(45deg); 
+        box-sizing: border-box;
+        transition: transform .3s ease;
+      }
+      &.go-up {
+        &:before {
+          transform: rotate(-135deg); 
+          margin: -.2em -0.3em;
+        }
+      }
+    }
   }
   .petition__form {
+    transition: height .3s linear;
     padding: 1em 1.5rem;
     min-width: 16em;
     flex-grow: 0;
     display: flex;
     flex-direction: column;
     background: rgb(59, 64, 83);
+    transition: height .3s linear;
     input[type="submit"] {
       font-family: $font-display;
       font-weight: bold;
       background-color: $red !important; 
       color: $white !important;
       margin-top: .5em;
+    }
+    @media (max-width: 700px) {
+      height: 80%;
+      overflow: hidden;
+      &.shrink {
+        height: 5%;
+      }
+      &.grow {
+        height: 95%;
+      }
     }
   }
   .petition__inputs {
