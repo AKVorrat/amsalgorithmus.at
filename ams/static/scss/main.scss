@@ -693,9 +693,11 @@ input[type="checkbox"]:hover + label:before {
     align-items: center;
     justify-content: center;
     text-align: center;
-    transition: transform .3s ease-in;
+    filter: grayscale(100%);
+    transition: transform .3s ease-in, filter .3s ease-in;
     &:hover {
       transform: scale(1.1);
+      filter: grayscale(0%);
     }
     img {
       max-width: 100%;
