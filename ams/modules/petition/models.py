@@ -80,7 +80,11 @@ class Signature(models.Model):
             self.save()
             if self.newsletter and hasattr(settings, 'DIALOGMAIL_SECRET'):
                 from .dialogmail import dialogmail_subscribe
-                dialogmail_subscribe(self.email)
+                from dialogmail import DialogMailError
+                try:
+                    dialogmail_subscribe(self.email)
+                except DialogMailError:
+                    pass
 
     def send_withdrawal_email(self, request):
         if not self.withdrawal_token:
@@ -109,6 +113,10 @@ class Signature(models.Model):
         if generator.check_token(self, token):
             if self.newsletter and hasattr(settings, 'DIALOGMAIL_SECRET'):
                 from .dialogmail import dialogmail_unsubscribe
-                dialogmail_unsubscribe(self.email)
+                from dialogmail import DialogMailError
+                try:
+                    dialogmail_unsubscribe(self.email)
+                except DialogMailError:
+                    pass
             self.delete()
 
