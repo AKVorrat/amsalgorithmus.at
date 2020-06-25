@@ -1,7 +1,9 @@
 window.onload = function() {
   var hero = document.getElementById('hero');
   hero.onclick = function() {
-    location.href = '/';
+    if (! document.getElementById('bigPetitionBt')) {
+      location.href = '/';
+    }
   };
 
   var demandDetails = document.getElementsByClassName('demand');
