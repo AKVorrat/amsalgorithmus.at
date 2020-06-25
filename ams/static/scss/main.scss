@@ -500,6 +500,7 @@ section {
     background: url('/static/images/header-landscape.jpg');
     background-size: cover;
     background-position: right;
+    cursor: pointer;
     @media (max-width: 800px) {
       background: url('/static/images/header-portrait.png');
       background-position: bottom right;

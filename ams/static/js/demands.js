@@ -1,5 +1,8 @@
 window.onload = function() {
-
+  var hero = document.getElementById('hero');
+  hero.onclick = function() {
+    location.href = '/';
+  };
 
   var demandDetails = document.getElementsByClassName('demand');
 
