@@ -290,7 +290,6 @@ $font-display: 'Poppins', sans-serif;
     }
   }
   .petition__text {
-    flex-grow: 1;
     overflow: auto;
     // box-shadow: rgba(0,0,0,.3) 0 -5px 5px inset;
     background: linear-gradient(#ccc 0%,#fff 3%,#fff 98%,#aaa 100%);
@@ -362,7 +361,6 @@ $font-display: 'Poppins', sans-serif;
     transition: height .3s linear;
     padding: 1em 1.5rem;
     min-width: 16em;
-    flex-grow: 0;
     flex-direction: column;
     background: rgb(59, 64, 83);
     transition: height .3s linear;
