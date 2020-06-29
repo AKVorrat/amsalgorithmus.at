@@ -285,13 +285,13 @@ $font-display: 'Poppins', sans-serif;
     display: flex;
     overflow: auto;
     flex-direction: row-reverse;
-    @media(max-width:700px) {
+    @media (orientation:portrait) {
       font-size: 1em;
       flex-direction: column;
     }
   }
   .petition__text {
-    overflow: auto;
+    overflow: scroll;
     // box-shadow: rgba(0,0,0,.3) 0 -5px 5px inset;
     background: linear-gradient(#ccc 0%,#fff 3%,#fff 98%,#aaa 100%);
     .petition__demands {
@@ -300,7 +300,7 @@ $font-display: 'Poppins', sans-serif;
       }
       padding: .5em 1.5rem 6em;
       @media(min-height:550px) {
-        padding-top: 3.2em;
+        padding-top: 2.2em;
         h2 {
           margin-bottom: 1em;
         }
@@ -315,14 +315,23 @@ $font-display: 'Poppins', sans-serif;
       margin: .3em 0;
     }
     transition: height .3s linear;
-    @media (max-width: 700px) {
-      display: none;
-      height: 30%;
+    @media (orientation:portrait) {
+      font-size: .9em;
+      .petition__demands { 
+        padding-top: 0;
+        margin: .2em 0; 
+      }
+      .petition__demands h2 { 
+        margin: 0 0 .2em; 
+      }
+      .demand__title {
+        line-height: 1.4em;
+        font-size: .9em;
+      }
       &.shrink {
-        height: 10%;
       }
       &.grow {
-        height: 90%;
+        height: 95%;
       }
     }
   }
@@ -337,14 +346,16 @@ $font-display: 'Poppins', sans-serif;
   }
   .petition__switch {
     display: none;
-    @media (max-width: 700px) {
+    @media (orientation:portrait) {
       display: block;
-      background: red;
+      background: $red;
+      box-shadow: 0px -4px #0002 inset;
       height: 0em;
       width: 0em;
       border-radius: 50%;
       margin: -1em auto;
       padding: 1em;
+      transform: translateY(-.5em);
       z-index: 9;
       position: relative;
       &:before {
@@ -371,7 +382,6 @@ $font-display: 'Poppins', sans-serif;
     display: flex;
     transition: height .3s linear;
     padding: 1em 1.5rem;
-    flex-grow: 1;
     min-width: 16em;
     flex-direction: column;
     background: rgb(59, 64, 83);
@@ -384,19 +394,63 @@ $font-display: 'Poppins', sans-serif;
       margin-top: .5em;
     }
     @media (max-width: 700px) {
-      height: 80%;
+      min-width: min-content;
       &.shrink {
         height: 5%;
-        overflow: hidden;
+        overflow: auto;
       }
       &.grow {
-        height: 95%;
       }
+    }
+    @media (orientation:landscape) {
+      overflow: auto;
     }
   }
   .petition__inputs {
     display: flex;
     flex-direction: column;
+    @media (max-width: 700px), (max-height: 550px) {
+      .petition__textinputs {
+        .petition__field {
+          position: relative;
+          /* big label when input is empty */
+          label {
+            position: absolute;
+            top: 0;
+            left: .6em;
+            transition: all .2s ease;
+            z-index: 0;
+            line-height: 1em;
+            white-space: nowrap;
+            color: #777;
+            font-size: 1em;
+            letter-spacing: 0;
+            margin: .5em 0;
+            &:after {
+              content: "" !important;
+            }
+          }
+          /* small label when input has some value */
+          input:focus + label,
+          input:not(:placeholder-shown) + label,
+          {
+            font-size: .65em;
+            letter-spacing: .05em;
+            color: #999;
+            margin: .1em 0 0 0;
+          }
+          
+          .form-input {
+            padding: 10px 8px 6px;
+          }
+        }
+      }
+      .petition__checkboxes {
+        label {
+          line-height: 1em;
+        }
+      }
+    }
   }
   .petition__formcol {
     flex-grow: 1;
@@ -408,7 +462,14 @@ $font-display: 'Poppins', sans-serif;
       flex-direction: column;
     }
   }
+  .petition__textinputs {
+    label:after {
+      content: ":" !important;
+    }
+  }
   .petition__field {
+    display: flex;
+    flex-direction: column-reverse;
     flex-grow: 1;
     .errorlist {
       font-size: .85em;
@@ -422,6 +483,7 @@ $font-display: 'Poppins', sans-serif;
     padding: 2em;
     @media(max-width:800px) {
       padding: 1em;
+      margin-bottom: 0;
     }
   }
 }

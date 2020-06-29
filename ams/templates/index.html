@@ -142,28 +142,27 @@
                   {% endwith %}
                 </div>
               </div>
-              <a class="petition__demandslink" href="#demands">
-                » Forderungen lesen
-              </a>
+              <div class="petition__switch">
+              </div>
               <form method="post" action="#petition" novalidate class="dark petition__form">
                 {% csrf_token %}
                 <div class="petition__inputs">
-                  <div class="petition__formcol">
+                  <div class="petition__formcol petition__textinputs">
                     <div class="petition__field">
-                      {{ form.first_name.label_tag }}
                       {{ form.first_name }}
+                      {{ form.first_name.label_tag }}
                       {{ form.first_name.errors }}
                     </div>
 
                     <div class="petition__field">
-                      {{ form.last_name.label_tag }}
                       {{ form.last_name }}
+                      {{ form.last_name.label_tag }}
                       {{ form.last_name.errors }}
                     </div>
 
                     <div class="petition__field">
-                      {{ form.email.label_tag }}
                       {{ form.email }}
+                      {{ form.email.label_tag }}
                       {{ form.email.errors }}
                     </div>
                   </div>

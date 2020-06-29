@@ -7,30 +7,35 @@ class SignatureForm(forms.ModelForm):
     required_css_class = 'required'
     first_name = forms.CharField(
         label="Vorname",
+        label_suffix = "",
         max_length=255,
-        widget=forms.TextInput(attrs={'class': "form-input"})
+        widget=forms.TextInput(attrs={'class': "form-input", 'placeholder': ' '})
     )
     last_name = forms.CharField(
         label="Nachname",
+        label_suffix = "",
         max_length=255,
-        widget=forms.TextInput(attrs={'class': "form-input"})
+        widget=forms.TextInput(attrs={'class': "form-input", 'placeholder': ' '})
     )
 
     email = forms.EmailField(
         label="E-Mail Adresse",
+        label_suffix = "",
         max_length=255,
-        widget=forms.TextInput(attrs={'class': "form-input"})
+        widget=forms.TextInput(attrs={'class': "form-input", 'placeholder': ' '})
     )
 
     newsletter = forms.BooleanField(
         initial=False,
         required=False,
-        label=mark_safe('Ja, ich will den <a target="_blank" href="https://epicenter.works/newsletter">Newsletter</a> erhalten (optional).')
+        label=mark_safe('Ja, ich will den <a target="_blank" href="https://epicenter.works/newsletter">Newsletter</a> erhalten (optional).'),
+        label_suffix = ""
     )
     privacy_policy = forms.BooleanField(
         initial=False,
         required=True,
-        label=mark_safe('Ja, ich stimme den <a target="_blank" href="/privacy">Datenschutzbedingungen</a> zu.')
+        label=mark_safe('Ja, ich stimme den <a target="_blank" href="/privacy">Datenschutzbedingungen</a> zu.'),
+        label_suffix = ""
     )
 
     def clean(self):
