@@ -402,8 +402,12 @@ $font-display: 'Poppins', sans-serif;
       &.shrink {
         height: 5%;
         overflow: auto;
+        flex-grow: 0;
+        flex-shrink: 1;
       }
       &.grow {
+        flex-grow: 1;
+        flex-shrink: 0;
       }
     }
     @media (orientation:landscape) {
