@@ -291,7 +291,9 @@ $font-display: 'Poppins', sans-serif;
     }
   }
   .petition__text {
-    overflow: scroll;
+    overflow: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
     // box-shadow: rgba(0,0,0,.3) 0 -5px 5px inset;
     background: linear-gradient(#ccc 0%,#fff 3%,#fff 98%,#aaa 100%);
     .petition__demands {
@@ -379,6 +381,8 @@ $font-display: 'Poppins', sans-serif;
     }
   }
   .petition__form {
+    flex-grow: 1;
+    flex-shrink: 0;
     display: flex;
     transition: height .3s linear;
     padding: 1em 1.5rem;
