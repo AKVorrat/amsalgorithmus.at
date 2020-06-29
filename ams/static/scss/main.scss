@@ -383,6 +383,7 @@ $font-display: 'Poppins', sans-serif;
   .petition__form {
     flex-grow: 1;
     flex-shrink: 0;
+    width: 36%;
     display: flex;
     transition: height .3s linear;
     padding: 1em 1.5rem;
@@ -396,9 +397,11 @@ $font-display: 'Poppins', sans-serif;
       background-color: $red !important; 
       color: $white !important;
       margin-top: .5em;
+      width: 100%;
     }
-    @media (max-width: 700px) {
-      min-width: min-content;
+    @media (orientation:portrait) {
+      overflow: auto;
+      width: auto;
       &.shrink {
         height: 5%;
         overflow: auto;
@@ -410,14 +413,11 @@ $font-display: 'Poppins', sans-serif;
         flex-shrink: 0;
       }
     }
-    @media (orientation:landscape) {
-      overflow: auto;
-    }
   }
   .petition__inputs {
     display: flex;
     flex-direction: column;
-    @media (max-width: 700px), (max-height: 550px) {
+    @media (max-height: 650px) {
       .petition__textinputs {
         .petition__field {
           position: relative;
@@ -466,9 +466,7 @@ $font-display: 'Poppins', sans-serif;
     flex-direction: column;
   }
   .petition__checkboxes {
-    @media(max-width:800px) {
-      flex-direction: column;
-    }
+    flex-direction: column;
   }
   .petition__textinputs {
     label:after {

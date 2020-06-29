@@ -144,44 +144,46 @@
               </div>
               <div class="petition__switch">
               </div>
-              <form method="post" action="#petition" novalidate class="dark petition__form">
-                {% csrf_token %}
-                <div class="petition__inputs">
-                  <div class="petition__formcol petition__textinputs">
-                    <div class="petition__field">
-                      {{ form.first_name }}
-                      {{ form.first_name.label_tag }}
-                      {{ form.first_name.errors }}
+              <div class="dark petition__form">
+                <form method="post" action="#petition" novalidate>
+                  {% csrf_token %}
+                  <div class="petition__inputs">
+                    <div class="petition__formcol petition__textinputs">
+                      <div class="petition__field">
+                        {{ form.first_name.errors }}
+                        {{ form.first_name }}
+                        {{ form.first_name.label_tag }}
+                      </div>
+                      
+                      <div class="petition__field">
+                        {{ form.last_name.errors }}
+                        {{ form.last_name }}
+                        {{ form.last_name.label_tag }}
+                      </div>
+                      
+                      <div class="petition__field">
+                        {{ form.email.errors }}
+                        {{ form.email }}
+                        {{ form.email.label_tag }}
+                      </div>
                     </div>
-
-                    <div class="petition__field">
-                      {{ form.last_name }}
-                      {{ form.last_name.label_tag }}
-                      {{ form.last_name.errors }}
-                    </div>
-
-                    <div class="petition__field">
-                      {{ form.email }}
-                      {{ form.email.label_tag }}
-                      {{ form.email.errors }}
+                    
+                    <div class="petition__formcol petition__checkboxes">
+                      <div class="petition__field">
+                        {{ form.privacy_policy.errors }}
+                        {{ form.privacy_policy }}
+                        {{ form.privacy_policy.label_tag }}
+                      </div>
+                      <div class="petition__field">
+                        {{ form.newsletter }}
+                        {{ form.newsletter.label_tag }}
+                        {{ form.newsletter.errors }}
+                      </div>
                     </div>
                   </div>
-
-                  <div class="petition__formcol petition__checkboxes">
-                    <div class="petition__field">
-                      {{ form.privacy_policy }}
-                      {{ form.privacy_policy.label_tag }}
-                      {{ form.privacy_policy.errors }}
-                    </div>
-                    <div class="petition__field">
-                      {{ form.newsletter }}
-                      {{ form.newsletter.label_tag }}
-                      {{ form.newsletter.errors }}
-                    </div>
-                  </div>
-                </div>
-                <input class="form-input" type="submit" value="Unterschreiben">
-              </form>
+                  <input class="form-input" type="submit" value="Unterschreiben">
+                </form>
+              </div>
             </div>
           </div>
         </div>
