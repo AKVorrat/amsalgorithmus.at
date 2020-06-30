@@ -1227,3 +1227,6 @@ input[type="checkbox"]:hover + label:before {
   padding-left: 0 !important;
 }
 
+input[type="submit"] {
+  -webkit-appearance: none;
+}
