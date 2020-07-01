@@ -24,7 +24,7 @@
 
 {% block hero %}
 
-  <div id="top" class="container">
+  <div class="container">
     <div>
       <h1>
         <div style="max-width:11em;">
@@ -49,7 +49,6 @@
 {% endblock %}
 
 {% block content %}
-
     <section id="info" class="dark pad info">
       <div class="container">
         <h2 style="max-width:20em;">
@@ -60,7 +59,7 @@
           <div class="info__text">
             <p>
               Bislang war es so, dass der Einsatz ganz neuer Technologien
-              zumindest öffentlich debattiert, und mit einem Gesetz
+              zumindest öffentlich debattiert und mit einem Gesetz
               demokratisch legitimiert wurde. Das ist beim AMS-Algorithmus nicht so.
             </p>
             <p>
@@ -87,7 +86,7 @@
           </div>
           <div class="info__video">
             <div id="video" class="video-container">
-              <iframe src="https://embed.epicenter.works/yt/2d1u9k58J50" width="480" height="360" allowfullscreen="allowfullscreen" frameborder="0" style="border: 0"></iframe>
+              <iframe src="https://embed.epicenter.works/yt/VUoN61lKcMc" width="480" height="360" allowfullscreen="allowfullscreen" frameborder="0" style="border: 0"></iframe>
             </div>
           </div>
         </div>
@@ -97,7 +96,7 @@
     <section id="demands" class="light">
       <div class="container algo-bg">
         <div>
-          <h1 class="demands__title">Unsere <strong>Forderungen</strong></h1>
+          <h1 class="demands__title">Unsere <strong>7 Forderungen</strong></h1>
         </div>
 
       {% with 'menschen faehigkeiten ressourcen information transparenz risikocheck optional' as demands %}
@@ -128,60 +127,63 @@
               <div>AMS Algorithmus stoppen</div>
               <a href="#" class="lightbox__closebt"></a>
             </div>
-            <div class="light petition__text">
-              <div class="petition__demands">
-                <h2>Unsere Forderungen</h2>
-                {% with 'menschen ressourcen faehigkeiten transparenz information risikocheck optional' as demands %}
-                {% for demand in demands.split %}
-                <div class="petition__demand">
-                  {% with "demands/"|add:demand|add:".html" as templatepath %}
-                  {% include templatepath %}
+            <div class="petition__content">
+              <div class="light petition__text">
+                <div class="petition__demands">
+                  <h2>Unsere 7 Forderungen</h2>
+                  {% with 'menschen faehigkeiten ressourcen information transparenz risikocheck optional' as demands %}
+                  {% for demand in demands.split %}
+                  <div class="petition__demand">
+                    {% with "demands/"|add:demand|add:".html" as templatepath %}
+                    {% include templatepath %}
+                    {% endwith %}
+                  </div>
+                  {% endfor %}
                   {% endwith %}
                 </div>
-                {% endfor %}
-                {% endwith %}
               </div>
-            </div>
-
-            <div class="dark">
-              <form method="post" action="#petition" novalidate class="potition__form">
-
-                <div class="petition__inputs">
-                  <div class="petition__formcol">
-                    <div class="petition__field">
-                      {{ form.first_name.label_tag }}
-                      {{ form.first_name }}
-                      {{ form.first_name.errors }}
+              <div class="petition__switch">
+              </div>
+              <div class="dark petition__form">
+                <form method="post" action="#petition" novalidate>
+                  {% csrf_token %}
+                  <div class="petition__inputs">
+                    <div class="petition__formcol petition__textinputs">
+                      <div class="petition__field">
+                        {{ form.first_name.errors }}
+                        {{ form.first_name }}
+                        {{ form.first_name.label_tag }}
+                      </div>
+                      
+                      <div class="petition__field">
+                        {{ form.last_name.errors }}
+                        {{ form.last_name }}
+                        {{ form.last_name.label_tag }}
+                      </div>
+                      
+                      <div class="petition__field">
+                        {{ form.email.errors }}
+                        {{ form.email }}
+                        {{ form.email.label_tag }}
+                      </div>
                     </div>
-
-                    <div class="petition__field">
-                      {{ form.last_name.label_tag }}
-                      {{ form.last_name }}
-                      {{ form.last_name.errors }}
-                    </div>
-
-                    <div class="petition__field">
-                      {{ form.email.label_tag }}
-                      {{ form.email }}
-                      {{ form.email.errors }}
+                    
+                    <div class="petition__formcol petition__checkboxes">
+                      <div class="petition__field">
+                        {{ form.privacy_policy.errors }}
+                        {{ form.privacy_policy }}
+                        {{ form.privacy_policy.label_tag }}
+                      </div>
+                      <div class="petition__field">
+                        {{ form.newsletter }}
+                        {{ form.newsletter.label_tag }}
+                        {{ form.newsletter.errors }}
+                      </div>
                     </div>
                   </div>
-
-                  <div class="petition__formcol petition__checkboxes">
-                    <div class="petition__field">
-                      {{ form.privacy_policy }}
-                      {{ form.privacy_policy.label_tag }}
-                      {{ form.privacy_policy.errors }}
-                    </div>
-                    <div class="petition__field">
-                      {{ form.newsletter }}
-                      {{ form.newsletter.label_tag }}
-                      {{ form.newsletter.errors }}
-                    </div>
-                  </div>
-                </div>
-                <input class="form-input" type="submit" value="Unterschreiben">
-              </form>
+                  <input class="form-input" type="submit" value="Unterschreiben">
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -216,7 +218,7 @@
 
             </div>
             <div class="ministerin__photo">
-              <img class="ministerin__photo" src="/static/images/christine-aschbacher-ams-monochrom.jpg" style alt="">
+              <img class="ministerin__photo" src="/static/images/christine-aschbacher-ams.jpg" style alt="">
             </div>
           </div>
           
@@ -255,23 +257,28 @@
 
     <section class="dark pad" id="share">
       <div class="container">
-        <div>
-          <h1>Weitersagen!</h1>
-          <p class="text-display">
-            Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug politischen Druck erzeugen, um den AMS Algorithmus zu verhinden.
-          </p>
-          <a target="_blank" class="button icon" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Famsalgorithmus.at">
-            {% svg 'facebook' %}
-          </a>
-          <a target="_blank" class="button icon" href="https://twitter.com/intent/tweet?url=https://amsalgorithmus.at&text=Ich+habe+die+Kampagne+gegen+den+%23AMS-Algorithmus+unterzeichnet+und+du+solltest+das+auch+tun!+Arbeitsmarktpolitik+darf+nicht+durch+intransparente+Algorithmen+gemacht+werden.">
-            {% svg 'twitter' %}
-          </a>
-          <a target="_blank" class="button icon" href="mailto:?subject=Stoppe%20den%20AMS-Algorithmus&body=Ich%20habe%20die%20Kampagne%20gegen%20den%20%23AMS-Algorithmus%20unterzeichnet%20und%20du%20solltest%20das%20auch%20tun.%20Arbeitsmarktpolitik%20darf%20nicht%20durch%20intransparente%20Algorithmen%20gemacht%20werden.%20Bitte%20unterst%C3%BCtze%20auch%20du%20die%20Petition%20auf%20https%3A%2F%2Famsalgorithmus.at"">
-            {% svg 'email' %}
-          </a>
+
+        <div class="share__layout">
+          <div class="share__content">
+            <h1>Weitersagen!</h1>
+            <p class="text-display">
+              Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug politischen Druck erzeugen, um den AMS Algorithmus zu verhinden.
+            </p>
+            <a target="_blank" class="button icon" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Famsalgorithmus.at">
+              {% svg 'facebook' %} <div>Facebook</div>
+            </a>
+            <a target="_blank" class="button icon" href="https://twitter.com/intent/tweet?url=https://amsalgorithmus.at&text=Ich+habe+die+Kampagne+gegen+den+%23AMSAlgorithmus+unterzeichnet+und+du+solltest+das+auch+tun!+Arbeitsmarktpolitik+darf+nicht+durch+intransparente+Algorithmen+gemacht+werden.">
+              {% svg 'twitter' %} <div>Twitter</div>
+            </a>
+            <a target="_blank" class="button icon" href="mailto:?subject=Stoppe%20den%20AMS-Algorithmus&body=Ich%20habe%20die%20Kampagne%20gegen%20den%20%23AMS-Algorithmus%20unterzeichnet%20und%20du%20solltest%20das%20auch%20tun.%20Arbeitsmarktpolitik%20darf%20nicht%20durch%20intransparente%20Algorithmen%20gemacht%20werden.%20Bitte%20unterst%C3%BCtze%20auch%20du%20die%20Petition%20auf%20https%3A%2F%2Famsalgorithmus.at"">
+              {% svg 'email' %} <div>E-Mail</div>
+            </a>
+          </div>
+          <div class="share__image">
+            <img src="/static/svg/share-love-2.svg" alt="">
+          </div>
         </div>
       </div>
-        <a onclick="scrollToId('top')" class="scrollto button back-to-top"></a>
     </section>
 
 
@@ -281,9 +288,45 @@
         <h1>Unterstützer*innen</h1>
         <p>Die Kampagne wird von folgenden Organisationen getragen:</p>
         <div class="supporters__grid">
-          <a></a>
+          <a class="supporter" href="https://epicenter.works" title="epicenter.works - Plattform Grundrechtspolitik" target="_blank">
+            <img src="/static/images/supporters/ew_Logo_farbe_L-transparent.png" alt="epicenter.works - Plattform Grundrechtspolitik">
+          </a>
+          <a class="supporter" href="https://www.bizeps.or.at/" title="Verein BIZEPS – Zentrum für Selbstbestimmtes Leben" target="_blank">
+            <img src="/static/images/supporters/LOGO-bizeps.png" alt="Verein BIZEPS – Zentrum für Selbstbestimmtes Leben">
+          </a>
+          <a class="supporter" href="https://attac.at" title="Attac Österreich: Netzwerk für eine demokratische Kontrolle der Finanzmärkte" target="_blank">
+            <img src="/static/images/supporters/Attac_Logo_bunt.png" alt="Attac Österreich: Netzwerk für eine demokratische Kontrolle der Finanzmärkte">
+          </a>
+          <a class="supporter" href="https://www.momentum-institut.at" title="Momentum Institut - Verein für sozialen Fortschritt" target="_blank">
+            <img src="/static/images/supporters/Momentum_Institut_Logo.png" alt="Momentum Institut - Verein für sozialen Fortschritt">
+          </a>
+          <a class="supporter" href="https://www.vicesse.eu" title="Vienna Centre for Societal Security (VICESSE)" target="_blank">
+            <img src="/static/images/supporters/VICESSE_Logo_transparent.png" alt="Vienna Centre for Societal Security (VICESSE)">
+          </a>
+                    <a class="supporter" href="http://quintessenz.at" title="quintessenz - Verein zur Wiederherstellung der Bürgerrechte im Informationszeitalter" target="_blank">
+            <img src="/static/images/supporters/Quintessenz_logo_slogan.png" alt="quintessenz - Verein zur Wiederherstellung der Bürgerrechte im Informationszeitalter">
+          </a>
+                    <a class="supporter" href="https://www.frauenberatenfrauen.at" title="Frauen* beraten Frauen*" target="_blank">
+            <img src="/static/images/supporters/frauenberatenfrauen.png" alt="Verein Frauen beraten Frauen">
+          </a>
+                    <a class="supporter" href="https://digisociety.at/" title="Digital Society" target="_blank">
+            <img src="/static/images/supporters/DigiSoc.png" alt="Digital Society">
+          </a>
+                    <a class="supporter" href="http://www.uki.or.at" title="UKI Unterstützungskomitee zur Integration von MigrantInnen" target="_blank">
+            <img src="/static/images/supporters/UKI_Logo_druck.png" alt="UKI Unterstützungskomitee zur Integration von MigrantInnen">
+          </a>
+         </div>
+      </div>
+    </section>
+    <section class="light pad newsletter" id="newsletter">
+      <div class="container">
+        <div>
+          <h1>Bleib informiert!</h1>
+          <div class="newsletter__layout">
+            <p class="text-display newsletter__text">Mit dem epicenter.works Newsletter behältst du den Überblick über netzpolitische Themen in Österreich.</p>
+            <a href="https://epicenter.works/newsletter" target="_blank" class="button newsletter__button">Jetzt abonnieren</a>
+          </div>
         </div>
-        
       </div>
     </section>
 

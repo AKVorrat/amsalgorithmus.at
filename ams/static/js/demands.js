@@ -1,10 +1,15 @@
 window.onload = function() {
-
+  var hero = document.getElementById('hero');
+  hero.onclick = function() {
+    if (! document.getElementById('bigPetitionBt')) {
+      location.href = '/';
+    }
+  };
 
   var demandDetails = document.getElementsByClassName('demand');
 
   for (let el of demandDetails) {
-    el.getElementsByClassName('demand__detail')[0].style.display = 'none';
+    el.getElementsByClassName('demand__detail')[0].classList.add('demand__detail-nojs')
     var moreBt = document.createElement("div");
     moreBt.classList.add('demand__more', 'text-display')
     moreBt.append("mehr");
