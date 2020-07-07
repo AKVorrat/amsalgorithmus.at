@@ -688,8 +688,11 @@ label.required:after {
 }
 
 input[type="checkbox"] {
-    box-sizing: border-box;
-    display:none;
+  box-sizing: border-box;
+  opacity: 0;
+  margin-top: -22px;
+  width: 0px;
+  height: 0px;
 }
   
 input[type="checkbox"] + label {
