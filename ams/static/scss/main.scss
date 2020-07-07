@@ -44,14 +44,14 @@ $font-display: 'Poppins', sans-serif;
 
 
 @mixin back-to-top-icon($color) {
-    @include svg ((x: 0, y: 0, viewBox: 0 0 24 24, transform: 'rotate(180)')) {
+    @include svg ((x: 0, y: 0, viewBox: 0 0 24 24)) {
         @include svg('rect', (
             fill: $color,
             width: '5',
             height: '14',
             x: '0',
             ry: '2',
-            transform: 'rotate(45, 5, 24)'
+            transform: 'rotate(-45, 17, -5)'
         ));   
         @include svg('rect', (
             fill: $color,
@@ -59,7 +59,7 @@ $font-display: 'Poppins', sans-serif;
             height: '14',
             x: '19',
             ry: '2',
-            transform: 'rotate(-45, 19, 24)'
+            transform: 'rotate(45, 7, -5)'
         ));   
     }
 }
@@ -71,7 +71,10 @@ $font-display: 'Poppins', sans-serif;
     margin: 8px;
     width: 32px;
     height: 32px;
+    border-color: $dark;
+    border-style: solid;
     border-radius: 2px 2px 0 0;
+    border-width: 2px;
 }
 
 .light {
