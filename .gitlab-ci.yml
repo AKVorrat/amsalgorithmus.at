@@ -26,6 +26,6 @@ push:
         - chmod 600 ~/.ssh/id_ed25519
     script:
         - git remote add deploy gl-amsalgo@obrien.akvorrat.at:/home/git/amsalgorithmus.at || true
-        - git push deploy HEAD:master
+        - git push --force deploy HEAD:master
     only:
         - master
