@@ -31,6 +31,7 @@ setup(
         'python-dotenv',
         'django-sass-processor>=0.8',
         'django-inline-svg>=0.1.1',
+        'django-simple-captcha>=0.5',
 
         'libsass>=0.19.4',
         'weasyprint>=51',

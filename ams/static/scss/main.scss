@@ -463,6 +463,11 @@ $font-display: 'Poppins', sans-serif;
             padding: 10px 8px 6px;
           }
         }
+        .petition__captchafield {
+          label {
+            display: none;
+          }
+         }
       }
       .petition__checkboxes {
         label {
@@ -490,6 +495,12 @@ $font-display: 'Poppins', sans-serif;
     flex-grow: 1;
     .errorlist {
       font-size: .85em;
+    }
+  }
+  .petition__captchafield {
+    display: inline !important;
+    label {
+        display: none;
     }
   }
   label.required::after {

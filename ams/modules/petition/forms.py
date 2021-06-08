@@ -1,5 +1,6 @@
 from django import forms, template
 from django.utils.safestring import mark_safe
+from captcha.fields import CaptchaField
 from .models import Signature
 
 class SignatureForm(forms.ModelForm):
@@ -24,6 +25,8 @@ class SignatureForm(forms.ModelForm):
         max_length=255,
         widget=forms.TextInput(attrs={'class': "form-input", 'placeholder': ' '})
     )
+
+    captcha = CaptchaField()
 
     newsletter = forms.BooleanField(
         initial=False,
