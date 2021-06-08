@@ -34,7 +34,7 @@ setup(
         'django-simple-captcha>=0.5',
 
         'libsass>=0.19.4',
-        'weasyprint>=51',
+        'weasyprint<53',
 
         'Django~=2.2',
     ],
