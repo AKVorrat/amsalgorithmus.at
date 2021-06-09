@@ -296,6 +296,7 @@ $font-display: 'Poppins', sans-serif;
     display: flex;
     overflow: auto;
     flex-direction: row-reverse;
+    background: rgb(59, 64, 83);
     @media (orientation:portrait) {
       font-size: 1em;
       flex-direction: column;
@@ -400,7 +401,6 @@ $font-display: 'Poppins', sans-serif;
     padding: 1em 1.5rem;
     min-width: 16em;
     flex-direction: column;
-    background: rgb(59, 64, 83);
     transition: height .3s linear;
     input[type="submit"] {
       font-family: $font-display;
