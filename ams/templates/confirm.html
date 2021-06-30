@@ -1,20 +1,21 @@
 {% extends "base.html" %}
+{% load i18n %}
 
 {% block hero %}
   <div class="row bottom-xs">
     <div class="col-xs-12">
       {% if confirmed %}
-        <h1><strong>Alles Klar!</strong></h1>
+        <h1><strong>{% trans "Alles klar!" %}</strong></h1>
       {% else %}
-        <h1><strong>Ein Fehler</strong> ist aufgetreten.</h1>
+        <h1>{% trans "<strong>Ein Fehler</strong> ist aufgetreten." %}</h1>
       {% endif %}
 
       <p class="text-display">
         {% if confirmed %}
-          Deine teilnahme an der Petition wurde erfolgreich bestätigt.
-          Vielen Dank für deine Unterstützung!
+          {% trans "Deine Teilnahme an der Petition wurde erfolgreich bestätigt." %}
+          {% trans "Vielen Dank für deine Unterstützung!" %}
         {% else %}
-          Bitte wende dich an {% include 'support_email.html' %} um deine Unterschrift zu bestätigen.
+          {% blocktrans %}Bitte wende dich an <a href="mailto:ams@epicenter.works">ams@epicenter.works</a>, um deine Unterschrift zu bestätigen.{% endblocktrans %}
         {% endif %}
       </p>
     </div>

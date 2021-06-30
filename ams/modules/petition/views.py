@@ -1,5 +1,6 @@
 from django.views.generic.edit import FormView
 from django.views.generic import TemplateView
+from django.conf import settings
 from .forms import SignatureForm, WithdrawalForm
 from .models import Signature
 from math import log10, trunc
@@ -20,6 +21,7 @@ class PetitionView(FormView):
         kwargs['signature_count'] = count 
         kwargs['goal'] = goal
         kwargs['progress'] = str((kwargs['signature_count'] / kwargs['goal']) * 100).replace(',', '.')
+        kwargs['locale'] = settings.LOCALE_PATHS
         return super(PetitionView, self).get_context_data(**kwargs)
 
     def post(self, request, *args, **kwargs):

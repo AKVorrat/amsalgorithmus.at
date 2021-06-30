@@ -1,0 +1,875 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-30 15:14+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: modules/petition/forms.py:16 modules/request/forms.py:8
+msgid "Vorname"
+msgstr "Given name"
+
+#: modules/petition/forms.py:22 modules/request/forms.py:13
+msgid "Nachname"
+msgstr "Surname"
+
+#: modules/petition/forms.py:29 modules/petition/forms.py:72
+#: modules/request/forms.py:19
+msgid "E-Mail-Adresse"
+msgstr "E-mail address"
+
+#: modules/petition/forms.py:40
+msgid ""
+"Ja, ich will den <a target=\"_blank\" href=\"https://epicenter.works/"
+"newsletter\">Newsletter</a> erhalten (optional)."
+msgstr ""
+"I would like to receive the <a target=\"_blank\" href=\"https://epicenter."
+"works/newsletter\">newsletter</a> (optional)."
+
+#: modules/petition/forms.py:46
+msgid ""
+"Ja, ich stimme den <a target=\"_blank\" href=\"/privacy"
+"\">Datenschutzbedingungen</a> zu."
+msgstr ""
+"I agree to the <a target=\"_blank\" href=\"/privacy\">privacy policy</a>."
+
+#: modules/petition/models.py:17 templates/index.html:287
+#: templates/share.html:16
+msgid "E-Mail"
+msgstr ""
+
+#: modules/petition/models.py:52
+msgid "[amsalgorithmus.at] Bitte bestätige deine E-Mail-Adresse."
+msgstr ""
+
+#: modules/request/forms.py:25
+#, fuzzy
+#| msgid "E-Mail-Adresse"
+msgid "Adresse"
+msgstr "E-mail address"
+
+#: modules/request/forms.py:31
+msgid "PLZ"
+msgstr ""
+
+#: modules/request/forms.py:37
+msgid "Ort"
+msgstr ""
+
+#: templates/base.html:7 templates/email/already_confirmed.html:3
+#: templates/email/confirm.html:3 templates/email/withdraw.html:3
+msgid "de"
+msgstr "en"
+
+#: templates/base.html:16
+msgid "https://amsalgorithmus.at/"
+msgstr ""
+
+#: templates/base.html:18
+msgid "Stoppt den AMS-Algorithmus!"
+msgstr "Stop the AMS algorithm!"
+
+#: templates/base.html:19
+msgid ""
+"Wollen Sie, dass Computer darüber entscheiden, wen das AMS geförderte "
+"Ausbildungen und Schulungen machen lässt?"
+msgstr ""
+
+#: templates/base.html:35
+msgid "Stoppt den AMS-Algorithmus"
+msgstr "Stop the AMS algorithm"
+
+#: templates/base.html:55
+msgid "Design &amp; Entwicklung:"
+msgstr ""
+
+#: templates/base.html:60
+msgid "https://epicenter.works/"
+msgstr ""
+
+#: templates/base.html:63
+msgid "Du findest unsere Arbeit gut?"
+msgstr ""
+
+#: templates/base.html:69
+msgid "https://epicenter.works/kontakt"
+msgstr ""
+
+#: templates/base.html:69
+msgid "Impressum"
+msgstr ""
+
+#: templates/base.html:69
+msgid "Datenschutz"
+msgstr ""
+
+#: templates/base.html:70
+msgid "https://epicenter.works"
+msgstr ""
+
+#: templates/base.html:75
+msgid "Feedback zu amsalgorithmus.at"
+msgstr ""
+
+#: templates/confirm.html:8 templates/withdraw.html:7
+msgid "Alles klar!"
+msgstr ""
+
+#: templates/confirm.html:10 templates/withdraw.html:12
+msgid "<strong>Ein Fehler</strong> ist aufgetreten."
+msgstr ""
+
+#: templates/confirm.html:15
+msgid "Deine Teilnahme an der Petition wurde erfolgreich bestätigt."
+msgstr ""
+
+#: templates/confirm.html:16
+msgid "Vielen Dank für deine Unterstützung!"
+msgstr ""
+
+#: templates/confirm.html:18
+msgid ""
+"Bitte wende dich an <a href=\"mailto:ams@epicenter.works\">ams@epicenter."
+"works</a>, um deine Unterschrift zu bestätigen."
+msgstr ""
+
+#: templates/demands/faehigkeiten.html:3
+msgid "2. Fähigkeiten fördern, statt Schwächen bestrafen"
+msgstr ""
+
+#: templates/demands/faehigkeiten.html:8
+msgid ""
+"Mehr Bildung ermöglichen, durch Förderung und Ermöglichung von "
+"(Weiter-)Bildung"
+msgstr ""
+
+#: templates/demands/faehigkeiten.html:13
+msgid ""
+"Menschen sollen aufgrund ihrer Fähigkeiten und Stärken gefördert werden, "
+"dazu braucht es eine Aufstockung der Weiterbildungs- und Schulungsmaßnahmen "
+"von Arbeitssuchenden."
+msgstr ""
+
+#: templates/demands/faehigkeiten.html:15
+msgid ""
+"Es muss Arbeitssuchenden erlaubt werden, ein Uni- oder FH-Studium zu "
+"beginnen (dies ist derzeit nur dann erlaubt, wenn Arbeitssuchende schon zu "
+"Berufszeiten parallel studiert haben). Auch soll das AMS selbstbezahlte "
+"Weiterbildungen, z. B. Kurse, die nur wenige Tage dauern, erlauben."
+msgstr ""
+
+#: templates/demands/information.html:3
+msgid "4. Recht auf Information"
+msgstr ""
+
+#: templates/demands/information.html:8
+msgid ""
+"Wir fordern eine umfassende proaktive Aufklärung über die Rechte von "
+"Arbeitssuchenden."
+msgstr ""
+
+#: templates/demands/information.html:13
+msgid ""
+"\n"
+"    Das AMS wird durch uns alle finanziert und ist daher ein "
+"Dienstleistungsanbieter mit dem Auftrag der Allgemeinheit zu helfen. Er muss "
+"allen Menschen auf Augenhöhe begegnen. Damit Menschen gleichberechtigt mit "
+"ihren Berater*innen reden können, brauchen sie zuallererst Informationen "
+"darüber, was ihre Rechte und Pflichten in Zusammenhang mit dem AMS sind; "
+"begonnen damit, woran ihr Anspruch auf Arbeitslosengeld geknüpft ist - Ob "
+"und unter welchen Umständen ihnen das Geld gestrichen werden darf - Ob sie "
+"eine Betreuungsvereinbarung mit dem AMS eingehen müssen oder ob dies "
+"optional ist - Wie ihre Informations- und Auskunftsrechte aussehen und wie "
+"das rechtliche Verhältnis zwischen ihnen und externen Partnerunternehmen des "
+"AMS geregelt ist.\n"
+"    "
+msgstr ""
+
+#: templates/demands/menschen.html:3
+msgid "1. Menschen, nicht Computer sollen entscheiden"
+msgstr ""
+
+#: templates/demands/menschen.html:8
+msgid ""
+"\n"
+"      Menschen sollen anhand nachvollziehbarer Kriterien \n"
+"      über den Zugang zu staatlichen Leistungen entscheiden, \n"
+"      statt Entscheidungen eines Computers nur abzunicken.\n"
+"      "
+msgstr ""
+
+#: templates/demands/menschen.html:17
+msgid ""
+"\n"
+"      Der AMS-Algorithmus ist abzulehnen und muss abgeschaltet werden. Ein "
+"Computer darf nicht über menschliche Schicksale entscheiden und der Zugang "
+"zu staatlichen Leistungen darf nicht von einem Computer reguliert werden. "
+"Entscheidungen müssen nachvollziehbar, transparent und mit menschlichem Maß "
+"getroffen werden. Das System ein gefährlicher Präzedenzfall politische "
+"Entscheidungen an Algorithmen auszulagern.\n"
+"      "
+msgstr ""
+
+#: templates/demands/menschen.html:22
+msgid ""
+"\n"
+"      Selbst wenn <abbr title=\"Vom AMS „AMAS“ oder „PAMAS“ genannt\">das "
+"System</abbr> (noch) keine vollautomatischen Entscheidungen treffen sollte, "
+"darf es auch keine Entscheidungen vorgeben, die durch das AMS-Personal nur "
+"noch abgenickt werden. Die AMS-Beratungstermine dauern meist nur 15 Minuten "
+"und es besteht enormer Rechtfertigungsdruck dem Computer nicht zu "
+"widersprechen.\n"
+"      "
+msgstr ""
+
+#: templates/demands/optional.html:3
+msgid "7. Nur freiwillige Teilnahme am Algorithmus"
+msgstr ""
+
+#: templates/demands/optional.html:8
+msgid ""
+"Wir fordern eine optionale Teilnahme am AMS-Algorithmus (Opt-In) und die "
+"Entkoppelung von jeder Fördervergabe. Wir wollen ein System, das so gut ist, "
+"dass die Betroffenen freiwillig daran teilnehmen"
+msgstr ""
+
+#: templates/demands/optional.html:13
+msgid ""
+"\n"
+"    Das AMS ist in einer Machtposition gegenüber den Arbeitssuchenden. \n"
+"    Im Sinne des Datenschutzes fordern wir deshalb die Freiwilligkeit der "
+"Teilnahme \n"
+"    aller Arbeitssuchenden am AMS-Algorithmus. Arbeitssuchenden müssen "
+"ihre \n"
+"    informierte Zustimmung geben, bevor das System sie kategorisiert. "
+"Diese \n"
+"    Zustimmung kann jederzeit widerrufen werden, wodurch auch alle "
+"berechneten \n"
+"    Werte des Algorithmus gelöscht werden müssen. Aus der Weigerung an "
+"diesem \n"
+"    System teilzunehmen, dürfen den Arbeitssuchenden keine Nachteile "
+"entstehen.\n"
+"    "
+msgstr ""
+
+#: templates/demands/ressourcen.html:3
+msgid "3. Mehr Ressourcen für das AMS"
+msgstr ""
+
+#: templates/demands/ressourcen.html:8
+msgid ""
+"Wir fordern mehr und besser ausgebildete Berater*innen, die ausreichend Zeit "
+"für Beratungen haben."
+msgstr ""
+
+#: templates/demands/ressourcen.html:13
+msgid ""
+"\n"
+"    Das Verhältnis von Berater*innen zu Arbeitssuchenden <a href=\"https://"
+"netzpolitik.org/2018/oesterreichs-jobcenter-richten-kuenftig-mit-hilfe-von-"
+"software-ueber-arbeitslose/\" target=\"_blank\">beträgt in Deutschland "
+"1:100, in Österreich hingegen nur 1:250</a>. Daran sieht man, dass eine "
+"Aufstockung in diesem Bereich denkbar und durchaus sinnvoll wäre, denn ein "
+"besseres Betreuungsverhältnis bedeutet bessere Jobchancen und "
+"qualitätsvollere Betreuung. Das AMS braucht nicht nur mehr Geld für die Aus- "
+"und Weiterbildung seiner Berater*innen. Ebenso notwendig ist die qualitative "
+"Aufstockung von sinnvollen Weiterbildungs- und Schulungsmaßnahmen von "
+"Arbeitssuchenden.\n"
+"    "
+msgstr ""
+
+#: templates/demands/risikocheck.html:3
+msgid "6. Risikocheck für Algorithmen"
+msgstr ""
+
+#: templates/demands/risikocheck.html:7
+msgid ""
+"Wir fordern eine Überprüfung von Algorithmen auf deren Technik und soziale "
+"Auswirkungen, bevor diese eingeführt werden (Verpflichtung für ein "
+"vorgelagertes Algorithmic Impact Assessment)."
+msgstr ""
+
+#: templates/demands/risikocheck.html:11
+msgid ""
+"\n"
+"    Automatisierte Systeme, die negative Konsequenzen für Menschen haben "
+"könnten, müssen vor ihrer Einführung genau auf Funktionsweise und eventuelle "
+"Folgewirkungen hin geprüft werden. Dies muss bei allen Algorithmen "
+"geschehen, die potentiell in Grundrechte eingreifen\n"
+"    "
+msgstr ""
+
+#: templates/demands/risikocheck.html:16
+msgid ""
+"\n"
+"    Hier gibt es internationale Best-Practices der Kontrolle von "
+"Algorithmen, \n"
+"    ein sogenanntes Algorithmic Impact Assessment. Dies vorzunehmen wurde "
+"beim \n"
+"    AMS-Algorithmus verabsäumt und muss zukünftig verpflichtend sein.\n"
+"    "
+msgstr ""
+
+#: templates/demands/risikocheck.html:23
+msgid ""
+"\n"
+"    Algorithmen müssen auf Fehler im System geprüft werden, Biases in den "
+"Daten \n"
+"    und daraus resultierende negative Feedback Zyklen müssen analysiert "
+"werden, \n"
+"    bevor solche Systeme gestartet und flächendeckend eingesetzt werden. \n"
+"    "
+msgstr ""
+
+#: templates/demands/risikocheck.html:30
+msgid ""
+"\n"
+"    Nicht jede statistische Regression folgt dem Prinzip von Ursache und \n"
+"    Wirkung. Negative Effekte auf Menschen aufgrund von Fehlanalysen "
+"müssen \n"
+"    vermieden werden. \n"
+"    "
+msgstr ""
+
+#: templates/demands/risikocheck.html:37
+msgid ""
+"\n"
+"    Deswegen fordern wir ein Algorithmic Impact Assessment, wie es bereits \n"
+"    <a href=\"https://www.canada.ca/en/government/system/digital-government/"
+"digital-government-innovations/responsible-use-ai/algorithmic-impact-"
+"assessment.html\" target=\"_blank\">Kanada</a> \n"
+"    oder die \n"
+"    <a href=\"https://www.theverge.com/2019/4/15/18309437/new-york-city-"
+"accountability-task-force-law-algorithm-transparency-automation\" target="
+"\"_blank\">Stadt New York</a> \n"
+"    eingeführt haben.\n"
+"    "
+msgstr ""
+
+#: templates/demands/transparenz.html:3
+msgid "5. Umfassende Transparenz"
+msgstr ""
+
+#: templates/demands/transparenz.html:8
+msgid ""
+"Projekte und Programme, die mit unser aller Geld gestartet werden müssen "
+"höchstmögliche Transparenz aufweisen, um evaluierbar zu sein."
+msgstr ""
+
+#: templates/demands/transparenz.html:13
+msgid ""
+"\n"
+"    Der AMS-Algorithmus ist jahrelang mit hohen Kosten unter Ausschluss der "
+"Öffentlichkeit entwickelt worden. Eine informierte Debatte war schon allein "
+"deshalb nicht möglich, weil weder die Datenbasis des Systems noch seine "
+"Resultate veröffentlicht wurden. Die Schulungsunterlagen für Berater*innen "
+"und Prozesse für Widersprüche gegen dem Algorithmus werden weiterhin geheim "
+"gehalten. Eine wissenschaftliche Aufarbeitung und demokratische Debatte über "
+"das Projekt sind so ausgeschlossen.\n"
+"    "
+msgstr ""
+
+#: templates/demands/transparenz.html:18
+msgid ""
+"\n"
+"    Wir fordern umfassende und proaktive Transparenz vom AMS. Aufklärung "
+"darf nicht erst durch öffentlichen Druck erfolgen. Veröffentlicht werden "
+"müssen zumindest die mathematischen Modelle, die eingesetzte Software, die "
+"anonymisierte Datenbasis, die konkrete Funktionsweise des Systems und die "
+"Ergebnisse des Berechnungsprozesses für einzelne Gruppen. Ebenso muss "
+"transparent dargelegt werden, wie sich der AMS-Algorithmus auf die "
+"praktische Beratung und Fördervergabe auswirkt. Auch die Maßnahmen, die das "
+"AMS bereits aufgrund der Kritik gesetzt hat, wie Schulungsunterlagen, das "
+"Zusammenspiel mit der Umstrukturierung des AMS und begleitende Prozesse, "
+"sowie Beschwerdemöglichkeiten für Betroffene, müssen endlich veröffentlicht "
+"werden.\n"
+"    "
+msgstr ""
+
+#: templates/donate.html:3
+msgid "Da du hier bist…"
+msgstr ""
+
+#: templates/donate.html:5
+msgid "hätten wir eine kleine Bitte an dich."
+msgstr ""
+
+#: templates/donate.html:6
+msgid ""
+"Diese Kampagne wird von der Grundrechts-NGO <a target=\"_blank\" href="
+"\"https://epicenter.works/\">epicenter.works</a> getragen."
+msgstr ""
+
+#: templates/donate.html:7
+msgid ""
+"\n"
+"    Wir kämpfen seit über 10 Jahren für Grund- und Menschenrechte im "
+"digitalen Zeitalter,\n"
+"    haben die Vorratsdatenspeicherung und den Bundestrojaner abgeschafft und "
+"brauchen deine Unterstützung.\n"
+"    Hilf uns eine starke Stimme für die Zivilgesellschaft zu sein!\n"
+"    "
+msgstr ""
+
+#: templates/donate.html:14
+#, fuzzy
+#| msgid "Jetzt Forderungen unterstützen!"
+msgid "Jetzt Fördermitglied werden!"
+msgstr "Support our demands now!"
+
+#: templates/email/already_confirmed.html:20 templates/email/confirm.html:20
+#: templates/email/withdraw.html:20
+#, python-format
+msgid "Hallo %(full_name)s,"
+msgstr ""
+
+#: templates/email/already_confirmed.html:23
+msgid ""
+"danke für deine Unterstützung! <br/>\n"
+"                      Du warst allerdings bereits als UnterstützerIn "
+"eingetragen.<br/>"
+msgstr ""
+
+#: templates/email/already_confirmed.html:27 templates/email/confirm.html:31
+msgid ""
+"Unsere Petition wird nur erfolgreich sein, wenn wir viele sind!<br/>\n"
+"                      <b>Teile daher unsere Seite auf Social Media!</b>"
+msgstr ""
+
+#: templates/email/already_confirmed.html:33 templates/email/confirm.html:37
+msgid "Vielen Dank für deine Hilfe!"
+msgstr ""
+
+#: templates/email/already_confirmed.html:36 templates/email/confirm.html:40
+#: templates/email/withdraw.html:33
+msgid "Liebe Grüße,"
+msgstr ""
+
+#: templates/email/already_confirmed.txt:2
+#, python-format
+msgid ""
+"Hallo %(full_name)s, \n"
+"            \n"
+"danke für deine Unterstützung! \n"
+"\n"
+"Du warst allerdings bereits als UnterstützerIn eingetragen. Unsere \n"
+"Petition kann erfolgreicher sein, wenn du sie auf Social Media \n"
+"teilst. \n"
+"\n"
+"Vielen Dank für deine Hilfe! \n"
+"\n"
+"Liebe Grüße,\n"
+"epicenter.works"
+msgstr ""
+
+#: templates/email/confirm.html:23
+msgid ""
+"danke für deine Unterstützung! <br/>\n"
+"                      Damit wir deine Stimme zählen können fehlt nur mehr "
+"ein kleiner Schritt!<br/>\n"
+"                      <b>Bitte klicke auf diesen Bestätigungslink:</b>"
+msgstr ""
+
+#: templates/email/confirm.txt:2
+#, python-format
+msgid ""
+"Hallo %(full_name)s,\n"
+"            \n"
+"danke für deine Unterstützung!\n"
+"Damit wir deine Stimme zählen können fehlt nur mehr ein kleiner Schritt!\n"
+"\n"
+"Bitte verwende diesen Bestätigungslink:\n"
+"\n"
+"%(confirmation_url|safe)s\n"
+"\n"
+"Vielen Dank für deine Hilfe!\n"
+"\n"
+"Liebe Grüße,\n"
+"epicenter.works"
+msgstr ""
+
+#: templates/email/withdraw.html:23
+msgid ""
+"Wir haben eine Meldung bekommen, dass du deine Einwilligung zur "
+"Datenverarbeitung\n"
+"                    widerrufen möchtest. Mit dem Widerruf wirst du aus der "
+"Liste der Unterzeichner\n"
+"                    entfernt und deine Daten werden gelöscht.\n"
+"\n"
+"                    <b>Um deinen Widerruf zu bestätigen, klicke den "
+"folgenden Bestätigungslink:</b>"
+msgstr ""
+
+#: templates/email/withdraw.txt:2
+#, python-format
+msgid ""
+"Hallo %(full_name)s,\n"
+"\n"
+"Wir haben eine Meldung bekommen, dass du deine Einwilligung zur\n"
+"Datenverarbeitung widerrufen willst. Mit dem Widerruf wirst du aus der "
+"Liste\n"
+"der Unterzeichner entfernt und deine Daten werden gelöscht.\n"
+"\n"
+"Um deinen Widerruf zu bestätigen, klicke den folgenden Bestätigungslink:\n"
+"\n"
+"%(withdrawal_url|safe)s\n"
+"\n"
+"Liebe Grüße,\n"
+"epicenter.works"
+msgstr ""
+
+#: templates/index.html:15
+msgid "Erklärvideo"
+msgstr ""
+
+#: templates/index.html:16
+msgid "Forderungen"
+msgstr ""
+
+#: templates/index.html:17
+msgid "Minister kontaktieren"
+msgstr ""
+
+#: templates/index.html:18
+msgid "AMS-Daten anfordern"
+msgstr ""
+
+#: templates/index.html:19
+msgid "Weitersagen"
+msgstr ""
+
+#: templates/index.html:35
+msgid "Stoppt den <strong>AMS&#8209;Algorithmus</strong>"
+msgstr "Stop the <strong>AMS algorithm</strong>"
+
+#: templates/index.html:39
+msgid "Computer dürfen nicht über Menschen entscheiden!"
+msgstr "Computers should not make decisions about people!"
+
+#: templates/index.html:46 templates/index.html:126
+msgid "Jetzt Forderungen unterstützen!"
+msgstr "Support our demands now!"
+
+#: templates/index.html:64
+msgid ""
+"\n"
+"              Bislang war es so, dass der Einsatz ganz neuer Technologien\n"
+"              zumindest öffentlich debattiert und mit einem Gesetz\n"
+"              demokratisch legitimiert wurde. Das ist beim AMS-Algorithmus "
+"nicht so.\n"
+"              "
+msgstr ""
+
+#: templates/index.html:71
+msgid ""
+"\n"
+"              Dieses <strong>System wurde ohne öffentliche Debatte\n"
+"              entwickelt</strong> und präsentiert. Die\n"
+"              <strong>Zivilgesellschaft</strong> war in diesen Prozess\n"
+"              <strong>nicht eingebunden</strong> und <strong>bis heute fehlt "
+"es</strong> hier\n"
+"              <strong>grundlegend</strong> an <strong>Transparenz</strong>, "
+"wie dieses System arbeitet und über uns entscheidet.\n"
+"              "
+msgstr ""
+
+#: templates/index.html:80
+msgid ""
+"\n"
+"              Ein ähnliches System wurde <a href=\"https://epicenter.works/"
+"content/warum-der-polnische-ams-algorithmus-gescheitert-ist\" target=\"_blank"
+"\">in Polen vom Verfassungsgerichtshof\n"
+"              aufgehoben</a>. Auch in den Niederlanden wurde ein "
+"algorithmenbasiertes System,\n"
+"              das Sozialhilfeempfänger*innen kontrollieren sollte <a href="
+"\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
+"archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">für\n"
+"              rechtswidrig erklärt und eingestellt.</a>\n"
+"              "
+msgstr ""
+
+#: templates/index.html:88
+msgid ""
+"\n"
+"              Wir dürfen nicht zulassen, dass Merkmale,\n"
+"              auf die man keinen Einfluss hat, entscheidend dafür sind, ob "
+"Menschen\n"
+"              Aus- und Weiterbildungen verboten werden. "
+"<strong>Algorithmische\n"
+"              Systeme</strong> müssen Vorurteile und Ungerechtigkeiten "
+"bekämpfen\n"
+"              und <strong>dürfen diese Ungerechtigkeiten nicht</strong>\n"
+"              auch noch <strong>einzementieren</strong>.\n"
+"              "
+msgstr ""
+
+#: templates/index.html:100
+msgid "https://embed.epicenter.works/yt/VUoN61lKcMc"
+msgstr "https://embed.epicenter.works/yt/VUoN61lKcMc?lang=en"
+
+#: templates/index.html:110
+msgid "Unsere <strong>7 Forderungen</strong>"
+msgstr ""
+
+#: templates/index.html:138
+msgid "AMS-Algorithmus stoppen"
+msgstr ""
+
+#: templates/index.html:144
+msgid "Unsere 7 Forderungen"
+msgstr ""
+
+#: templates/index.html:201
+msgid "Unterschreiben"
+msgstr "Sign"
+
+#: templates/index.html:216
+msgid "Kontaktiere deinen <strong>Minister!</strong>"
+msgstr ""
+
+#: templates/index.html:230
+msgid "E-Mail schreiben"
+msgstr ""
+
+#: templates/index.html:246
+msgid "Stelle ein <strong>Auskunftsbegehren!</strong>"
+msgstr ""
+
+#: templates/index.html:248
+msgid ""
+"Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und "
+"Behörden anfordern. Hier kannst du das für das AMS tun."
+msgstr ""
+
+#: templates/index.html:251
+msgid "Zum Generator"
+msgstr ""
+
+#: templates/index.html:253
+msgid "Antrag gemäß Art. 15 DSGVO auf Auskunft"
+msgstr ""
+
+#: templates/index.html:261
+msgid ""
+"\n"
+"                    <strong>Nur wenn du seit 2019 arbeitslos warst hat das "
+"AMS eine algorithmische Einstufung von dir, das sind in etwa 2 Seiten des "
+"Auskunftsbegehrens (eine Infoseite und eine Auskunftsseite).</strong> "
+"Durchschnittlich gesehen hat ein Auskunftsbegehren beim AMS (bei älteren "
+"Personen) ca 80-150 Seiten. Auf Nachfrage kann dir stattdessen auch "
+"<strong>dein/e AMS-Berater*in über deine algorithmische Einstufung Auskunft "
+"erteilen.</strong>\n"
+"                  "
+msgstr ""
+
+#: templates/index.html:276
+msgid "Weitersagen!"
+msgstr ""
+
+#: templates/index.html:278
+msgid ""
+"Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug "
+"politischen Druck erzeugen, um den AMS-Algorithmus zu verhinden."
+msgstr ""
+
+#: templates/index.html:301
+msgid "Unterstützer*innen"
+msgstr ""
+
+#: templates/index.html:302
+msgid "Die Kampagne wird von folgenden Organisationen getragen:"
+msgstr ""
+
+#: templates/index.html:343
+msgid "Bleib informiert!"
+msgstr ""
+
+#: templates/index.html:345
+msgid ""
+"Mit dem epicenter.works Newsletter behältst du den Überblick über "
+"netzpolitische Themen in Österreich."
+msgstr ""
+
+#: templates/index.html:346
+msgid "https://epicenter.works/newsletter"
+msgstr ""
+
+#: templates/index.html:346
+msgid "Jetzt abonnieren"
+msgstr ""
+
+#: templates/privacy.html:16
+msgid "Datenschutzbedingungen"
+msgstr ""
+
+#: templates/privacy.html:18
+msgid ""
+"\n"
+"        Wenn du unsere Petition unterschreibst, speichern wir deinen Namen "
+"und deine E-Mail-Adresse, um deine Identität als TeilnehmerIn festzuhalten "
+"und um Mehrfachunterschriften auszuschließen. Diese Daten werden nach dem "
+"Ende der Unterzeichnungsfrist an das Bundesministerium für Arbeit, Familie "
+"und Jugend, Untere Donaustraße 13-15, 1020 Wien übergeben und daraufhin von "
+"uns gelöscht.\n"
+"        "
+msgstr ""
+
+#: templates/privacy.html:23
+msgid ""
+"\n"
+"        Um Missbrauch zu vermeiden, speichern wir außerdem eine "
+"Zeichenkette, die wir für einen Bestätigungslink verwenden, den du per E-"
+"Mail zugesandt bekommst, wie häufig wir dir eine solche E-Mail geschickt "
+"haben und ob du deine Unterschrift bestätigt hast. Solltest du das "
+"Widerspruchsformular unten nutzen, speichern wir eine solche Zeichenkette "
+"und die Anzahl der zugesandten E-Mails auch bis zur vollständigen "
+"Bearbeitung des Widerspruchsvorgangs. Alle diese Daten werden nach dem Ende "
+"der Unterzeichnungsfrist von uns gelöscht.\n"
+"        "
+msgstr ""
+
+#: templates/privacy.html:28
+msgid ""
+"\n"
+"        Wir speichern außerdem, ob du wünschst, unseren Newsletter zu "
+"erhalten, und übertragen deine E-Mail-Adresse gegebenenfalls in unser "
+"Newslettersystem. Informationen zum Datenschutz bezüglich unseres "
+"Newsletters findest du <a href=\"https://epicenter.works/"
+"datenschutz#newsletter\">hier</a>.\n"
+"        "
+msgstr ""
+
+#: templates/privacy.html:33
+msgid ""
+"\n"
+"        Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 9 Abs. "
+"2 lit a DSGVO. Du kannst deine Einwilligung zur Verarbeitung mittels des "
+"Formulars unten jederzeit widerrufen. Weitere Informationen zum "
+"Verantwortlichen für die Verarbeitung, zu deinen Rechten, Kontaktdaten, "
+"sowie zu den Datenschutzbedingungen beim Besuch unserer Websites findest du "
+"<a href=\"https://epicenter.works/datenschutz\">hier</a>.\n"
+"        "
+msgstr ""
+
+#: templates/privacy.html:42
+msgid "Widerruf der Einwilligung zur Verarbeitung"
+msgstr ""
+
+#: templates/privacy.html:43
+msgid ""
+"Zum Widerruf gib die E-Mail-Adresse ein, mit der du unterschrieben hast. Du "
+"erhältst wieder eine E-Mail mit einem Link, mit dem du den Widerruf "
+"bestätigst."
+msgstr ""
+
+#: templates/privacy.html:49
+msgid "Einwilligung widerrufen"
+msgstr ""
+
+#: templates/progressbar.html:17
+#, python-format
+msgid "Bisher %(signature_count)s von %(goal)s Unterschriften."
+msgstr "%(signature_count)s of %(goal)s signatures so far."
+
+#: templates/request.html:8
+msgid "Auskunftsbegehren"
+msgstr ""
+
+#: templates/request.html:18
+msgid ""
+"\n"
+"            Mithilfe dieses Formulars kannst du ein Auskunftsbegehren "
+"generieren, \n"
+"            welches dazu dient personenbezogene Daten die das "
+"Arbeitsmarktservice über dich \n"
+"            gesammelt hat einzusehen.\n"
+"            Schicke es an die enthaltene Adresse und lege eine Ausweiskopie "
+"bei!\n"
+"            "
+msgstr ""
+
+#: templates/request.html:26
+msgid ""
+"\n"
+"            Die Daten die du in diesem Formular angibst werden nur verwendet "
+"um \n"
+"            dein Auskunftsbegehren zu generieren und werden nicht "
+"gespeichert.\n"
+"            "
+msgstr ""
+
+#: templates/request.html:46
+msgid "Pflichtfelder"
+msgstr ""
+
+#: templates/request.html:48
+msgid ""
+"Alternativ stellen wir auch einen <a href=\"https://epicenter.works/sites/"
+"default/files/ams-dsgvo-hoch.pdf\" target=\"_blank\">Musterbrief</a> als PDF "
+"für das Auskunftsbegehren zur Verfügung"
+msgstr ""
+
+#: templates/request_call_to_action.html:4
+msgid ""
+"\n"
+"  Verwende unser Programm und generiere ein Dokument \n"
+"  um herauszufinden welche Daten das AMS über dich gespeichert hat.\n"
+"  "
+msgstr ""
+
+#: templates/share.html:5
+msgid "Jede Stimme zählt!"
+msgstr ""
+
+#: templates/share.html:7
+msgid "Teile diese Seite auf Social Media damit wir unser Ziel erreichen!"
+msgstr ""
+
+#: templates/thanks.html:7
+msgid "Danke,"
+msgstr ""
+
+#: templates/thanks.html:9
+msgid ""
+"klicke noch schnell den Bestätigungslink, den du per E-Mail erhalten hast."
+msgstr ""
+
+#: templates/withdraw.html:9
+msgid "Wir haben deinen Widerruf erhalten und deine Daten gelöscht."
+msgstr ""
+
+#: templates/withdraw.html:14
+msgid "Vielleicht wurden deine Daten bereits gelöscht?"
+msgstr ""
+
+#: templates/withdraw.html:15
+msgid ""
+"Bitte wende dich an <a href=\"mailto:ams@epicenter.works\">ams@epicenter."
+"works</a>, um sicherzugehen, dass deine Daten gelöscht wurden."
+msgstr ""
+
+#: templates/withdrawal_sent.html:6
+msgid "Bestätige deinen Widerruf."
+msgstr ""
+
+#: templates/withdrawal_sent.html:8
+msgid ""
+"\n"
+"        Wir haben dir eine E-Mail zur Bestätigung geschickt, \n"
+"        klicke auf den Link in dieser E-Mail, um deinen Widerruf "
+"durchzuführen.      \n"
+"        "
+msgstr ""

@@ -1,11 +1,12 @@
 {% extends "base.html" %}
+{% load i18n %}
 
 {% block hero %}
   <div class="row bottom-xs">
     <div class="col-xs-12">
-      <h1><strong>Danke,</strong></h1>
+      <h1><strong>{% trans "Danke," %}</strong></h1>
       <p class="text-display">
-        klicke noch schnell den Bestätigungslink, den du per E-Mail erhalten hast.
+        {% trans "klicke noch schnell den Bestätigungslink, den du per E-Mail erhalten hast." %}
       </p>
     </div>
   </div>     

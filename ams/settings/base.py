@@ -31,6 +31,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -70,11 +71,20 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 # Localization
-LANGUAGE_CODE = 'de-AT'
-TIME_ZONE = 'CET'
+LANGUAGE_CODE = 'de'
+TIME_ZONE = 'Europe/Vienna'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
+
+LANGUAGES = [
+  ('de', 'Deutsch'),
+  ('en', 'English'),
+]
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
 
 RUN_DIR = os.path.join(BASE_DIR, '../run')
 

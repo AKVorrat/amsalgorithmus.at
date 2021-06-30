@@ -1,4 +1,5 @@
-Hallo {{ full_name }}, 
+{% load i18n %}
+{% blocktrans %}Hallo {{ full_name }}, 
             
 danke für deine Unterstützung! 
 
@@ -9,4 +10,4 @@ teilst.
 Vielen Dank für deine Hilfe! 
 
 Liebe Grüße,
-epicenter.works
+epicenter.works{% endblocktrans %}
