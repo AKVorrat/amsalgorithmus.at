@@ -81,13 +81,13 @@ USE_TZ = True
 LANGUAGES = [
   ('de', _('Deutsch')),
   ('en', _('Englisch')),
-  ('sr', _('Serbisch')),
-  ('bs', _('Bosnisch')),
-  ('hr', _('Kroatisch')),
-  ('tr', _('Türkisch')),
-  ('cs', _('Tschechisch')),
-  ('ar', _('Arabisch')),
-  ('fa', _('Fārsī')),
+#   ('sr', _('Serbisch')),
+#   ('bs', _('Bosnisch')),
+#   ('hr', _('Kroatisch')),
+#   ('tr', _('Türkisch')),
+#   ('cs', _('Tschechisch')),
+#   ('ar', _('Arabisch')),
+#   ('fa', _('Fārsī')),
 ]
 
 LOCALE_PATHS = (
