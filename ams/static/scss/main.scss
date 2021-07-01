@@ -1278,8 +1278,10 @@ input[type="checkbox"]:hover + label:before {
     }
   }
 
-  input[type="checkbox"]:checked + .submenu {
+  input[type="checkbox"]:checked + .submenu,
+  li:hover > input[type="checkbox"] + .submenu {
     display: block;
   }
+
 }
 
