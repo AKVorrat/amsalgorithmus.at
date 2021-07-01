@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-30 15:14+0200\n"
+"POT-Creation-Date: 2021-07-01 09:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "I agree to the <a target=\"_blank\" href=\"/privacy\">privacy policy</a>."
 
-#: modules/petition/models.py:17 templates/index.html:287
+#: modules/petition/models.py:17 templates/index.html:299
 #: templates/share.html:16
 msgid "E-Mail"
 msgstr ""
@@ -68,6 +68,14 @@ msgstr ""
 #: modules/request/forms.py:37
 msgid "Ort"
 msgstr ""
+
+#: settings/base.py:82
+msgid "Deutsch"
+msgstr "German"
+
+#: settings/base.py:83
+msgid "Englisch"
+msgstr "English"
 
 #: templates/base.html:7 templates/email/already_confirmed.html:3
 #: templates/email/confirm.html:3 templates/email/withdraw.html:3
@@ -124,11 +132,11 @@ msgstr ""
 msgid "Feedback zu amsalgorithmus.at"
 msgstr ""
 
-#: templates/confirm.html:8 templates/withdraw.html:7
+#: templates/confirm.html:8 templates/withdraw.html:8
 msgid "Alles klar!"
 msgstr ""
 
-#: templates/confirm.html:10 templates/withdraw.html:12
+#: templates/confirm.html:10 templates/withdraw.html:13
 msgid "<strong>Ein Fehler</strong> ist aufgetreten."
 msgstr ""
 
@@ -531,39 +539,39 @@ msgid ""
 "epicenter.works"
 msgstr ""
 
-#: templates/index.html:15
+#: templates/index.html:27
 msgid "Erklärvideo"
 msgstr ""
 
-#: templates/index.html:16
+#: templates/index.html:28
 msgid "Forderungen"
 msgstr ""
 
-#: templates/index.html:17
+#: templates/index.html:29
 msgid "Minister kontaktieren"
 msgstr ""
 
-#: templates/index.html:18
+#: templates/index.html:30
 msgid "AMS-Daten anfordern"
 msgstr ""
 
-#: templates/index.html:19
+#: templates/index.html:31
 msgid "Weitersagen"
 msgstr ""
 
-#: templates/index.html:35
+#: templates/index.html:47
 msgid "Stoppt den <strong>AMS&#8209;Algorithmus</strong>"
 msgstr "Stop the <strong>AMS algorithm</strong>"
 
-#: templates/index.html:39
+#: templates/index.html:51
 msgid "Computer dürfen nicht über Menschen entscheiden!"
 msgstr "Computers should not make decisions about people!"
 
-#: templates/index.html:46 templates/index.html:126
+#: templates/index.html:58 templates/index.html:138
 msgid "Jetzt Forderungen unterstützen!"
 msgstr "Support our demands now!"
 
-#: templates/index.html:64
+#: templates/index.html:76
 msgid ""
 "\n"
 "              Bislang war es so, dass der Einsatz ganz neuer Technologien\n"
@@ -573,7 +581,7 @@ msgid ""
 "              "
 msgstr ""
 
-#: templates/index.html:71
+#: templates/index.html:83
 msgid ""
 "\n"
 "              Dieses <strong>System wurde ohne öffentliche Debatte\n"
@@ -586,7 +594,7 @@ msgid ""
 "              "
 msgstr ""
 
-#: templates/index.html:80
+#: templates/index.html:92
 msgid ""
 "\n"
 "              Ein ähnliches System wurde <a href=\"https://epicenter.works/"
@@ -601,7 +609,7 @@ msgid ""
 "              "
 msgstr ""
 
-#: templates/index.html:88
+#: templates/index.html:100
 msgid ""
 "\n"
 "              Wir dürfen nicht zulassen, dass Merkmale,\n"
@@ -616,53 +624,53 @@ msgid ""
 "              "
 msgstr ""
 
-#: templates/index.html:100
+#: templates/index.html:112
 msgid "https://embed.epicenter.works/yt/VUoN61lKcMc"
 msgstr "https://embed.epicenter.works/yt/VUoN61lKcMc?lang=en"
 
-#: templates/index.html:110
+#: templates/index.html:122
 msgid "Unsere <strong>7 Forderungen</strong>"
 msgstr ""
 
-#: templates/index.html:138
+#: templates/index.html:150
 msgid "AMS-Algorithmus stoppen"
 msgstr ""
 
-#: templates/index.html:144
+#: templates/index.html:156
 msgid "Unsere 7 Forderungen"
 msgstr ""
 
-#: templates/index.html:201
+#: templates/index.html:213
 msgid "Unterschreiben"
 msgstr "Sign"
 
-#: templates/index.html:216
+#: templates/index.html:228
 msgid "Kontaktiere deinen <strong>Minister!</strong>"
 msgstr ""
 
-#: templates/index.html:230
+#: templates/index.html:242
 msgid "E-Mail schreiben"
 msgstr ""
 
-#: templates/index.html:246
+#: templates/index.html:258
 msgid "Stelle ein <strong>Auskunftsbegehren!</strong>"
 msgstr ""
 
-#: templates/index.html:248
+#: templates/index.html:260
 msgid ""
 "Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und "
 "Behörden anfordern. Hier kannst du das für das AMS tun."
 msgstr ""
 
-#: templates/index.html:251
+#: templates/index.html:263
 msgid "Zum Generator"
 msgstr ""
 
-#: templates/index.html:253
+#: templates/index.html:265
 msgid "Antrag gemäß Art. 15 DSGVO auf Auskunft"
 msgstr ""
 
-#: templates/index.html:261
+#: templates/index.html:273
 msgid ""
 "\n"
 "                    <strong>Nur wenn du seit 2019 arbeitslos warst hat das "
@@ -675,39 +683,39 @@ msgid ""
 "                  "
 msgstr ""
 
-#: templates/index.html:276
+#: templates/index.html:288
 msgid "Weitersagen!"
 msgstr ""
 
-#: templates/index.html:278
+#: templates/index.html:290
 msgid ""
 "Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug "
 "politischen Druck erzeugen, um den AMS-Algorithmus zu verhinden."
 msgstr ""
 
-#: templates/index.html:301
+#: templates/index.html:313
 msgid "Unterstützer*innen"
 msgstr ""
 
-#: templates/index.html:302
+#: templates/index.html:314
 msgid "Die Kampagne wird von folgenden Organisationen getragen:"
 msgstr ""
 
-#: templates/index.html:343
+#: templates/index.html:355
 msgid "Bleib informiert!"
 msgstr ""
 
-#: templates/index.html:345
+#: templates/index.html:357
 msgid ""
 "Mit dem epicenter.works Newsletter behältst du den Überblick über "
 "netzpolitische Themen in Österreich."
 msgstr ""
 
-#: templates/index.html:346
+#: templates/index.html:358
 msgid "https://epicenter.works/newsletter"
 msgstr ""
 
-#: templates/index.html:346
+#: templates/index.html:358
 msgid "Jetzt abonnieren"
 msgstr ""
 
@@ -847,25 +855,25 @@ msgid ""
 "klicke noch schnell den Bestätigungslink, den du per E-Mail erhalten hast."
 msgstr ""
 
-#: templates/withdraw.html:9
+#: templates/withdraw.html:10
 msgid "Wir haben deinen Widerruf erhalten und deine Daten gelöscht."
 msgstr ""
 
-#: templates/withdraw.html:14
+#: templates/withdraw.html:15
 msgid "Vielleicht wurden deine Daten bereits gelöscht?"
 msgstr ""
 
-#: templates/withdraw.html:15
+#: templates/withdraw.html:16
 msgid ""
 "Bitte wende dich an <a href=\"mailto:ams@epicenter.works\">ams@epicenter."
 "works</a>, um sicherzugehen, dass deine Daten gelöscht wurden."
 msgstr ""
 
-#: templates/withdrawal_sent.html:6
+#: templates/withdrawal_sent.html:7
 msgid "Bestätige deinen Widerruf."
 msgstr ""
 
-#: templates/withdrawal_sent.html:8
+#: templates/withdrawal_sent.html:9
 msgid ""
 "\n"
 "        Wir haben dir eine E-Mail zur Bestätigung geschickt, \n"

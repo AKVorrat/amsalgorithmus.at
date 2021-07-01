@@ -1,5 +1,6 @@
 import os
 import datetime
+from django.utils.translation import gettext_lazy as _
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -78,8 +79,8 @@ USE_L10N = True
 USE_TZ = True
 
 LANGUAGES = [
-  ('de', 'Deutsch'),
-  ('en', 'English'),
+  ('de', _('Deutsch')),
+  ('en', _('Englisch')),
 ]
 
 LOCALE_PATHS = (

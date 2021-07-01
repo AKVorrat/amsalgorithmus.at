@@ -4,9 +4,21 @@
 {% load i18n %}
 
 {% block navigation %}
-  <div class="container dark" id="languages" style="position: absolute; right: 1rem; top: 1rem; font-size: 150%; padding: 0; background: transparent">
-    <a class="mainnav_item" onclick="document.getElementById('english').style.visibility = 'visible'"><i class="fa fa-language"></i></a>
-  </div>
+  <nav class="container" id="languages">
+    <ul class="mainmenu">
+      <li>
+        <label for="tm"><i class="fa fa-language"></i></label>
+        <input type="checkbox" id="tm">
+        <ul class="submenu">
+          {% get_available_languages as languages %}
+          {% get_current_language as current_language %}
+          {% for langcode, langname in languages %}
+          <li{% if langcode == current_language %} class="current"{% endif %}><a href="/{{ langcode }}" class="mainnav__item">{{ langname }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+  </nav>
 
   <nav class="dark menu" id="menu">
     <div class="container">

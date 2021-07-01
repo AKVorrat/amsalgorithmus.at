@@ -1227,3 +1227,59 @@ input[type="checkbox"]:hover + label:before {
   padding-left: 0 !important;
 }
 
+#languages {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 150%;
+  padding: 0;
+  background: transparent;
+  color: white;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+  }
+
+  input[type='checkbox'] {
+    display: none;
+  }
+
+  label {
+    cursor: pointer;
+  }
+
+  .submenu {
+    display: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+
+    li {
+      position: relative;
+      z-index: 9999;
+      padding: 0.5rem;
+      background: $dark;
+    }
+
+    li.current {
+      color: $dark;
+      background: white;
+
+      a, a:hover, a:active, a:visited {
+        color: $dark;
+      }
+    }
+
+    a, a:hover, a:active, a:visited {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  input[type="checkbox"]:checked + .submenu {
+    display: block;
+  }
+}
+
