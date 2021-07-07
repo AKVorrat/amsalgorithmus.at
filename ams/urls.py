@@ -9,6 +9,8 @@ urlpatterns = [
     re_path(r'^admin/', admin.site.urls),
     re_path(r'^menschen/$', TemplateView.as_view(template_name="demands/menschen.html")),
 
+    path('captcha/', include('captcha.urls')),
+
     path('', include('ams.modules.petition.urls')),
     path('', include('ams.modules.request.urls')),
 ]

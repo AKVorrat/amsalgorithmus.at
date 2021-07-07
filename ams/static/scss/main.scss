@@ -296,6 +296,7 @@ $font-display: 'Poppins', sans-serif;
     display: flex;
     overflow: auto;
     flex-direction: row-reverse;
+    background: rgb(59, 64, 83);
     @media (orientation:portrait) {
       font-size: 1em;
       flex-direction: column;
@@ -397,10 +398,10 @@ $font-display: 'Poppins', sans-serif;
     width: 36%;
     display: flex;
     transition: height .3s linear;
+    background: rgb(59, 64, 83);
     padding: 1em 1.5rem;
     min-width: 16em;
     flex-direction: column;
-    background: rgb(59, 64, 83);
     transition: height .3s linear;
     input[type="submit"] {
       font-family: $font-display;
@@ -463,6 +464,11 @@ $font-display: 'Poppins', sans-serif;
             padding: 10px 8px 6px;
           }
         }
+        .petition__captchafield {
+          label {
+            display: none;
+          }
+         }
       }
       .petition__checkboxes {
         label {
@@ -490,6 +496,12 @@ $font-display: 'Poppins', sans-serif;
     flex-grow: 1;
     .errorlist {
       font-size: .85em;
+    }
+  }
+  .petition__captchafield {
+    display: inline !important;
+    label {
+        display: none;
     }
   }
   label.required::after {

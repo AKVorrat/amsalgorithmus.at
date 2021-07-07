@@ -23,6 +23,7 @@ INSTALLED_APPS = [
 
     'svg',
     'sass_processor',
+    'captcha',
 
     'ams.modules.petition',
 ]
@@ -99,3 +100,11 @@ SASS_PROCESSOR_INCLUDE_DIRS = [
 SVG_DIRS=[
     os.path.join(BASE_DIR, 'static/svg'),
 ]
+
+# Captcha settings
+CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.math_challenge'
+CAPTCHA_NOISE_FUNCTIONS = ()
+CAPTCHA_LETTER_ROTATION = None
+CAPTCHA_MATH_CHALLENGE_OPERATOR = 'x'
+CAPTCHA_FOREGROUND_COLOR = '#fff'
+CAPTCHA_BACKGROUND_COLOR = 'rgb(59, 64, 83)'

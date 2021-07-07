@@ -166,6 +166,12 @@
                         {{ form.email }}
                         {{ form.email.label_tag }}
                       </div>
+
+                      <div class="petition__field petition__captchafield">
+                        {{ form.captcha }}
+                        {{ form.captcha.label_tag }}
+                        {{ form.captcha.errors }}
+                      </div>
                     </div>
 
                     <div class="petition__formcol petition__checkboxes">
