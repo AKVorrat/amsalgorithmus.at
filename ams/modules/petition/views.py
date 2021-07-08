@@ -25,8 +25,6 @@ class PetitionView(FormView):
     def post(self, request, *args, **kwargs):
         form = self.get_form()
         if form.is_valid():
-            form.instance.send_confirmation_email(request)
-        else:
             if form.pending_signature:
                 if form.pending_signature.emails_sent < 5:
                     form.pending_signature.send_confirmation_email(request)
@@ -34,8 +32,10 @@ class PetitionView(FormView):
                 if form.confirmed_signature.emails_sent < 5:
                     form.confirmed_signature.send_already_confirmed_email(request)
             else:
-                return self.form_invalid(form)
-        return self.form_valid(form)
+                form.instance.send_confirmation_email(request)
+            return self.form_valid(form)
+        else:
+            return self.form_invalid(form)
             
 class ConfirmEmailView(TemplateView):
     template_name = 'confirm.html'

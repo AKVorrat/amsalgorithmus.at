@@ -34,6 +34,10 @@ class Signature(models.Model):
     def full_name(self):
         return '{0} {1}'.format(self.first_name, self.last_name)
 
+    def validate_unique(self, exclude=None):
+        exclude = ['email'] if not exclude else exclude + ['email']
+        super(Signature, self).validate_unique(exclude=exclude)
+
     def send_confirmation_email(self, request):
         if not self.token:
             self.token = generator.make_token(self)
