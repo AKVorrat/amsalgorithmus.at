@@ -6,6 +6,7 @@ build-test:
     stage: build
     image: local-python-nodejs-cairo
     script:
+        - apt-get update -y
         - apt-get install -y libffi-dev libcairo2-dev
         - export PATH=/opt/node/bin:$PATH
         - python3 -m venv .venv
