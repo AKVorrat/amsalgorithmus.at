@@ -32,7 +32,7 @@ setup(
         'django-sass-processor==0.8',
         'django-inline-svg==0.1.1',
         'django-simple-captcha>=0.5',
-
+        'compressor==0.0.3',
         'libsass==0.19.4',
         'weasyprint<53',
 
