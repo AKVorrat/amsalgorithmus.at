@@ -8,7 +8,9 @@ build-test:
 
     script:
         - uname -a
-        - apk add g++ make python python-dev python3 python3-dev libffi-dev zlib zlib-dev libjpeg freetype libwebp openjpeg 
+        - apk add g++ make python python-dev python3 python3-dev 
+        - apk --update add libxml2-dev libxslt-dev gcc musl-dev libgcc openssl-dev curl
+        - apk add jpeg-dev zlib-dev freetype-dev lcms2-dev openjpeg-dev tiff-dev tk-dev tcl-dev libwebp-dev libffi-dev 
         - which npm
         - which python
         - python --version
