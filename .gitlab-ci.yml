@@ -4,10 +4,11 @@ stages:
 
 build-test:
     stage: build
-    image: local-python-nodejs-cairo
+    image: nikolaik/python-nodejs:python3.10-nodejs17-bullseye
+
     script:
-        - export PATH=/opt/node/bin:$PATH
-        - python3 -m venv .venv
+        - python --version
+        - python -m venv .venv
         - . .venv/bin/activate
         - npm install
         - python3 setup.py install
