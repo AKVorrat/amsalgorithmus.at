@@ -7,8 +7,10 @@ build-test:
     image: nikolaik/python-nodejs:python3.10-nodejs17-bullseye
 
     script:
-        - python --version
-        - python -m venv .venv
+        - which python3
+        - which npm
+        - python3 --version
+        - python3 -m venv .venv
         - . .venv/bin/activate
         - npm install
         - python3 setup.py install
