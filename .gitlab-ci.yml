@@ -8,14 +8,15 @@ build-test:
 
     script:
         - uname -a
-        - apk add g++ make python
+        - apk add g++ make python python3
         - which npm
         - which python
         - python --version
-        - python -m venv .venv
+        - python3 --version
+        - python3 -m venv .venv
         - . .venv/bin/activate
         - npm install
-        - python setup.py install
+        - python3 setup.py install
         - DJANGO_SETTINGS_MODULE=ams.settings.dev ./manage.py migrate
     only:
         - master
