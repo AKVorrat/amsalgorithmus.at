@@ -8,7 +8,7 @@ build-test:
 
     script:
         - uname -a
-        - apk add g++ make python python3
+        - apk add g++ make python python-dev python3
         - which npm
         - which python
         - python --version
