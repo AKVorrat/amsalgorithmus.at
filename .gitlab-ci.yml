@@ -7,7 +7,7 @@ build-test:
     image: nikolaik/python-nodejs:python3.10-nodejs17-bullseye
 
     script:
-        - apt update && apt install python
+        - apt-get -y update && apt-get -y install python
         - which python3
         - which npm
         - python3 --version
