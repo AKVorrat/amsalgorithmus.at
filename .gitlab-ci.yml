@@ -6,6 +6,7 @@ build-test:
     stage: build
     image: local-python-nodejs-cairo
     script:
+        - apt-get install --assume-yes python3-cffi
         - export PATH=/opt/node/bin:$PATH
         - python3 -m venv .venv
         - . .venv/bin/activate
