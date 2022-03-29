@@ -4,13 +4,16 @@ stages:
 
 build-test:
     stage: build
-    image: local-python-nodejs-cairo
+    image: node:8.12-alpine
     script:
-        - apt-get update
-        - apt-get install --assume-yes python3-cffi python3-cffi libffi-dev
-        - apt-get install -y libtiff5-dev libjpeg-dev libopenjp2-7-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python3-tk libharfbuzz-dev libfribidi-dev libxcb1-dev
-        # cairo-dev pango-dev zlib1g-dev freetype-dev lcms2-dev openjpeg-dev tk-dev tcl-dev libwebp-dev
-        - export PATH=/opt/node/bin:$PATH
+        - uname -a
+        - apk add g++ make python python-dev python3 python3-dev 
+        - apk --update add libxml2-dev libxslt-dev gcc musl-dev libgcc openssl-dev curl
+        - apk add jpeg-dev zlib-dev freetype-dev lcms2-dev openjpeg-dev tiff-dev tk-dev tcl-dev libwebp-dev libffi-dev cairo-dev pango-dev
+        - which npm
+        - which python
+        - python --version
+        - python3 --version
         - python3 -m venv .venv
         - . .venv/bin/activate
         - npm install
