@@ -9,5 +9,6 @@ urlpatterns = [
     re_path(r'^privacy/$', PrivacyView.as_view()),
     re_path(r'^privacy/withdrawal$', TemplateView.as_view(template_name="withdrawal_sent.html")),
     re_path(r'^withdraw/(?P<token>.{24})/', ConfirmWithdrawalView.as_view()),
+    re_path(r'^tour/$', TemplateView.as_view(template_name="tour.html")),
     re_path(r'^$', PetitionView.as_view())
 ]

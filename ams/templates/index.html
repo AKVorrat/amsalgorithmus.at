@@ -66,39 +66,8 @@
 {% block content %}
 
     <section id="tour" class="light">
-      <div class="container tour-bg">
-        <div class="tour__content">
-          <div class="tour__text">
-            <h1 class="tour__title">{% trans "Triff uns, <br>wir sind auf Tour!" %}</h1>
-            <div class="tour__textcontent">
-              {% blocktrans %}
-              Aut voluptas tempora molestias aut. Et alias eius itaque voluptates. Mollitia ut adipisci omnis necessitatibus ut laborum. Architecto autem quod corrupti ab eum. Aperiam voluptas autem autem perspiciatis!
-              {% endblocktrans %}
-            </div>
-            <div class="flyer-download-button">
-              <a class="button" target="_blank" href="#TODO"> 
-                <!-- TODO -->
-                {% trans "Flyer herunterladen" %}
-              </a>
-            </div>            
-          </div>
-  
-          <div class="tour__dates">
-            <h2>Termine</h2>
-            <ul>
-              <li><span class="tour__date">28. April</span> <span class="tour__location">Panel / Livestream</span></li>
-              <li><span class="tour__date">2. Mai</span> <span class="tour__location">AMS Traun</span></li>
-              <li><span class="tour__date">3. Mai</span> <span class="tour__location">AMS Wels</span></li>
-              <li><span class="tour__date">4. Mai</span> <span class="tour__location">AMS Steyr</span></li>
-              <li><span class="tour__date">5. Mai</span> <span class="tour__location">AMS Vöcklabruck</span></li>
-              <li><span class="tour__date">6. Mai</span> <span class="tour__location">AMS Linz</span></li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
+      {% include 'tour/tour_snippet.html' %}
     </section>
-
     <section id="info" class="dark pad info">
       <div class="container">
         <h2 style="max-width:20em;">
@@ -389,13 +358,7 @@
     </section>
     <section class="light pad newsletter" id="newsletter">
       <div class="container">
-        <div>
-          <h1>{% trans "Bleib informiert!" %}</h1>
-          <div class="newsletter__layout">
-            <p class="text-display newsletter__text">{% trans "Mit dem epicenter.works Newsletter behältst du den Überblick über netzpolitische Themen in Österreich." %}</p>
-            <a href="{% trans "https://epicenter.works/newsletter" %}" target="_blank" class="button newsletter__button">{% trans "Jetzt abonnieren" %}</a>
-          </div>
-        </div>
+        {% include 'newsletter_snippet.html' %}
       </div>
     </section>
 
