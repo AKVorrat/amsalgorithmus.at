@@ -962,7 +962,7 @@ msgstr ""
 
 #: templates/index.html:335
 msgid "Unterstützer*innen"
-msgstr "Sign"
+msgstr "Supporters"
 
 #: templates/index.html:336
 msgid "Die Kampagne wird von folgenden Organisationen getragen:"
