@@ -71,8 +71,10 @@
     <section id="info" class="dark pad info">
       <div class="container">
         <h2 style="max-width:20em;">
+          {% blocktrans %}
           Die Einführung des AMS-Algorithmus ist ein
           <strong>gefährlicher Dammbruch</strong>.
+          {% endblocktrans %}
         </h2>
         <div class="info__content">
           <div class="info__text">
@@ -124,6 +126,22 @@
       <div class="container algo-bg">
         <div>
             <h1 class="demands__title">{% trans "Unsere <strong>7 Forderungen</strong>" %}</h1>
+        </div>
+
+        <div id="js_templates" style="display: none;">
+          <div id="template_moreBt" class="demand__more text-display">
+            {% trans "mehr" %}
+          </div>
+          <div id="template_demandLightbox" class="js-lightbox">
+            <div class="js-lightbox__ground"></div>
+            <div class="js-lightbox__content">
+              <h4 class="js-lightbox--demand__preheader">{% trans "Forderung im Detail:" %}</h4>
+              <div class="js-lightbox__closebt">×</div>
+              <div class="js-lightbox--demand__title"></div>
+              <div class="js-lightbox--demand__summary"><div class="text-display"></div></div>
+              <div class="js-lightbox--demand__detail"></div>
+            </div>
+          </div>
         </div>
 
       {% with 'menschen faehigkeiten ressourcen information transparenz risikocheck optional' as demands %}
