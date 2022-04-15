@@ -3,6 +3,8 @@ from django.conf import settings
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.urls import reverse
+from django.utils import translation
+from django.utils.translation import gettext as _
 from urllib.parse import urlparse
 from .tokens import TokenGenerator
 
@@ -12,7 +14,7 @@ class Signature(models.Model):
     first_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
 
-    email = models.EmailField("E-Mail", max_length=255, unique=True)
+    email = models.EmailField(_("E-Mail"), max_length=255, unique=True)
     token = models.CharField(max_length=24, unique=True)
     emails_sent = models.IntegerField(default=0)
     withdrawal_emails_sent = models.IntegerField(default=0)
@@ -51,7 +53,7 @@ class Signature(models.Model):
             'wants_newsletter': self.newsletter
         }
         send_mail(
-            '[amsalgorithmus.at] Bitte bestätige deine E-Mail Adresse.',
+            _('[amsalgorithmus.at] Bitte bestätige deine E-Mail-Adresse.'),
             render_to_string('email/confirm.txt', context),
             'noreply@epicenter.works',
             [self.email],

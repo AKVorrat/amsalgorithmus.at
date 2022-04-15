@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load i18n %}
 
 {% block hero %}
   <div class="row bottom-xs">
@@ -12,32 +13,40 @@
 <section class="dark pad">
   <div class="row center-xs">
     <div class="col-xs-11 col-sm-7 col-md-5 col-lg-4">
-      <h2>Datenschutzbedingungen</h2>
+        <h2>{% trans "Datenschutzbedingungen" %}</h2>
       <p>
+        {% blocktrans %}
         Wenn du unsere Petition unterschreibst, speichern wir deinen Namen und deine E-Mail-Adresse, um deine Identität als TeilnehmerIn festzuhalten und um Mehrfachunterschriften auszuschließen. Diese Daten werden nach dem Ende der Unterzeichnungsfrist an das Bundesministerium für Arbeit, Familie und Jugend, Untere Donaustraße 13-15, 1020 Wien übergeben und daraufhin von uns gelöscht.
+        {% endblocktrans %}
       </p>
       <p>
+        {% blocktrans %}
         Um Missbrauch zu vermeiden, speichern wir außerdem eine Zeichenkette, die wir für einen Bestätigungslink verwenden, den du per E-Mail zugesandt bekommst, wie häufig wir dir eine solche E-Mail geschickt haben und ob du deine Unterschrift bestätigt hast. Solltest du das Widerspruchsformular unten nutzen, speichern wir eine solche Zeichenkette und die Anzahl der zugesandten E-Mails auch bis zur vollständigen Bearbeitung des Widerspruchsvorgangs. Alle diese Daten werden nach dem Ende der Unterzeichnungsfrist von uns gelöscht.
+        {% endblocktrans %}
       </p>
       <p>
+        {% blocktrans %}
         Wir speichern außerdem, ob du wünschst, unseren Newsletter zu erhalten, und übertragen deine E-Mail-Adresse gegebenenfalls in unser Newslettersystem. Informationen zum Datenschutz bezüglich unseres Newsletters findest du <a href="https://epicenter.works/datenschutz#newsletter">hier</a>.
+        {% endblocktrans %}
       </p>
       <p>
+        {% blocktrans %}
         Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 9 Abs. 2 lit a DSGVO. Du kannst deine Einwilligung zur Verarbeitung mittels des Formulars unten jederzeit widerrufen. Weitere Informationen zum Verantwortlichen für die Verarbeitung, zu deinen Rechten, Kontaktdaten, sowie zu den Datenschutzbedingungen beim Besuch unserer Websites findest du <a href="https://epicenter.works/datenschutz">hier</a>.
+        {% endblocktrans %}
       </p>
     </div>
   </div>
   <div class="row center-xs">
     <div class="col-xs-11 col-sm-7 col-md-5 col-lg-4">
       <a name="withdrawal"></a>
-      <h2>Widerruf der Einwilligung zur Verarbeitung</h2>
-      <p>Zum Widerruf gib die E-Mail-Adresse ein, mit der du unterschrieben hast. Du erhältst wieder eine E-Mail mit einem Link, mit dem du den Widerruf bestätigst.</p>
+      <h2>{% trans "Widerruf der Einwilligung zur Verarbeitung" %}</h2>
+      <p>{% trans "Zum Widerruf gib die E-Mail-Adresse ein, mit der du unterschrieben hast. Du erhältst wieder eine E-Mail mit einem Link, mit dem du den Widerruf bestätigst." %}</p>
       <form id="withdrawal" method="post" action="#withdrawal">
         {% csrf_token %}
         {{ form.email.errors }}
         {{ form.email.label_tag }}
         {{ form.email }}
-        <input class="petition-input" type="submit" value="Einwilligung widerrufen">
+        <input class="petition-input" type="submit" value="{% trans "Einwilligung widerrufen" %}">
       </form>
     </div>
   </div>

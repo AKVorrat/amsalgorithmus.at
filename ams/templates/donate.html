@@ -1,13 +1,15 @@
-
+{% load i18n %}
 <div>
-  <h2>Da du hier bist…</h2>
+  <h2>{% trans "Da du hier bist…" %}</h2>
   <p>
-    hätten wir eine kleine Bitte an dich.
-    Diese Kampagne wird betrieben von der Grundrechts-NGO <a target="_blank" href="https://epicenter.works/">epicenter.works</a>.
+    {% trans "hätten wir eine kleine Bitte an dich." %}
+    {% blocktrans %}Diese Kampagne wird von der Grundrechts-NGO <a target="_blank" href="https://epicenter.works/">epicenter.works</a> getragen.{% endblocktrans %}
+    {% blocktrans %}
     Wir kämpfen seit über 10 Jahren für Grund- und Menschenrechte im digitalen Zeitalter,
     haben die Vorratsdatenspeicherung und den Bundestrojaner abgeschafft und brauchen deine Unterstützung.
     Hilf uns eine starke Stimme für die Zivilgesellschaft zu sein!
+    {% endblocktrans %}
   </p>
   <a class="button" target="_blank" href="https://support.epicenter.works/">
-  <div>Jetzt Fördermitglied werden!</div></a>
+      <div>{% trans "Jetzt Fördermitglied werden!" %}</div></a>
 </div>

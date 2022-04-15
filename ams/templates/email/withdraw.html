@@ -1,5 +1,6 @@
+{% load i18n %}
 <!DOCTYPE html>
-<html lang="de" style="margin:0;padding:0;">
+<html lang="{% trans "de" %}" style="margin:0;padding:0;">
     <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html charset=UTF-8">
@@ -16,20 +17,20 @@
             <tr>
                 <td align="left" valign="top">
                 <h1 style="mso-line-height-rule:exactly;margin:32px 0 0 0;;">
-                    <b> Hallo {{ full_name }}, </b>
+                  <b>{% blocktrans %}Hallo {{ full_name }},{% endblocktrans %}</b>
                 </h1>
                 <p>
-                    Wir haben eine Meldung bekommen, dass du deine Einwilligung zur Datenverarbeitung
+                  {% blocktrans %}Wir haben eine Meldung bekommen, dass du deine Einwilligung zur Datenverarbeitung
                     widerrufen möchtest. Mit dem Widerruf wirst du aus der Liste der Unterzeichner
                     entfernt und deine Daten werden gelöscht.
 
-                    <b>Um deinen Widerruf zu bestätigen, klicke den folgenden Bestätigungslink:</b>
+                    <b>Um deinen Widerruf zu bestätigen, klicke den folgenden Bestätigungslink:</b>{% endblocktrans %}
                 </p>
                 <p>
                     <a href="{{withdrawal_url|safe}}" style="">{{ withdrawal_url|safe }}</a>
                 </p>
                 <p style="margin-bottom: 32px;">
-                    Liebe Grüße, <br/>
+                  {% trans "Liebe Grüße," %}<br/>
                     <a href="https://epicenter.works/" style="">epicenter.works</a>
                 </p>
                 </td>

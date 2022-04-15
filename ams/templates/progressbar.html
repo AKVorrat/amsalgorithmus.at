@@ -1,3 +1,4 @@
+{% load i18n %}
 <style>
   @keyframes petitionbar {
     from {width: 0;}
@@ -13,5 +14,5 @@
   <div class="petition-bar">
     <div class="progress"></div>
   </div>
-  <span> Bisher {{ signature_count }} von {{ goal }} Unterschriften. </span>
+  <span>{% blocktrans %}Bisher {{ signature_count }} von {{ goal }} Unterschriften.{% endblocktrans %}</span>
 </div>

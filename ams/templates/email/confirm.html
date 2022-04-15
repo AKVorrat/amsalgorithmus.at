@@ -1,5 +1,6 @@
+{% load i18n %}
     <!DOCTYPE html>
-    <html lang="de" style="margin:0;padding:0;">
+    <html lang="{% trans "de" %}" style="margin:0;padding:0;">
       <head>
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html charset=UTF-8">
@@ -16,27 +17,27 @@
                 <tr>
                   <td align="left" valign="top">
                     <h1 style="mso-line-height-rule:exactly;margin:32px 0 0 0;">
-                      <b> Hallo {{ full_name }}, </b>
+                      <b>{% blocktrans %}Hallo {{ full_name }},{% endblocktrans %}</b>
                     </h1>
                     <p>
-                      danke für deine Unterstützung! <br/>
+                      {% blocktrans %}danke für deine Unterstützung! <br/>
                       Damit wir deine Stimme zählen können fehlt nur mehr ein kleiner Schritt!<br/>
-                      <b>Bitte klicke auf diesen Bestätigungslink:</b>
+                      <b>Bitte klicke auf diesen Bestätigungslink:</b>{% endblocktrans %}
                     </p>
                     <p>
                       <a href="{{confirmation_url|safe}}" style="">{{ confirmation_url|safe }}</a>
                     </p>
                     <p>
-                      Unsere Petition wird nur erfolgreich sein, wenn wir viele sind!<br/>
-                      <b>Teile daher unsere Seite auf Social Media:</b>
+                      {% blocktrans %}Unsere Petition wird nur erfolgreich sein, wenn wir viele sind!<br/>
+                      <b>Teile daher unsere Seite auf Social Media!</b>{% endblocktrans %}
                     </p>
                     <!-- TODO: Share buttons in email -->
 
                     <p>
-                      Vielen Dank für deine Hilfe!
+                      {% trans "Vielen Dank für deine Hilfe!" %}
                     </p>
                     <p style="margin-bottom: 32px;">
-                      Liebe Grüße, <br/>
+                      {% trans "Liebe Grüße," %}<br/>
                       <a href="https://epicenter.works/" style="">epicenter.works</a>
                     </p>
                   </td>

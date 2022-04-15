@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block hero %}
+  <style>
+    #hero {
+      min-height: 45vh; 
+      background-position: right bottom  !important;
+    }
+  </style>
+  <div class="row bottom-xs">
+    <div class="col-xs-12">
+      <h1><strong>{% trans "Wir sind auf Tour" %}</strong></h1>
+      <p class="text-display">
+        {% trans "Termine & Livestream" %}
+      </p>
+    </div>
+  </div>     
+{% endblock %}
+
+
+{% block navigation %}
+  <nav class="container" id="languages">
+    <ul class="mainmenu">
+      <li>
+        <div>
+          <label for="tm"><i class="fa fa-language"></i></label>
+        </div>
+        <input type="checkbox" id="tm">
+        <ul class="submenu">
+          {% get_available_languages as languages %}
+          {% get_current_language as current_language %}
+          {% for langcode, langname in languages %}
+          <li{% if langcode == current_language %} class="current"{% endif %}><a href="/{{ langcode }}" class="mainnav__item">{{ langname }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <nav class="dark menu" id="menu">
+    <div class="container">
+      <div class="mainnav">
+        <div class="mainnav__first">
+          <a class="mainnav__item" href="../" >{% trans "Hauptseite & Petition" %}</a>
+        </div>
+        <div class="mainnav__last">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+{% endblock %}
+
+
+{% block content %}
+
+<style>
+.livestream {
+  padding: 2em 0;
+}
+.container {
+  width: 90%;
+}
+</style>
+
+<section class="light"> 
+  <div class="row center-xs">
+      <div class="container tour-bg">
+        <div class="tour__content">
+          <div class="tour__text">
+            {% include 'tour/tour_teaser_text.html' %}
+          </div>
+          {% include 'tour/tour_dates.html' %}
+        </div>
+      </div>
+  </div>
+</section>
+
+<section class="dark"> 
+  <div class="row center-xs">
+    <div class="container">
+      <div class="livestream">
+        <h2 style="margin: 0 0 1em;">{% trans "Online Event & Livestream" %}</h2>
+        <div style="border: 10px dashed #131f2b; font-size: 1.5em; padding: 3rem; text-align: center; margin-bottom: 2rem;">
+          <img src="/static/svg/tour-livestream-icon.svg" style="max-width: 80vw; max-height: 40vh;" alt="Symbolbild Fernseher" />
+          <p>
+            {% trans "Am  28. April wird an dieser Stelle der Livestream zur Paneldiskussion zu finden sein." %}
+          </p>      
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="light pad newsletter" id="newsletter">
+  <div class="container">
+    {% include 'newsletter_snippet.html' %}
+  </div>
+</section>
+
+{% endblock %}

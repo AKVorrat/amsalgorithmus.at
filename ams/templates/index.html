@@ -1,18 +1,36 @@
 {% extends "base.html" %}
 {% load petition_filters %}
 {% load svg %}
+{% load i18n %}
 
 {% block navigation %}
+  <nav class="container" id="languages">
+    <ul class="mainmenu">
+      <li>
+        <div>
+          <label for="tm"><i class="fa fa-language"></i></label>
+        </div>
+        <input type="checkbox" id="tm">
+        <ul class="submenu">
+          {% get_available_languages as languages %}
+          {% get_current_language as current_language %}
+          {% for langcode, langname in languages %}
+          <li{% if langcode == current_language %} class="current"{% endif %}><a href="/{{ langcode }}" class="mainnav__item">{{ langname }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+  </nav>
 
   <nav class="dark menu" id="menu">
     <div class="container">
       <div class="mainnav">
         <div class="mainnav__first">
-          <a class="scrollto mainnav__item" onclick="scrollToId('video')"  href="#video" >Erklärvideo</a>
-          <a class="scrollto mainnav__item" onclick="scrollToId('demands')" href="#demands">Forderungen</a>
-          <a class="scrollto mainnav__item" onclick="scrollToId('ministerin')" href="#ministerin">Minister kontaktieren</a>
-          <a class="scrollto mainnav__item" onclick="scrollToId('auskunftsbegehren')" href="#auskunftsbegehren">AMS-Daten anfordern</a>
-          <a class="scrollto mainnav__item" onclick="scrollToId('share')" href="#share">Weitersagen</a>
+          <a class="scrollto mainnav__item" onclick="scrollToId('video')"  href="#video" >{% trans "Erklärvideo" %}</a>
+          <a class="scrollto mainnav__item" onclick="scrollToId('demands')" href="#demands">{% trans "Forderungen" %}</a>
+          <a class="scrollto mainnav__item" onclick="scrollToId('ministerin')" href="#ministerin">{% trans "Minister kontaktieren" %}</a>
+          <a class="scrollto mainnav__item" onclick="scrollToId('auskunftsbegehren')" href="#auskunftsbegehren">{% trans "AMS-Daten anfordern" %}</a>
+          <a class="scrollto mainnav__item" onclick="scrollToId('share')" href="#share">{% trans "Weitersagen" %}</a>
         </div>
         <div class="mainnav__last">
         </div>
@@ -28,19 +46,18 @@
     <div>
       <h1>
         <div style="max-width:11em;">
-          Stoppt den
-          <strong>AMS&#8209;Algorithmus</strong>
+          {% trans "Stoppt den <strong>AMS&#8209;Algorithmus</strong>" %}
         </div>
       </h1>
       <p class="text-display" style="max-width: 20em;">
-        Computer dürfen nicht über Menschen entscheiden!
+        {% trans "Computer dürfen nicht über Menschen entscheiden!" %}
       </p>
       <div class="hero__progressbar">
         {% include 'progressbar.html' %}
       </div>
       <a href="#petition" id="bigPetitionBt" class="hero-button">
         <button class="button">
-          Jetzt Petition unterzeichnen!
+            {% trans "Jetzt Forderungen unterstützen!" %}
         </button>
       </a>
     </div>
@@ -49,44 +66,58 @@
 {% endblock %}
 
 {% block content %}
+
+    <section id="tour" class="light">
+      {% include 'tour/tour_snippet.html' %}
+    </section>
     <section id="info" class="dark pad info">
       <div class="container">
         <h2 style="max-width:20em;">
+          {% blocktrans %}
           Die Einführung des AMS-Algorithmus ist ein
           <strong>gefährlicher Dammbruch</strong>.
+          {% endblocktrans %}
         </h2>
         <div class="info__content">
           <div class="info__text">
             <p>
+              {% blocktrans %}
               Bislang war es so, dass der Einsatz ganz neuer Technologien
               zumindest öffentlich debattiert und mit einem Gesetz
               demokratisch legitimiert wurde. Das ist beim AMS-Algorithmus nicht so.
+              {% endblocktrans %}
             </p>
             <p>
+              {% blocktrans %}
               Dieses <strong>System wurde ohne öffentliche Debatte
               entwickelt</strong> und präsentiert. Die
               <strong>Zivilgesellschaft</strong> war in diesen Prozess
               <strong>nicht eingebunden</strong> und <strong>bis heute fehlt es</strong> hier
               <strong>grundlegend</strong> an <strong>Transparenz</strong>, wie dieses System arbeitet und über uns entscheidet.
+              {% endblocktrans %}
             </p>
             <p>
-              Ein ähnliches System wurden <a href="https://epicenter.works/content/warum-der-polnische-ams-algorithmus-gescheitert-ist" target="_blank">in Polen vom Verfassungsgerichtshof
+              {% blocktrans %}
+              Ein ähnliches System wurde <a href="https://epicenter.works/content/warum-der-polnische-ams-algorithmus-gescheitert-ist" target="_blank">in Polen vom Verfassungsgerichtshof
               aufgehoben</a>. Auch in den Niederlanden wurde ein algorithmenbasiertes System,
               das Sozialhilfeempfänger*innen kontrollieren sollte <a href="https://www.uni-muenster.de/NiederlandeNet/aktuelles/archiv/2020/0205GerichtverbietetSyRi.html" target="_blank">für
               rechtswidrig erklärt und eingestellt.</a>
+              {% endblocktrans %}
             </p>
             <p>
+              {% blocktrans %}
               Wir dürfen nicht zulassen, dass Merkmale,
               auf die man keinen Einfluss hat, entscheidend dafür sind, ob Menschen
               Aus- und Weiterbildungen verboten werden. <strong>Algorithmische
               Systeme</strong> müssen Vorurteile und Ungerechtigkeiten bekämpfen
               und <strong>dürfen diese Ungerechtigkeiten nicht</strong>
               auch noch <strong>einzementieren</strong>.
+              {% endblocktrans %}
             </p>
           </div>
           <div class="info__video">
             <div id="video" class="video-container">
-              <iframe src="https://embed.epicenter.works/yt/VUoN61lKcMc" width="480" height="360" allowfullscreen="allowfullscreen" frameborder="0" style="border: 0"></iframe>
+                <iframe src="{% trans "https://embed.epicenter.works/yt/VUoN61lKcMc" %}" width="480" height="360" allowfullscreen="allowfullscreen" frameborder="0" style="border: 0"></iframe>
             </div>
           </div>
         </div>
@@ -96,7 +127,23 @@
     <section id="demands" class="light">
       <div class="container algo-bg">
         <div>
-          <h1 class="demands__title">Unsere <strong>7 Forderungen</strong></h1>
+            <h1 class="demands__title">{% trans "Unsere <strong>7 Forderungen</strong>" %}</h1>
+        </div>
+
+        <div id="js_templates" style="display: none;">
+          <div id="template_moreBt" class="demand__more text-display">
+            {% trans "mehr" %}
+          </div>
+          <div id="template_demandLightbox" class="js-lightbox">
+            <div class="js-lightbox__ground"></div>
+            <div class="js-lightbox__content">
+              <h4 class="js-lightbox--demand__preheader">{% trans "Forderung im Detail:" %}</h4>
+              <div class="js-lightbox__closebt">×</div>
+              <div class="js-lightbox--demand__title"></div>
+              <div class="js-lightbox--demand__summary"><div class="text-display"></div></div>
+              <div class="js-lightbox--demand__detail"></div>
+            </div>
+          </div>
         </div>
 
       {% with 'menschen faehigkeiten ressourcen information transparenz risikocheck optional' as demands %}
@@ -112,7 +159,7 @@
         {% endwith %}
         <div class="demands-petition-button">
           <a class="button" href="#petition">
-            Jetzt Petition unterzeichnen!
+            {% trans "Jetzt Forderungen unterstützen!" %}
           </a>
         </div>
       </div>
@@ -124,13 +171,13 @@
         <div class="lightbox__content ">
           <div class="petition">
             <div class="dark petition__title">
-              <div>AMS-Algorithmus stoppen</div>
+              <div>{% trans "AMS-Algorithmus stoppen" %}</div>
               <a href="#" class="lightbox__closebt"></a>
             </div>
             <div class="petition__content">
               <div class="light petition__text">
                 <div class="petition__demands">
-                  <h2>Unsere 7 Forderungen</h2>
+                  <h2>{% trans "Unsere 7 Forderungen" %}</h2>
                   {% with 'menschen faehigkeiten ressourcen information transparenz risikocheck optional' as demands %}
                   {% for demand in demands.split %}
                   <div class="petition__demand">
@@ -187,7 +234,7 @@
                       </div>
                     </div>
                   </div>
-                  <input class="form-input" type="submit" role="button" value="Unterschreiben">
+                  <input class="form-input" type="submit" role="button" value="{% trans "Unterschreiben" %}">
                 </form>
               </div>
             </div>
@@ -202,7 +249,7 @@
             <div class="ministerin__text">
               <div>
                 <div>
-                  <h1 style="max-width:9em; margin-bottom: .7em;">Kontaktiere deinen <strong>Minister!</strong></h1>
+                  <h1 style="max-width:9em; margin-bottom: .7em;">{% trans "Kontaktiere deinen <strong>Minister!</strong>" %}</h1>
                 </div>
                 <div>
                   <h2 class="ministerin__name">Prof. Dr. Martin Kocher</h2>
@@ -216,7 +263,7 @@
               </div>
               <div>
                 <a target="_blank" class="button icon" href="mailto:martin.kocher@bmafj.gv.at?subject=Stoppen%20Sie%20den%20AMS-Algorithmus&body=Als%20zust%C3%A4ndiger%20Minister%20bitte%20ich%20Sie%20alles%20M%C3%B6gliche%20zu%20tun%20um%20den%20AMS-Algorithmus%20abzudrehen.%20Beraten%20Sie%20sich%20mit%20den%20Mitgliedern%20im%20Verwaltungsrat%20des%20AMS.%20%C3%9Cberzeugen%20Sie%20diese%2C%20dass%20eine%20verpflichtende%20Einf%C3%BChrung%20des%20Algorithmus%20langfristige%20Sch%C3%A4den%20in%20diesem%20Land%20erzeugen%20wird.">
-                  {% svg 'email' %} <div> E-Mail schreiben </div></a>
+                  {% svg 'email' %} <div>{% trans "E-Mail schreiben" %}</div></a>
               </div>
             </div>
             <div class="ministerin__photo">
@@ -232,24 +279,26 @@
           <div>
             <div class="auskunft__content">
               <div class="auskunft__primary">
-                <h1>Stelle ein <strong>Auskunftsbegehren!</strong></h1>
+                <h1>{% trans "Stelle ein <strong>Auskunftsbegehren!</strong>" %}</h1>
                 <p class="text-display">
-                  Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und Behörden anfordern. Hier kannst du das für das AMS tun.
+                  {% trans "Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und Behörden anfordern. Hier kannst du das für das AMS tun." %}
                 </p>
                 <a href="/request" class="button auskunft__button">
-                  <div>Zum Generator</div>
+                  <div>{% trans "Zum Generator" %}</div>
                 </a>
-                <p class="auskunft__legal">Antrag gemäß Art. 15 DSGVO auf Auskunft</p>
+                <p class="auskunft__legal">{% trans "Antrag gemäß Art. 15 DSGVO auf Auskunft" %}</p>
               </div>
               <div class="auskunft__info">
-              <div class="auskunft__pile">
-                <img src="/static/svg/paper-pile.svg" alt="">
-              </div>
-              <div class="auskunft__text">
-                <p>
-                  <strong>Nur wenn du seit 2019 arbeitslos warst hat das AMS eine algorithmische Einstufung von dir, das sind in etwa 2 Seiten des Auskunftsbegehrens (eine Infoseite und eine Auskunftsseite).</strong> Durchschnittlich gesehen hat ein Auskunftsbegehren beim AMS (bei älteren Personen) ca 80-150 Seiten. Auf Nachfrage kann dir stattdessen auch <strong>dein/e AMS-Berater*in über deine algorithmische Einstufung Auskunft erteilen.</strong>
-                </p>
-              </div>
+                <div class="auskunft__pile">
+                  <img src="/static/svg/paper-pile.svg" alt="">
+                </div>
+                <div class="auskunft__text">
+                  <p>
+                    {% blocktrans %}
+                    <strong>Nur wenn du seit 2019 arbeitslos warst hat das AMS eine algorithmische Einstufung von dir, das sind in etwa 2 Seiten des Auskunftsbegehrens (eine Infoseite und eine Auskunftsseite).</strong> Durchschnittlich gesehen hat ein Auskunftsbegehren beim AMS (bei älteren Personen) ca 80-150 Seiten. Auf Nachfrage kann dir stattdessen auch <strong>dein/e AMS-Berater*in über deine algorithmische Einstufung Auskunft erteilen.</strong>
+                  {% endblocktrans %}
+                  </p>
+                </div>
               </div>
             </div>
         </div>
@@ -260,9 +309,9 @@
 
         <div class="share__layout">
           <div class="share__content">
-            <h1>Weitersagen!</h1>
+            <h1>{% trans "Weitersagen!" %}</h1>
             <p class="text-display">
-              Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug politischen Druck erzeugen, um den AMS-Algorithmus zu verhinden.
+              {% trans "Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug politischen Druck erzeugen, um den AMS-Algorithmus zu verhinden." %}
             </p>
             <a target="_blank" class="button icon" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Famsalgorithmus.at">
               {% svg 'facebook' %} <div>Facebook</div>
@@ -270,8 +319,8 @@
             <a target="_blank" class="button icon" href="https://twitter.com/intent/tweet?url=https://amsalgorithmus.at&text=Ich+habe+die+Kampagne+gegen+den+%23AMSAlgorithmus+unterzeichnet+und+du+solltest+das+auch+tun!+Arbeitsmarktpolitik+darf+nicht+durch+intransparente+Algorithmen+gemacht+werden.">
               {% svg 'twitter' %} <div>Twitter</div>
             </a>
-            <a target="_blank" class="button icon" href="mailto:?subject=Stoppe%20den%20AMS-Algorithmus&body=Ich%20habe%20die%20Kampagne%20gegen%20den%20%23AMS-Algorithmus%20unterzeichnet%20und%20du%20solltest%20das%20auch%20tun.%20Arbeitsmarktpolitik%20darf%20nicht%20durch%20intransparente%20Algorithmen%20gemacht%20werden.%20Bitte%20unterst%C3%BCtze%20auch%20du%20die%20Petition%20auf%20https%3A%2F%2Famsalgorithmus.at"">
-              {% svg 'email' %} <div>E-Mail</div>
+            <a target="_blank" class="button icon" href="mailto:?subject=Stoppe%20den%20AMS-Algorithmus&body=Ich%20habe%20die%20Kampagne%20gegen%20den%20%23AMS-Algorithmus%20unterzeichnet%20und%20du%20solltest%20das%20auch%20tun.%20Arbeitsmarktpolitik%20darf%20nicht%20durch%20intransparente%20Algorithmen%20gemacht%20werden.%20Bitte%20unterst%C3%BCtze%20auch%20du%20die%20Petition%20auf%20https%3A%2F%2Famsalgorithmus.at">
+              {% svg 'email' %} <div>{% trans "E-Mail" %}</div>
             </a>
           </div>
           <div class="share__image">
@@ -285,8 +334,8 @@
 
     <section class="light pad" id="supporters">
       <div class="container">
-        <h1>Unterstützer*innen</h1>
-        <p>Die Kampagne wird von folgenden Organisationen getragen:</p>
+        <h1>{% trans "Unterstützer*innen" %}</h1>
+        <p>{% trans "Die Kampagne wird von folgenden Organisationen getragen:" %}</p>
         <div class="supporters__grid">
           <a class="supporter" href="https://epicenter.works" title="epicenter.works - Plattform Grundrechtspolitik" target="_blank">
             <img src="/static/images/supporters/ew_Logo_farbe_L-transparent.png" alt="epicenter.works - Plattform Grundrechtspolitik">
@@ -329,13 +378,7 @@
     </section>
     <section class="light pad newsletter" id="newsletter">
       <div class="container">
-        <div>
-          <h1>Bleib informiert!</h1>
-          <div class="newsletter__layout">
-            <p class="text-display newsletter__text">Mit dem epicenter.works Newsletter behältst du den Überblick über netzpolitische Themen in Österreich.</p>
-            <a href="https://epicenter.works/newsletter" target="_blank" class="button newsletter__button">Jetzt abonnieren</a>
-          </div>
-        </div>
+        {% include 'newsletter_snippet.html' %}
       </div>
     </section>
 

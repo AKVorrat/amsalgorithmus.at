@@ -1,0 +1,23 @@
+{% load i18n %}
+<style>
+  .tour-button {
+    background-color: #141e2b;
+    color: #fff;
+  }
+</style>
+
+<div class="container tour-bg">
+  <div class="tour__content">
+    <div class="tour__text">
+      {% include 'tour/tour_teaser_text.html' %}
+      <a class="button tour-button" href="tour"> 
+        <!-- TODO -->
+        {% trans "Alle Details" %}
+      </a>
+    </div>
+
+    {% include 'tour/tour_dates.html' %}
+
+  </div>
+
+</div>

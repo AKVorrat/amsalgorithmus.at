@@ -1,10 +1,11 @@
 {% extends "base.html" %}
 {% load petition_filters %}
+{% load i18n %}
 
 {% block hero %}
   <div class="row bottom-xs">
     <div class="col-xs-12">
-      <h1><strong>Auskunftsbegehren</strong></h1>
+      <h1><strong>{% trans "Auskunftsbegehren" %}</strong></h1>
     </div>
   </div>     
 {% endblock %}
@@ -14,14 +15,18 @@
       <div class="row center-xs">
         <div class="col-xs-11 col-sm-7 col-md-5 col-lg-4">
           <p>
+            {% blocktrans %}
             Mithilfe dieses Formulars kannst du ein Auskunftsbegehren generieren, 
             welches dazu dient personenbezogene Daten die das Arbeitsmarktservice über dich 
             gesammelt hat einzusehen.
             Schicke es an die enthaltene Adresse und lege eine Ausweiskopie bei!
+            {% endblocktrans %}
           </p>
           <p>
+            {% blocktrans %}
             Die Daten die du in diesem Formular angibst werden nur verwendet um 
             dein Auskunftsbegehren zu generieren und werden nicht gespeichert.
+            {% endblocktrans %}
           </p>
           <form method="post" action="#request" novalidate>
               {% csrf_token %}
@@ -38,9 +43,9 @@
                   {% endif %}
               {% endfor %}
               <input type="submit" value="Generieren">
-              <label>* Pflichtfelder</label>
+              <label>* {% trans "Pflichtfelder" %}</label>
           </form>
-          Alternativ stellen wir auch einen <a href="https://epicenter.works/sites/default/files/ams-dsgvo-hoch.pdf" target="_blank">Musterbrief</a> als PDF für das Auskunftsbegehren zur Verfügung 
+          {% blocktrans %}Alternativ stellen wir auch einen <a href="https://epicenter.works/sites/default/files/ams-dsgvo-hoch.pdf" target="_blank">Musterbrief</a> als PDF für das Auskunftsbegehren zur Verfügung{% endblocktrans %}
         </div>
         
 

@@ -1,11 +1,11 @@
-
+from django.conf.urls.i18n import i18n_patterns
 from django.conf import settings
 from django.views.static import serve
 from django.views.generic import TemplateView
 from django.urls import include, re_path, path
 from django.contrib import admin
 
-urlpatterns = [
+urlpatterns = i18n_patterns(
     re_path(r'^admin/', admin.site.urls),
     re_path(r'^menschen/$', TemplateView.as_view(template_name="demands/menschen.html")),
 
@@ -13,7 +13,7 @@ urlpatterns = [
 
     path('', include('ams.modules.petition.urls')),
     path('', include('ams.modules.request.urls')),
-]
+)
 
 if settings.DEBUG:
     urlpatterns += [

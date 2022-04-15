@@ -942,6 +942,69 @@ input[type="checkbox"]:hover + label:before {
     }
 }
 
+#tour {
+  background: linear-gradient(#fff,#d6dfe7);
+}
+
+.tour__content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .tour__text {
+    .tour__title {
+      font-size: 2em;
+      line-height: 1.1em;
+      margin-bottom: .4em;
+    }
+    .tour__textcontent {
+      margin-bottom: 1em;
+      font-weight: 400;
+    }
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 30em;
+    max-width: 100%;
+
+  }
+  
+  .tour__dates {
+    font-family: "Poppins", sans-serif;
+    width: 20em;
+    max-width: 100%;
+    ul {
+      margin: .5em 0;
+      padding: 0;
+      li {
+        list-style: none;
+        margin: 0;
+        padding: 0 0 .3em;
+        display: flex;
+        .tour__date {
+          color: #444a60;
+          font-weight: bold;
+          width: 5.2em;
+          display: block;
+        }
+        .tour__location {
+          color: #141e2b;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+
+
+.tour-bg {
+  background: url('/static/svg/tour-bg.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+} 
 
 .algo-bg {
   background: url('/static/svg/algo-bg.svg');
@@ -950,7 +1013,7 @@ input[type="checkbox"]:hover + label:before {
   background-size: contain;
   padding-top: 4rem;
   padding-bottom: 4rem;
-} 
+}
 
 .demands__title {
   display: block;
@@ -1225,6 +1288,64 @@ input[type="checkbox"]:hover + label:before {
 .px-0 {
   padding-right: 0 !important;
   padding-left: 0 !important;
+}
+
+#languages {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 150%;
+  padding: 0;
+  background: transparent;
+  color: white;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+  }
+
+  input[type='checkbox'] {
+    display: none;
+  }
+
+  label {
+    cursor: pointer;
+  }
+
+  .submenu {
+    display: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+
+    li {
+      position: relative;
+      z-index: 9999;
+      padding: 0.5rem;
+      background: $dark;
+    }
+
+    li.current {
+      color: $dark;
+      background: white;
+
+      a, a:hover, a:active, a:visited {
+        color: $dark;
+      }
+    }
+
+    a, a:hover, a:active, a:visited {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  input[type="checkbox"]:checked + .submenu,
+  li:hover > input[type="checkbox"] + .submenu {
+    display: inline-block;
+  }
+
 }
 
 input[type="submit"] {

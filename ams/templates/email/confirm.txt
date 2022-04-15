@@ -1,4 +1,5 @@
-Hallo {{ full_name }},
+{% load i18n %}
+{% blocktrans %}Hallo {{ full_name }},
             
 danke für deine Unterstützung!
 Damit wir deine Stimme zählen können fehlt nur mehr ein kleiner Schritt!
@@ -10,4 +11,4 @@ Bitte verwende diesen Bestätigungslink:
 Vielen Dank für deine Hilfe!
 
 Liebe Grüße,
-epicenter.works
+epicenter.works{% endblocktrans %}

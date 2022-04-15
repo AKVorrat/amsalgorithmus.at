@@ -1,8 +1,10 @@
 {% load sass_tags %}
 {% load svg %}
+{% load i18n %}
+{% load static %}
 
 <!DOCTYPE html>
-<html lang="de">
+<html lang="{% trans "de" %}">
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -10,10 +12,11 @@
 
       <link href="{% sass_src 'scss/main.scss' %}" rel="stylesheet" type="text/css" media="screen" />
       <link href="{% sass_src 'scss/main_print.scss' %}" rel="stylesheet" type="text/css" media="print" />
-      <meta property="og:url"           content="https://amsalgorithmus.at/" />
+      <link href="{% static 'fonts/fontawesome/font-awesome.min.css' %}" rel="stylesheet" type="text/css" />
+      <meta property="og:url"           content="{% trans "https://amsalgorithmus.at/" %}" />
       <meta property="og:type"          content="website" />
-      <meta property="og:title"         content="Stoppt den AMS-Algorithmus!" />
-      <meta property="og:description"   content="Wollen Sie, dass Computer darüber entscheiden, wen das AMS geförderte Ausbildungen und Schulungen machen lässt?"/>
+      <meta property="og:title"         content="{% trans "Stoppt den AMS-Algorithmus!" %}" />
+      <meta property="og:description"   content="{% trans "Wollen Sie, dass Computer darüber entscheiden, wen das AMS geförderte Ausbildungen und Schulungen machen lässt?" %}"/>
       <meta property="og:image"         content="https://amsalgorithmus.at/static/images/og.jpg" />
       <meta name="twitter:card"  content="summary_large_image">
       <meta name="twitter:image" content="https://amsalgorithmus.at/static/images/og.jpg">
@@ -29,7 +32,7 @@
       <meta name="theme-color" content="#ffffff">
 
 
-      <title>Stoppt den AMS Algorithmus</title>
+      <title>{% trans "Stoppt den AMS-Algorithmus" %}</title>
     </head>
     <body>
       
@@ -37,7 +40,7 @@
       <div  id="top"></div>
       <section id="hero" class="dark pixelate-container">
         {% block hero %}{% endblock %}
-        <canvas class="pixelate" onmousemove="draw(event)"></canvas>
+        <!-- <canvas class="pixelate" onmousemove="draw(event)"></canvas> -->
       </section>
       {% block navigation %}{% endblock %}
 
@@ -49,27 +52,27 @@
         <div class="container">
           <div class="row row-indent">
             <div class="col-xs-12 col-md-4">
-              <div>Design &amp; Entwicklung:</div>
+              <div>{% trans "Design &amp; Entwicklung:" %}</div>
               <div><a target="_blank" href="https://meks.io/">Max Wolschlager</a>  &amp;</div>
               <div><a target="_blank" href="https://i.notice.at/">Andreas Demmelbauer</a></div>
             </div>
             <div class="col-xs-12 col-md-4 footer__donate">
-              <a href="https://epicenter.works/" target="_blank">
+              <a href="{% trans "https://epicenter.works/" %}" target="_blank">
                 <img class="footer__epicenter-logo" src="/static/svg/epicenter-logo-white.svg" alt="epicenter.works Logo">
               </a>
-              Du findest unsere Arbeit gut?
+              {% trans "Du findest unsere Arbeit gut?" %}
               <a href="https://spenden.epicenter.works/" target="_blank" class="footer__bubble">
                 <b>Bitte <u>unterstütze uns</u>!</b>
               </a>
             </div>
             <div class="col-xs-12 col-md-4 align-end">
-              <div><a href="https://epicenter.works/kontakt" target="_blank">Impressum</a> &middot; <a href="/privacy" target="_blank">Datenschutz</a></div>
-              <div><a href="https://epicenter.works" target="_blank">epicenter.works</a></div>
+              <div><a href="{% trans "https://epicenter.works/kontakt" %}" target="_blank">{% trans "Impressum" %}</a> &middot; <a href="/privacy" target="_blank">{% trans "Datenschutz" %}</a></div>
+              <div><a href="{% trans "https://epicenter.works" %}" target="_blank">epicenter.works</a></div>
               <div>Widerhofergasse 8/2/4, 1090 Wien</div>
               <div>
                 <a target="_blank" class="icon" href="https://github.com/AKVorrat/amsalgorithmus.at">
                 {% svg 'github' %}</a>
-                <a target="_blank" class="icon" href="mailto:feedback@amsalgorithmus.at?subject=Feedback zu amsalgorithmus.at">
+                <a target="_blank" class="icon" href="mailto:feedback@amsalgorithmus.at?subject={% trans "Feedback zu amsalgorithmus.at" %}">
                 {% svg 'email' %}</a>
               </div>
             </div>

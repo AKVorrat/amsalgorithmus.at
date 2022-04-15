@@ -1,4 +1,5 @@
-Hallo {{ full_name }},
+{% load i18n %}
+{% blocktrans %}Hallo {{ full_name }},
 
 Wir haben eine Meldung bekommen, dass du deine Einwilligung zur
 Datenverarbeitung widerrufen willst. Mit dem Widerruf wirst du aus der Liste
@@ -9,4 +10,4 @@ Um deinen Widerruf zu bestätigen, klicke den folgenden Bestätigungslink:
 {{ withdrawal_url|safe }}
 
 Liebe Grüße,
-epicenter.works
+epicenter.works{% endblocktrans %}
