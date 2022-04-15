@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 00:03+0200\n"
-"PO-Revision-Date: 2022-04-15 00:03+0200\n"
+"POT-Creation-Date: 2022-04-15 16:10+0200\n"
+"PO-Revision-Date: 2022-04-15 16:10+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "I agree to the <a target=\"_blank\" href=\"/privacy\">privacy policy</a>."
 
-#: modules/petition/models.py:17 templates/index.html:321
+#: modules/petition/models.py:17 templates/index.html:323
 #: templates/share.html:16
 msgid "E-Mail"
 msgstr "Email"
@@ -733,39 +733,39 @@ msgstr ""
 "Kind regards,\n"
 "epicenter.works"
 
-#: templates/index.html:27
+#: templates/index.html:29
 msgid "Erklärvideo"
 msgstr "Explainer video"
 
-#: templates/index.html:28
+#: templates/index.html:30
 msgid "Forderungen"
 msgstr "Demands"
 
-#: templates/index.html:29
+#: templates/index.html:31
 msgid "Minister kontaktieren"
 msgstr "Contact minister"
 
-#: templates/index.html:30
+#: templates/index.html:32
 msgid "AMS-Daten anfordern"
 msgstr "Request AMS data"
 
-#: templates/index.html:31
+#: templates/index.html:33
 msgid "Weitersagen"
 msgstr "Share"
 
-#: templates/index.html:47
+#: templates/index.html:49
 msgid "Stoppt den <strong>AMS&#8209;Algorithmus</strong>"
 msgstr "Stop the <strong>AMS algorithm</strong>"
 
-#: templates/index.html:51
+#: templates/index.html:53
 msgid "Computer dürfen nicht über Menschen entscheiden!"
 msgstr "Computers should not make decisions about people!"
 
-#: templates/index.html:58 templates/index.html:160
+#: templates/index.html:60 templates/index.html:162
 msgid "Jetzt Forderungen unterstützen!"
 msgstr "Support our demands now!"
 
-#: templates/index.html:74
+#: templates/index.html:76
 msgid ""
 "\n"
 "          Die Einführung des AMS-Algorithmus ist ein\n"
@@ -777,7 +777,7 @@ msgstr ""
 "         <strong>dangerous breach of the dam</strong>.\n"
 "          "
 
-#: templates/index.html:82
+#: templates/index.html:84
 msgid ""
 "\n"
 "              Bislang war es so, dass der Einsatz ganz neuer Technologien\n"
@@ -794,7 +794,7 @@ msgstr ""
 "with the AMS algorithm.\n"
 "              "
 
-#: templates/index.html:89
+#: templates/index.html:91
 msgid ""
 "\n"
 "              Dieses <strong>System wurde ohne öffentliche Debatte\n"
@@ -807,16 +807,15 @@ msgid ""
 "              "
 msgstr ""
 "\n"
-"              This <strong>system was</strong> developed and presented\n"
-"             <strong>developed</strong> and presented. The\n"
+"              This system was developed and presented \n"
+"              <strong>without public debate</strong>. \n"
 "             <strong>Civil society</strong> was not involved in this\n"
-"              process, and <strong>to this day there is a fundamental lack</"
-"strong> \n"
-"             <strong>fundamental</strong> lack of <strong>transparency</"
-"strong> about how this system works and decides about us.\n"
+"              process, and <strong>to this day there is a</strong> \n"
+"             <strong>fundamental lack of transparency</strong> about how "
+"this system works and decides about us.\n"
 "              "
 
-#: templates/index.html:98
+#: templates/index.html:100
 msgid ""
 "\n"
 "              Ein ähnliches System wurde <a href=\"https://epicenter.works/"
@@ -840,13 +839,13 @@ msgstr ""
 "system,\n"
 "              that was supposed to monitor welfare recipients <a href="
 "\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
-"archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">was</"
-"a>declared unlawful and <a href=\"https://www.uni-muenster.de/NiederlandeNet/"
+"archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">was</a> "
+"declared unlawful and <a href=\"https://www.uni-muenster.de/NiederlandeNet/"
 "aktuelles/archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">\n"
 "              unlawful and was discontinued.\n"
 "</a>             "
 
-#: templates/index.html:106
+#: templates/index.html:108
 msgid ""
 "\n"
 "              Wir dürfen nicht zulassen, dass Merkmale,\n"
@@ -870,47 +869,47 @@ msgstr ""
 "             <strong>cement</strong> these injustices in place.\n"
 "              "
 
-#: templates/index.html:118
+#: templates/index.html:120
 msgid "https://embed.epicenter.works/yt/VUoN61lKcMc"
 msgstr "https://embed.epicenter.works/yt/VUoN61lKcMc?lang=en"
 
-#: templates/index.html:128
+#: templates/index.html:130
 msgid "Unsere <strong>7 Forderungen</strong>"
 msgstr "Our <strong>7 demands</strong>"
 
-#: templates/index.html:133
+#: templates/index.html:135
 msgid "mehr"
 msgstr "more"
 
-#: templates/index.html:138
+#: templates/index.html:140
 msgid "Forderung im Detail:"
 msgstr "Demand in detail:"
 
-#: templates/index.html:172
+#: templates/index.html:174
 msgid "AMS-Algorithmus stoppen"
 msgstr "Stop the AMS algorithm"
 
-#: templates/index.html:178
+#: templates/index.html:180
 msgid "Unsere 7 Forderungen"
 msgstr "Our 7 demands"
 
-#: templates/index.html:235
+#: templates/index.html:237
 msgid "Unterschreiben"
 msgstr "Sign"
 
-#: templates/index.html:250
+#: templates/index.html:252
 msgid "Kontaktiere deinen <strong>Minister!</strong>"
 msgstr "Contact your <strong>minister!</strong>"
 
-#: templates/index.html:264
+#: templates/index.html:266
 msgid "E-Mail schreiben"
 msgstr "Write email"
 
-#: templates/index.html:280
+#: templates/index.html:282
 msgid "Stelle ein <strong>Auskunftsbegehren!</strong>"
 msgstr "Make a <strong>request for information!</strong>"
 
-#: templates/index.html:282
+#: templates/index.html:284
 msgid ""
 "Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und "
 "Behörden anfordern. Hier kannst du das für das AMS tun."
@@ -918,15 +917,15 @@ msgstr ""
 "Once a year you can request all your data from all companies and authorities "
 "for free. Here you can do that for the AMS."
 
-#: templates/index.html:285
+#: templates/index.html:287
 msgid "Zum Generator"
 msgstr "To the generator"
 
-#: templates/index.html:287
+#: templates/index.html:289
 msgid "Antrag gemäß Art. 15 DSGVO auf Auskunft"
 msgstr "Request for information according to Art. 15 DSGVO"
 
-#: templates/index.html:295
+#: templates/index.html:297
 msgid ""
 "\n"
 "                    <strong>Nur wenn du seit 2019 arbeitslos warst hat das "
@@ -948,11 +947,11 @@ msgstr ""
 "classification</strong>.\n"
 "                  "
 
-#: templates/index.html:310
+#: templates/index.html:312
 msgid "Weitersagen!"
 msgstr "Pass it on!"
 
-#: templates/index.html:312
+#: templates/index.html:314
 msgid ""
 "Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug "
 "politischen Druck erzeugen, um den AMS-Algorithmus zu verhinden."
@@ -960,11 +959,11 @@ msgstr ""
 "Tell your friends about this campaign! This is the only way we can generate "
 "enough political pressure to stop the AMS algorithm."
 
-#: templates/index.html:335
+#: templates/index.html:337
 msgid "Unterstützer*innen"
 msgstr "Supporters"
 
-#: templates/index.html:336
+#: templates/index.html:338
 msgid "Die Kampagne wird von folgenden Organisationen getragen:"
 msgstr "The campaign is supported by the following organizations:"
 
@@ -1174,6 +1173,29 @@ msgid ""
 "klicke noch schnell den Bestätigungslink, den du per E-Mail erhalten hast."
 msgstr "quickly click the confirmation link you received by e-mail."
 
+#: templates/tour.html:13
+msgid "Wir sind auf Tour"
+msgstr "We are on tour"
+
+#: templates/tour.html:15
+msgid "Termine & Livestream"
+msgstr "Dates & Livestream"
+
+#: templates/tour.html:45
+msgid "Hauptseite & Petition"
+msgstr "Main page & Petition"
+
+#: templates/tour.html:84
+msgid "Online Event & Livestream"
+msgstr "Online Event & Livestream"
+
+#: templates/tour.html:88
+msgid ""
+"Am  28. April wird an dieser Stelle der Livestream zur Paneldiskussion zu "
+"finden sein."
+msgstr ""
+"On April 28, the livestream of the panel discussion will be available here."
+
 #: templates/tour/tour_dates.html:4
 msgid "Termine"
 msgstr "Dates"
@@ -1211,23 +1233,26 @@ msgid "Alle Details"
 msgstr "All details"
 
 #: templates/tour/tour_teaser_text.html:4
-msgid "Triff uns, <br>wir sind auf Tour!"
-msgstr "Meet us, <br>we are on tour!"
+msgid "Triff uns, <br>wir sind auf Tour ..."
+msgstr "Meet us, <br>we are on tour ..."
 
 #: templates/tour/tour_teaser_text.html:6
-#, fuzzy
 msgid ""
 "\n"
-"  Aut voluptas tempora molestias aut. Et alias eius itaque voluptates. "
-"Mollitia ut adipisci omnis necessitatibus ut laborum. Architecto autem quod "
-"corrupti ab eum. Aperiam voluptas autem autem perspiciatis!\n"
-"  "
+"  ... um mit interessierten Menschen und Betroffenen über den AMS-"
+"Algorithmus ins Gespräch kommen.<br>\n"
+"  Ihr findet uns zwischen 9.00 - 14.00 Uhr vor dem jeweiligen AMS Standort. "
+"Wir haben übrigens auch einen lustigen „einarmigen Banditen“ dabei, mit dem "
+"man seine Chancen auf AMS-Förderungen nachspielen kann. Zum Trost gibt es "
+"ein kleines Geschenk zum Naschen\n"
 msgstr ""
 "\n"
-"  Aut voluptas tempora molestias aut. Et alias eius itaque voluptates. "
-"Mollitia ut adipisci omnis necessitatibus ut laborum. Architecto autem quod "
-"corrupti ab eum. Aperiam voluptas autem perspiciatis!\n"
-"  "
+"  ... to talk with interested people and people concerned about the AMS "
+"algorithm.<br>\n"
+"  You can find us between 9:00 - 14:00 in front of the respective AMS "
+"location. By the way, we also have a funny \"one-armed bandit\" with us, "
+"with which you can act out your chances of AMS funding. As a consolation "
+"there is a small gift to snack on\n"
 
 #: templates/withdraw.html:10
 msgid "Wir haben deinen Widerruf erhalten und deine Daten gelöscht."
@@ -1261,6 +1286,20 @@ msgstr ""
 "We have sent you an e-mail for confirmation, \n"
 "        click on the link in this email to complete your revocation.      \n"
 "        "
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "  Aut voluptas tempora molestias aut. Et alias eius itaque voluptates. "
+#~ "Mollitia ut adipisci omnis necessitatibus ut laborum. Architecto autem "
+#~ "quod corrupti ab eum. Aperiam voluptas autem autem perspiciatis!\n"
+#~ "  "
+#~ msgstr ""
+#~ "\n"
+#~ "  Aut voluptas tempora molestias aut. Et alias eius itaque voluptates. "
+#~ "Mollitia ut adipisci omnis necessitatibus ut laborum. Architecto autem "
+#~ "quod corrupti ab eum. Aperiam voluptas autem perspiciatis!\n"
+#~ "  "
 
 #~ msgid "Mai"
 #~ msgstr "May"
