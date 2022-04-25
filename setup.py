@@ -6,7 +6,7 @@ with open('README.md', 'r') as f:
 setup(
     ### Metadata
     name='amsalgorithmus_at',
-    version='0.1.0',
+    version='0.1.1',
     description='Insert Description',
     long_description=README,
     url='',
