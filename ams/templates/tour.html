@@ -7,6 +7,15 @@
       min-height: 45vh; 
       background-position: right bottom  !important;
     }
+    .zoomlink {
+      font-family: 'Poppins';
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-block;
+      padding-bottom: .2em;
+      border-bottom: 3px solid #fff;
+    }
   </style>
   <div class="row bottom-xs">
     <div class="col-xs-12">
@@ -64,6 +73,52 @@
 }
 </style>
 
+
+<section class="dark"> 
+  <div class="row center-xs">
+    <div class="container">
+      <div class="livestream">
+        <h2 style="margin: 0 0 1em;">{% trans "Online Event & Livestream" %}</h2>
+        <div style="border: 10px dashed #131f2b; font-size: 1.5em; padding: 3rem; text-align: center; margin-bottom: 2rem;">
+          <p>
+            <a class="zoomlink" href="https://zoom.us/j/94040785048?pwd=SHdjL0FROVBCK1MrSGZtUnJCK21nUT09#success">
+              <img src="/static/svg/tour-livestream-icon.svg" style="max-width: 80vw; max-height: 30vh;" alt="Symbolbild Fernseher" />
+              <br>
+              Hier geht es zur Paneldiskussion via Zoom
+            </a>
+          </p>
+          <p>
+            <small>
+              {% trans "Start: 28. April, 10:00" %}
+            </small>
+          </p>
+          <div style="font-size: 1rem;">
+            <p>
+              Zum Beginn einer Aktionswoche, bei der für die Abschaffung eines solchen maschinenbasierten Systems geworben wird, diskutieren Vertreter*innen aus Wissenschaft, Politik, Betroffenen und Verwaltung über ihren Zugang zu dem Algorithmus.            
+            </p>
+            <p>
+              <u>Am Podium</u>:<br>
+              <strong>Dr. Doris Allhutter</strong>, Senior Scientist, Institut für Technikfolgen-Abschätzung<br>
+              <strong>Mag.a Dagmar Andree, MBA</strong>, Leiterin Abt. Wirtschafts-, Sozial- &amp; Gesellschaftspolitik, Kammer für Arbeiter &amp; Angestellte Oberösterreich<br>
+              <strong>Mag. Gerald Loacker</strong>, Abgeordneter zum Nationalrat, NEOS<br>
+              <strong>Thomas Lohninger</strong>, executive director ; epicenter.works<br>
+              <strong>Peter Oberdammer</strong>, Sozialwissenschaftler, Trainer, Coach, Arbeitslosen-Aktivist<br>
+              <strong>Dr. Andreas Zavadil, </strong>CIPP/E, CIPM, Datenschutzbehörde / Austrian Data Protection Authority<br>
+              Durch das Gespräch führt : <strong>Mag. Daniela Soykan </strong>
+            </p>
+            <p>
+              <a href="https://concordia.at/stoppt-den-ams-algorithmus-sollen-maschinen-ueber-menschen-entscheiden-duerfen/" target="_blank">
+                Mehr Infos
+              </a>
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="light"> 
   <div class="row center-xs">
       <div class="container tour-bg">
@@ -77,24 +132,7 @@
   </div>
 </section>
 
-<section class="dark"> 
-  <div class="row center-xs">
-    <div class="container">
-      <div class="livestream">
-        <h2 style="margin: 0 0 1em;">{% trans "Online Event & Livestream" %}</h2>
-        <div style="border: 10px dashed #131f2b; font-size: 1.5em; padding: 3rem; text-align: center; margin-bottom: 2rem;">
-          <img src="/static/svg/tour-livestream-icon.svg" style="max-width: 80vw; max-height: 40vh;" alt="Symbolbild Fernseher" />
-          <p>
-            {% trans "Am  28. April wird an dieser Stelle der Livestream zur Paneldiskussion zu finden sein." %}
-          </p>      
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="light pad newsletter" id="newsletter">
+<section class="dark pad" id="newsletter">
   <div class="container">
     {% include 'newsletter_snippet.html' %}
   </div>
