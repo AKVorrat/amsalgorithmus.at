@@ -3,77 +3,75 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-29 15:37+0200\n"
-"PO-Revision-Date: 2022-04-29 15:39+0200\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: modules/petition/forms.py:16 modules/request/forms.py:8
 msgid "Vorname"
-msgstr "First name"
+msgstr ""
 
 #: modules/petition/forms.py:22 modules/request/forms.py:13
 msgid "Nachname"
-msgstr "Surname"
+msgstr ""
 
 #: modules/petition/forms.py:29 modules/petition/forms.py:72
 #: modules/request/forms.py:19
 msgid "E-Mail-Adresse"
-msgstr "E-mail address"
+msgstr ""
 
 #: modules/petition/forms.py:40
 msgid ""
 "Ja, ich will den <a target=\"_blank\" href=\"https://epicenter.works/"
 "newsletter\">Newsletter</a> erhalten (optional)."
 msgstr ""
-"I would like to receive the <a target=\"_blank\" href=\"https://epicenter."
-"works/newsletter\">newsletter</a> (optional)."
 
 #: modules/petition/forms.py:46
 msgid ""
-"Ja, ich stimme den <a target=\"_blank\" href=\"/privacy"
-"\">Datenschutzbedingungen</a> zu."
+"Ja, ich stimme den <a target=\"_blank\" href=\"/"
+"privacy\">Datenschutzbedingungen</a> zu."
 msgstr ""
-"I agree to the <a target=\"_blank\" href=\"/privacy\">privacy policy</a>."
 
 #: modules/petition/models.py:17 templates/index.html:324
 #: templates/share.html:16
 msgid "E-Mail"
-msgstr "Email"
+msgstr ""
 
 #: modules/petition/models.py:56
 msgid "[amsalgorithmus.at] Bitte bestätige deine E-Mail-Adresse."
-msgstr "[amsalgorithmus.at] Please confirm your email address."
+msgstr ""
 
 #: modules/request/forms.py:25
 msgid "Adresse"
-msgstr "address"
+msgstr ""
 
 #: modules/request/forms.py:31
 msgid "PLZ"
-msgstr "Postcode"
+msgstr ""
 
 #: modules/request/forms.py:37
 msgid "Ort"
-msgstr "City"
+msgstr ""
 
 #: settings/base.py:82
 msgid "Deutsch"
-msgstr "German"
+msgstr ""
 
 #: settings/base.py:83
 msgid "Englisch"
-msgstr "English"
+msgstr ""
 
 #: templates/announcement.html:16
 msgid ""
@@ -84,48 +82,41 @@ msgid ""
 "Am eisernen Tor bei der AMSEL Veranstaltung\n"
 "        "
 msgstr ""
-"\n"
-"       <b>Meet us</b> at the Day of the Unemployed in VIENNA on 30.04.22 "
-"from 15:00 - 17:00 Mariahilfer Straße corner Neubaugasse <br />\n"
-"        or at the Day of the Unemployed in GRAZ on 30.04.22 from 11:00 - "
-"13:00 at the iron gate at the AMSEL event"
 
 #: templates/base.html:7 templates/email/already_confirmed.html:3
 #: templates/email/confirm.html:3 templates/email/withdraw.html:3
 msgid "de"
-msgstr "en"
+msgstr ""
 
 #: templates/base.html:16
 msgid "https://amsalgorithmus.at/"
-msgstr "https://amsalgorithmus.at/"
+msgstr ""
 
 #: templates/base.html:18
 msgid "Stoppt den AMS-Algorithmus!"
-msgstr "Stop the AMS algorithm!"
+msgstr ""
 
 #: templates/base.html:19
 msgid ""
 "Wollen Sie, dass Computer darüber entscheiden, wen das AMS geförderte "
 "Ausbildungen und Schulungen machen lässt?"
 msgstr ""
-"Do you want computers to decide who the AMS lets do subsidized education and "
-"training?"
 
 #: templates/base.html:35
 msgid "Stoppt den AMS-Algorithmus"
-msgstr "Stop the AMS algorithm"
+msgstr ""
 
 #: templates/base.html:55
 msgid "Design &amp; Entwicklung:"
-msgstr "Design &amp; Development:"
+msgstr ""
 
 #: templates/base.html:60
 msgid "https://epicenter.works/"
-msgstr "https://epicenter.works/"
+msgstr ""
 
 #: templates/base.html:63
 msgid "Du findest unsere Arbeit gut?"
-msgstr "You think our work is good?"
+msgstr ""
 
 #: templates/base.html:65
 msgid ""
@@ -133,63 +124,58 @@ msgid ""
 "                <b>Bitte <u>unterstütze uns</u>!</b>\n"
 "                "
 msgstr ""
-"\n"
-"                <b>Please <u>support us</u>!</b>\n"
-"                "
 
 #: templates/base.html:71
 msgid "https://epicenter.works/kontakt"
-msgstr "https://epicenter.works/en/kontakt"
+msgstr ""
 
 #: templates/base.html:71
 msgid "Impressum"
-msgstr "Imprint"
+msgstr ""
 
 #: templates/base.html:71
 msgid "Datenschutz"
-msgstr "Data privacy policy"
+msgstr ""
 
 #: templates/base.html:72
 msgid "https://epicenter.works"
-msgstr "https://epicenter.works"
+msgstr ""
 
 #: templates/base.html:77
 msgid "Feedback zu amsalgorithmus.at"
-msgstr "Feedback for amsalgorithmus.at"
+msgstr ""
 
 #: templates/confirm.html:8 templates/withdraw.html:8
 msgid "Alles klar!"
-msgstr "No problem!"
+msgstr ""
 
 #: templates/confirm.html:10 templates/withdraw.html:13
 msgid "<strong>Ein Fehler</strong> ist aufgetreten."
-msgstr "<strong>An error</strong> has occurred."
+msgstr ""
 
 #: templates/confirm.html:15
 msgid "Deine Teilnahme an der Petition wurde erfolgreich bestätigt."
-msgstr "Your participation in the petition has been successfully confirmed."
+msgstr ""
 
 #: templates/confirm.html:16
 msgid "Vielen Dank für deine Unterstützung!"
-msgstr "Thank you for your support!"
+msgstr ""
 
 #: templates/confirm.html:18
 msgid ""
 "Bitte wende dich an <a href=\"mailto:ams@epicenter.works\">ams@epicenter."
 "works</a>, um deine Unterschrift zu bestätigen."
 msgstr ""
-"Please contact <a href=\"mailto:ams@epicenter.works\">ams@epicenter.works</"
-"a> to confirm your signature."
 
 #: templates/demands/faehigkeiten.html:3
 msgid "2. Fähigkeiten fördern, statt Schwächen bestrafen"
-msgstr "2. Encourage skills instead of punishing weaknesses"
+msgstr ""
 
 #: templates/demands/faehigkeiten.html:8
 msgid ""
 "Mehr Bildung ermöglichen, durch Förderung und Ermöglichung von "
 "(Weiter-)Bildung"
-msgstr "Enabling more education, by promoting and enabling (further) education"
+msgstr ""
 
 #: templates/demands/faehigkeiten.html:13
 msgid ""
@@ -197,9 +183,6 @@ msgid ""
 "dazu braucht es eine Aufstockung der Weiterbildungs- und Schulungsmaßnahmen "
 "von Arbeitssuchenden."
 msgstr ""
-"People should be promoted on the basis of their skills and strengths, and "
-"this requires an increase in further education and training measures for job "
-"seekers."
 
 #: templates/demands/faehigkeiten.html:15
 msgid ""
@@ -208,21 +191,16 @@ msgid ""
 "Berufszeiten parallel studiert haben). Auch soll das AMS selbstbezahlte "
 "Weiterbildungen, z. B. Kurse, die nur wenige Tage dauern, erlauben."
 msgstr ""
-"Jobseekers must be allowed to start university or UAS studies (this is "
-"currently only allowed if jobseekers have already studied in parallel during "
-"their working lives). The AMS should also allow self-paid continuing "
-"education, e.g. courses lasting only a few days."
 
 #: templates/demands/information.html:3
 msgid "4. Recht auf Information"
-msgstr "4. Right to information"
+msgstr ""
 
 #: templates/demands/information.html:8
 msgid ""
 "Wir fordern eine umfassende proaktive Aufklärung über die Rechte von "
 "Arbeitssuchenden."
 msgstr ""
-"We call for comprehensive proactive education about job seekers' rights."
 
 #: templates/demands/information.html:13
 msgid ""
@@ -240,23 +218,10 @@ msgid ""
 "AMS geregelt ist.\n"
 "    "
 msgstr ""
-"\n"
-"    The AMS is funded by all of us and is therefore a service provider with "
-"a mandate to help the general public. It must meet all people at eye level. "
-"In order for people to be able to talk to their advisors on an equal "
-"footing, they first of all need information about what their rights and "
-"obligations are in connection with the AMS; starting with what their "
-"entitlement to unemployment benefits is linked to - whether and under what "
-"circumstances their money can be cut off - whether they have to enter into a "
-"support agreement with the AMS or whether this is optional - what their "
-"rights to information and disclosure look like and how the legal "
-"relationship between them and external partner companies of the AMS is "
-"regulated.\n"
-"    "
 
 #: templates/demands/menschen.html:3
 msgid "1. Menschen, nicht Computer sollen entscheiden"
-msgstr "1. People, not computers, should decide"
+msgstr ""
 
 #: templates/demands/menschen.html:8
 msgid ""
@@ -266,11 +231,6 @@ msgid ""
 "      statt Entscheidungen eines Computers nur abzunicken.\n"
 "      "
 msgstr ""
-"\n"
-"      People should be able to make decisions about\n"
-"      to decide on access to government services,\n"
-"      instead of just nodding off decisions made by a computer.\n"
-"      "
 
 #: templates/demands/menschen.html:17
 msgid ""
@@ -283,13 +243,6 @@ msgid ""
 "Entscheidungen an Algorithmen auszulagern.\n"
 "      "
 msgstr ""
-"\n"
-"      The AMS algorithm must be rejected and shut down. A computer must not "
-"be allowed to decide human fates, and access to state benefits must not be "
-"regulated by a computer. Decisions must be made comprehensibly, "
-"transparently, and with human measure. The system is a dangerous precedent "
-"for outsourcing political decisions to algorithms.\n"
-"      "
 
 #: templates/demands/menschen.html:22
 msgid ""
@@ -302,17 +255,10 @@ msgid ""
 "widersprechen.\n"
 "      "
 msgstr ""
-"\n"
-"      Even if <abbr title=\"Called „AMAS“ or „PAMAS“ by AMS\">the system</"
-"abbr> does not (yet) make any fully automated decisions, it must not "
-"prescribe any decisions that the AMS staff only nods off. The AMS counseling "
-"sessions usually last only 15 minutes, and there is enormous pressure to "
-"justify not contradicting the computer.\n"
-"      "
 
 #: templates/demands/optional.html:3
 msgid "7. Nur freiwillige Teilnahme am Algorithmus"
-msgstr "7. Only voluntary participation in the algorithm"
+msgstr ""
 
 #: templates/demands/optional.html:8
 msgid ""
@@ -320,9 +266,6 @@ msgid ""
 "Entkoppelung von jeder Fördervergabe. Wir wollen ein System, das so gut ist, "
 "dass die Betroffenen freiwillig daran teilnehmen"
 msgstr ""
-"We demand optional participation in the AMS algorithm (opt-in) and "
-"decoupling from any grant award. We want a system that is so good that the "
-"people concerned participate in it voluntarily"
 
 #: templates/demands/optional.html:13
 msgid ""
@@ -342,30 +285,16 @@ msgid ""
 "entstehen.\n"
 "    "
 msgstr ""
-"\n"
-"    The AMS is in a position of power vis-à-vis job seekers\n"
-"    In the interest of data protection, we therefore call for the voluntary "
-"participation of all jobseekers in the AMS algorithm\n"
-"    of all job seekers in the AMS algorithm. Job seekers must give their\n"
-"    informed consent before the system categorizes them. This\n"
-"    Consent can be revoked at any time, which also requires that all "
-"calculated\n"
-"    Values of the algorithm must be deleted. From the refusal to participate "
-"in this\n"
-"    System, the jobseekers must not suffer any disadvantages.\n"
-"    "
 
 #: templates/demands/ressourcen.html:3
 msgid "3. Mehr Ressourcen für das AMS"
-msgstr "3. More resources for the AMS"
+msgstr ""
 
 #: templates/demands/ressourcen.html:8
 msgid ""
 "Wir fordern mehr und besser ausgebildete Berater*innen, die ausreichend Zeit "
 "für Beratungen haben."
 msgstr ""
-"We demand more and better trained counselors who have enough time for "
-"counseling."
 
 #: templates/demands/ressourcen.html:13
 msgid ""
@@ -382,21 +311,10 @@ msgid ""
 "Arbeitssuchenden.\n"
 "    "
 msgstr ""
-"\n"
-"    The ratio of counselors to job seekers <a href=\"https://netzpolitik."
-"org/2018/oesterreichs-jobcenter-richten-kuenftig-mit-hilfe-von-software-"
-"ueber-arbeitslose/\" target=\"_blank\">in Germany is 1:100, while in Austria "
-"it is only 1:250</a>. This shows that an increase in this area is "
-"conceivable and would make sense, because a better counseling ratio means "
-"better job opportunities and higher-quality counseling. The AMS not only "
-"needs more money for the training and further education of its consultants. "
-"It is equally necessary to increase the quality of meaningful further "
-"education and training measures for job seekers.\n"
-"    "
 
 #: templates/demands/risikocheck.html:3
 msgid "6. Risikocheck für Algorithmen"
-msgstr "6. Risk check for algorithms"
+msgstr ""
 
 #: templates/demands/risikocheck.html:7
 msgid ""
@@ -404,9 +322,6 @@ msgid ""
 "Auswirkungen, bevor diese eingeführt werden (Verpflichtung für ein "
 "vorgelagertes Algorithmic Impact Assessment)."
 msgstr ""
-"We call for a review of algorithms for their technical and social impact "
-"before they are introduced (obligation for an upstream Algorithmic Impact "
-"Assessment)."
 
 #: templates/demands/risikocheck.html:11
 msgid ""
@@ -417,12 +332,6 @@ msgid ""
 "geschehen, die potentiell in Grundrechte eingreifen\n"
 "    "
 msgstr ""
-"\n"
-"    Automated systems that could have negative consequences for people must "
-"be closely scrutinized for their functionality and possible consequences "
-"before they are introduced. This must be done for all algorithms that "
-"potentially interfere with fundamental rights\n"
-"    "
 
 #: templates/demands/risikocheck.html:16
 msgid ""
@@ -434,13 +343,6 @@ msgid ""
 "    AMS-Algorithmus verabsäumt und muss zukünftig verpflichtend sein.\n"
 "    "
 msgstr ""
-"\n"
-"    Here there are international best practices for the control of "
-"algorithms,\n"
-"    a so-called Algorithmic Impact Assessment. This was neglected in the "
-"case of the\n"
-"    AMS algorithm and must be mandatory in the future.\n"
-"    "
 
 #: templates/demands/risikocheck.html:23
 msgid ""
@@ -452,12 +354,6 @@ msgid ""
 "    bevor solche Systeme gestartet und flächendeckend eingesetzt werden. \n"
 "    "
 msgstr ""
-"\n"
-"    Algorithms have to be checked for errors in the system, biases in the "
-"data and resulting\n"
-"    and resulting negative feedback cycles must be analyzed,\n"
-"    before such systems are launched and widely deployed\n"
-"    "
 
 #: templates/demands/risikocheck.html:30
 msgid ""
@@ -468,12 +364,6 @@ msgid ""
 "    vermieden werden. \n"
 "    "
 msgstr ""
-"\n"
-"    Not every statistical regression follows the principle of cause and "
-"effect\n"
-"    Effect. Negative effects on people due to incorrect analyses must be\n"
-"    be avoided\n"
-"    "
 
 #: templates/demands/risikocheck.html:37
 msgid ""
@@ -484,35 +374,21 @@ msgid ""
 "assessment.html\" target=\"_blank\">Kanada</a> \n"
 "    oder die \n"
 "    <a href=\"https://www.theverge.com/2019/4/15/18309437/new-york-city-"
-"accountability-task-force-law-algorithm-transparency-automation\" target="
-"\"_blank\">Stadt New York</a> \n"
+"accountability-task-force-law-algorithm-transparency-automation\" "
+"target=\"_blank\">Stadt New York</a> \n"
 "    eingeführt haben.\n"
 "    "
 msgstr ""
-"\n"
-"    That is why we are calling for an Algorithmic Impact Assessment, as is "
-"already the case in \n"
-"   <a href=\"https://www.canada.ca/en/government/system/digital-government/"
-"digital-government-innovations/responsible-use-ai/algorithmic-impact-"
-"assessment.html\" target=\"_blank\">Canada</a> \n"
-"    or the \n"
-"   <a href=\"https://www.theverge.com/2019/4/15/18309437/new-york-city-"
-"accountability-task-force-law-algorithm-transparency-automation\" target="
-"\"_blank\">City of New York</a> \n"
-"    have already introduced.\n"
-"    "
 
 #: templates/demands/transparenz.html:3
 msgid "5. Umfassende Transparenz"
-msgstr "5. Comprehensive transparency"
+msgstr ""
 
 #: templates/demands/transparenz.html:8
 msgid ""
 "Projekte und Programme, die mit unser aller Geld gestartet werden müssen "
 "höchstmögliche Transparenz aufweisen, um evaluierbar zu sein."
 msgstr ""
-"Projects and programs that are started with all of our money must be as "
-"transparent as possible in order to be evaluable."
 
 #: templates/demands/transparenz.html:13
 msgid ""
@@ -526,14 +402,6 @@ msgid ""
 "das Projekt sind so ausgeschlossen.\n"
 "    "
 msgstr ""
-"\n"
-"    The AMS algorithm has been developed for years at great expense, with "
-"the public excluded. Informed debate has been impossible simply because "
-"neither the system's database nor its results have been made public. "
-"Training materials for consultants and processes for appealing the algorithm "
-"continue to be kept secret. A scientific reappraisal and democratic debate "
-"about the project are thus excluded.\n"
-"    "
 
 #: templates/demands/transparenz.html:18
 msgid ""
@@ -551,34 +419,20 @@ msgid ""
 "werden.\n"
 "    "
 msgstr ""
-"\n"
-"    We demand comprehensive and proactive transparency from the AMS. "
-"Clarification must not come only through public pressure. At the very least, "
-"the mathematical models, the software used, the anonymized data basis, the "
-"concrete functioning of the system and the results of the calculation "
-"process for individual groups must be published. Likewise, it must be made "
-"transparent how the AMS algorithm affects practical counseling and the "
-"allocation of subsidies. The measures that the AMS has already taken as a "
-"result of the criticism, such as training materials, the interaction with "
-"the restructuring of the AMS and accompanying processes, as well as "
-"complaint options for those affected, must also finally be published.\n"
-"    "
 
 #: templates/donate.html:3
 msgid "Da du hier bist…"
-msgstr "Since you're here..."
+msgstr ""
 
 #: templates/donate.html:5
 msgid "hätten wir eine kleine Bitte an dich."
-msgstr "we have a small request for you."
+msgstr ""
 
 #: templates/donate.html:6
 msgid ""
-"Diese Kampagne wird von der Grundrechts-NGO <a target=\"_blank\" href="
-"\"https://epicenter.works/\">epicenter.works</a> getragen."
+"Diese Kampagne wird von der Grundrechts-NGO <a target=\"_blank\" "
+"href=\"https://epicenter.works/\">epicenter.works</a> getragen."
 msgstr ""
-"I would like to receive the <a target=\"_blank\" href=\"https://epicenter."
-"works/newsletter\">newsletter</a> (optional)."
 
 #: templates/donate.html:7
 msgid ""
@@ -590,23 +444,16 @@ msgid ""
 "    Hilf uns eine starke Stimme für die Zivilgesellschaft zu sein!\n"
 "    "
 msgstr ""
-"\n"
-"    We have been fighting for fundamental and human rights in the digital "
-"age for over 10 years,\n"
-"    have abolished data retention and the federal Trojan and need your "
-"support.\n"
-"    Help us be a strong voice for civil society!\n"
-"    "
 
 #: templates/donate.html:14
 msgid "Jetzt Fördermitglied werden!"
-msgstr "Support our demands now!"
+msgstr ""
 
 #: templates/email/already_confirmed.html:20 templates/email/confirm.html:20
 #: templates/email/withdraw.html:20
 #, python-format
 msgid "Hallo %(full_name)s,"
-msgstr "Hello %(full_name)s,"
+msgstr ""
 
 #: templates/email/already_confirmed.html:23
 msgid ""
@@ -614,26 +461,21 @@ msgid ""
 "                      Du warst allerdings bereits als UnterstützerIn "
 "eingetragen.<br/>"
 msgstr ""
-"thank you for your support! <br/>\n"
-"                      However, you were already registered as a supporter."
-"<br/>"
 
 #: templates/email/already_confirmed.html:27 templates/email/confirm.html:31
 msgid ""
 "Unsere Petition wird nur erfolgreich sein, wenn wir viele sind!<br/>\n"
 "                      <b>Teile daher unsere Seite auf Social Media!</b>"
 msgstr ""
-"Our petition will only be successful if we are many!<br/>\n"
-"                     <b>Therefore, share our page on social media!</b>"
 
 #: templates/email/already_confirmed.html:33 templates/email/confirm.html:37
 msgid "Vielen Dank für deine Hilfe!"
-msgstr "Thanks a lot for your help!"
+msgstr ""
 
 #: templates/email/already_confirmed.html:36 templates/email/confirm.html:40
 #: templates/email/withdraw.html:33
 msgid "Liebe Grüße,"
-msgstr "Kind regards,"
+msgstr ""
 
 #: templates/email/already_confirmed.txt:2
 #, python-format
@@ -651,18 +493,6 @@ msgid ""
 "Liebe Grüße,\n"
 "epicenter.works"
 msgstr ""
-"Hello %(full_name)s,\n"
-"            \n"
-"thank you for your support!\n"
-"\n"
-"However, you were already registered as a supporter. Our\n"
-"Petition can be more successful if you share it on social media\n"
-"share it\n"
-"\n"
-"Thank you for your help!\n"
-"\n"
-"Kind regards,\n"
-"epicenter.works"
 
 #: templates/email/confirm.html:23
 msgid ""
@@ -671,10 +501,6 @@ msgid ""
 "ein kleiner Schritt!<br/>\n"
 "                      <b>Bitte klicke auf diesen Bestätigungslink:</b>"
 msgstr ""
-"thank you for your support! <br/>\n"
-"                      There is only one small step left for us to count your "
-"vote!<br/>\n"
-"                     <b>Please click on this confirmation link:</b>"
 
 #: templates/email/confirm.txt:2
 #, python-format
@@ -693,19 +519,6 @@ msgid ""
 "Liebe Grüße,\n"
 "epicenter.works"
 msgstr ""
-"Hello %(full_name)s,\n"
-"            \n"
-"thank you for your support!\n"
-"There is only one small step left for us to count your vote!\n"
-"\n"
-"Please use this confirmation link:\n"
-"\n"
-"%(confirmation_url|safe)s\n"
-"\n"
-"Thanks for your help!\n"
-"\n"
-"Kind regards,\n"
-"epicenter.works"
 
 #: templates/email/withdraw.html:23
 msgid ""
@@ -718,14 +531,6 @@ msgid ""
 "                    <b>Um deinen Widerruf zu bestätigen, klicke den "
 "folgenden Bestätigungslink:</b>"
 msgstr ""
-"We have received a message that you wish to withdraw your consent to data "
-"processing\n"
-"                    you wish to withdraw. With the revocation you will be "
-"removed from the list of signatories\n"
-"                    and your data will be deleted.\n"
-"\n"
-"                   <b>To confirm your revocation, click the following "
-"confirmation link:</b>"
 
 #: templates/email/withdraw.txt:2
 #, python-format
@@ -744,51 +549,38 @@ msgid ""
 "Liebe Grüße,\n"
 "epicenter.works"
 msgstr ""
-"Hello %(full_name)s,\n"
-"\n"
-"We have received a message that you want to revoke your consent to the\n"
-"Revoke your consent to data processing. With the revocation you will be "
-"removed from the list\n"
-"of signatories and your data will be deleted.\n"
-"\n"
-"To confirm your revocation, click the following confirmation link:\n"
-"\n"
-"%(withdrawal_url|safe)s\n"
-"\n"
-"Kind regards,\n"
-"epicenter.works"
 
 #: templates/index.html:29
 msgid "Erklärvideo"
-msgstr "Explainer video"
+msgstr ""
 
 #: templates/index.html:30
 msgid "Forderungen"
-msgstr "Demands"
+msgstr ""
 
 #: templates/index.html:31
 msgid "Minister kontaktieren"
-msgstr "Contact minister"
+msgstr ""
 
 #: templates/index.html:32
 msgid "AMS-Daten anfordern"
-msgstr "Request AMS data"
+msgstr ""
 
 #: templates/index.html:33
 msgid "Weitersagen"
-msgstr "Share"
+msgstr ""
 
 #: templates/index.html:49
 msgid "Stoppt den <strong>AMS&#8209;Algorithmus</strong>"
-msgstr "Stop the <strong>AMS algorithm</strong>"
+msgstr ""
 
 #: templates/index.html:53
 msgid "Computer dürfen nicht über Menschen entscheiden!"
-msgstr "Computers should not make decisions about people!"
+msgstr ""
 
 #: templates/index.html:60 templates/index.html:163
 msgid "Jetzt Forderungen unterstützen!"
-msgstr "Support our demands now!"
+msgstr ""
 
 #: templates/index.html:77
 msgid ""
@@ -797,10 +589,6 @@ msgid ""
 "          <strong>gefährlicher Dammbruch</strong>.\n"
 "          "
 msgstr ""
-"\n"
-"          The introduction of the AMS algorithm is a\n"
-"         <strong>dangerous breach of the dam</strong>.\n"
-"          "
 
 #: templates/index.html:85
 msgid ""
@@ -811,13 +599,6 @@ msgid ""
 "nicht so.\n"
 "              "
 msgstr ""
-"\n"
-"              Until now, it has been the case that the use of entirely new "
-"technologies has been\n"
-"              at least publicly debated and democratically legitimized\n"
-"              and democratically legitimized by a law. This is not the case "
-"with the AMS algorithm.\n"
-"              "
 
 #: templates/index.html:92
 msgid ""
@@ -831,44 +612,21 @@ msgid ""
 "wie dieses System arbeitet und über uns entscheidet.\n"
 "              "
 msgstr ""
-"\n"
-"              This system was developed and presented \n"
-"              <strong>without public debate</strong>. \n"
-"             <strong>Civil society</strong> was not involved in this\n"
-"              process, and <strong>to this day there is a</strong> \n"
-"             <strong>fundamental lack of transparency</strong> about how "
-"this system works and decides about us.\n"
-"              "
 
 #: templates/index.html:101
 msgid ""
 "\n"
 "              Ein ähnliches System wurde <a href=\"https://epicenter.works/"
-"content/warum-der-polnische-ams-algorithmus-gescheitert-ist\" target=\"_blank"
-"\">in Polen vom Verfassungsgerichtshof\n"
+"content/warum-der-polnische-ams-algorithmus-gescheitert-ist\" "
+"target=\"_blank\">in Polen vom Verfassungsgerichtshof\n"
 "              aufgehoben</a>. Auch in den Niederlanden wurde ein "
 "algorithmenbasiertes System,\n"
-"              das Sozialhilfeempfänger*innen kontrollieren sollte <a href="
-"\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
+"              das Sozialhilfeempfänger*innen kontrollieren sollte <a "
+"href=\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
 "archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">für\n"
 "              rechtswidrig erklärt und eingestellt.</a>\n"
 "              "
 msgstr ""
-"\n"
-"              A similar system <a href=\"https://epicenter.works/content/"
-"warum-der-polnische-ams-algorithmus-gescheitert-ist\" target=\"_blank\">in "
-"Poland</a> was overturned <a href=\"https://epicenter.works/content/warum-"
-"der-polnische-ams-algorithmus-gescheitert-ist\" target=\"_blank\">by the "
-"Constitutional Court\n"
-"              overturned</a>. In the Netherlands, too, an algorithm-based "
-"system,\n"
-"              that was supposed to monitor welfare recipients <a href="
-"\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
-"archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">was</a> "
-"declared unlawful and <a href=\"https://www.uni-muenster.de/NiederlandeNet/"
-"aktuelles/archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">\n"
-"              unlawful and was discontinued.\n"
-"</a>             "
 
 #: templates/index.html:109
 msgid ""
@@ -884,71 +642,60 @@ msgid ""
 "              auch noch <strong>einzementieren</strong>.\n"
 "              "
 msgstr ""
-"\n"
-"              We must not allow characteristics,\n"
-"              characteristics over which we have no control be decisive in "
-"determining whether people are\n"
-"              Education and training are prohibited. <strong>Algorithmic\n"
-"              Systems</strong> must combat prejudice and injustice and not\n"
-"              and <strong>must not cement these injustices</strong>\n"
-"             <strong>cement</strong> these injustices in place.\n"
-"              "
 
 #: templates/index.html:121
 msgid "https://embed.epicenter.works/yt/VUoN61lKcMc"
-msgstr "https://embed.epicenter.works/yt/VUoN61lKcMc?lang=en"
+msgstr ""
 
 #: templates/index.html:131
 msgid "Unsere <strong>7 Forderungen</strong>"
-msgstr "Our <strong>7 demands</strong>"
+msgstr ""
 
 #: templates/index.html:136
 msgid "mehr"
-msgstr "more"
+msgstr ""
 
 #: templates/index.html:141
 msgid "Forderung im Detail:"
-msgstr "Demand in detail:"
+msgstr ""
 
 #: templates/index.html:175
 msgid "AMS-Algorithmus stoppen"
-msgstr "Stop the AMS algorithm"
+msgstr ""
 
 #: templates/index.html:181
 msgid "Unsere 7 Forderungen"
-msgstr "Our 7 demands"
+msgstr ""
 
 #: templates/index.html:238
 msgid "Unterschreiben"
-msgstr "Sign"
+msgstr ""
 
 #: templates/index.html:253
 msgid "Kontaktiere deinen <strong>Minister!</strong>"
-msgstr "Contact your <strong>minister!</strong>"
+msgstr ""
 
 #: templates/index.html:267
 msgid "E-Mail schreiben"
-msgstr "Write email"
+msgstr ""
 
 #: templates/index.html:283
 msgid "Stelle ein <strong>Auskunftsbegehren!</strong>"
-msgstr "Make a <strong>request for information!</strong>"
+msgstr ""
 
 #: templates/index.html:285
 msgid ""
 "Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und "
 "Behörden anfordern. Hier kannst du das für das AMS tun."
 msgstr ""
-"Once a year you can request all your data from all companies and authorities "
-"for free. Here you can do that for the AMS."
 
 #: templates/index.html:288
 msgid "Zum Generator"
-msgstr "To the generator"
+msgstr ""
 
 #: templates/index.html:290
 msgid "Antrag gemäß Art. 15 DSGVO auf Auskunft"
-msgstr "Request for information according to Art. 15 DSGVO"
+msgstr ""
 
 #: templates/index.html:298
 msgid ""
@@ -962,59 +709,46 @@ msgid ""
 "erteilen.</strong>\n"
 "                  "
 msgstr ""
-"\n"
-"                   <strong>Only if you have been unemployed since 2019, the "
-"AMS has an algorithmic classification of you, which is about 2 pages of the "
-"information request (an info page and an information page).</strong> On "
-"average, a request for information at the AMS (for older persons) has about "
-"80-150 pages. Upon request, <strong>your AMS counselor</strong>can also "
-"<strong>provide</strong>you with <strong>information about your algorithmic "
-"classification</strong>.\n"
-"                  "
 
 #: templates/index.html:313
 msgid "Weitersagen!"
-msgstr "Pass it on!"
+msgstr ""
 
 #: templates/index.html:315
 msgid ""
 "Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug "
 "politischen Druck erzeugen, um den AMS-Algorithmus zu verhinden."
 msgstr ""
-"Tell your friends about this campaign! This is the only way we can generate "
-"enough political pressure to stop the AMS algorithm."
 
 #: templates/index.html:338
 msgid "Unterstützer*innen"
-msgstr "Supporters"
+msgstr ""
 
 #: templates/index.html:339
 msgid "Die Kampagne wird von folgenden Organisationen getragen:"
-msgstr "The campaign is supported by the following organizations:"
+msgstr ""
 
 #: templates/newsletter_snippet.html:5
 msgid "Bleib informiert!"
-msgstr "Stay informed!"
+msgstr ""
 
 #: templates/newsletter_snippet.html:7
 msgid ""
 "Mit dem epicenter.works Newsletter behältst du den Überblick über "
 "netzpolitische Themen in Österreich."
 msgstr ""
-"With the epicenter.works newsletter you keep track of net political topics "
-"in Austria."
 
 #: templates/newsletter_snippet.html:8
 msgid "https://epicenter.works/newsletter"
-msgstr "https://epicenter.works/newsletter"
+msgstr ""
 
 #: templates/newsletter_snippet.html:8
 msgid "Jetzt abonnieren"
-msgstr "Subscribe now"
+msgstr ""
 
 #: templates/privacy.html:16
 msgid "Datenschutzbedingungen"
-msgstr "Privacy policy"
+msgstr ""
 
 #: templates/privacy.html:18
 msgid ""
@@ -1027,13 +761,6 @@ msgid ""
 "uns gelöscht.\n"
 "        "
 msgstr ""
-"\n"
-"        When you sign our petition, we save your name and email address to "
-"record your identity as a participant and to exclude multiple signatures. "
-"This data will be transferred to the Federal Ministry of Labor, Family and "
-"Youth, Untere Donaustraße 13-15, 1020 Vienna, after the signing deadline and "
-"then deleted by us.\n"
-"        "
 
 #: templates/privacy.html:23
 msgid ""
@@ -1048,14 +775,6 @@ msgid ""
 "der Unterzeichnungsfrist von uns gelöscht.\n"
 "        "
 msgstr ""
-"\n"
-"        To prevent abuse, we also store a string that we use for a "
-"confirmation link that you receive by email, how many times we have sent you "
-"such an email and whether you have confirmed your signature. Should you use "
-"the objection form below, we will also store such a string and the number of "
-"emails sent until the objection process is complete. All this data will be "
-"deleted by us after the end of the signing period.\n"
-"        "
 
 #: templates/privacy.html:28
 msgid ""
@@ -1067,12 +786,6 @@ msgid ""
 "datenschutz#newsletter\">hier</a>.\n"
 "        "
 msgstr ""
-"\n"
-"        We also record whether you wish to receive our newsletter and, if "
-"so, transfer your e-mail address to our newsletter system. Information on "
-"data protection regarding our newsletter can be found <a href=\"https://"
-"epicenter.works/datenschutz#newsletter\">here</a>.\n"
-"        "
 
 #: templates/privacy.html:33
 msgid ""
@@ -1085,17 +798,10 @@ msgid ""
 "<a href=\"https://epicenter.works/datenschutz\">hier</a>.\n"
 "        "
 msgstr ""
-"\n"
-"        The processing of this data is based on Art. 9 para. 2 lit a DSGVO. "
-"You can revoke your consent to the processing at any time using the form "
-"below. For more information about the controller, your rights, contact "
-"details, and privacy policy when visiting our websites, please <a href="
-"\"https://epicenter.works/datenschutz\">click here</a>.\n"
-"        "
 
 #: templates/privacy.html:42
 msgid "Widerruf der Einwilligung zur Verarbeitung"
-msgstr "Revocation of consent to processing"
+msgstr ""
 
 #: templates/privacy.html:43
 msgid ""
@@ -1103,21 +809,19 @@ msgid ""
 "erhältst wieder eine E-Mail mit einem Link, mit dem du den Widerruf "
 "bestätigst."
 msgstr ""
-"To cancel, enter the email address you signed with. You will receive another "
-"email with a link to confirm the revocation."
 
 #: templates/privacy.html:49
 msgid "Einwilligung widerrufen"
-msgstr "Revoke consent"
+msgstr ""
 
 #: templates/progressbar.html:17
 #, python-format
 msgid "Bisher %(signature_count)s von %(goal)s Unterschriften."
-msgstr "%(signature_count)s of %(goal)s signatures so far."
+msgstr ""
 
 #: templates/request.html:8
 msgid "Auskunftsbegehren"
-msgstr "Request for information"
+msgstr ""
 
 #: templates/request.html:18
 msgid ""
@@ -1131,14 +835,6 @@ msgid ""
 "bei!\n"
 "            "
 msgstr ""
-"\n"
-"            With the help of this form you can generate a request for "
-"information,\n"
-"            which serves to view personal data that the Labor Market Service "
-"has collected about you\n"
-"            has collected about you.\n"
-"            Send it to the included address and enclose a copy of your ID!\n"
-"            "
 
 #: templates/request.html:26
 msgid ""
@@ -1149,15 +845,10 @@ msgid ""
 "gespeichert.\n"
 "            "
 msgstr ""
-"\n"
-"            The data you provide in this form will be used only to generate "
-"your\n"
-"            generate your request for information and will not be stored.\n"
-"            "
 
 #: templates/request.html:46
 msgid "Pflichtfelder"
-msgstr "Mandatory fields"
+msgstr ""
 
 #: templates/request.html:48
 msgid ""
@@ -1165,9 +856,6 @@ msgid ""
 "default/files/ams-dsgvo-hoch.pdf\" target=\"_blank\">Musterbrief</a> als PDF "
 "für das Auskunftsbegehren zur Verfügung"
 msgstr ""
-"Alternatively, we also provide a <a href=\"https://epicenter.works/sites/"
-"default/files/ams-dsgvo-hoch.pdf\" target=\"_blank\">sample letter</a> as a "
-"PDF for the request for information"
 
 #: templates/request_call_to_action.html:4
 msgid ""
@@ -1176,89 +864,83 @@ msgid ""
 "  um herauszufinden welche Daten das AMS über dich gespeichert hat.\n"
 "  "
 msgstr ""
-"\n"
-"  Use our program and generate a document\n"
-"  to find out what data the AMS has stored about you.\n"
-"  "
 
 #: templates/share.html:5
 msgid "Jede Stimme zählt!"
-msgstr "Every vote counts!"
+msgstr ""
 
 #: templates/share.html:7
 msgid "Teile diese Seite auf Social Media damit wir unser Ziel erreichen!"
-msgstr "Share this page on social media so we can reach our goal!"
+msgstr ""
 
 #: templates/thanks.html:7
 msgid "Danke,"
-msgstr "Thank you,"
+msgstr ""
 
 #: templates/thanks.html:9
 msgid ""
 "klicke noch schnell den Bestätigungslink, den du per E-Mail erhalten hast."
-msgstr "quickly click the confirmation link you received by e-mail."
+msgstr ""
 
 #: templates/tour.html:39
 msgid "Wir sind auf Tour"
-msgstr "We are on tour"
+msgstr ""
 
 #: templates/tour.html:41
 msgid "Termine & Livestream"
-msgstr "Dates & Livestream"
+msgstr ""
 
 #: templates/tour.html:71
 msgid "Hauptseite & Petition"
-msgstr "Main page & Petition"
+msgstr ""
 
 #: templates/tour.html:111
 msgid "Paneldiskussion zum AMS-Algorithmus"
 msgstr ""
 
 #: templates/tour.html:116
-#, fuzzy
-#| msgid "https://embed.epicenter.works/yt/VUoN61lKcMc"
 msgid "https://embed.epicenter.works/yt/I9O8Az_E-VY"
-msgstr "https://embed.epicenter.works/yt/VUoN61lKcMc?lang=en"
+msgstr ""
 
 #: templates/tour/tour_dates.html:4
 msgid "Termine"
-msgstr "Dates"
+msgstr ""
 
 #: templates/tour/tour_dates.html:6
 msgid "28. April"
-msgstr "April 28th"
+msgstr ""
 
 #: templates/tour/tour_dates.html:6
 msgid "Panel / Livestream"
-msgstr "Panel / Livestream"
+msgstr ""
 
 #: templates/tour/tour_dates.html:7
 msgid "2. Mai"
-msgstr "May 2nd"
+msgstr ""
 
 #: templates/tour/tour_dates.html:8
 msgid "3. Mai"
-msgstr "May 3rd"
+msgstr ""
 
 #: templates/tour/tour_dates.html:9
 msgid "4. Mai"
-msgstr "May 4th"
+msgstr ""
 
 #: templates/tour/tour_dates.html:10
 msgid "5. Mai"
-msgstr "May 5th"
+msgstr ""
 
 #: templates/tour/tour_dates.html:11
 msgid "6. Mai"
-msgstr "May 6th"
+msgstr ""
 
 #: templates/tour/tour_snippet.html:15
 msgid "Alle Details"
-msgstr "All details"
+msgstr ""
 
 #: templates/tour/tour_teaser_text.html:4
 msgid "Triff uns, <br>wir sind auf Tour ..."
-msgstr "Meet us, <br>we are on tour ..."
+msgstr ""
 
 #: templates/tour/tour_teaser_text.html:6
 msgid ""
@@ -1270,33 +952,24 @@ msgid ""
 "man seine Chancen auf AMS-Förderungen nachspielen kann. Zum Trost gibt es "
 "ein kleines Geschenk zum Naschen\n"
 msgstr ""
-"\n"
-"  ... to talk with interested people and people concerned about the AMS "
-"algorithm.<br>\n"
-"  You can find us between 9:00 - 14:00 in front of the respective AMS "
-"location. By the way, we also have a funny \"one-armed bandit\" with us, "
-"with which you can act out your chances of AMS funding. As a consolation "
-"there is a small gift to snack on\n"
 
 #: templates/withdraw.html:10
 msgid "Wir haben deinen Widerruf erhalten und deine Daten gelöscht."
-msgstr "We have received your revocation and deleted your data."
+msgstr ""
 
 #: templates/withdraw.html:15
 msgid "Vielleicht wurden deine Daten bereits gelöscht?"
-msgstr "Perhaps your data has already been deleted?"
+msgstr ""
 
 #: templates/withdraw.html:16
 msgid ""
 "Bitte wende dich an <a href=\"mailto:ams@epicenter.works\">ams@epicenter."
 "works</a>, um sicherzugehen, dass deine Daten gelöscht wurden."
 msgstr ""
-"Please contact <a href=\"mailto:ams@epicenter.works\">ams@epicenter.works</"
-"a> to make sure that your data has been deleted."
 
 #: templates/withdrawal_sent.html:7
 msgid "Bestätige deinen Widerruf."
-msgstr "Confirm your revocation."
+msgstr ""
 
 #: templates/withdrawal_sent.html:9
 msgid ""
@@ -1306,34 +979,3 @@ msgid ""
 "durchzuführen.      \n"
 "        "
 msgstr ""
-"\n"
-"We have sent you an e-mail for confirmation, \n"
-"        click on the link in this email to complete your revocation.      \n"
-"        "
-
-#~ msgid "Online Event & Livestream"
-#~ msgstr "Online Event & Livestream"
-
-#~ msgid ""
-#~ "Am  28. April wird an dieser Stelle der Livestream zur Paneldiskussion zu "
-#~ "finden sein."
-#~ msgstr ""
-#~ "On April 28, the livestream of the panel discussion will be available "
-#~ "here."
-
-#, fuzzy
-#~ msgid ""
-#~ "\n"
-#~ "  Aut voluptas tempora molestias aut. Et alias eius itaque voluptates. "
-#~ "Mollitia ut adipisci omnis necessitatibus ut laborum. Architecto autem "
-#~ "quod corrupti ab eum. Aperiam voluptas autem autem perspiciatis!\n"
-#~ "  "
-#~ msgstr ""
-#~ "\n"
-#~ "  Aut voluptas tempora molestias aut. Et alias eius itaque voluptates. "
-#~ "Mollitia ut adipisci omnis necessitatibus ut laborum. Architecto autem "
-#~ "quod corrupti ab eum. Aperiam voluptas autem perspiciatis!\n"
-#~ "  "
-
-#~ msgid "Mai"
-#~ msgstr "May"
