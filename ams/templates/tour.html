@@ -16,6 +16,23 @@
       padding-bottom: .2em;
       border-bottom: 3px solid #fff;
     }
+    .podiumdiskussion-video {
+      text-align: center;
+    }
+    .podiumdiskussion-video iframe {
+      background-color: rgba(0, 0, 0, 0.8);
+      width: 480px;
+      max-width: 100%;
+      height: 360px;
+    }
+    .livestream-layout {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -1em;
+    }
+    .livestream-layout > div {
+      margin: 0 1em;
+    }
   </style>
   <div class="row bottom-xs">
     <div class="col-xs-12">
@@ -74,26 +91,40 @@
 </style>
 
 
+<section class="light"> 
+  <div class="row center-xs">
+      <div class="container tour-bg">
+        <div class="tour__content">
+          <div class="tour__text">
+            {% include 'tour/tour_teaser_text.html' %}
+          </div>
+          {% include 'tour/tour_dates.html' %}
+        </div>
+      </div>
+  </div>
+</section>
+
 <section class="dark"> 
   <div class="row center-xs">
     <div class="container">
       <div class="livestream">
-        <h2 style="margin: 0 0 1em;">{% trans "Online Event & Livestream" %}</h2>
-        <div style="border: 10px dashed #131f2b; font-size: 1.5em; padding: 3rem; text-align: center; margin-bottom: 2rem;">
-          <p>
-            <a class="zoomlink" href="https://zoom.us/j/94040785048?pwd=SHdjL0FROVBCK1MrSGZtUnJCK21nUT09#success">
-              <img src="/static/svg/tour-livestream-icon.svg" style="max-width: 80vw; max-height: 30vh;" alt="Symbolbild Fernseher" />
-              <br>
-              Hier geht es zur Paneldiskussion via Zoom
-            </a>
-          </p>
-          <p>
-            <small>
-              {% trans "Start: 28. April, 10:00" %}
-            </small>
-          </p>
-          <div style="font-size: 1rem;">
+        <h2 style="margin: 0 0 1em; font-size: 1.6em;">{% trans "Paneldiskussion zum AMS-Algorithmus" %}</h2>
+        <div class="livestream-layout">
+
+          <div class="podiumdiskussion-video">
+            <iframe 
+              src="{% trans "https://embed.epicenter.works/yt/I9O8Az_E-VY" %}"
+              allowfullscreen="allowfullscreen"
+              frameborder="0"
+            ></iframe>
             <p>
+              Dauer: 70 Minuten
+            </p>
+          </div>
+
+
+          <div style="max-width: 33em;">
+            <p style="font-size: 1.2em; margin-top: 0;">
               Zum Beginn einer Aktionswoche, bei der für die Abschaffung eines solchen maschinenbasierten Systems geworben wird, diskutieren Vertreter*innen aus Wissenschaft, Politik, Betroffenen und Verwaltung über ihren Zugang zu dem Algorithmus.            
             </p>
             <p>
@@ -108,7 +139,7 @@
             </p>
             <p>
               <a href="https://concordia.at/stoppt-den-ams-algorithmus-sollen-maschinen-ueber-menschen-entscheiden-duerfen/" target="_blank">
-                Mehr Infos
+                Mehr Infos zur Veranstaltung
               </a>
             </p>
           </div>
@@ -119,20 +150,8 @@
   </div>
 </section>
 
-<section class="light"> 
-  <div class="row center-xs">
-      <div class="container tour-bg">
-        <div class="tour__content">
-          <div class="tour__text">
-            {% include 'tour/tour_teaser_text.html' %}
-          </div>
-          {% include 'tour/tour_dates.html' %}
-        </div>
-      </div>
-  </div>
-</section>
 
-<section class="dark pad" id="newsletter">
+<section class="light pad newsletter" id="newsletter">
   <div class="container">
     {% include 'newsletter_snippet.html' %}
   </div>
