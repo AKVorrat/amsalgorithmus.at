@@ -103,7 +103,7 @@ msgstr "ен"
 
 #: templates/base.html:16
 msgid "https://amsalgorithmus.at/"
-msgstr "хттпс://амалгоритхмус.ат/"
+msgstr "https://amsalgorithmus.at/"
 
 #: templates/base.html:18
 msgid "Stoppt den AMS-Algorithmus!"
@@ -127,7 +127,7 @@ msgstr "Дизајн &амп; Развој:"
 
 #: templates/base.html:60
 msgid "https://epicenter.works/"
-msgstr "хттпс://епцентер.воркс/"
+msgstr "https://epicenter.works/"
 
 #: templates/base.html:63
 msgid "Du findest unsere Arbeit gut?"
@@ -144,7 +144,7 @@ msgstr ""
 
 #: templates/base.html:71
 msgid "https://epicenter.works/kontakt"
-msgstr "хттпс://епцентер.воркс/цонтацт"
+msgstr "https://epicenter.works/kontakt"
 
 #: templates/base.html:71
 msgid "Impressum"
@@ -156,7 +156,7 @@ msgstr "приватност"
 
 #: templates/base.html:72
 msgid "https://epicenter.works"
-msgstr "хттпс://епцентер.воркс"
+msgstr "https://epicenter.works"
 
 #: templates/base.html:77
 msgid "Feedback zu amsalgorithmus.at"
@@ -861,7 +861,7 @@ msgstr ""
 
 #: templates/index.html:121
 msgid "https://embed.epicenter.works/yt/VUoN61lKcMc"
-msgstr "хттпс://ембед.епицентер.воркс/ит/ВУоН61лКцМц"
+msgstr "https://embed.epicenter.works/yt/VUoN61lKcMc"
 
 #: templates/index.html:131
 msgid "Unsere <strong>7 Forderungen</strong>"
@@ -968,7 +968,7 @@ msgstr ""
 
 #: templates/newsletter_snippet.html:8
 msgid "https://epicenter.works/newsletter"
-msgstr "хттпс://епицентер.воркс/невслеттер"
+msgstr "https://epicenter.works/newsletter"
 
 #: templates/newsletter_snippet.html:8
 msgid "Jetzt abonnieren"
@@ -1176,7 +1176,7 @@ msgstr "Панел дискусија о АМС алгоритму"
 
 #: templates/tour.html:117
 msgid "https://embed.epicenter.works/yt/I9O8Az_E-VY"
-msgstr "хттпс://ембед.епицентер.воркс/ит/И9О8Аз_Е-ВИ"
+msgstr "https://embed.epicenter.works/yt/I9O8Az_E-VY"
 
 #: templates/tour/tour_dates.html:4
 msgid "Termine"
