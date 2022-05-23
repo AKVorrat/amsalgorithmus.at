@@ -3,119 +3,134 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-29 15:37+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2022-05-23 20:55+0200\n"
+"PO-Revision-Date: 2022-05-23 21:03+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: modules/petition/forms.py:16 modules/request/forms.py:8
 msgid "Vorname"
-msgstr ""
+msgstr "نام"
 
 #: modules/petition/forms.py:22 modules/request/forms.py:13
 msgid "Nachname"
-msgstr ""
+msgstr "نام خانوادگی"
 
 #: modules/petition/forms.py:29 modules/petition/forms.py:72
 #: modules/request/forms.py:19
 msgid "E-Mail-Adresse"
-msgstr ""
+msgstr "آدرس ایمیل"
 
 #: modules/petition/forms.py:40
 msgid ""
 "Ja, ich will den <a target=\"_blank\" href=\"https://epicenter.works/"
 "newsletter\">Newsletter</a> erhalten (optional)."
 msgstr ""
+"بله، من می خواهم <a target=\"_blank\" href=\"https://epicenter.works/"
+"newsletter\">خبرنامه</a> را دریافت کنم (اختیاری)."
 
 #: modules/petition/forms.py:46
 msgid ""
-"Ja, ich stimme den <a target=\"_blank\" href=\"/"
-"privacy\">Datenschutzbedingungen</a> zu."
+"Ja, ich stimme den <a target=\"_blank\" href=\"/privacy"
+"\">Datenschutzbedingungen</a> zu."
 msgstr ""
+"بله، من با شرایط <a target=\"_blank\" href=\"/privacy\">حفاظت از داده</a> "
+"موافقم."
 
 #: modules/petition/models.py:17 templates/index.html:324
 #: templates/share.html:16
 msgid "E-Mail"
-msgstr ""
+msgstr "ایمیل"
 
 #: modules/petition/models.py:56
 msgid "[amsalgorithmus.at] Bitte bestätige deine E-Mail-Adresse."
-msgstr ""
+msgstr "[amalgorithmus.at] لطفا آدرس ایمیل خود را تأیید کنید."
 
 #: modules/request/forms.py:25
 msgid "Adresse"
-msgstr ""
+msgstr "نشانی"
 
 #: modules/request/forms.py:31
 msgid "PLZ"
-msgstr ""
+msgstr "کد پستی"
 
 #: modules/request/forms.py:37
 msgid "Ort"
-msgstr ""
+msgstr "محل"
 
 #: settings/base.py:82
 msgid "Deutsch"
-msgstr ""
+msgstr "آلمانی"
 
 #: settings/base.py:83
 msgid "Englisch"
-msgstr ""
+msgstr "انگلیسی"
 
 #: templates/announcement.html:16
 msgid ""
 "\n"
-"        <b>Triff uns</b> beim Tag der Arbeitslosen in WIEN am 30.04.22 von "
-"15:00 - 17:00 Mariahilfer Straße Ecke Neubaugasse <br>\n"
-"        oder beim Tag der Arbeitslosen in GRAZ am 30.04.22 von 11:00 - 13:00 "
-"Am eisernen Tor bei der AMSEL Veranstaltung\n"
+"        <b>Triff uns beim Tag der Arbeitslosen am Samstag den 30. April "
+"2022</b><br>\n"
+"        <div style=\"font-size: .9em;\">\n"
+"          in WIEN von 15:00 - 17:00 Mariahilfer Straße Ecke Neubaugasse oder "
+"<br>\n"
+"          in GRAZ von 11:00 - 13:00 Am eisernen Tor bei der AMSEL "
+"Veranstaltung\n"
+"        </div>\n"
 "        "
 msgstr ""
+"\n"
+"<b>با ما در روز بیکاری در روز شنبه 30 آوریل 2022 ملاقات کنید</b><br><div j=0 "
+"style=\";text-align:right;direction:rtl\"> در وین از ساعت 3:00 تا 5:00 بعد "
+"از ظهر در گوشه خیابان Mariahilfer و Neubaugasse یا<br> در GRAZ از ساعت 11:00 "
+"تا 13:00 در دروازه آهن در رویداد AMSEL</div>"
 
 #: templates/base.html:7 templates/email/already_confirmed.html:3
 #: templates/email/confirm.html:3 templates/email/withdraw.html:3
 msgid "de"
-msgstr ""
+msgstr "en"
 
 #: templates/base.html:16
 msgid "https://amsalgorithmus.at/"
-msgstr ""
+msgstr "https://amalgorithmus.at/"
 
 #: templates/base.html:18
 msgid "Stoppt den AMS-Algorithmus!"
-msgstr ""
+msgstr "الگوریتم AMS را متوقف کنید!"
 
 #: templates/base.html:19
 msgid ""
 "Wollen Sie, dass Computer darüber entscheiden, wen das AMS geförderte "
 "Ausbildungen und Schulungen machen lässt?"
 msgstr ""
+"آیا می‌خواهید رایانه‌ها تصمیم بگیرند که AMS به چه کسی اجازه می‌دهد آموزش و "
+"پرورش مالی انجام دهد؟"
 
 #: templates/base.html:35
 msgid "Stoppt den AMS-Algorithmus"
-msgstr ""
+msgstr "الگوریتم AMS را متوقف می کند"
 
 #: templates/base.html:55
 msgid "Design &amp; Entwicklung:"
-msgstr ""
+msgstr "طراحی &amp; توسعه:"
 
 #: templates/base.html:60
 msgid "https://epicenter.works/"
-msgstr ""
+msgstr "https://epicenter.works/"
 
 #: templates/base.html:63
 msgid "Du findest unsere Arbeit gut?"
-msgstr ""
+msgstr "آیا کار ما را دوست دارید؟"
 
 #: templates/base.html:65
 msgid ""
@@ -123,58 +138,62 @@ msgid ""
 "                <b>Bitte <u>unterstütze uns</u>!</b>\n"
 "                "
 msgstr ""
+"\n"
+"<b>لطفا <u>از ما حمایت کنید</u> !</b>"
 
 #: templates/base.html:71
 msgid "https://epicenter.works/kontakt"
-msgstr ""
+msgstr "https://epicenter.works/contact"
 
 #: templates/base.html:71
 msgid "Impressum"
-msgstr ""
+msgstr "مشخصات ناشر"
 
 #: templates/base.html:71
 msgid "Datenschutz"
-msgstr ""
+msgstr "حریم خصوصی"
 
 #: templates/base.html:72
 msgid "https://epicenter.works"
-msgstr ""
+msgstr "https://epicenter.works"
 
 #: templates/base.html:77
 msgid "Feedback zu amsalgorithmus.at"
-msgstr ""
+msgstr "بازخورد در amalgorithmus.at"
 
 #: templates/confirm.html:8 templates/withdraw.html:8
 msgid "Alles klar!"
-msgstr ""
+msgstr "همه چیز مفهومه!"
 
 #: templates/confirm.html:10 templates/withdraw.html:13
 msgid "<strong>Ein Fehler</strong> ist aufgetreten."
-msgstr ""
+msgstr "<strong>خطایی</strong> رخ داده است."
 
 #: templates/confirm.html:15
 msgid "Deine Teilnahme an der Petition wurde erfolgreich bestätigt."
-msgstr ""
+msgstr "شرکت شما در دادخواست با موفقیت تایید شد."
 
 #: templates/confirm.html:16
 msgid "Vielen Dank für deine Unterstützung!"
-msgstr ""
+msgstr "از شما برای پشتیبانیتان بسیار متشکرم!"
 
 #: templates/confirm.html:18
 msgid ""
 "Bitte wende dich an <a href=\"mailto:ams@epicenter.works\">ams@epicenter."
 "works</a>, um deine Unterschrift zu bestätigen."
 msgstr ""
+"لطفاً برای تأیید امضای خود <a href=\"mailto:ams@epicenter.works\">با "
+"ams@epicenter.works تماس بگیرید</a> ."
 
 #: templates/demands/faehigkeiten.html:3
 msgid "2. Fähigkeiten fördern, statt Schwächen bestrafen"
-msgstr ""
+msgstr "2. به جای تنبیه نقاط ضعف، مهارت ها را تشویق کنید"
 
 #: templates/demands/faehigkeiten.html:8
 msgid ""
 "Mehr Bildung ermöglichen, durch Förderung und Ermöglichung von "
 "(Weiter-)Bildung"
-msgstr ""
+msgstr "امکان آموزش بیشتر با ترویج و توانمندسازی (بیشتر) آموزش"
 
 #: templates/demands/faehigkeiten.html:13
 msgid ""
@@ -182,6 +201,8 @@ msgid ""
 "dazu braucht es eine Aufstockung der Weiterbildungs- und Schulungsmaßnahmen "
 "von Arbeitssuchenden."
 msgstr ""
+"افراد باید بر اساس مهارت ها و نقاط قوت خود ارتقاء یابند و این امر مستلزم "
+"افزایش آموزش و اقدامات بیشتر برای جویندگان کار است."
 
 #: templates/demands/faehigkeiten.html:15
 msgid ""
@@ -190,16 +211,21 @@ msgid ""
 "Berufszeiten parallel studiert haben). Auch soll das AMS selbstbezahlte "
 "Weiterbildungen, z. B. Kurse, die nur wenige Tage dauern, erlauben."
 msgstr ""
+"افراد جویای کار باید اجازه شروع تحصیل در دانشگاه یا دانشکده فنی را داشته "
+"باشند (این کار در حال حاضر تنها در صورتی مجاز است که جویندگان کار قبلاً در "
+"حین کار تحصیل کرده باشند). AMS همچنین باید آموزش های بیشتر با پرداخت خود را "
+"ارائه دهد، به عنوان مثال. ب. اجازه دوره هایی را بدهید که فقط چند روز طول می "
+"کشند."
 
 #: templates/demands/information.html:3
 msgid "4. Recht auf Information"
-msgstr ""
+msgstr "4. حق اطلاعات"
 
 #: templates/demands/information.html:8
 msgid ""
 "Wir fordern eine umfassende proaktive Aufklärung über die Rechte von "
 "Arbeitssuchenden."
-msgstr ""
+msgstr "ما خواهان آموزش جامع پیشگیرانه در مورد حقوق جویندگان کار هستیم."
 
 #: templates/demands/information.html:13
 msgid ""
@@ -217,10 +243,20 @@ msgid ""
 "AMS geregelt ist.\n"
 "    "
 msgstr ""
+"\n"
+"    AMS توسط همه ما تامین می شود و بنابراین یک ارائه دهنده خدمات است که "
+"وظیفه دارد به عموم مردم کمک کند. او باید با همه مثل هم رفتار کند. برای اینکه "
+"افراد بتوانند با مشاوران خود به صورت برابر صحبت کنند، ابتدا به اطلاعاتی در "
+"مورد حقوق و تعهدات خود در رابطه با AMS نیاز دارند. شروع با آنچه که استحقاق "
+"شما برای دریافت مزایای بیکاری مرتبط است - اینکه آیا و تحت چه شرایطی ممکن است "
+"پول قطع شود - آیا باید با AMS یک قرارداد مراقبتی ببندید یا اینکه این اختیاری "
+"است - اطلاعات و حقوق اطلاعاتی شما چگونه است و چه رابطه حقوقی بین آنها و شرکت "
+"های همکار خارجی AMS وجود دارد.\n"
+"    "
 
 #: templates/demands/menschen.html:3
 msgid "1. Menschen, nicht Computer sollen entscheiden"
-msgstr ""
+msgstr "1. مردم، نه کامپیوترها، باید تصمیم بگیرند"
 
 #: templates/demands/menschen.html:8
 msgid ""
@@ -230,6 +266,11 @@ msgid ""
 "      statt Entscheidungen eines Computers nur abzunicken.\n"
 "      "
 msgstr ""
+"\n"
+"      مردم باید بر اساس معیارهای قابل درک باشند\n"
+"      تصمیم گیری در مورد دسترسی به مزایای دولتی،\n"
+"      به جای سر زدن به تصمیمات کامپیوتر.\n"
+"      "
 
 #: templates/demands/menschen.html:17
 msgid ""
@@ -242,6 +283,12 @@ msgid ""
 "Entscheidungen an Algorithmen auszulagern.\n"
 "      "
 msgstr ""
+"\n"
+"      الگوریتم AMS باید رد و خاموش شود. رایانه نباید سرنوشت انسان را تعیین "
+"کند و دسترسی به خدمات دولتی نباید توسط رایانه تنظیم شود. تصمیمات باید به "
+"شکلی قابل فهم، شفاف و انسانی گرفته شود. این سیستم یک سابقه خطرناک برای برون "
+"سپاری تصمیمات سیاسی به الگوریتم ها ایجاد می کند.\n"
+"      "
 
 #: templates/demands/menschen.html:22
 msgid ""
@@ -254,10 +301,16 @@ msgid ""
 "widersprechen.\n"
 "      "
 msgstr ""
+"\n"
+"حتی اگر <abbr title=\"Vom AMS „AMAS“ oder „PAMAS“ genannt\">سیستم</abbr> "
+"(هنوز) هیچ تصمیم کاملاً خودکاری نگیرد، نباید هیچ تصمیمی بگیرد که تنها توسط "
+"کارکنان AMS تأیید شود. قرار ملاقات های مشاوره AMS معمولا فقط 15 دقیقه طول می "
+"کشد و \n"
+"فشار زیادی برای توجیه عدم مغایرت با رایانه وجود دارد."
 
 #: templates/demands/optional.html:3
 msgid "7. Nur freiwillige Teilnahme am Algorithmus"
-msgstr ""
+msgstr "7. فقط مشارکت داوطلبانه در الگوریتم"
 
 #: templates/demands/optional.html:8
 msgid ""
@@ -265,6 +318,9 @@ msgid ""
 "Entkoppelung von jeder Fördervergabe. Wir wollen ein System, das so gut ist, "
 "dass die Betroffenen freiwillig daran teilnehmen"
 msgstr ""
+"ما خواستار مشارکت اختیاری در الگوریتم AMS (انتخاب کردن) و جداسازی هر گونه "
+"بودجه هستیم. ما سیستمی می خواهیم که آنقدر خوب باشد که افراد آسیب دیده "
+"داوطلبانه شرکت کنند"
 
 #: templates/demands/optional.html:13
 msgid ""
@@ -284,16 +340,28 @@ msgid ""
 "entstehen.\n"
 "    "
 msgstr ""
+"\n"
+"    AMS نسبت به جویندگان کار در موقعیتی قرار دارد.\n"
+"    از نظر حفاظت از داده ها، بنابراین ما نیاز داریم که مشارکت داوطلبانه "
+"باشد\n"
+"    همه جویندگان کار در الگوریتم AMS. جویندگان کار به آنها نیاز دارند\n"
+"    قبل از اینکه سیستم آنها را دسته بندی کند رضایت آگاهانه بدهید. این\n"
+"    رضایت را می توان در هر زمان باطل کرد، که شامل همه هزینه ها نیز می شود\n"
+"    مقادیر الگوریتم باید پاک شوند. از امتناع این\n"
+"    برای حضور در سامانه، جویندگان کار نباید دچار آسیب شوند.\n"
+"    "
 
 #: templates/demands/ressourcen.html:3
 msgid "3. Mehr Ressourcen für das AMS"
-msgstr ""
+msgstr "3. منابع بیشتر برای AMS"
 
 #: templates/demands/ressourcen.html:8
 msgid ""
 "Wir fordern mehr und besser ausgebildete Berater*innen, die ausreichend Zeit "
 "für Beratungen haben."
 msgstr ""
+"ما خواستار مشاوران آموزش دیده بیشتر و بهتری هستیم که زمان کافی برای مشاوره "
+"داشته باشند."
 
 #: templates/demands/ressourcen.html:13
 msgid ""
@@ -310,10 +378,19 @@ msgid ""
 "Arbeitssuchenden.\n"
 "    "
 msgstr ""
+"\n"
+"نسبت مشاوران به جویندگان کار <a href=\"https://netzpolitik.org/2018/"
+"oesterreichs-jobcenter-richten-kuenftig-mit-hilfe-von-software-ueber-"
+"arbeitslose/\" target=\"_blank\">در آلمان 1:100 است، اما در اتریش فقط 1:250</"
+"a> است. این نشان می دهد که افزایش در این زمینه قابل تصور و منطقی است، زیرا "
+"نسبت نظارت بهتر به معنای فرصت های شغلی بهتر و نظارت با کیفیت بالاتر است. AMS "
+"نه تنها برای آموزش و آموزش بیشتر مشاوران خود به پول بیشتری نیاز دارد. به "
+"همان اندازه لازم است افزایش کیفی اقدامات آموزشی و آموزشی بیشتر برای جویندگان "
+"کار."
 
 #: templates/demands/risikocheck.html:3
 msgid "6. Risikocheck für Algorithmen"
-msgstr ""
+msgstr "6. بررسی ریسک برای الگوریتم ها"
 
 #: templates/demands/risikocheck.html:7
 msgid ""
@@ -321,6 +398,8 @@ msgid ""
 "Auswirkungen, bevor diese eingeführt werden (Verpflichtung für ein "
 "vorgelagertes Algorithmic Impact Assessment)."
 msgstr ""
+"ما خواستار بررسی الگوریتم‌ها برای فناوری و تأثیر اجتماعی آنها قبل از معرفی "
+"آنها هستیم (الزام برای ارزیابی تأثیر الگوریتمی بالادست)."
 
 #: templates/demands/risikocheck.html:11
 msgid ""
@@ -331,6 +410,12 @@ msgid ""
 "geschehen, die potentiell in Grundrechte eingreifen\n"
 "    "
 msgstr ""
+"\n"
+"    سیستم‌های خودکاری که می‌توانند عواقب منفی برای افراد داشته باشند، باید قبل "
+"از معرفی به دقت بررسی شوند تا از کارکرد و هرگونه عواقب آن اطمینان حاصل شود. "
+"این باید با همه الگوریتم هایی که به طور بالقوه با حقوق اساسی تداخل دارند "
+"اتفاق بیفتد\n"
+"    "
 
 #: templates/demands/risikocheck.html:16
 msgid ""
@@ -342,6 +427,11 @@ msgid ""
 "    AMS-Algorithmus verabsäumt und muss zukünftig verpflichtend sein.\n"
 "    "
 msgstr ""
+"\n"
+"    بهترین شیوه های بین المللی برای بررسی الگوریتم ها وجود دارد،\n"
+"    به اصطلاح ارزیابی تاثیر الگوریتمی. این کار در\n"
+"    الگوریتم AMS از دست رفته است و باید در آینده اجباری شود.\n"
+"    "
 
 #: templates/demands/risikocheck.html:23
 msgid ""
@@ -353,6 +443,11 @@ msgid ""
 "    bevor solche Systeme gestartet und flächendeckend eingesetzt werden. \n"
 "    "
 msgstr ""
+"\n"
+"    الگوریتم ها باید برای خطاهای سیستم، سوگیری در داده ها بررسی شوند\n"
+"    و چرخه های بازخورد منفی ناشی از آن باید تجزیه و تحلیل شوند،\n"
+"    قبل از اینکه چنین سیستم هایی راه اندازی و در سراسر صفحه مستقر شوند.\n"
+"    "
 
 #: templates/demands/risikocheck.html:30
 msgid ""
@@ -363,6 +458,11 @@ msgid ""
 "    vermieden werden. \n"
 "    "
 msgstr ""
+"\n"
+"    هر رگرسیون آماری از اصل علت و خطا پیروی نمی کند\n"
+"    اثر. اثرات منفی بر افراد به دلیل تحلیل اشتباه باید\n"
+"    اجتناب شود.\n"
+"    "
 
 #: templates/demands/risikocheck.html:37
 msgid ""
@@ -373,21 +473,31 @@ msgid ""
 "assessment.html\" target=\"_blank\">Kanada</a> \n"
 "    oder die \n"
 "    <a href=\"https://www.theverge.com/2019/4/15/18309437/new-york-city-"
-"accountability-task-force-law-algorithm-transparency-automation\" "
-"target=\"_blank\">Stadt New York</a> \n"
+"accountability-task-force-law-algorithm-transparency-automation\" target="
+"\"_blank\">Stadt New York</a> \n"
 "    eingeführt haben.\n"
 "    "
 msgstr ""
+"\n"
+"به همین دلیل است که ما خواستار ارزیابی تأثیر الگوریتمی هستیم، همانطور که <a "
+"href=\"https://www.canada.ca/en/government/system/digital-government/digital-"
+"government-innovations/responsible-use-ai/algorithmic-impact-assessment.html"
+"\" target=\"_blank\">کانادا</a> و <a href=\"https://www.theverge."
+"com/2019/4/15/18309437/new-york-city-accountability-task-force-law-algorithm-"
+"transparency-automation\" target=\"_blank\">شهر نیویورک</a> قبلاً معرفی کرده "
+"اند."
 
 #: templates/demands/transparenz.html:3
 msgid "5. Umfassende Transparenz"
-msgstr ""
+msgstr "5. شفافیت کامل"
 
 #: templates/demands/transparenz.html:8
 msgid ""
 "Projekte und Programme, die mit unser aller Geld gestartet werden müssen "
 "höchstmögliche Transparenz aufweisen, um evaluierbar zu sein."
 msgstr ""
+"پروژه ها و برنامه هایی که با تمام سرمایه ما شروع می شود باید بیشترین شفافیت "
+"ممکن را داشته باشند تا قابل ارزیابی باشند."
 
 #: templates/demands/transparenz.html:13
 msgid ""
@@ -401,6 +511,13 @@ msgid ""
 "das Projekt sind so ausgeschlossen.\n"
 "    "
 msgstr ""
+"\n"
+"    الگوریتم AMS سال ها با هزینه های زیادی در دوربین توسعه یافته است. صرفاً "
+"به این دلیل که نه پایگاه داده و نه نتایج سیستم منتشر نشد، بحث آگاهانه امکان "
+"پذیر نبود. مطالب آموزشی برای مشاوران و فرآیندهای اعتراض به الگوریتم همچنان "
+"مخفی نگه داشته خواهد شد. بنابراین بررسی علمی و بحث دموکراتیک در مورد این "
+"پروژه منتفی است.\n"
+"    "
 
 #: templates/demands/transparenz.html:18
 msgid ""
@@ -418,20 +535,31 @@ msgid ""
 "werden.\n"
 "    "
 msgstr ""
+"\n"
+"    ما از AMS خواستار شفافیت همه جانبه و فعال هستیم. فشار عمومی نباید تنها "
+"وسیله شفاف سازی باشد. حداقل باید مدل های ریاضی، نرم افزار مورد استفاده، "
+"پایگاه داده ناشناس، نحوه عملکرد سیستم و نتایج فرآیند محاسبات برای گروه های "
+"فردی منتشر شود. همچنین باید شفاف باشد که الگوریتم AMS چگونه بر مشاوره عملی و "
+"بودجه تأثیر می گذارد. اقداماتی که AMS قبلاً در پاسخ به انتقادات انجام داده "
+"است ، مانند اسناد آموزشی ، تعامل با بازسازی AMS و فرآیندهای همراه و همچنین "
+"گزینه های شکایت برای افراد آسیب دیده ، باید در نهایت منتشر شود.\n"
+"    "
 
 #: templates/donate.html:3
 msgid "Da du hier bist…"
-msgstr ""
+msgstr "از آنجایی که شما اینجا هستید ..."
 
 #: templates/donate.html:5
 msgid "hätten wir eine kleine Bitte an dich."
-msgstr ""
+msgstr "یک درخواست کوچک از شما داریم"
 
 #: templates/donate.html:6
 msgid ""
-"Diese Kampagne wird von der Grundrechts-NGO <a target=\"_blank\" "
-"href=\"https://epicenter.works/\">epicenter.works</a> getragen."
+"Diese Kampagne wird von der Grundrechts-NGO <a target=\"_blank\" href="
+"\"https://epicenter.works/\">epicenter.works</a> getragen."
 msgstr ""
+"این کمپین توسط سازمان غیردولتی حقوق بنیادین <a target=\"_blank\" href="
+"\"https://epicenter.works/\">epicenter.works</a> پشتیبانی می شود."
 
 #: templates/donate.html:7
 msgid ""
@@ -443,16 +571,22 @@ msgid ""
 "    Hilf uns eine starke Stimme für die Zivilgesellschaft zu sein!\n"
 "    "
 msgstr ""
+"\n"
+"    ما بیش از 10 سال است که برای حقوق اساسی و انسانی در عصر دیجیتال مبارزه "
+"می کنیم.\n"
+"    حفظ داده ها و تروجان فدرال را لغو کرده اند و به حمایت شما نیاز دارند.\n"
+"    به ما کمک کنید تا صدای قوی برای جامعه مدنی باشیم!\n"
+"    "
 
 #: templates/donate.html:14
 msgid "Jetzt Fördermitglied werden!"
-msgstr ""
+msgstr "اکنون عضو پشتیبانی شوید!"
 
 #: templates/email/already_confirmed.html:20 templates/email/confirm.html:20
 #: templates/email/withdraw.html:20
 #, python-format
 msgid "Hallo %(full_name)s,"
-msgstr ""
+msgstr "سلام %(full_name)s،"
 
 #: templates/email/already_confirmed.html:23
 msgid ""
@@ -460,21 +594,25 @@ msgid ""
 "                      Du warst allerdings bereits als UnterstützerIn "
 "eingetragen.<br/>"
 msgstr ""
+"از حمایت شما متشکرم!<br/> با این حال، شما قبلاً به عنوان حامی ثبت نام کرده "
+"اید.<br/>"
 
 #: templates/email/already_confirmed.html:27 templates/email/confirm.html:31
 msgid ""
 "Unsere Petition wird nur erfolgreich sein, wenn wir viele sind!<br/>\n"
 "                      <b>Teile daher unsere Seite auf Social Media!</b>"
 msgstr ""
+"عریضه ما فقط در صورتی موفق می شود که زیاد باشیم!<br/> <b>پس صفحه ما را در "
+"شبکه های اجتماعی به اشتراک بگذارید!</b>"
 
 #: templates/email/already_confirmed.html:33 templates/email/confirm.html:37
 msgid "Vielen Dank für deine Hilfe!"
-msgstr ""
+msgstr "با تشکر از شما برای کمک شما!"
 
 #: templates/email/already_confirmed.html:36 templates/email/confirm.html:40
 #: templates/email/withdraw.html:33
 msgid "Liebe Grüße,"
-msgstr ""
+msgstr "احوال پرسی گرم،"
 
 #: templates/email/already_confirmed.txt:2
 #, python-format
@@ -492,6 +630,19 @@ msgid ""
 "Liebe Grüße,\n"
 "epicenter.works"
 msgstr ""
+"سلام %(full_name)s،\n"
+"            \n"
+"از حمایت شما متشکرم!\n"
+"\n"
+"با این حال، شما قبلاً به عنوان حامی ثبت نام کرده اید. ما\n"
+"اگر آن را در رسانه های اجتماعی به اشتراک بگذارید، عریضه می تواند موفقیت "
+"آمیزتر باشد\n"
+"اشتراک گذاری\n"
+"\n"
+"با تشکر از شما برای کمک شما!\n"
+"\n"
+"احوال پرسی گرم،\n"
+"epicenter.works"
 
 #: templates/email/confirm.html:23
 msgid ""
@@ -500,6 +651,8 @@ msgid ""
 "ein kleiner Schritt!<br/>\n"
 "                      <b>Bitte klicke auf diesen Bestätigungslink:</b>"
 msgstr ""
+"از حمایت شما متشکرم!<br/> برای اینکه بتوانیم رای شما را بشماریم، فقط یک قدم "
+"کوچک کم است!<br/> <b>لطفا روی این لینک تایید کلیک کنید:</b>"
 
 #: templates/email/confirm.txt:2
 #, python-format
@@ -518,6 +671,19 @@ msgid ""
 "Liebe Grüße,\n"
 "epicenter.works"
 msgstr ""
+"سلام %(full_name)s،\n"
+"            \n"
+"از حمایت شما متشکرم!\n"
+"برای اینکه بتوانیم رای شما را بشماریم، فقط یک قدم کوچک کم است!\n"
+"\n"
+"لطفا از این لینک تایید استفاده کنید:\n"
+"\n"
+"%(confirmation_url|safe)s\n"
+"\n"
+"با تشکر از شما برای کمک شما!\n"
+"\n"
+"احوال پرسی گرم،\n"
+"epicenter.works"
 
 #: templates/email/withdraw.html:23
 msgid ""
@@ -530,6 +696,9 @@ msgid ""
 "                    <b>Um deinen Widerruf zu bestätigen, klicke den "
 "folgenden Bestätigungslink:</b>"
 msgstr ""
+"ما پیامی دریافت کرده‌ایم مبنی بر اینکه می‌خواهید رضایت خود را برای پردازش "
+"داده‌ها لغو کنید. با ابطال شما از لیست امضا کنندگان حذف می شوید و اطلاعات شما "
+"حذف می شود. <b>برای تأیید ابطال خود، روی پیوند تأیید زیر کلیک کنید:</b>"
 
 #: templates/email/withdraw.txt:2
 #, python-format
@@ -548,38 +717,50 @@ msgid ""
 "Liebe Grüße,\n"
 "epicenter.works"
 msgstr ""
+"سلام %(full_name)s،\n"
+"\n"
+"ما پیامی دریافت کرده ایم مبنی بر اینکه شما رضایت خود را به آن داده اید\n"
+"می خواهید پردازش داده ها را لغو کنید. با ابطال شما از لیست حذف خواهید شد\n"
+"امضا کننده حذف خواهد شد و اطلاعات شما حذف خواهد شد.\n"
+"\n"
+"برای تأیید ابطال خود، روی پیوند تأیید زیر کلیک کنید:\n"
+"\n"
+"%(withdrawal_url|safe)s\n"
+"\n"
+"احوال پرسی گرم،\n"
+"epicenter.works"
 
 #: templates/index.html:29
 msgid "Erklärvideo"
-msgstr ""
+msgstr "ویدیو توضیح دهنده"
 
 #: templates/index.html:30
 msgid "Forderungen"
-msgstr ""
+msgstr "الزامات"
 
 #: templates/index.html:31
 msgid "Minister kontaktieren"
-msgstr ""
+msgstr "با وزیر تماس بگیرید"
 
 #: templates/index.html:32
 msgid "AMS-Daten anfordern"
-msgstr ""
+msgstr "درخواست داده های AMS"
 
 #: templates/index.html:33
 msgid "Weitersagen"
-msgstr ""
+msgstr "آن را منتقل کنید"
 
 #: templates/index.html:49
 msgid "Stoppt den <strong>AMS&#8209;Algorithmus</strong>"
-msgstr ""
+msgstr "<strong>الگوریتم AMS</strong> را متوقف می کند"
 
 #: templates/index.html:53
 msgid "Computer dürfen nicht über Menschen entscheiden!"
-msgstr ""
+msgstr "کامپیوترها اجازه تصمیم گیری در مورد مردم را ندارند!"
 
 #: templates/index.html:60 templates/index.html:163
 msgid "Jetzt Forderungen unterstützen!"
-msgstr ""
+msgstr "اکنون از ادعاها پشتیبانی کنید!"
 
 #: templates/index.html:77
 msgid ""
@@ -588,6 +769,8 @@ msgid ""
 "          <strong>gefährlicher Dammbruch</strong>.\n"
 "          "
 msgstr ""
+"\n"
+"معرفی الگوریتم AMS یک <strong>شکست سد خطرناک است</strong> ."
 
 #: templates/index.html:85
 msgid ""
@@ -598,6 +781,12 @@ msgid ""
 "nicht so.\n"
 "              "
 msgstr ""
+"\n"
+"              تا کنون استفاده از فناوری های کاملاً جدید بوده است\n"
+"              حداقل به صورت علنی و با قانون مورد بحث قرار گیرد\n"
+"              به صورت دموکراتیک مشروعیت یافته است. این مورد در مورد الگوریتم "
+"AMS نیست.\n"
+"              "
 
 #: templates/index.html:92
 msgid ""
@@ -611,21 +800,33 @@ msgid ""
 "wie dieses System arbeitet und über uns entscheidet.\n"
 "              "
 msgstr ""
+"\n"
+"این <strong>سیستم بدون بحث عمومی توسعه و ارائه شد</strong> . <strong>جامعه "
+"مدنی</strong> در این روند <strong>دخیل نبود</strong> و تا به امروز "
+"<strong>عدم</strong> <strong>شفافیت</strong> <strong>اساسی</strong> در مورد "
+"نحوه عملکرد این سیستم و نحوه تصمیم گیری در مورد ما وجود دارد."
 
 #: templates/index.html:101
 msgid ""
 "\n"
 "              Ein ähnliches System wurde <a href=\"https://epicenter.works/"
-"content/warum-der-polnische-ams-algorithmus-gescheitert-ist\" "
-"target=\"_blank\">in Polen vom Verfassungsgerichtshof\n"
+"content/warum-der-polnische-ams-algorithmus-gescheitert-ist\" target=\"_blank"
+"\">in Polen vom Verfassungsgerichtshof\n"
 "              aufgehoben</a>. Auch in den Niederlanden wurde ein "
 "algorithmenbasiertes System,\n"
-"              das Sozialhilfeempfänger*innen kontrollieren sollte <a "
-"href=\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
+"              das Sozialhilfeempfänger*innen kontrollieren sollte <a href="
+"\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
 "archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">für\n"
 "              rechtswidrig erklärt und eingestellt.</a>\n"
 "              "
 msgstr ""
+"\n"
+"سیستم مشابهی <a href=\"https://epicenter.works/content/warum-der-polnische-"
+"ams-algorithmus-gescheitert-ist\" target=\"_blank\">در لهستان توسط دادگاه "
+"قانون اساسی لغو شد</a> . در هلند نیز یک سیستم مبتنی بر الگوریتم که قرار بود "
+"دریافت کنندگان رفاه را کنترل کند <a href=\"https://www.uni-muenster.de/"
+"NiederlandeNet/aktuelles/archiv/2020/0205GerichtverbietetSyRi.html\" target="
+"\"_blank\">غیرقانونی اعلام شد و تعطیل شد.</a>"
 
 #: templates/index.html:109
 msgid ""
@@ -641,60 +842,67 @@ msgid ""
 "              auch noch <strong>einzementieren</strong>.\n"
 "              "
 msgstr ""
+"\n"
+"ما نباید اجازه دهیم ویژگی هایی که ما هیچ کنترلی بر آنها نداریم تعیین کنیم که "
+"آیا افراد از تحصیل و آموزش منع شده اند یا خیر. <strong>سیستم های الگوریتمی</"
+"strong> باید با تعصب و بی عدالتی مبارزه کنند و <strong>این بی عدالتی ها</"
+"strong> را نیز <strong>تداوم</strong> ندهند."
 
 #: templates/index.html:121
 msgid "https://embed.epicenter.works/yt/VUoN61lKcMc"
-msgstr ""
+msgstr "https://embed.epicenter.works/yt/VUoN61lKcMc"
 
 #: templates/index.html:131
 msgid "Unsere <strong>7 Forderungen</strong>"
-msgstr ""
+msgstr "<strong>7 خواسته</strong> ما"
 
 #: templates/index.html:136
 msgid "mehr"
-msgstr ""
+msgstr "بیشتر"
 
 #: templates/index.html:141
 msgid "Forderung im Detail:"
-msgstr ""
+msgstr "تقاضا به تفصیل:"
 
 #: templates/index.html:175
 msgid "AMS-Algorithmus stoppen"
-msgstr ""
+msgstr "الگوریتم AMS را متوقف کنید"
 
 #: templates/index.html:181
 msgid "Unsere 7 Forderungen"
-msgstr ""
+msgstr "7 خواسته ما"
 
 #: templates/index.html:238
 msgid "Unterschreiben"
-msgstr ""
+msgstr "امضا کردن"
 
 #: templates/index.html:253
 msgid "Kontaktiere deinen <strong>Minister!</strong>"
-msgstr ""
+msgstr "با <strong>وزیرت</strong> تماس بگیر"
 
 #: templates/index.html:267
 msgid "E-Mail schreiben"
-msgstr ""
+msgstr "ایمیل بنویس"
 
 #: templates/index.html:283
 msgid "Stelle ein <strong>Auskunftsbegehren!</strong>"
-msgstr ""
+msgstr "درخواست <strong>اطلاعات را ارسال کنید!</strong>"
 
 #: templates/index.html:285
 msgid ""
 "Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und "
 "Behörden anfordern. Hier kannst du das für das AMS tun."
 msgstr ""
+"یک بار در سال می توانید تمام داده های خود را از همه شرکت ها و مقامات به صورت "
+"رایگان درخواست کنید. در اینجا می توانید این کار را برای AMS انجام دهید."
 
 #: templates/index.html:288
 msgid "Zum Generator"
-msgstr ""
+msgstr "به ژنراتور"
 
 #: templates/index.html:290
 msgid "Antrag gemäß Art. 15 DSGVO auf Auskunft"
-msgstr ""
+msgstr "درخواست اطلاعات مطابق با ماده 15 GDPR"
 
 #: templates/index.html:298
 msgid ""
@@ -708,46 +916,57 @@ msgid ""
 "erteilen.</strong>\n"
 "                  "
 msgstr ""
+"\n"
+"<strong>تنها در صورتی که از سال 2019 بیکار بوده اید، AMS یک طبقه بندی "
+"الگوریتمی از شما دارد که حدود 2 صفحه از درخواست اطلاعات (یک صفحه اطلاعات و "
+"یک صفحه اطلاعات) است.</strong> به طور متوسط، درخواست اطلاعات از AMS\n"
+" (برای افراد مسن تر) حدود 80-150 صفحه دارد. در صورت درخواست، <strong>مشاور "
+"AMS شما می تواند به جای آن اطلاعاتی در مورد طبقه بندی الگوریتمی شما ارائه "
+"دهد.</strong>"
 
 #: templates/index.html:313
 msgid "Weitersagen!"
-msgstr ""
+msgstr "آن را منتقل کنید!"
 
 #: templates/index.html:315
 msgid ""
 "Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug "
 "politischen Druck erzeugen, um den AMS-Algorithmus zu verhinden."
 msgstr ""
+"این کمپین را به دوستان خود معرفی کنید این تنها راهی است که می توانیم فشار "
+"سیاسی کافی برای جلوگیری از الگوریتم AMS ایجاد کنیم."
 
 #: templates/index.html:338
 msgid "Unterstützer*innen"
-msgstr ""
+msgstr "حامیان"
 
 #: templates/index.html:339
 msgid "Die Kampagne wird von folgenden Organisationen getragen:"
-msgstr ""
+msgstr "این کمپین توسط سازمان های زیر حمایت می شود:"
 
 #: templates/newsletter_snippet.html:5
 msgid "Bleib informiert!"
-msgstr ""
+msgstr "مطلع باشید!"
 
 #: templates/newsletter_snippet.html:7
 msgid ""
 "Mit dem epicenter.works Newsletter behältst du den Überblick über "
 "netzpolitische Themen in Österreich."
 msgstr ""
+"با خبرنامه epicenter.works می توانید مسائل مربوط به خط مشی شبکه در اتریش را "
+"پیگیری کنید."
 
 #: templates/newsletter_snippet.html:8
 msgid "https://epicenter.works/newsletter"
-msgstr ""
+msgstr "https://epicenter.works/newsletter"
 
 #: templates/newsletter_snippet.html:8
 msgid "Jetzt abonnieren"
-msgstr ""
+msgstr "اکنون مشترک شوید"
 
 #: templates/privacy.html:16
 msgid "Datenschutzbedingungen"
-msgstr ""
+msgstr "سیاست حفظ حریم خصوصی"
 
 #: templates/privacy.html:18
 msgid ""
@@ -760,6 +979,13 @@ msgid ""
 "uns gelöscht.\n"
 "        "
 msgstr ""
+"\n"
+"        اگر دادخواست ما را امضا کنید، نام و آدرس ایمیل شما را ذخیره می کنیم "
+"تا هویت شما به عنوان یک شرکت کننده ثبت شود و از امضای چندگانه جلوگیری شود. "
+"پس از پایان دوره امضا، این داده ها به وزارت کار فدرال، خانواده و جوانان، "
+"Untere Donaustrasse 13-15، 1020 Vienna تحویل داده می شود و سپس توسط ما حذف "
+"می شود.\n"
+"        "
 
 #: templates/privacy.html:23
 msgid ""
@@ -774,6 +1000,15 @@ msgid ""
 "der Unterzeichnungsfrist von uns gelöscht.\n"
 "        "
 msgstr ""
+"\n"
+"        برای جلوگیری از سوء استفاده، ما همچنین یک رشته کاراکتر را ذخیره "
+"می‌کنیم که از آن برای پیوند تأییدی که از طریق ایمیل دریافت می‌کنید استفاده "
+"می‌کنیم، اینکه چند بار چنین ایمیلی را برای شما ارسال کرده‌ایم و آیا امضای خود "
+"را تأیید کرده‌اید یا خیر. اگر از فرم اعتراض زیر استفاده کنید، ما چنین رشته "
+"کاراکتری و تعداد ایمیل های ارسال شده را تا زمانی که فرآیند اعتراض به طور "
+"کامل پردازش شود ذخیره می کنیم. تمام این داده ها پس از پایان دوره امضا توسط "
+"ما حذف خواهد شد.\n"
+"        "
 
 #: templates/privacy.html:28
 msgid ""
@@ -785,6 +1020,11 @@ msgid ""
 "datenschutz#newsletter\">hier</a>.\n"
 "        "
 msgstr ""
+"\n"
+"ما همچنین ذخیره می کنیم که آیا می خواهید خبرنامه ما را دریافت کنید و در صورت "
+"لزوم آدرس ایمیل خود را به سیستم خبرنامه ما منتقل می کنیم. اطلاعات مربوط به "
+"حفاظت از داده ها در مورد خبرنامه ما را می توانید <a href=\"https://epicenter."
+"works/datenschutz#newsletter\">در اینجا بیابید</a> ."
 
 #: templates/privacy.html:33
 msgid ""
@@ -797,10 +1037,16 @@ msgid ""
 "<a href=\"https://epicenter.works/datenschutz\">hier</a>.\n"
 "        "
 msgstr ""
+"\n"
+"این داده ها بر اساس ماده 9 بند 2 یک GDPR پردازش می شوند. با استفاده از فرم "
+"زیر می توانید در هر زمان رضایت خود را برای پردازش پس بگیرید. هنگام بازدید از "
+"وب‌سایت‌های ما، می‌توانید اطلاعات بیشتری درباره شخص مسئول پردازش، حقوق خود، "
+"جزئیات تماس و شرایط حفاظت از داده‌ها پیدا <a href=\"https://epicenter.works/"
+"datenschutz\">کنید</a> ."
 
 #: templates/privacy.html:42
 msgid "Widerruf der Einwilligung zur Verarbeitung"
-msgstr ""
+msgstr "انصراف از رضایت پردازش"
 
 #: templates/privacy.html:43
 msgid ""
@@ -808,19 +1054,21 @@ msgid ""
 "erhältst wieder eine E-Mail mit einem Link, mit dem du den Widerruf "
 "bestätigst."
 msgstr ""
+"برای لغو، آدرس ایمیلی را که با آن امضا کرده اید وارد کنید. ایمیل دیگری با "
+"پیوندی دریافت خواهید کرد که با آن می توانید لغو را تأیید کنید."
 
 #: templates/privacy.html:49
 msgid "Einwilligung widerrufen"
-msgstr ""
+msgstr "لغو رضایت"
 
 #: templates/progressbar.html:17
 #, python-format
 msgid "Bisher %(signature_count)s von %(goal)s Unterschriften."
-msgstr ""
+msgstr "%(signature_count)s از %(goal)s امضا تا کنون."
 
 #: templates/request.html:8
 msgid "Auskunftsbegehren"
-msgstr ""
+msgstr "درخواست اطلاعات"
 
 #: templates/request.html:18
 msgid ""
@@ -834,6 +1082,14 @@ msgid ""
 "bei!\n"
 "            "
 msgstr ""
+"\n"
+"            می توانید از این فرم برای ایجاد درخواست اطلاعات استفاده کنید\n"
+"            که برای جمع آوری داده های شخصی که خدمات بازار کار درباره شما "
+"دارد استفاده می شود\n"
+"            جمع آوری کرده است.\n"
+"            آن را به آدرس موجود ارسال کنید و یک کپی از شناسه خود را ضمیمه "
+"کنید!\n"
+"            "
 
 #: templates/request.html:26
 msgid ""
@@ -844,10 +1100,14 @@ msgid ""
 "gespeichert.\n"
 "            "
 msgstr ""
+"\n"
+"            داده‌هایی که در این فرم ارائه می‌کنید فقط برای آنها استفاده می‌شود\n"
+"            برای ایجاد درخواست اطلاعات شما و ذخیره نخواهد شد.\n"
+"            "
 
 #: templates/request.html:46
 msgid "Pflichtfelder"
-msgstr ""
+msgstr "فیلدهای مورد نیاز"
 
 #: templates/request.html:48
 msgid ""
@@ -855,6 +1115,9 @@ msgid ""
 "default/files/ams-dsgvo-hoch.pdf\" target=\"_blank\">Musterbrief</a> als PDF "
 "für das Auskunftsbegehren zur Verfügung"
 msgstr ""
+"متناوبا، ما همچنین یک <a href=\"https://epicenter.works/sites/default/files/"
+"ams-dsgvo-hoch.pdf\" target=\"_blank\">نامه نمونه</a> را به عنوان PDF برای "
+"درخواست اطلاعات ارائه می دهیم"
 
 #: templates/request_call_to_action.html:4
 msgid ""
@@ -863,83 +1126,87 @@ msgid ""
 "  um herauszufinden welche Daten das AMS über dich gespeichert hat.\n"
 "  "
 msgstr ""
+"\n"
+"  از برنامه ما استفاده کنید و یک سند ایجاد کنید\n"
+"  برای اینکه بدانید AMS چه اطلاعاتی را در مورد شما ذخیره کرده است.\n"
+"  "
 
 #: templates/share.html:5
 msgid "Jede Stimme zählt!"
-msgstr ""
+msgstr "هر رای مهم است!"
 
 #: templates/share.html:7
 msgid "Teile diese Seite auf Social Media damit wir unser Ziel erreichen!"
-msgstr ""
+msgstr "این صفحه را در شبکه های اجتماعی به اشتراک بگذارید تا به هدف خود برسیم!"
 
 #: templates/thanks.html:7
 msgid "Danke,"
-msgstr ""
+msgstr "با تشکر،"
 
 #: templates/thanks.html:9
 msgid ""
 "klicke noch schnell den Bestätigungslink, den du per E-Mail erhalten hast."
-msgstr ""
+msgstr "به سرعت روی پیوند تأییدی که از طریق ایمیل دریافت کرده اید کلیک کنید."
 
 #: templates/tour.html:39
 msgid "Wir sind auf Tour"
-msgstr ""
+msgstr "ما در تور هستیم"
 
 #: templates/tour.html:41
 msgid "Termine & Livestream"
-msgstr ""
+msgstr "تاریخ ها و پخش زنده"
 
 #: templates/tour.html:71
 msgid "Hauptseite & Petition"
-msgstr ""
+msgstr "صفحه اصلی و دادخواست"
 
-#: templates/tour.html:111
+#: templates/tour.html:112
 msgid "Paneldiskussion zum AMS-Algorithmus"
-msgstr ""
+msgstr "بحث پانل در مورد الگوریتم AMS"
 
-#: templates/tour.html:116
+#: templates/tour.html:117
 msgid "https://embed.epicenter.works/yt/I9O8Az_E-VY"
-msgstr ""
+msgstr "https://embed.epicenter.works/yt/I9O8Az_E-VY"
 
 #: templates/tour/tour_dates.html:4
 msgid "Termine"
-msgstr ""
+msgstr "مناسبت ها"
 
 #: templates/tour/tour_dates.html:6
 msgid "28. April"
-msgstr ""
+msgstr "28 آوریل"
 
 #: templates/tour/tour_dates.html:6
 msgid "Panel / Livestream"
-msgstr ""
+msgstr "پنل / پخش زنده"
 
 #: templates/tour/tour_dates.html:7
 msgid "2. Mai"
-msgstr ""
+msgstr "2. می"
 
 #: templates/tour/tour_dates.html:8
 msgid "3. Mai"
-msgstr ""
+msgstr "3 می"
 
 #: templates/tour/tour_dates.html:9
 msgid "4. Mai"
-msgstr ""
+msgstr "4 می"
 
 #: templates/tour/tour_dates.html:10
 msgid "5. Mai"
-msgstr ""
+msgstr "5 اردیبهشت"
 
 #: templates/tour/tour_dates.html:11
 msgid "6. Mai"
-msgstr ""
+msgstr "6 می"
 
 #: templates/tour/tour_snippet.html:15
 msgid "Alle Details"
-msgstr ""
+msgstr "تمام جزئیات"
 
 #: templates/tour/tour_teaser_text.html:4
 msgid "Triff uns, <br>wir sind auf Tour ..."
-msgstr ""
+msgstr "ما را ملاقات کن<br> ما در تور هستیم ..."
 
 #: templates/tour/tour_teaser_text.html:6
 msgid ""
@@ -951,24 +1218,32 @@ msgid ""
 "man seine Chancen auf AMS-Förderungen nachspielen kann. Zum Trost gibt es "
 "ein kleines Geschenk zum Naschen\n"
 msgstr ""
+"\n"
+"... برای گفتگو با افراد علاقه مند و کسانی که در مورد الگوریتم AMS تحت تاثیر "
+"قرار می گیرند.<br> ما را بین ساعت 9 صبح تا 2 بعد از ظهر در مقابل محل مربوطه "
+"AMS پیدا خواهید کرد. اتفاقاً یک \"راهزن تک مسلح\" بامزه هم با خود داریم که با "
+"آن می توانید شانس خود را برای تامین مالی AMS دوباره پخش کنید. به عنوان "
+"تسلیت، یک هدیه کوچک برای میان وعده وجود دارد\n"
 
 #: templates/withdraw.html:10
 msgid "Wir haben deinen Widerruf erhalten und deine Daten gelöscht."
-msgstr ""
+msgstr "ما ابطال شما را دریافت کرده ایم و داده های شما را حذف کرده ایم."
 
 #: templates/withdraw.html:15
 msgid "Vielleicht wurden deine Daten bereits gelöscht?"
-msgstr ""
+msgstr "شاید اطلاعات شما قبلاً حذف شده باشد؟"
 
 #: templates/withdraw.html:16
 msgid ""
 "Bitte wende dich an <a href=\"mailto:ams@epicenter.works\">ams@epicenter."
 "works</a>, um sicherzugehen, dass deine Daten gelöscht wurden."
 msgstr ""
+"لطفاً <a href=\"mailto:ams@epicenter.works\">با ams@epicenter.works تماس "
+"بگیرید</a> تا اطمینان حاصل کنید که اطلاعات شما حذف شده است."
 
 #: templates/withdrawal_sent.html:7
 msgid "Bestätige deinen Widerruf."
-msgstr ""
+msgstr "ابطال خود را تایید کنید"
 
 #: templates/withdrawal_sent.html:9
 msgid ""
@@ -978,3 +1253,7 @@ msgid ""
 "durchzuführen.      \n"
 "        "
 msgstr ""
+"\n"
+"        ما برای شما یک ایمیل برای تایید ارسال کردیم،\n"
+"        بر روی پیوند موجود در این ایمیل کلیک کنید تا لغو خود را انجام دهید.\n"
+"        "

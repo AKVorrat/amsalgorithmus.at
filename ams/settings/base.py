@@ -79,15 +79,15 @@ USE_L10N = True
 USE_TZ = True
 
 LANGUAGES = [
-  ('de', _('Deutsch')),
-  ('en', _('Englisch')),
-#   ('sr', _('Serbisch')),
-#   ('bs', _('Bosnisch')),
-#   ('hr', _('Kroatisch')),
-#   ('tr', _('Türkisch')),
-#   ('cs', _('Tschechisch')),
-#   ('ar', _('Arabisch')),
-#   ('fa', _('Fārsī')),
+  ('de', 'Deutsch - German'),
+  ('en', 'English - Englisch'),
+  ('sr', 'српски - Serbisch'),
+  ('bs', 'bosanski - Bosnisch'),
+  ('hr', 'hrvatski - Kroatisch'),
+  ('tr', 'Türkçe - Türkisch'),
+  ('cs', 'čeština - Tschechisch'),
+  ('ar', 'اَلْعَرَبِيَّة - Arabisch'),
+  ('fa', 'Fārsī - Persisch'),
 ]
 
 LOCALE_PATHS = (

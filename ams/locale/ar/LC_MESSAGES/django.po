@@ -3,120 +3,134 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-29 15:37+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2022-05-23 20:55+0200\n"
+"PO-Revision-Date: 2022-05-23 21:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: modules/petition/forms.py:16 modules/request/forms.py:8
 msgid "Vorname"
-msgstr ""
+msgstr "الاسم الأول"
 
 #: modules/petition/forms.py:22 modules/request/forms.py:13
 msgid "Nachname"
-msgstr ""
+msgstr "اللقب"
 
 #: modules/petition/forms.py:29 modules/petition/forms.py:72
 #: modules/request/forms.py:19
 msgid "E-Mail-Adresse"
-msgstr ""
+msgstr "عنوان بريد الكتروني"
 
 #: modules/petition/forms.py:40
 msgid ""
 "Ja, ich will den <a target=\"_blank\" href=\"https://epicenter.works/"
 "newsletter\">Newsletter</a> erhalten (optional)."
 msgstr ""
+"نعم ، أريد تلقي <a target=\"_blank\" href=\"https://epicenter.works/"
+"newsletter\">النشرة الإخبارية</a> (اختياري)."
 
 #: modules/petition/forms.py:46
 msgid ""
-"Ja, ich stimme den <a target=\"_blank\" href=\"/"
-"privacy\">Datenschutzbedingungen</a> zu."
+"Ja, ich stimme den <a target=\"_blank\" href=\"/privacy"
+"\">Datenschutzbedingungen</a> zu."
 msgstr ""
+"نعم ، أوافق على شروط <a target=\"_blank\" href=\"/privacy\">حماية البيانات</"
+"a> ."
 
 #: modules/petition/models.py:17 templates/index.html:324
 #: templates/share.html:16
 msgid "E-Mail"
-msgstr ""
+msgstr "البريد الإلكتروني"
 
 #: modules/petition/models.py:56
 msgid "[amsalgorithmus.at] Bitte bestätige deine E-Mail-Adresse."
-msgstr ""
+msgstr "[amalgorithmus.at] يرجى تأكيد عنوان بريدك الإلكتروني."
 
 #: modules/request/forms.py:25
 msgid "Adresse"
-msgstr ""
+msgstr "عنوان"
 
 #: modules/request/forms.py:31
 msgid "PLZ"
-msgstr ""
+msgstr "الرمز البريدي"
 
 #: modules/request/forms.py:37
 msgid "Ort"
-msgstr ""
+msgstr "مكان"
 
 #: settings/base.py:82
 msgid "Deutsch"
-msgstr ""
+msgstr "ألماني"
 
 #: settings/base.py:83
 msgid "Englisch"
-msgstr ""
+msgstr "إنجليزي"
 
 #: templates/announcement.html:16
 msgid ""
 "\n"
-"        <b>Triff uns</b> beim Tag der Arbeitslosen in WIEN am 30.04.22 von "
-"15:00 - 17:00 Mariahilfer Straße Ecke Neubaugasse <br>\n"
-"        oder beim Tag der Arbeitslosen in GRAZ am 30.04.22 von 11:00 - 13:00 "
-"Am eisernen Tor bei der AMSEL Veranstaltung\n"
+"        <b>Triff uns beim Tag der Arbeitslosen am Samstag den 30. April "
+"2022</b><br>\n"
+"        <div style=\"font-size: .9em;\">\n"
+"          in WIEN von 15:00 - 17:00 Mariahilfer Straße Ecke Neubaugasse oder "
+"<br>\n"
+"          in GRAZ von 11:00 - 13:00 Am eisernen Tor bei der AMSEL "
+"Veranstaltung\n"
+"        </div>\n"
 "        "
 msgstr ""
+"\n"
+"<b>قابلنا في يوم البطالة يوم السبت 30 أبريل 2022</b><br><div j=0 style=\";"
+"text-align:right;direction:rtl\"> في فيينا من الساعة 3:00 مساءً حتى 5:00 مساءً "
+"عند زاوية شارع Mariahilfer Straße و Neubaugasse أو<br> في GRAZ من 11:00 - "
+"13:00 عند البوابة الحديدية في حدث AMSEL</div>"
 
 #: templates/base.html:7 templates/email/already_confirmed.html:3
 #: templates/email/confirm.html:3 templates/email/withdraw.html:3
 msgid "de"
-msgstr ""
+msgstr "en"
 
 #: templates/base.html:16
 msgid "https://amsalgorithmus.at/"
-msgstr ""
+msgstr "https://amalgorithmus.at/"
 
 #: templates/base.html:18
 msgid "Stoppt den AMS-Algorithmus!"
-msgstr ""
+msgstr "أوقف خوارزمية AMS!"
 
 #: templates/base.html:19
 msgid ""
 "Wollen Sie, dass Computer darüber entscheiden, wen das AMS geförderte "
 "Ausbildungen und Schulungen machen lässt?"
 msgstr ""
+"هل تريد من أجهزة الكمبيوتر أن تقرر من تسمح AMS بتمويل التدريب والتعليم؟"
 
 #: templates/base.html:35
 msgid "Stoppt den AMS-Algorithmus"
-msgstr ""
+msgstr "يوقف خوارزمية AMS"
 
 #: templates/base.html:55
 msgid "Design &amp; Entwicklung:"
-msgstr ""
+msgstr "تصميم وأمبير. التطور:"
 
 #: templates/base.html:60
 msgid "https://epicenter.works/"
-msgstr ""
+msgstr "https://epicenter.works/"
 
 #: templates/base.html:63
 msgid "Du findest unsere Arbeit gut?"
-msgstr ""
+msgstr "هل تحب عملنا؟"
 
 #: templates/base.html:65
 msgid ""
@@ -124,58 +138,62 @@ msgid ""
 "                <b>Bitte <u>unterstütze uns</u>!</b>\n"
 "                "
 msgstr ""
+"\n"
+"<b>الرجاء <u>دعمنا</u> !</b>"
 
 #: templates/base.html:71
 msgid "https://epicenter.works/kontakt"
-msgstr ""
+msgstr "https://epicenter.works/contact"
 
 #: templates/base.html:71
 msgid "Impressum"
-msgstr ""
+msgstr "هيئة التحرير"
 
 #: templates/base.html:71
 msgid "Datenschutz"
-msgstr ""
+msgstr "الإجمالية"
 
 #: templates/base.html:72
 msgid "https://epicenter.works"
-msgstr ""
+msgstr "https://epicenter.works"
 
 #: templates/base.html:77
 msgid "Feedback zu amsalgorithmus.at"
-msgstr ""
+msgstr "تعليقات على amalgorithmus.at"
 
 #: templates/confirm.html:8 templates/withdraw.html:8
 msgid "Alles klar!"
-msgstr ""
+msgstr "فهمت!"
 
 #: templates/confirm.html:10 templates/withdraw.html:13
 msgid "<strong>Ein Fehler</strong> ist aufgetreten."
-msgstr ""
+msgstr "لقد حدث <strong>خطأ</strong> ."
 
 #: templates/confirm.html:15
 msgid "Deine Teilnahme an der Petition wurde erfolgreich bestätigt."
-msgstr ""
+msgstr "تم تأكيد مشاركتك في الالتماس بنجاح."
 
 #: templates/confirm.html:16
 msgid "Vielen Dank für deine Unterstützung!"
-msgstr ""
+msgstr "شكرا جزيلا لدعمك!"
 
 #: templates/confirm.html:18
 msgid ""
 "Bitte wende dich an <a href=\"mailto:ams@epicenter.works\">ams@epicenter."
 "works</a>, um deine Unterschrift zu bestätigen."
 msgstr ""
+"يرجى <a href=\"mailto:ams@epicenter.works\">الاتصال ams@epicenter.works</a> "
+"للتحقق من توقيعك."
 
 #: templates/demands/faehigkeiten.html:3
 msgid "2. Fähigkeiten fördern, statt Schwächen bestrafen"
-msgstr ""
+msgstr "2. شجع المهارات بدلاً من معاقبة نقاط الضعف"
 
 #: templates/demands/faehigkeiten.html:8
 msgid ""
 "Mehr Bildung ermöglichen, durch Förderung und Ermöglichung von "
 "(Weiter-)Bildung"
-msgstr ""
+msgstr "تمكين المزيد من التعليم من خلال تعزيز وتمكين (المزيد) التعليم"
 
 #: templates/demands/faehigkeiten.html:13
 msgid ""
@@ -183,6 +201,8 @@ msgid ""
 "dazu braucht es eine Aufstockung der Weiterbildungs- und Schulungsmaßnahmen "
 "von Arbeitssuchenden."
 msgstr ""
+"يجب ترقية الناس على أساس مهاراتهم ونقاط قوتهم ، وهذا يتطلب زيادة في تدابير "
+"التعليم والتدريب الإضافية للباحثين عن عمل."
 
 #: templates/demands/faehigkeiten.html:15
 msgid ""
@@ -191,16 +211,20 @@ msgid ""
 "Berufszeiten parallel studiert haben). Auch soll das AMS selbstbezahlte "
 "Weiterbildungen, z. B. Kurse, die nur wenige Tage dauern, erlauben."
 msgstr ""
+"يجب السماح للباحثين عن عمل بالبدء في الدراسة في جامعة أو كلية تقنية (هذا "
+"مسموح به حاليًا فقط إذا كان الباحثون عن عمل قد درسوا بالفعل أثناء العمل). يجب "
+"أن يقدم مقياس الدعم الكلي أيضًا تدريبًا إضافيًا مدفوع الأجر ذاتيًا ، على سبيل "
+"المثال ب- اسمح بالدورات التي تستمر بضعة أيام فقط."
 
 #: templates/demands/information.html:3
 msgid "4. Recht auf Information"
-msgstr ""
+msgstr "4. الحق في المعلومات"
 
 #: templates/demands/information.html:8
 msgid ""
 "Wir fordern eine umfassende proaktive Aufklärung über die Rechte von "
 "Arbeitssuchenden."
-msgstr ""
+msgstr "ندعو إلى تثقيف استباقي شامل حول حقوق الباحثين عن عمل."
 
 #: templates/demands/information.html:13
 msgid ""
@@ -218,10 +242,20 @@ msgid ""
 "AMS geregelt ist.\n"
 "    "
 msgstr ""
+"\n"
+"    يتم تمويل AMS من قبلنا جميعًا ، وبالتالي فهي مزود خدمة مع تفويض لمساعدة "
+"عامة الناس. يجب أن يعامل الجميع على قدم المساواة. لكي يتمكن الأشخاص من "
+"التحدث إلى مستشاريهم على قدم المساواة ، يحتاجون أولاً إلى معلومات حول حقوقهم "
+"والتزاماتهم فيما يتعلق بمقياس الدعم الكلي ؛ بدءًا بما يرتبط استحقاقك للحصول "
+"على إعانة البطالة - ما إذا كان سيتم قطع الأموال وتحت أي ظروف - سواء كان عليك "
+"الدخول في اتفاقية رعاية مع AMS أو ما إذا كان هذا اختياريًا - كيف تبدو حقوق "
+"المعلومات والمعلومات الخاصة بك و ما هي العلاقة القانونية بينها وبين الشركات "
+"الشريكة الخارجية لـ AMS.\n"
+"    "
 
 #: templates/demands/menschen.html:3
 msgid "1. Menschen, nicht Computer sollen entscheiden"
-msgstr ""
+msgstr "1. يجب على الناس ، وليس أجهزة الكمبيوتر ، أن يقرروا"
 
 #: templates/demands/menschen.html:8
 msgid ""
@@ -231,6 +265,11 @@ msgid ""
 "      statt Entscheidungen eines Computers nur abzunicken.\n"
 "      "
 msgstr ""
+"\n"
+"      يجب أن يعتمد الناس على معايير مفهومة\n"
+"      اتخاذ قرار بشأن الوصول إلى مزايا الدولة ،\n"
+"      بدلاً من مجرد الإيماء إلى قرارات الكمبيوتر.\n"
+"      "
 
 #: templates/demands/menschen.html:17
 msgid ""
@@ -243,6 +282,12 @@ msgid ""
 "Entscheidungen an Algorithmen auszulagern.\n"
 "      "
 msgstr ""
+"\n"
+"      يجب رفض خوارزمية AMS وإيقاف تشغيلها. يجب ألا يقرر الكمبيوتر مصير "
+"الإنسان ويجب ألا يتم تنظيم الوصول إلى خدمات الدولة بواسطة جهاز كمبيوتر. يجب "
+"أن تتخذ القرارات بطريقة مفهومة وشفافة وإنسانية. يضع النظام سابقة خطيرة "
+"لتعهيد القرارات السياسية للخوارزميات.\n"
+"      "
 
 #: templates/demands/menschen.html:22
 msgid ""
@@ -255,10 +300,15 @@ msgid ""
 "widersprechen.\n"
 "      "
 msgstr ""
+"\n"
+"حتى إذا لم يتخذ <abbr title=\"Vom AMS „AMAS“ oder „PAMAS“ genannt\">النظام</"
+"abbr> (حتى الآن) أي قرارات تلقائية بالكامل ، يجب ألا يتخذ أي قرارات يتم "
+"الموافقة عليها بعد ذلك فقط من قبل موظفي AMS. عادة ما تستغرق مواعيد استشارة "
+"AMS 15 دقيقة فقط وهناك ضغط هائل لتبرير عدم تعارض الكمبيوتر."
 
 #: templates/demands/optional.html:3
 msgid "7. Nur freiwillige Teilnahme am Algorithmus"
-msgstr ""
+msgstr "7. فقط المشاركة الطوعية في الخوارزمية"
 
 #: templates/demands/optional.html:8
 msgid ""
@@ -266,6 +316,8 @@ msgid ""
 "Entkoppelung von jeder Fördervergabe. Wir wollen ein System, das so gut ist, "
 "dass die Betroffenen freiwillig daran teilnehmen"
 msgstr ""
+"نطالب بمشاركة اختيارية في خوارزمية AMS (الاشتراك) والفصل عن أي تمويل. نريد "
+"نظامًا جيدًا بحيث يشارك المتأثرون به طواعية"
 
 #: templates/demands/optional.html:13
 msgid ""
@@ -285,16 +337,27 @@ msgid ""
 "entstehen.\n"
 "    "
 msgstr ""
+"\n"
+"    AMS في موقع القوة على الباحثين عن عمل.\n"
+"    فيما يتعلق بحماية البيانات ، فإننا نطلب أن تكون المشاركة طوعية\n"
+"    لجميع الباحثين عن عمل على خوارزمية AMS. الباحثون عن عمل يحتاجون\n"
+"    إعطاء الموافقة المسبقة قبل أن يقوم النظام بتصنيفها. هذه\n"
+"    يمكن إبطال الموافقة في أي وقت ، والتي تشمل أيضًا جميع الرسوم المدفوعة\n"
+"    يجب مسح قيم الخوارزمية. من رفض هذا\n"
+"    للمشاركة في النظام ، يجب ألا يعاني الباحثون عن عمل من أي عيوب.\n"
+"    "
 
 #: templates/demands/ressourcen.html:3
 msgid "3. Mehr Ressourcen für das AMS"
-msgstr ""
+msgstr "3. المزيد من الموارد لمقياس الدعم الكلي"
 
 #: templates/demands/ressourcen.html:8
 msgid ""
 "Wir fordern mehr und besser ausgebildete Berater*innen, die ausreichend Zeit "
 "für Beratungen haben."
 msgstr ""
+"نحن نطالب بالمزيد من المستشارين المدربين بشكل أفضل والذين لديهم الوقت الكافي "
+"للاستشارات."
 
 #: templates/demands/ressourcen.html:13
 msgid ""
@@ -311,10 +374,19 @@ msgid ""
 "Arbeitssuchenden.\n"
 "    "
 msgstr ""
+"\n"
+"نسبة المستشارين إلى الباحثين عن عمل <a href=\"https://netzpolitik.org/2018/"
+"oesterreichs-jobcenter-richten-kuenftig-mit-hilfe-von-software-ueber-"
+"arbeitslose/\" target=\"_blank\">هي 1: 100 في ألمانيا ، ولكن فقط 1: 250 في "
+"النمسا</a> . وهذا يدل على أن الزيادة في هذا المجال يمكن تصورها وستكون "
+"منطقية ، لأن نسبة الإشراف الأفضل تعني فرص عمل أفضل وإشراف أعلى على الجودة. "
+"لا تحتاج AMS فقط إلى المزيد من الأموال للتدريب والتعليم الإضافي لمستشاريها. "
+"ومن الضروري بنفس القدر الزيادة النوعية في تدابير التعليم والتدريب الإضافية "
+"الهادفة للباحثين عن عمل."
 
 #: templates/demands/risikocheck.html:3
 msgid "6. Risikocheck für Algorithmen"
-msgstr ""
+msgstr "6. التحقق من المخاطر للخوارزميات"
 
 #: templates/demands/risikocheck.html:7
 msgid ""
@@ -322,6 +394,8 @@ msgid ""
 "Auswirkungen, bevor diese eingeführt werden (Verpflichtung für ein "
 "vorgelagertes Algorithmic Impact Assessment)."
 msgstr ""
+"نحن نطالب بمراجعة الخوارزميات لتقنيتها وتأثيرها الاجتماعي قبل تقديمها "
+"(الالتزام بتقييم الأثر الخوارزمي الأولي)."
 
 #: templates/demands/risikocheck.html:11
 msgid ""
@@ -332,6 +406,11 @@ msgid ""
 "geschehen, die potentiell in Grundrechte eingreifen\n"
 "    "
 msgstr ""
+"\n"
+"    يجب فحص الأنظمة الآلية التي قد يكون لها عواقب سلبية على الأشخاص بعناية "
+"قبل تقديمها للتأكد من أنها تعمل وأي عواقب. يجب أن يحدث هذا مع جميع "
+"الخوارزميات التي من المحتمل أن تتعارض مع الحقوق الأساسية\n"
+"    "
 
 #: templates/demands/risikocheck.html:16
 msgid ""
@@ -343,6 +422,11 @@ msgid ""
 "    AMS-Algorithmus verabsäumt und muss zukünftig verpflichtend sein.\n"
 "    "
 msgstr ""
+"\n"
+"    هناك أفضل الممارسات الدولية للتحقق من الخوارزميات ،\n"
+"    وهو ما يسمى بتقييم الأثر الحسابي. تم ذلك في\n"
+"    خوارزمية AMS مفقودة ويجب أن تكون إلزامية في المستقبل.\n"
+"    "
 
 #: templates/demands/risikocheck.html:23
 msgid ""
@@ -354,6 +438,11 @@ msgid ""
 "    bevor solche Systeme gestartet und flächendeckend eingesetzt werden. \n"
 "    "
 msgstr ""
+"\n"
+"    يجب فحص الخوارزميات بحثًا عن أخطاء في النظام والتحيزات في البيانات\n"
+"    وما ينتج عن ذلك من ردود فعل سلبية بحاجة إلى التحليل ،\n"
+"    قبل إطلاق هذه الأنظمة ونشرها في جميع المجالات.\n"
+"    "
 
 #: templates/demands/risikocheck.html:30
 msgid ""
@@ -364,6 +453,11 @@ msgid ""
 "    vermieden werden. \n"
 "    "
 msgstr ""
+"\n"
+"    لا يتبع كل انحدار إحصائي مبدأ السبب والخطأ\n"
+"    تأثير. الآثار السلبية على الناس بسبب التحليل الخاطئ يجب\n"
+"    قد تم تحاشيه.\n"
+"    "
 
 #: templates/demands/risikocheck.html:37
 msgid ""
@@ -374,21 +468,30 @@ msgid ""
 "assessment.html\" target=\"_blank\">Kanada</a> \n"
 "    oder die \n"
 "    <a href=\"https://www.theverge.com/2019/4/15/18309437/new-york-city-"
-"accountability-task-force-law-algorithm-transparency-automation\" "
-"target=\"_blank\">Stadt New York</a> \n"
+"accountability-task-force-law-algorithm-transparency-automation\" target="
+"\"_blank\">Stadt New York</a> \n"
 "    eingeführt haben.\n"
 "    "
 msgstr ""
+"\n"
+"هذا هو السبب في أننا ندعو إلى تقييم تأثير الخوارزمية ، مثل <a href=\"https://"
+"www.canada.ca/en/government/system/digital-government/digital-government-"
+"innovations/responsible-use-ai/algorithmic-impact-assessment.html\" target="
+"\"_blank\">كندا</a> <a href=\"https://www.theverge.com/2019/4/15/18309437/"
+"new-york-city-accountability-task-force-law-algorithm-transparency-automation"
+"\" target=\"_blank\">ومدينة نيويورك</a> التي قدمتها بالفعل."
 
 #: templates/demands/transparenz.html:3
 msgid "5. Umfassende Transparenz"
-msgstr ""
+msgstr "5. الشفافية الكاملة"
 
 #: templates/demands/transparenz.html:8
 msgid ""
 "Projekte und Programme, die mit unser aller Geld gestartet werden müssen "
 "höchstmögliche Transparenz aufweisen, um evaluierbar zu sein."
 msgstr ""
+"يجب أن تتمتع المشاريع والبرامج التي بدأت بكل أموالنا بأكبر قدر ممكن من "
+"الشفافية حتى يمكن تقييمها."
 
 #: templates/demands/transparenz.html:13
 msgid ""
@@ -402,6 +505,12 @@ msgid ""
 "das Projekt sind so ausgeschlossen.\n"
 "    "
 msgstr ""
+"\n"
+"    تم تطوير خوارزمية AMS بتكلفة كبيرة لسنوات في الكاميرا. لم يكن من الممكن "
+"إجراء مناقشة مستنيرة لمجرد عدم نشر قاعدة البيانات ولا نتائج النظام. ستظل "
+"المواد التدريبية للمستشارين والعمليات الخاصة بالاعتراض على الخوارزمية سرية. "
+"وبذلك يتم استبعاد المراجعة العلمية والنقاش الديمقراطي حول المشروع.\n"
+"    "
 
 #: templates/demands/transparenz.html:18
 msgid ""
@@ -419,20 +528,32 @@ msgid ""
 "werden.\n"
 "    "
 msgstr ""
+"\n"
+"    نطالب بشفافية شاملة واستباقية من AMS. لا ينبغي أن يكون الضغط الجماهيري "
+"هو الوسيلة الوحيدة للتوضيح. على أقل تقدير ، يجب نشر النماذج الرياضية "
+"والبرامج المستخدمة وقاعدة البيانات المجهولة الهوية وكيفية عمل النظام ونتائج "
+"عملية الحساب للمجموعات الفردية. يجب أن يتسم الأمر بالشفافية في كيفية تأثير "
+"خوارزمية مقياس الدعم الكلي على النصائح العملية والتمويل. يجب أخيرًا نشر "
+"التدابير التي اتخذها مقياس الدعم الكلي بالفعل ردًا على الانتقادات ، مثل وثائق "
+"التدريب ، والتفاعل مع إعادة هيكلة مقياس الدعم الكلي والعمليات المصاحبة ، "
+"بالإضافة إلى خيارات الشكاوى للمتضررين.\n"
+"    "
 
 #: templates/donate.html:3
 msgid "Da du hier bist…"
-msgstr ""
+msgstr "بما أنك هنا ..."
 
 #: templates/donate.html:5
 msgid "hätten wir eine kleine Bitte an dich."
-msgstr ""
+msgstr "لدينا طلب صغير لك."
 
 #: templates/donate.html:6
 msgid ""
-"Diese Kampagne wird von der Grundrechts-NGO <a target=\"_blank\" "
-"href=\"https://epicenter.works/\">epicenter.works</a> getragen."
+"Diese Kampagne wird von der Grundrechts-NGO <a target=\"_blank\" href="
+"\"https://epicenter.works/\">epicenter.works</a> getragen."
 msgstr ""
+"هذه الحملة مدعومة من قبل منظمة الحقوق الأساسية <a target=\"_blank\" href="
+"\"https://epicenter.works/\">epicenter.works</a> ."
 
 #: templates/donate.html:7
 msgid ""
@@ -444,38 +565,46 @@ msgid ""
 "    Hilf uns eine starke Stimme für die Zivilgesellschaft zu sein!\n"
 "    "
 msgstr ""
+"\n"
+"    نحن نناضل من أجل الحقوق الأساسية وحقوق الإنسان في العصر الرقمي لأكثر من "
+"10 سنوات ،\n"
+"    ألغيت الاحتفاظ بالبيانات وأحصنة طروادة الفيدرالية وتحتاج إلى دعمكم.\n"
+"    ساعدنا لنكون صوت قوي للمجتمع المدني!\n"
+"    "
 
 #: templates/donate.html:14
 msgid "Jetzt Fördermitglied werden!"
-msgstr ""
+msgstr "كن عضوا مساعدا الآن!"
 
 #: templates/email/already_confirmed.html:20 templates/email/confirm.html:20
 #: templates/email/withdraw.html:20
 #, python-format
 msgid "Hallo %(full_name)s,"
-msgstr ""
+msgstr "مرحبًا %(full_name)s ،"
 
 #: templates/email/already_confirmed.html:23
 msgid ""
 "danke für deine Unterstützung! <br/>\n"
 "                      Du warst allerdings bereits als UnterstützerIn "
 "eingetragen.<br/>"
-msgstr ""
+msgstr "شكرا لدعمك!<br/> ومع ذلك ، لقد تم تسجيلك بالفعل كمؤيد.<br/>"
 
 #: templates/email/already_confirmed.html:27 templates/email/confirm.html:31
 msgid ""
 "Unsere Petition wird nur erfolgreich sein, wenn wir viele sind!<br/>\n"
 "                      <b>Teile daher unsere Seite auf Social Media!</b>"
 msgstr ""
+"لن تنجح عريضتنا إلا إذا تعددنا!<br/> <b>لذا شارك صفحتنا على وسائل التواصل "
+"الاجتماعي!</b>"
 
 #: templates/email/already_confirmed.html:33 templates/email/confirm.html:37
 msgid "Vielen Dank für deine Hilfe!"
-msgstr ""
+msgstr "شكرا لك على مساعدتك!"
 
 #: templates/email/already_confirmed.html:36 templates/email/confirm.html:40
 #: templates/email/withdraw.html:33
 msgid "Liebe Grüße,"
-msgstr ""
+msgstr "ترحيب دافئ،"
 
 #: templates/email/already_confirmed.txt:2
 #, python-format
@@ -493,6 +622,18 @@ msgid ""
 "Liebe Grüße,\n"
 "epicenter.works"
 msgstr ""
+"مرحبًا %(full_name)s ،\n"
+"            \n"
+"شكرا لدعمك!\n"
+"\n"
+"ومع ذلك ، لقد تم تسجيلك بالفعل كمؤيد. لنا\n"
+"يمكن أن يكون الالتماس أكثر نجاحًا إذا شاركته على وسائل التواصل الاجتماعي\n"
+"شارك\n"
+"\n"
+"شكرا لك على مساعدتك!\n"
+"\n"
+"ترحيب دافئ،\n"
+"epicenter.works"
 
 #: templates/email/confirm.html:23
 msgid ""
@@ -501,6 +642,8 @@ msgid ""
 "ein kleiner Schritt!<br/>\n"
 "                      <b>Bitte klicke auf diesen Bestätigungslink:</b>"
 msgstr ""
+"شكرا لدعمك!<br/> حتى نتمكن من عد صوتك ، هناك خطوة صغيرة واحدة مفقودة!<br/> "
+"<b>الرجاء الضغط على رابط التأكيد هذا:</b>"
 
 #: templates/email/confirm.txt:2
 #, python-format
@@ -519,6 +662,19 @@ msgid ""
 "Liebe Grüße,\n"
 "epicenter.works"
 msgstr ""
+"مرحبًا %(full_name)ss ،\n"
+"            \n"
+"شكرا لدعمك!\n"
+"حتى نتمكن من عد صوتك ، هناك خطوة صغيرة واحدة مفقودة!\n"
+"\n"
+"الرجاء استخدام رابط التأكيد هذا:\n"
+"\n"
+"%(confirmation_url|safe) s\n"
+"\n"
+"شكرا لك على مساعدتك!\n"
+"\n"
+"ترحيب دافئ،\n"
+"epicenter.works"
 
 #: templates/email/withdraw.html:23
 msgid ""
@@ -531,6 +687,9 @@ msgid ""
 "                    <b>Um deinen Widerruf zu bestätigen, klicke den "
 "folgenden Bestätigungslink:</b>"
 msgstr ""
+"لقد تلقينا رسالة تفيد بأنك تريد إلغاء موافقتك على معالجة البيانات. مع "
+"الإلغاء ، ستتم إزالتك من قائمة الموقعين وسيتم حذف بياناتك. <b>لتأكيد "
+"الإلغاء ، انقر فوق رابط التأكيد التالي:</b>"
 
 #: templates/email/withdraw.txt:2
 #, python-format
@@ -549,38 +708,50 @@ msgid ""
 "Liebe Grüße,\n"
 "epicenter.works"
 msgstr ""
+"مرحبًا %(full_name)s ،\n"
+"\n"
+"لقد تلقينا رسالة تفيد بأنك منحت موافقتك على\n"
+"تريد إبطال معالجة البيانات. مع الإلغاء ستتم إزالتك من القائمة\n"
+"ستتم إزالة الموقع وسيتم حذف بياناتك.\n"
+"\n"
+"لتأكيد الإلغاء ، انقر فوق رابط التأكيد التالي:\n"
+"\n"
+"%(withdrawal_url|safe)s\n"
+"\n"
+"ترحيب دافئ،\n"
+"epicenter.works"
 
 #: templates/index.html:29
 msgid "Erklärvideo"
-msgstr ""
+msgstr "فيديو توضيحي"
 
 #: templates/index.html:30
 msgid "Forderungen"
-msgstr ""
+msgstr "المتطلبات"
 
 #: templates/index.html:31
 msgid "Minister kontaktieren"
-msgstr ""
+msgstr "تواصل مع الوزير"
 
 #: templates/index.html:32
 msgid "AMS-Daten anfordern"
-msgstr ""
+msgstr "طلب بيانات AMS"
 
 #: templates/index.html:33
 msgid "Weitersagen"
-msgstr ""
+msgstr "تخطى ذلك"
 
 #: templates/index.html:49
 msgid "Stoppt den <strong>AMS&#8209;Algorithmus</strong>"
-msgstr ""
+msgstr "يوقف <strong>خوارزمية AMS</strong>"
 
 #: templates/index.html:53
 msgid "Computer dürfen nicht über Menschen entscheiden!"
-msgstr ""
+msgstr "لا يجوز لأجهزة الكمبيوتر اتخاذ قرارات بشأن الناس!"
 
 #: templates/index.html:60 templates/index.html:163
 msgid "Jetzt Forderungen unterstützen!"
-msgstr ""
+msgstr "مطالبات الدعم الآن!"
 
 #: templates/index.html:77
 msgid ""
@@ -589,6 +760,8 @@ msgid ""
 "          <strong>gefährlicher Dammbruch</strong>.\n"
 "          "
 msgstr ""
+"\n"
+"يعد إدخال خوارزمية مقياس الدعم <strong>الكلي اختراقًا خطيرًا للسد</strong> ."
 
 #: templates/index.html:85
 msgid ""
@@ -599,6 +772,11 @@ msgid ""
 "nicht so.\n"
 "              "
 msgstr ""
+"\n"
+"              حتى الآن كان استخدام تقنيات جديدة تمامًا\n"
+"              على الأقل مناقشة علنية ومع القانون\n"
+"              شرعية ديمقراطيا. هذا ليس هو الحال مع خوارزمية AMS.\n"
+"              "
 
 #: templates/index.html:92
 msgid ""
@@ -612,21 +790,34 @@ msgid ""
 "wie dieses System arbeitet und über uns entscheidet.\n"
 "              "
 msgstr ""
+"\n"
+"<strong>تم تطوير هذا النظام وتقديمه دون مناقشة عامة</strong> . <strong>لم "
+"يشارك</strong> <strong>المجتمع المدني</strong> في هذه العملية وحتى يومنا هذا "
+"هناك <strong>نقص</strong> <strong>جوهري</strong> في\n"
+" <strong>الشفافية</strong> فيما يتعلق بكيفية عمل هذا النظام وكيف يقرر بشأننا."
 
 #: templates/index.html:101
 msgid ""
 "\n"
 "              Ein ähnliches System wurde <a href=\"https://epicenter.works/"
-"content/warum-der-polnische-ams-algorithmus-gescheitert-ist\" "
-"target=\"_blank\">in Polen vom Verfassungsgerichtshof\n"
+"content/warum-der-polnische-ams-algorithmus-gescheitert-ist\" target=\"_blank"
+"\">in Polen vom Verfassungsgerichtshof\n"
 "              aufgehoben</a>. Auch in den Niederlanden wurde ein "
 "algorithmenbasiertes System,\n"
-"              das Sozialhilfeempfänger*innen kontrollieren sollte <a "
-"href=\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
+"              das Sozialhilfeempfänger*innen kontrollieren sollte <a href="
+"\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
 "archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">für\n"
 "              rechtswidrig erklärt und eingestellt.</a>\n"
 "              "
 msgstr ""
+"\n"
+"تم <a href=\"https://epicenter.works/content/warum-der-polnische-ams-"
+"algorithmus-gescheitert-ist\" target=\"_blank\">إلغاء نظام مماثل في بولندا "
+"من قبل المحكمة الدستورية</a> . في هولندا أيضًا ، تم إعلان نظام قائم على "
+"الخوارزمية كان من المفترض أن يتحكم في متلقي الرعاية الاجتماعية <a href="
+"\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
+"archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">غير قانوني وتم "
+"إغلاقه.</a>"
 
 #: templates/index.html:109
 msgid ""
@@ -642,60 +833,67 @@ msgid ""
 "              auch noch <strong>einzementieren</strong>.\n"
 "              "
 msgstr ""
+"\n"
+"يجب ألا نسمح بالخصائص التي لا نملك السيطرة عليها لتحديد ما إذا كان الناس "
+"ممنوعين من التعليم والتدريب. يجب أن تكافح <strong>الأنظمة الخوارزمية</"
+"strong> التحيز والظلم وألا <strong>تديم</strong> <strong>هذه المظالم</"
+"strong> أيضًا."
 
 #: templates/index.html:121
 msgid "https://embed.epicenter.works/yt/VUoN61lKcMc"
-msgstr ""
+msgstr "https://embed.epicenter.works/yt/VUoN61lKcMc"
 
 #: templates/index.html:131
 msgid "Unsere <strong>7 Forderungen</strong>"
-msgstr ""
+msgstr "لدينا <strong>7 مطالب</strong>"
 
 #: templates/index.html:136
 msgid "mehr"
-msgstr ""
+msgstr "أكثر"
 
 #: templates/index.html:141
 msgid "Forderung im Detail:"
-msgstr ""
+msgstr "الطلب بالتفصيل:"
 
 #: templates/index.html:175
 msgid "AMS-Algorithmus stoppen"
-msgstr ""
+msgstr "وقف خوارزمية AMS"
 
 #: templates/index.html:181
 msgid "Unsere 7 Forderungen"
-msgstr ""
+msgstr "لدينا 7 مطالب"
 
 #: templates/index.html:238
 msgid "Unterschreiben"
-msgstr ""
+msgstr "وقع"
 
 #: templates/index.html:253
 msgid "Kontaktiere deinen <strong>Minister!</strong>"
-msgstr ""
+msgstr "تواصل <strong>مع وزيرك!</strong>"
 
 #: templates/index.html:267
 msgid "E-Mail schreiben"
-msgstr ""
+msgstr "اكتب بريدا الكترونيا"
 
 #: templates/index.html:283
 msgid "Stelle ein <strong>Auskunftsbegehren!</strong>"
-msgstr ""
+msgstr "تقديم طلب <strong>للمعلومات!</strong>"
 
 #: templates/index.html:285
 msgid ""
 "Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und "
 "Behörden anfordern. Hier kannst du das für das AMS tun."
 msgstr ""
+"مرة واحدة في السنة يمكنك طلب جميع البيانات الخاصة بك من جميع الشركات "
+"والهيئات مجانا. هنا يمكنك القيام بذلك من أجل AMS."
 
 #: templates/index.html:288
 msgid "Zum Generator"
-msgstr ""
+msgstr "للمولد"
 
 #: templates/index.html:290
 msgid "Antrag gemäß Art. 15 DSGVO auf Auskunft"
-msgstr ""
+msgstr "طلب المعلومات وفقًا للمادة 15 من القانون العام لحماية البيانات (GDPR)"
 
 #: templates/index.html:298
 msgid ""
@@ -709,46 +907,56 @@ msgid ""
 "erteilen.</strong>\n"
 "                  "
 msgstr ""
+"\n"
+"<strong>فقط إذا كنت عاطلاً عن العمل منذ عام 2019 ، فإن AMS لديها تصنيف حسابي "
+"لك ، وهو عبارة عن صفحتين من طلب المعلومات (صفحة معلومات وصفحة معلومات).</"
+"strong> في المتوسط ، يحتوي طلب المعلومات من AMS (لكبار السن) على حوالي "
+"80-150 صفحة. عند الطلب ، <strong>يمكن لمستشار AMS الخاص بك أن يزودك بمعلومات "
+"حول تصنيفك الخوارزمي بدلاً من ذلك.</strong>"
 
 #: templates/index.html:313
 msgid "Weitersagen!"
-msgstr ""
+msgstr "تخطى ذلك!"
 
 #: templates/index.html:315
 msgid ""
 "Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug "
 "politischen Druck erzeugen, um den AMS-Algorithmus zu verhinden."
 msgstr ""
+"أخبر أصدقاءك عن هذه الحملة! هذه هي الطريقة الوحيدة التي يمكننا من خلالها "
+"توليد ضغط سياسي كافٍ لمنع خوارزمية مقياس الدعم الكلي."
 
 #: templates/index.html:338
 msgid "Unterstützer*innen"
-msgstr ""
+msgstr "أنصار"
 
 #: templates/index.html:339
 msgid "Die Kampagne wird von folgenden Organisationen getragen:"
-msgstr ""
+msgstr "تدعم الحملة المنظمات التالية:"
 
 #: templates/newsletter_snippet.html:5
 msgid "Bleib informiert!"
-msgstr ""
+msgstr "البقاء على علم!"
 
 #: templates/newsletter_snippet.html:7
 msgid ""
 "Mit dem epicenter.works Newsletter behältst du den Überblick über "
 "netzpolitische Themen in Österreich."
 msgstr ""
+"من خلال النشرة الإخبارية epicenter.works ، يمكنك تتبع مشكلات سياسة الشبكة في "
+"النمسا."
 
 #: templates/newsletter_snippet.html:8
 msgid "https://epicenter.works/newsletter"
-msgstr ""
+msgstr "https://epicenter.works/newsletter"
 
 #: templates/newsletter_snippet.html:8
 msgid "Jetzt abonnieren"
-msgstr ""
+msgstr "إشترك الآن"
 
 #: templates/privacy.html:16
 msgid "Datenschutzbedingungen"
-msgstr ""
+msgstr "سياسة الخصوصية"
 
 #: templates/privacy.html:18
 msgid ""
@@ -761,6 +969,12 @@ msgid ""
 "uns gelöscht.\n"
 "        "
 msgstr ""
+"\n"
+"        إذا وقّعت على عريضتنا ، فسنحفظ اسمك وعنوان بريدك الإلكتروني لتسجيل "
+"هويتك كمشارك ولمنع التوقيعات المتعددة. بعد انتهاء فترة التوقيع ، سيتم تسليم "
+"هذه البيانات إلى الوزارة الفيدرالية للعمل والأسرة والشباب Untere Donaustraße "
+"13-15، 1020 Vienna ثم نقوم بحذفها بعد ذلك.\n"
+"        "
 
 #: templates/privacy.html:23
 msgid ""
@@ -775,6 +989,14 @@ msgid ""
 "der Unterzeichnungsfrist von uns gelöscht.\n"
 "        "
 msgstr ""
+"\n"
+"        لمنع إساءة الاستخدام ، نقوم أيضًا بتخزين سلسلة أحرف نستخدمها لرابط "
+"التأكيد الذي تتلقاه عبر البريد الإلكتروني ، وعدد المرات التي أرسلنا فيها "
+"إليك مثل هذا البريد الإلكتروني وما إذا كنت قد أكدت توقيعك. إذا كنت تستخدم "
+"نموذج الاعتراض أدناه ، فسنقوم بتخزين سلسلة الأحرف هذه وعدد رسائل البريد "
+"الإلكتروني المرسلة حتى تتم معالجة عملية الاعتراض بالكامل. سيتم حذف جميع هذه "
+"البيانات من قبلنا بعد انتهاء فترة التوقيع.\n"
+"        "
 
 #: templates/privacy.html:28
 msgid ""
@@ -786,6 +1008,11 @@ msgid ""
 "datenschutz#newsletter\">hier</a>.\n"
 "        "
 msgstr ""
+"\n"
+"نقوم أيضًا بحفظ ما إذا كنت ترغب في تلقي رسائلنا الإخبارية ، وإذا لزم الأمر ، "
+"قم بنقل عنوان بريدك الإلكتروني إلى نظام الرسائل الإخبارية لدينا. يمكن <a "
+"href=\"https://epicenter.works/datenschutz#newsletter\">العثور على معلومات "
+"حول حماية البيانات المتعلقة برسالتنا الإخبارية هنا</a> ."
 
 #: templates/privacy.html:33
 msgid ""
@@ -798,10 +1025,16 @@ msgid ""
 "<a href=\"https://epicenter.works/datenschutz\">hier</a>.\n"
 "        "
 msgstr ""
+"\n"
+"تتم معالجة هذه البيانات على أساس المادة 9 الفقرة 2 من القانون العام لحماية "
+"البيانات (GDPR). يمكنك سحب موافقتك على المعالجة في أي وقت باستخدام النموذج "
+"أدناه. يمكنك العثور على مزيد من المعلومات حول الشخص المسؤول عن المعالجة "
+"وحقوقك وتفاصيل الاتصال وشروط حماية البيانات عند زيارة مواقعنا الإلكترونية <a "
+"href=\"https://epicenter.works/datenschutz\">هنا</a> ."
 
 #: templates/privacy.html:42
 msgid "Widerruf der Einwilligung zur Verarbeitung"
-msgstr ""
+msgstr "سحب الموافقة على المعالجة"
 
 #: templates/privacy.html:43
 msgid ""
@@ -809,19 +1042,21 @@ msgid ""
 "erhältst wieder eine E-Mail mit einem Link, mit dem du den Widerruf "
 "bestätigst."
 msgstr ""
+"للإلغاء ، أدخل عنوان البريد الإلكتروني الذي وقعت به. ستتلقى بريدًا إلكترونيًا "
+"آخر به رابط يمكنك من خلاله تأكيد الإلغاء."
 
 #: templates/privacy.html:49
 msgid "Einwilligung widerrufen"
-msgstr ""
+msgstr "إبطال الموافقة"
 
 #: templates/progressbar.html:17
 #, python-format
 msgid "Bisher %(signature_count)s von %(goal)s Unterschriften."
-msgstr ""
+msgstr "%(signature_count)s من %(goal)s توقيعات حتى الآن."
 
 #: templates/request.html:8
 msgid "Auskunftsbegehren"
-msgstr ""
+msgstr "طلب للحصول على معلومات"
 
 #: templates/request.html:18
 msgid ""
@@ -835,6 +1070,13 @@ msgid ""
 "bei!\n"
 "            "
 msgstr ""
+"\n"
+"            يمكنك استخدام هذا النموذج لإنشاء طلب للحصول على معلومات ،\n"
+"            والتي تُستخدم لجمع البيانات الشخصية التي تمتلكها خدمة سوق العمل "
+"عنك\n"
+"            جمعت.\n"
+"            أرسلها إلى العنوان المرفق وأرفق نسخة من هويتك!\n"
+"            "
 
 #: templates/request.html:26
 msgid ""
@@ -845,10 +1087,14 @@ msgid ""
 "gespeichert.\n"
 "            "
 msgstr ""
+"\n"
+"            سيتم استخدام البيانات التي تقدمها في هذا النموذج فقط لـ\n"
+"            لإنشاء طلبك للحصول على المعلومات ولن يتم حفظه.\n"
+"            "
 
 #: templates/request.html:46
 msgid "Pflichtfelder"
-msgstr ""
+msgstr "الحقول المطلوبة"
 
 #: templates/request.html:48
 msgid ""
@@ -856,6 +1102,9 @@ msgid ""
 "default/files/ams-dsgvo-hoch.pdf\" target=\"_blank\">Musterbrief</a> als PDF "
 "für das Auskunftsbegehren zur Verfügung"
 msgstr ""
+"بدلاً من ذلك ، نقدم أيضًا نموذجًا <a href=\"https://epicenter.works/sites/"
+"default/files/ams-dsgvo-hoch.pdf\" target=\"_blank\">للرسالة</a> كملف PDF "
+"لطلب المعلومات"
 
 #: templates/request_call_to_action.html:4
 msgid ""
@@ -864,83 +1113,87 @@ msgid ""
 "  um herauszufinden welche Daten das AMS über dich gespeichert hat.\n"
 "  "
 msgstr ""
+"\n"
+"  استخدم برنامجنا وقم بإنشاء مستند\n"
+"  لمعرفة البيانات التي خزنتها AMS عنك.\n"
+"  "
 
 #: templates/share.html:5
 msgid "Jede Stimme zählt!"
-msgstr ""
+msgstr "كل صوت مهم!"
 
 #: templates/share.html:7
 msgid "Teile diese Seite auf Social Media damit wir unser Ziel erreichen!"
-msgstr ""
+msgstr "شارك هذه الصفحة على وسائل التواصل الاجتماعي حتى نصل إلى هدفنا!"
 
 #: templates/thanks.html:7
 msgid "Danke,"
-msgstr ""
+msgstr "شكرًا،"
 
 #: templates/thanks.html:9
 msgid ""
 "klicke noch schnell den Bestätigungslink, den du per E-Mail erhalten hast."
-msgstr ""
+msgstr "انقر بسرعة على رابط التأكيد الذي تلقيته عبر البريد الإلكتروني."
 
 #: templates/tour.html:39
 msgid "Wir sind auf Tour"
-msgstr ""
+msgstr "نحن في جولة"
 
 #: templates/tour.html:41
 msgid "Termine & Livestream"
-msgstr ""
+msgstr "التواريخ والبث المباشر"
 
 #: templates/tour.html:71
 msgid "Hauptseite & Petition"
-msgstr ""
+msgstr "الصفحة الرئيسية والعريضة"
 
-#: templates/tour.html:111
+#: templates/tour.html:112
 msgid "Paneldiskussion zum AMS-Algorithmus"
-msgstr ""
+msgstr "حلقة نقاش حول خوارزمية AMS"
 
-#: templates/tour.html:116
+#: templates/tour.html:117
 msgid "https://embed.epicenter.works/yt/I9O8Az_E-VY"
-msgstr ""
+msgstr "https://embed.epicenter.works/yt/I9O8Az_E-VY"
 
 #: templates/tour/tour_dates.html:4
 msgid "Termine"
-msgstr ""
+msgstr "الأحداث"
 
 #: templates/tour/tour_dates.html:6
 msgid "28. April"
-msgstr ""
+msgstr "28 أبريل"
 
 #: templates/tour/tour_dates.html:6
 msgid "Panel / Livestream"
-msgstr ""
+msgstr "لوحة / بث مباشر"
 
 #: templates/tour/tour_dates.html:7
 msgid "2. Mai"
-msgstr ""
+msgstr "2 مايو"
 
 #: templates/tour/tour_dates.html:8
 msgid "3. Mai"
-msgstr ""
+msgstr "3 مايو"
 
 #: templates/tour/tour_dates.html:9
 msgid "4. Mai"
-msgstr ""
+msgstr "4 مايو"
 
 #: templates/tour/tour_dates.html:10
 msgid "5. Mai"
-msgstr ""
+msgstr "الخامس من مايو"
 
 #: templates/tour/tour_dates.html:11
 msgid "6. Mai"
-msgstr ""
+msgstr "6 مايو"
 
 #: templates/tour/tour_snippet.html:15
 msgid "Alle Details"
-msgstr ""
+msgstr "كل التفاصيل"
 
 #: templates/tour/tour_teaser_text.html:4
 msgid "Triff uns, <br>wir sind auf Tour ..."
-msgstr ""
+msgstr "قابلنا<br> نحن في جولة ..."
 
 #: templates/tour/tour_teaser_text.html:6
 msgid ""
@@ -952,24 +1205,32 @@ msgid ""
 "man seine Chancen auf AMS-Förderungen nachspielen kann. Zum Trost gibt es "
 "ein kleines Geschenk zum Naschen\n"
 msgstr ""
+"\n"
+"... للتحدث إلى الأشخاص المهتمين والمتأثرين بشأن خوارزمية AMS.<br> سوف تجدنا "
+"بين الساعة 9.00 صباحًا و 2.00 مساءً أمام موقع AMS المعني. بالمناسبة ، لدينا "
+"أيضًا \"قاطعة الطريق بذراع واحد\" المضحكة معنا ، والتي يمكنك من خلالها إعادة "
+"تعزيز فرصك في الحصول على تمويل AMS. كتعزية ، هناك هدية صغيرة لتناول وجبة "
+"خفيفة\n"
 
 #: templates/withdraw.html:10
 msgid "Wir haben deinen Widerruf erhalten und deine Daten gelöscht."
-msgstr ""
+msgstr "لقد تلقينا إبطالك وحذفنا بياناتك."
 
 #: templates/withdraw.html:15
 msgid "Vielleicht wurden deine Daten bereits gelöscht?"
-msgstr ""
+msgstr "ربما تم حذف البيانات الخاصة بك بالفعل؟"
 
 #: templates/withdraw.html:16
 msgid ""
 "Bitte wende dich an <a href=\"mailto:ams@epicenter.works\">ams@epicenter."
 "works</a>, um sicherzugehen, dass deine Daten gelöscht wurden."
 msgstr ""
+"يرجى <a href=\"mailto:ams@epicenter.works\">الاتصال ams@epicenter.works</a> "
+"للتأكد من حذف بياناتك."
 
 #: templates/withdrawal_sent.html:7
 msgid "Bestätige deinen Widerruf."
-msgstr ""
+msgstr "قم بتأكيد الإبطال الخاص بك."
 
 #: templates/withdrawal_sent.html:9
 msgid ""
@@ -979,3 +1240,8 @@ msgid ""
 "durchzuführen.      \n"
 "        "
 msgstr ""
+"\n"
+"        لقد أرسلنا لك بريدًا إلكترونيًا للتأكيد ،\n"
+"        انقر فوق الارتباط الموجود في هذا البريد الإلكتروني لتنفيذ عملية "
+"الإلغاء.\n"
+"        "
