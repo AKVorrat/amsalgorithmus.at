@@ -24,3 +24,12 @@ python ./manage.py runserver
 ## Scss
 
 Scss source files are located in `ams/static/scss`.
+
+
+
+## Translation
+```bash
+cd ams
+django-admin makemessages -a
+django-admin compilemessages
+```
