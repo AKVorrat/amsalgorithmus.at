@@ -4,20 +4,106 @@
     background-color: #141e2b;
     color: #fff;
   }
+  .tour__gallery {
+    display: flex;
+  }
+
+  .tour-bg-gradient {
+    background: linear-gradient(#fff,#d6dfe7);
+  }
+  .tour__dates_startpage {
+    font-family: "Poppins", sans-serif;
+    max-width: 100%;
+    display: flex;
+
+  }
+
+  .tour__title {
+    margin-top: 1em;
+  }
+  .tour__teaser {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+  .tour__textcontent {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .tour__dates_startpage ul {
+    margin: .5em 0;
+    padding: 0;
+  }
+   .tour__dates_startpage li {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 .3em;
+    display: flex;
+  }
+  .tour__dates_startpage .tour__date {
+    color: #444a60;
+    font-weight: bold;
+    width: 5.2em;
+    display: block;
+  }
+  .tour__dates_startpage .tour__location {
+    color: #141e2b;
+    display: block;
+  }
+
 </style>
 
-<div class="container tour-bg">
-  <div class="tour__content">
-    <div class="tour__text">
-      {% include 'tour/tour_teaser_text.html' %}
-      <a class="button tour-button" href="tour"> 
-        <!-- TODO -->
-        {% trans "Alle Details" %}
-      </a>
+<div class="container">
+
+  <div class="tour__content_startpage">
+    <h1 class="tour__title">{% trans "Das war die Tour ..." %}</h1>
+    <div class="tour__textcontent">
+      <p class="tour__teaser">
+        {% blocktrans %}
+        Im Mai 2022 waren wir in Oberösterreich auf Tour und haben viele interessante Gespräche mit Betroffenen und Mitarbeitenden des AMS geführt. Alle waren sich meist einig, dass solch ein maschinelles System furchtbar ungerecht ist. Es bleibt reine Geldverschwendung, denn hilfreich ist es weder für die Seite der Arbeitssuchenden noch für die Beschäftigten des AMS , von denen sich viele mit unserer Aktion solidarisierten. 
+        {% endblocktrans %}
+      </p>
     </div>
-
-    {% include 'tour/tour_dates.html' %}
-
+    
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+      <div style=" max-width: 440px; margin-right: 2em;">
+        <div class="tour__textcontent">
+          <p>
+            {% blocktrans %}
+            Unser einarmiger Bandit "Algomat" war ein voller Erfolg. Viele "spielten" mit dem Gerät, dessen Programmierung auf Basis der bekannten Daten über den AMS-Algorithmus erfolgt war. Die Maschine machte es leicht zu verstehen, wie ungerecht und zufallsbasiert das bestehende System ist. 
+            {% endblocktrans %}
+          </p>
+          <p>
+            {% blocktrans %}
+            Unser Fazit nach dieser Tour ist noch klarer: dieser AMS-Algorithmus ist eine teure Totgeburt einer Politik, die propagierte, mit Hilfe einer digitalen Maschine öffentliches Geld zu sparen. Erreicht wurde das Gegenteil, nämlich die Verschwendung von Steuergeld in eine teure Digitallösung, die nur ungerecht ist und bereits Anwälte, die Datenschutzbehörde und das Gericht beschäftigt.
+            {% endblocktrans %}
+          </p>
+        </div>
+        <div class="tour__dates_startpage">
+          <div>
+            <h2>{% trans "Termine" %}</h2>
+            <ul>
+              <li><span class="tour__date">{% trans "2. Mai"%}</span> <span class="tour__location">AMS Traun</span></li>
+              <li><span class="tour__date">{% trans "3. Mai"%}</span> <span class="tour__location">AMS Wels</span></li>
+              <li><span class="tour__date">{% trans "4. Mai"%}</span> <span class="tour__location">AMS Steyr</span></li>
+              <li><span class="tour__date">{% trans "5. Mai"%}</span> <span class="tour__location">AMS Vöcklabruck</span></li>
+              <li><span class="tour__date">{% trans "6. Mai"%}</span> <span class="tour__location">AMS Linz</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: -10px; max-width: 740px; ">
+        <img src="/static/images/tour/ams-tour-collage.jpg" style="width: 100%;" alt="">
+      </div>
+    </div>
+    
   </div>
+  
+</div>
+<div class="tour-bg-gradient">
+  <div class="container">
 
+    <div class="tour-bg">
+    
+    </div>
+  </div>
 </div>

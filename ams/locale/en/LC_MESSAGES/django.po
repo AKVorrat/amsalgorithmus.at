@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-23 20:55+0200\n"
-"PO-Revision-Date: 2022-04-29 16:10+0200\n"
+"POT-Creation-Date: 2022-08-10 16:24+0200\n"
+"PO-Revision-Date: 2022-08-10 16:42+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #: modules/petition/forms.py:16 modules/request/forms.py:8
 msgid "Vorname"
@@ -41,12 +41,12 @@ msgstr ""
 
 #: modules/petition/forms.py:46
 msgid ""
-"Ja, ich stimme den <a target=\"_blank\" href=\"/"
-"privacy\">Datenschutzbedingungen</a> zu."
+"Ja, ich stimme den <a target=\"_blank\" href=\"/privacy"
+"\">Datenschutzbedingungen</a> zu."
 msgstr ""
 "I agree to the <a target=\"_blank\" href=\"/privacy\">privacy policy</a>."
 
-#: modules/petition/models.py:17 templates/index.html:324
+#: modules/petition/models.py:17 templates/index.html:335
 #: templates/share.html:16
 msgid "E-Mail"
 msgstr "Email"
@@ -66,14 +66,6 @@ msgstr "Postcode"
 #: modules/request/forms.py:37
 msgid "Ort"
 msgstr "City"
-
-#: settings/base.py:82
-msgid "Deutsch"
-msgstr "German"
-
-#: settings/base.py:83
-msgid "Englisch"
-msgstr "English"
 
 #: templates/announcement.html:16
 msgid ""
@@ -492,8 +484,8 @@ msgid ""
 "assessment.html\" target=\"_blank\">Kanada</a> \n"
 "    oder die \n"
 "    <a href=\"https://www.theverge.com/2019/4/15/18309437/new-york-city-"
-"accountability-task-force-law-algorithm-transparency-automation\" "
-"target=\"_blank\">Stadt New York</a> \n"
+"accountability-task-force-law-algorithm-transparency-automation\" target="
+"\"_blank\">Stadt New York</a> \n"
 "    eingeführt haben.\n"
 "    "
 msgstr ""
@@ -505,8 +497,8 @@ msgstr ""
 "assessment.html\" target=\"_blank\">Canada</a> \n"
 "    or the \n"
 "   <a href=\"https://www.theverge.com/2019/4/15/18309437/new-york-city-"
-"accountability-task-force-law-algorithm-transparency-automation\" "
-"target=\"_blank\">City of New York</a> \n"
+"accountability-task-force-law-algorithm-transparency-automation\" target="
+"\"_blank\">City of New York</a> \n"
 "    have already introduced.\n"
 "    "
 
@@ -582,8 +574,8 @@ msgstr "we have a small request for you."
 
 #: templates/donate.html:6
 msgid ""
-"Diese Kampagne wird von der Grundrechts-NGO <a target=\"_blank\" "
-"href=\"https://epicenter.works/\">epicenter.works</a> getragen."
+"Diese Kampagne wird von der Grundrechts-NGO <a target=\"_blank\" href="
+"\"https://epicenter.works/\">epicenter.works</a> getragen."
 msgstr ""
 "I would like to receive the <a target=\"_blank\" href=\"https://epicenter."
 "works/newsletter\">newsletter</a> (optional)."
@@ -794,11 +786,11 @@ msgstr "Stop the <strong>AMS algorithm</strong>"
 msgid "Computer dürfen nicht über Menschen entscheiden!"
 msgstr "Computers should not make decisions about people!"
 
-#: templates/index.html:60 templates/index.html:163
+#: templates/index.html:60 templates/index.html:174
 msgid "Jetzt Forderungen unterstützen!"
 msgstr "Support our demands now!"
 
-#: templates/index.html:77
+#: templates/index.html:88
 msgid ""
 "\n"
 "          Die Einführung des AMS-Algorithmus ist ein\n"
@@ -810,7 +802,7 @@ msgstr ""
 "         <strong>dangerous breach of the dam</strong>.\n"
 "          "
 
-#: templates/index.html:85
+#: templates/index.html:96
 msgid ""
 "\n"
 "              Bislang war es so, dass der Einsatz ganz neuer Technologien\n"
@@ -827,7 +819,7 @@ msgstr ""
 "with the AMS algorithm.\n"
 "              "
 
-#: templates/index.html:92
+#: templates/index.html:103
 msgid ""
 "\n"
 "              Dieses <strong>System wurde ohne öffentliche Debatte\n"
@@ -848,16 +840,16 @@ msgstr ""
 "this system works and decides about us.\n"
 "              "
 
-#: templates/index.html:101
+#: templates/index.html:112
 msgid ""
 "\n"
 "              Ein ähnliches System wurde <a href=\"https://epicenter.works/"
-"content/warum-der-polnische-ams-algorithmus-gescheitert-ist\" "
-"target=\"_blank\">in Polen vom Verfassungsgerichtshof\n"
+"content/warum-der-polnische-ams-algorithmus-gescheitert-ist\" target=\"_blank"
+"\">in Polen vom Verfassungsgerichtshof\n"
 "              aufgehoben</a>. Auch in den Niederlanden wurde ein "
 "algorithmenbasiertes System,\n"
-"              das Sozialhilfeempfänger*innen kontrollieren sollte <a "
-"href=\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
+"              das Sozialhilfeempfänger*innen kontrollieren sollte <a href="
+"\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
 "archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">für\n"
 "              rechtswidrig erklärt und eingestellt.</a>\n"
 "              "
@@ -870,15 +862,15 @@ msgstr ""
 "Constitutional Court\n"
 "              overturned</a>. In the Netherlands, too, an algorithm-based "
 "system,\n"
-"              that was supposed to monitor welfare recipients <a "
-"href=\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
+"              that was supposed to monitor welfare recipients <a href="
+"\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
 "archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">was</a> "
 "declared unlawful and <a href=\"https://www.uni-muenster.de/NiederlandeNet/"
 "aktuelles/archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">\n"
 "              unlawful and was discontinued.\n"
 "</a>             "
 
-#: templates/index.html:109
+#: templates/index.html:120
 msgid ""
 "\n"
 "              Wir dürfen nicht zulassen, dass Merkmale,\n"
@@ -902,47 +894,47 @@ msgstr ""
 "             <strong>cement</strong> these injustices in place.\n"
 "              "
 
-#: templates/index.html:121
+#: templates/index.html:132
 msgid "https://embed.epicenter.works/yt/VUoN61lKcMc"
 msgstr "https://embed.epicenter.works/yt/VUoN61lKcMc?lang=en"
 
-#: templates/index.html:131
+#: templates/index.html:142
 msgid "Unsere <strong>7 Forderungen</strong>"
 msgstr "Our <strong>7 demands</strong>"
 
-#: templates/index.html:136
+#: templates/index.html:147
 msgid "mehr"
 msgstr "more"
 
-#: templates/index.html:141
+#: templates/index.html:152
 msgid "Forderung im Detail:"
 msgstr "Demand in detail:"
 
-#: templates/index.html:175
+#: templates/index.html:186
 msgid "AMS-Algorithmus stoppen"
 msgstr "Stop the AMS algorithm"
 
-#: templates/index.html:181
+#: templates/index.html:192
 msgid "Unsere 7 Forderungen"
 msgstr "Our 7 demands"
 
-#: templates/index.html:238
+#: templates/index.html:249
 msgid "Unterschreiben"
 msgstr "Sign"
 
-#: templates/index.html:253
+#: templates/index.html:264
 msgid "Kontaktiere deinen <strong>Minister!</strong>"
 msgstr "Contact your <strong>minister!</strong>"
 
-#: templates/index.html:267
+#: templates/index.html:278
 msgid "E-Mail schreiben"
 msgstr "Write email"
 
-#: templates/index.html:283
+#: templates/index.html:294
 msgid "Stelle ein <strong>Auskunftsbegehren!</strong>"
 msgstr "Make a <strong>request for information!</strong>"
 
-#: templates/index.html:285
+#: templates/index.html:296
 msgid ""
 "Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und "
 "Behörden anfordern. Hier kannst du das für das AMS tun."
@@ -950,15 +942,15 @@ msgstr ""
 "Once a year you can request all your data from all companies and authorities "
 "for free. Here you can do that for the AMS."
 
-#: templates/index.html:288
+#: templates/index.html:299
 msgid "Zum Generator"
 msgstr "To the generator"
 
-#: templates/index.html:290
+#: templates/index.html:301
 msgid "Antrag gemäß Art. 15 DSGVO auf Auskunft"
 msgstr "Request for information according to Art. 15 DSGVO"
 
-#: templates/index.html:298
+#: templates/index.html:309
 msgid ""
 "\n"
 "                    <strong>Nur wenn du seit 2019 arbeitslos warst hat das "
@@ -980,11 +972,11 @@ msgstr ""
 "classification</strong>.\n"
 "                  "
 
-#: templates/index.html:313
+#: templates/index.html:324
 msgid "Weitersagen!"
 msgstr "Pass it on!"
 
-#: templates/index.html:315
+#: templates/index.html:326
 msgid ""
 "Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug "
 "politischen Druck erzeugen, um den AMS-Algorithmus zu verhinden."
@@ -992,13 +984,66 @@ msgstr ""
 "Tell your friends about this campaign! This is the only way we can generate "
 "enough political pressure to stop the AMS algorithm."
 
-#: templates/index.html:338
+#: templates/index.html:349
 msgid "Unterstützer*innen"
 msgstr "Supporters"
 
-#: templates/index.html:339
+#: templates/index.html:350
 msgid "Die Kampagne wird von folgenden Organisationen getragen:"
 msgstr "The campaign is supported by the following organizations:"
+
+#: templates/news.html:18
+msgid "Was als nächstes passiert ..."
+msgstr "What happens next ..."
+
+#: templates/news.html:19
+msgid ""
+"\n"
+"      <p>\n"
+"        Bis September 2022 sollen in gezielten Focusgruppen die detailierten "
+"Probleme eines maschinellen, automatisierten und intransparenten Systems "
+"besprochen werden. In moderierten Gruppen diskutieren und analysieren wir "
+"mit betroffenen Menschen, ob Algorithmen überhaupt für staatlich garantierte "
+"Versicherungsleistungen einsetzbar sind. Die Ergebnisse werden wir "
+"veröffentlichen.\n"
+"      </p>\n"
+"      <p>\n"
+"        Weiters werden wir nochmals  in Oberösterreich vor Ort sein. Mit "
+"unserem Tourbus und dem einarmigen Banditen \"Algomat\" möchten wir stark "
+"betroffene Communities besuchen und über das System und dessen Probleme "
+"aufklären. Aktuell suchen wir Organisationen und Vereine in Oberösterreich, "
+"die mit geflüchteten oder langzeitarbeitssuchenden Menschen arbeiten. Wenn "
+"ihr Vertreter*innen solch einer Community seid oder kennt, z.B. eine "
+"syrische Kulturgruppe oder ein kroatischer Kulturverein, udgl.\n"
+"        Sprecht uns bitte an: <a href=\"mailto:ams-algorithmus@epicenter."
+"works\">ams-algorithmus@epicenter.works</a><br>\n"
+"        Wir suchen auch aktuell noch Sprachmittler*innen, um einfacher vor "
+"Ort kommunizieren zu können. \n"
+"      </p>\n"
+"      "
+msgstr ""
+"\n"
+"      <p>\n"
+"        By September 2022, the detailed problems of a machine-based, "
+"automated and non-transparent system will be discussed in targeted focus "
+"groups. In moderated groups, we will discuss and analyze with affected "
+"people whether algorithms can be used at all for state-guaranteed insurance "
+"services. We will publish the results.\n"
+"      </p>\n"
+"      <p>\n"
+"        Furthermore, we will be on site again in Upper Austria. With our "
+"tour bus and the one-armed bandit \"Algomat\" we want to visit strongly "
+"affected communities and inform about the system and its problems. We are "
+"currently looking for organizations and associations in Upper Austria that "
+"work with refugees or long-term job seekers. If you are or know "
+"representatives of such a community, e.g. a Syrian cultural group or a "
+"Croatian cultural association, etc., please contact us.\n"
+"        Please contact us: <a href=\"mailto:ams-algorithmus@epicenter.works"
+"\">ams-algorithmus@epicenter.works</a><br>\n"
+"        We are also currently looking for language mediators in order to be "
+"able to communicate more easily on site \n"
+"     </br></p>\n"
+"      "
 
 #: templates/newsletter_snippet.html:5
 msgid "Bleib informiert!"
@@ -1097,8 +1142,8 @@ msgstr ""
 "        The processing of this data is based on Art. 9 para. 2 lit a DSGVO. "
 "You can revoke your consent to the processing at any time using the form "
 "below. For more information about the controller, your rights, contact "
-"details, and privacy policy when visiting our websites, please <a "
-"href=\"https://epicenter.works/datenschutz\">click here</a>.\n"
+"details, and privacy policy when visiting our websites, please <a href="
+"\"https://epicenter.works/datenschutz\">click here</a>.\n"
 "        "
 
 #: templates/privacy.html:42
@@ -1206,29 +1251,48 @@ msgid ""
 "klicke noch schnell den Bestätigungslink, den du per E-Mail erhalten hast."
 msgstr "quickly click the confirmation link you received by e-mail."
 
-#: templates/tour.html:39
+#: templates/tour.html:13
 msgid "Wir sind auf Tour"
 msgstr "We are on tour"
 
-#: templates/tour.html:41
+#: templates/tour.html:15
 msgid "Termine & Livestream"
 msgstr "Dates & Livestream"
 
-#: templates/tour.html:71
+#: templates/tour.html:45
 msgid "Hauptseite & Petition"
 msgstr "Main page & Petition"
 
-#: templates/tour.html:112
+#: templates/tour/discussion.html:40
 msgid "Paneldiskussion zum AMS-Algorithmus"
-msgstr ""
+msgstr "Panel Discussion on the AMS Algorithm"
 
-#: templates/tour.html:117
-#, fuzzy
-#| msgid "https://embed.epicenter.works/yt/VUoN61lKcMc"
+#: templates/tour/discussion.html:45
 msgid "https://embed.epicenter.works/yt/I9O8Az_E-VY"
 msgstr "https://embed.epicenter.works/yt/VUoN61lKcMc?lang=en"
 
-#: templates/tour/tour_dates.html:4
+#: templates/tour/discussion.html:57
+msgid ""
+"\n"
+"            Zum Start der Aktionswoche in Oberösterreich, Anfang Mai 2022, "
+"bei der für die Abschaffung eines solchen maschinenbasierten Systems "
+"geworben wurde, diskutierten Vertreter*innen aus Wissenschaft, Politik, "
+"Sozialpartnerschaft und Verwaltung über ihren Zugang zum AMS-Algorithmus.\n"
+"            Eine spannende Runde, mit vielen Argumenten und durchaus "
+"unerwarteten Wendungen.\n"
+"            "
+msgstr ""
+"\n"
+"            At the start of the action week in Upper Austria, at the "
+"beginning of May 2022, during which the abolition of such a machine-based "
+"system was campaigned for, representatives from science, politics, social "
+"partnership and administration discussed their approach to the AMS "
+"algorithm.\n"
+"            An exciting round, with many arguments and quite unexpected "
+"twists.\n"
+"            "
+
+#: templates/tour/tour_dates.html:4 templates/tour/tour_snippet.html:83
 msgid "Termine"
 msgstr "Dates"
 
@@ -1240,51 +1304,84 @@ msgstr "April 28th"
 msgid "Panel / Livestream"
 msgstr "Panel / Livestream"
 
-#: templates/tour/tour_dates.html:7
+#: templates/tour/tour_dates.html:7 templates/tour/tour_snippet.html:85
 msgid "2. Mai"
 msgstr "May 2nd"
 
-#: templates/tour/tour_dates.html:8
+#: templates/tour/tour_dates.html:8 templates/tour/tour_snippet.html:86
 msgid "3. Mai"
 msgstr "May 3rd"
 
-#: templates/tour/tour_dates.html:9
+#: templates/tour/tour_dates.html:9 templates/tour/tour_snippet.html:87
 msgid "4. Mai"
 msgstr "May 4th"
 
-#: templates/tour/tour_dates.html:10
+#: templates/tour/tour_dates.html:10 templates/tour/tour_snippet.html:88
 msgid "5. Mai"
 msgstr "May 5th"
 
-#: templates/tour/tour_dates.html:11
+#: templates/tour/tour_dates.html:11 templates/tour/tour_snippet.html:89
 msgid "6. Mai"
 msgstr "May 6th"
 
-#: templates/tour/tour_snippet.html:15
-msgid "Alle Details"
-msgstr "All details"
+#: templates/tour/tour_snippet.html:58
+msgid "Das war die Tour ..."
+msgstr "That was the tour ..."
 
-#: templates/tour/tour_teaser_text.html:4
-msgid "Triff uns, <br>wir sind auf Tour ..."
-msgstr "Meet us, <br>we are on tour ..."
-
-#: templates/tour/tour_teaser_text.html:6
+#: templates/tour/tour_snippet.html:61
 msgid ""
 "\n"
-"  ... um mit interessierten Menschen und Betroffenen über den AMS-"
-"Algorithmus ins Gespräch kommen.<br>\n"
-"  Ihr findet uns zwischen 9.00 - 14.00 Uhr vor dem jeweiligen AMS Standort. "
-"Wir haben übrigens auch einen lustigen „einarmigen Banditen“ dabei, mit dem "
-"man seine Chancen auf AMS-Förderungen nachspielen kann. Zum Trost gibt es "
-"ein kleines Geschenk zum Naschen\n"
+"        Im Mai 2022 waren wir in Oberösterreich auf Tour und haben viele "
+"interessante Gespräche mit Betroffenen und Mitarbeitenden des AMS geführt. "
+"Alle waren sich meist einig, dass solch ein maschinelles System furchtbar "
+"ungerecht ist. Es bleibt reine Geldverschwendung, denn hilfreich ist es "
+"weder für die Seite der Arbeitssuchenden noch für die Beschäftigten des "
+"AMS , von denen sich viele mit unserer Aktion solidarisierten. \n"
+"        "
 msgstr ""
 "\n"
-"  ... to talk with interested people and people concerned about the AMS "
-"algorithm.<br>\n"
-"  You can find us between 9:00 - 14:00 in front of the respective AMS "
-"location. By the way, we also have a funny \"one-armed bandit\" with us, "
-"with which you can act out your chances of AMS funding. As a consolation "
-"there is a small gift to snack on\n"
+"        In May 2022, we were on tour in Upper Austria and had many "
+"interesting conversations with those affected and employees of the AMS. Most "
+"of them agreed that such a machine-based system is terribly unfair. It "
+"remains a waste of money, because it is neither helpful for the job seekers "
+"nor for the AMS employees, many of whom showed solidarity with our campaign\n"
+"        "
+
+#: templates/tour/tour_snippet.html:71
+msgid ""
+"\n"
+"            Unser einarmiger Bandit \"Algomat\" war ein voller Erfolg. Viele "
+"\"spielten\" mit dem Gerät, dessen Programmierung auf Basis der bekannten "
+"Daten über den AMS-Algorithmus erfolgt war. Die Maschine machte es leicht zu "
+"verstehen, wie ungerecht und zufallsbasiert das bestehende System ist. \n"
+"            "
+msgstr ""
+"\n"
+"            Our one-armed bandit \"Algomat\" was a complete success. Many "
+"\"played\" with the machine, whose programming was based on the known data "
+"about the AMS algorithm. The machine made it easy to understand how unfair "
+"and random the existing system is\n"
+"            "
+
+#: templates/tour/tour_snippet.html:76
+msgid ""
+"\n"
+"            Unser Fazit nach dieser Tour ist noch klarer: dieser AMS-"
+"Algorithmus ist eine teure Totgeburt einer Politik, die propagierte, mit "
+"Hilfe einer digitalen Maschine öffentliches Geld zu sparen. Erreicht wurde "
+"das Gegenteil, nämlich die Verschwendung von Steuergeld in eine teure "
+"Digitallösung, die nur ungerecht ist und bereits Anwälte, die "
+"Datenschutzbehörde und das Gericht beschäftigt.\n"
+"            "
+msgstr ""
+"\n"
+"            Our conclusion after this tour is even clearer: this AMS "
+"algorithm is an expensive stillborn of a policy that propagated to save "
+"public money with the help of a digital machine. What was achieved was the "
+"opposite, namely the waste of taxpayers' money in an expensive digital "
+"solution that is nothing but unjust and already keeps lawyers, the data "
+"protection authority and the court busy.\n"
+"            "
 
 #: templates/withdraw.html:10
 msgid "Wir haben deinen Widerruf erhalten und deine Daten gelöscht."
@@ -1318,6 +1415,35 @@ msgstr ""
 "We have sent you an e-mail for confirmation, \n"
 "        click on the link in this email to complete your revocation.      \n"
 "        "
+
+#~ msgid "Deutsch"
+#~ msgstr "German"
+
+#~ msgid "Englisch"
+#~ msgstr "English"
+
+#~ msgid "Alle Details"
+#~ msgstr "All details"
+
+#~ msgid "Triff uns, <br>wir sind auf Tour ..."
+#~ msgstr "Meet us, <br>we are on tour ..."
+
+#~ msgid ""
+#~ "\n"
+#~ "  ... um mit interessierten Menschen und Betroffenen über den AMS-"
+#~ "Algorithmus ins Gespräch kommen.<br>\n"
+#~ "  Ihr findet uns zwischen 9.00 - 14.00 Uhr vor dem jeweiligen AMS "
+#~ "Standort. Wir haben übrigens auch einen lustigen „einarmigen Banditen“ "
+#~ "dabei, mit dem man seine Chancen auf AMS-Förderungen nachspielen kann. "
+#~ "Zum Trost gibt es ein kleines Geschenk zum Naschen\n"
+#~ msgstr ""
+#~ "\n"
+#~ "  ... to talk with interested people and people concerned about the AMS "
+#~ "algorithm.<br>\n"
+#~ "  You can find us between 9:00 - 14:00 in front of the respective AMS "
+#~ "location. By the way, we also have a funny \"one-armed bandit\" with us, "
+#~ "with which you can act out your chances of AMS funding. As a consolation "
+#~ "there is a small gift to snack on\n"
 
 #~ msgid "Online Event & Livestream"
 #~ msgstr "Online Event & Livestream"

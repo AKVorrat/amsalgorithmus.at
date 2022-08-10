@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-23 20:55+0200\n"
-"PO-Revision-Date: 2022-05-23 21:26+0200\n"
+"POT-Creation-Date: 2022-08-10 16:24+0200\n"
+"PO-Revision-Date: 2022-08-10 16:40+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #: modules/petition/forms.py:16 modules/request/forms.py:8
 msgid "Vorname"
@@ -48,7 +48,7 @@ msgstr ""
 "Да, слажем се са условима <a target=\"_blank\" href=\"/privacy\">заштите "
 "података</a> ."
 
-#: modules/petition/models.py:17 templates/index.html:324
+#: modules/petition/models.py:17 templates/index.html:335
 #: templates/share.html:16
 msgid "E-Mail"
 msgstr "емајл"
@@ -68,14 +68,6 @@ msgstr "Поштански број"
 #: modules/request/forms.py:37
 msgid "Ort"
 msgstr "место"
-
-#: settings/base.py:82
-msgid "Deutsch"
-msgstr "Немачки"
-
-#: settings/base.py:83
-msgid "Englisch"
-msgstr "енглески језик"
 
 #: templates/announcement.html:16
 msgid ""
@@ -769,11 +761,11 @@ msgstr "Зауставља <strong>AMS алгоритам</strong>"
 msgid "Computer dürfen nicht über Menschen entscheiden!"
 msgstr "Рачунари не смеју да одлучују о људима!"
 
-#: templates/index.html:60 templates/index.html:163
+#: templates/index.html:60 templates/index.html:174
 msgid "Jetzt Forderungen unterstützen!"
 msgstr "Подржите тврдње сада!"
 
-#: templates/index.html:77
+#: templates/index.html:88
 msgid ""
 "\n"
 "          Die Einführung des AMS-Algorithmus ist ein\n"
@@ -783,7 +775,7 @@ msgstr ""
 "\n"
 "Увођење AMS алгоритма је <strong>опасно пробијање бране</strong> ."
 
-#: templates/index.html:85
+#: templates/index.html:96
 msgid ""
 "\n"
 "              Bislang war es so, dass der Einsatz ganz neuer Technologien\n"
@@ -798,7 +790,7 @@ msgstr ""
 "              демократски легитимисан. Ово није случај са AMS алгоритмом.\n"
 "              "
 
-#: templates/index.html:92
+#: templates/index.html:103
 msgid ""
 "\n"
 "              Dieses <strong>System wurde ohne öffentliche Debatte\n"
@@ -817,7 +809,7 @@ msgstr ""
 "strong> <strong>транспарентности</strong> о томе како овај систем "
 "функционише и како одлучује о нама."
 
-#: templates/index.html:101
+#: templates/index.html:112
 msgid ""
 "\n"
 "              Ein ähnliches System wurde <a href=\"https://epicenter.works/"
@@ -839,7 +831,7 @@ msgstr ""
 "muenster.de/NiederlandeNet/aktuelles/archiv/2020/0205GerichtverbietetSyRi."
 "html\" target=\"_blank\">проглашен незаконитим и угашен.</a>"
 
-#: templates/index.html:109
+#: templates/index.html:120
 msgid ""
 "\n"
 "              Wir dürfen nicht zulassen, dass Merkmale,\n"
@@ -859,47 +851,47 @@ msgstr ""
 "strong> се морају борити против предрасуда и неправде, а не <strong>и</"
 "strong> <strong>ове неправде</strong> ."
 
-#: templates/index.html:121
+#: templates/index.html:132
 msgid "https://embed.epicenter.works/yt/VUoN61lKcMc"
 msgstr "https://embed.epicenter.works/yt/VUoN61lKcMc"
 
-#: templates/index.html:131
+#: templates/index.html:142
 msgid "Unsere <strong>7 Forderungen</strong>"
 msgstr "Наших <strong>7 захтева</strong>"
 
-#: templates/index.html:136
+#: templates/index.html:147
 msgid "mehr"
 msgstr "више"
 
-#: templates/index.html:141
+#: templates/index.html:152
 msgid "Forderung im Detail:"
 msgstr "Захтевајте детаљно:"
 
-#: templates/index.html:175
+#: templates/index.html:186
 msgid "AMS-Algorithmus stoppen"
 msgstr "Зауставите AMS алгоритам"
 
-#: templates/index.html:181
+#: templates/index.html:192
 msgid "Unsere 7 Forderungen"
 msgstr "Наших 7 захтева"
 
-#: templates/index.html:238
+#: templates/index.html:249
 msgid "Unterschreiben"
 msgstr "Сигн"
 
-#: templates/index.html:253
+#: templates/index.html:264
 msgid "Kontaktiere deinen <strong>Minister!</strong>"
 msgstr "Обратите се свом <strong>министру!</strong>"
 
-#: templates/index.html:267
+#: templates/index.html:278
 msgid "E-Mail schreiben"
 msgstr "Напишите е-маил"
 
-#: templates/index.html:283
+#: templates/index.html:294
 msgid "Stelle ein <strong>Auskunftsbegehren!</strong>"
 msgstr "Пошаљите захтев за <strong>информације!</strong>"
 
-#: templates/index.html:285
+#: templates/index.html:296
 msgid ""
 "Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und "
 "Behörden anfordern. Hier kannst du das für das AMS tun."
@@ -907,15 +899,15 @@ msgstr ""
 "Једном годишње можете бесплатно затражити све своје податке од свих "
 "компанија и органа. Овде можете то учинити за AMS."
 
-#: templates/index.html:288
+#: templates/index.html:299
 msgid "Zum Generator"
 msgstr "До генератора"
 
-#: templates/index.html:290
+#: templates/index.html:301
 msgid "Antrag gemäß Art. 15 DSGVO auf Auskunft"
 msgstr "Захтев за информацијама у складу са чланом 15 ГДПР"
 
-#: templates/index.html:298
+#: templates/index.html:309
 msgid ""
 "\n"
 "                    <strong>Nur wenn du seit 2019 arbeitslos warst hat das "
@@ -935,11 +927,11 @@ msgstr ""
 "<strong>ваш AMS саветник вам може дати информације о вашој алгоритамској "
 "класификацији.</strong>"
 
-#: templates/index.html:313
+#: templates/index.html:324
 msgid "Weitersagen!"
 msgstr "Пренеси то даље!"
 
-#: templates/index.html:315
+#: templates/index.html:326
 msgid ""
 "Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug "
 "politischen Druck erzeugen, um den AMS-Algorithmus zu verhinden."
@@ -947,13 +939,59 @@ msgstr ""
 "Реците својим пријатељима о овој кампањи! Ово је једини начин на који можемо "
 "створити довољно политичког притиска да спречимо AMS алгоритам."
 
-#: templates/index.html:338
+#: templates/index.html:349
 msgid "Unterstützer*innen"
 msgstr "присталице"
 
-#: templates/index.html:339
+#: templates/index.html:350
 msgid "Die Kampagne wird von folgenden Organisationen getragen:"
 msgstr "Кампању подржавају следеће организације:"
+
+#: templates/news.html:18
+msgid "Was als nächstes passiert ..."
+msgstr "Шта се даље дешава ..."
+
+#: templates/news.html:19
+msgid ""
+"\n"
+"      <p>\n"
+"        Bis September 2022 sollen in gezielten Focusgruppen die detailierten "
+"Probleme eines maschinellen, automatisierten und intransparenten Systems "
+"besprochen werden. In moderierten Gruppen diskutieren und analysieren wir "
+"mit betroffenen Menschen, ob Algorithmen überhaupt für staatlich garantierte "
+"Versicherungsleistungen einsetzbar sind. Die Ergebnisse werden wir "
+"veröffentlichen.\n"
+"      </p>\n"
+"      <p>\n"
+"        Weiters werden wir nochmals  in Oberösterreich vor Ort sein. Mit "
+"unserem Tourbus und dem einarmigen Banditen \"Algomat\" möchten wir stark "
+"betroffene Communities besuchen und über das System und dessen Probleme "
+"aufklären. Aktuell suchen wir Organisationen und Vereine in Oberösterreich, "
+"die mit geflüchteten oder langzeitarbeitssuchenden Menschen arbeiten. Wenn "
+"ihr Vertreter*innen solch einer Community seid oder kennt, z.B. eine "
+"syrische Kulturgruppe oder ein kroatischer Kulturverein, udgl.\n"
+"        Sprecht uns bitte an: <a href=\"mailto:ams-algorithmus@epicenter."
+"works\">ams-algorithmus@epicenter.works</a><br>\n"
+"        Wir suchen auch aktuell noch Sprachmittler*innen, um einfacher vor "
+"Ort kommunizieren zu können. \n"
+"      </p>\n"
+"      "
+msgstr ""
+"\n"
+"<p>До септембра 2022. детаљни проблеми машинског, аутоматизованог и "
+"нетранспарентног система биће разматрани у циљаним фокус групама. У "
+"модерираним групама разговарамо и анализирамо са погођеним људима да ли се "
+"алгоритми уопште могу користити за бенефиције осигурања које гарантује "
+"држава. Резултате ћемо објавити.</p><p> Такође ћемо поново бити на лицу "
+"места у Горњој Аустрији. Са нашим туристичким аутобусом и једноруким "
+"бандитом „Алгоматом“ желимо да посетимо тешко погођене заједнице и да их "
+"едукујемо о систему и његовим проблемима. Тренутно тражимо организације и "
+"удружења у Горњој Аустрији која раде са избеглицама или онима који дуго "
+"траже посао. Ако сте или познајете представник такве заједнице, на пример "
+"сиријске културне групе или хрватског културног удружења, итд. Контактирајте "
+"нас: <a href=\"mailto:ams-algorithmus@epicenter.works\">амс-"
+"алгоритхмус@епцентер.воркс</a><br> Тренутно тражимо и језичке посреднике "
+"како бисмо лакше комуницирали на лицу места.</p>"
 
 #: templates/newsletter_snippet.html:5
 msgid "Bleib informiert!"
@@ -1158,27 +1196,47 @@ msgid ""
 "klicke noch schnell den Bestätigungslink, den du per E-Mail erhalten hast."
 msgstr "брзо кликните на везу за потврду коју сте добили е-поштом."
 
-#: templates/tour.html:39
+#: templates/tour.html:13
 msgid "Wir sind auf Tour"
 msgstr "На турнеји смо"
 
-#: templates/tour.html:41
+#: templates/tour.html:15
 msgid "Termine & Livestream"
 msgstr "Датуми и пренос уживо"
 
-#: templates/tour.html:71
+#: templates/tour.html:45
 msgid "Hauptseite & Petition"
 msgstr "Главна страница и петиција"
 
-#: templates/tour.html:112
+#: templates/tour/discussion.html:40
 msgid "Paneldiskussion zum AMS-Algorithmus"
 msgstr "Панел дискусија о AMS алгоритму"
 
-#: templates/tour.html:117
+#: templates/tour/discussion.html:45
 msgid "https://embed.epicenter.works/yt/I9O8Az_E-VY"
 msgstr "https://embed.epicenter.works/yt/I9O8Az_E-VY"
 
-#: templates/tour/tour_dates.html:4
+#: templates/tour/discussion.html:57
+msgid ""
+"\n"
+"            Zum Start der Aktionswoche in Oberösterreich, Anfang Mai 2022, "
+"bei der für die Abschaffung eines solchen maschinenbasierten Systems "
+"geworben wurde, diskutierten Vertreter*innen aus Wissenschaft, Politik, "
+"Sozialpartnerschaft und Verwaltung über ihren Zugang zum AMS-Algorithmus.\n"
+"            Eine spannende Runde, mit vielen Argumenten und durchaus "
+"unerwarteten Wendungen.\n"
+"            "
+msgstr ""
+"\n"
+"            На почетку недеље кампање у Горњој Аустрији, почетком маја 2022. "
+"године, током које је промовисано укидање оваквог машинског система, "
+"представници науке, политике, социјалног партнерства и администрације "
+"разговарали су о свом приступу АМС алгоритму.\n"
+"            Узбудљива рунда, са много аргумената и сасвим неочекиваних "
+"обрта.\n"
+"            "
+
+#: templates/tour/tour_dates.html:4 templates/tour/tour_snippet.html:83
 msgid "Termine"
 msgstr "Догађаји"
 
@@ -1190,50 +1248,84 @@ msgstr "28. априла"
 msgid "Panel / Livestream"
 msgstr "панел / пренос уживо"
 
-#: templates/tour/tour_dates.html:7
+#: templates/tour/tour_dates.html:7 templates/tour/tour_snippet.html:85
 msgid "2. Mai"
 msgstr "2.маја"
 
-#: templates/tour/tour_dates.html:8
+#: templates/tour/tour_dates.html:8 templates/tour/tour_snippet.html:86
 msgid "3. Mai"
 msgstr "3. маја"
 
-#: templates/tour/tour_dates.html:9
+#: templates/tour/tour_dates.html:9 templates/tour/tour_snippet.html:87
 msgid "4. Mai"
 msgstr "4. маја"
 
-#: templates/tour/tour_dates.html:10
+#: templates/tour/tour_dates.html:10 templates/tour/tour_snippet.html:88
 msgid "5. Mai"
 msgstr "5. маја"
 
-#: templates/tour/tour_dates.html:11
+#: templates/tour/tour_dates.html:11 templates/tour/tour_snippet.html:89
 msgid "6. Mai"
 msgstr "6. мај"
 
-#: templates/tour/tour_snippet.html:15
-msgid "Alle Details"
-msgstr "Сви детаљи"
+#: templates/tour/tour_snippet.html:58
+msgid "Das war die Tour ..."
+msgstr "То је била турнеја..."
 
-#: templates/tour/tour_teaser_text.html:4
-msgid "Triff uns, <br>wir sind auf Tour ..."
-msgstr "Упознајте нас<br> на турнеји смо..."
-
-#: templates/tour/tour_teaser_text.html:6
+#: templates/tour/tour_snippet.html:61
 msgid ""
 "\n"
-"  ... um mit interessierten Menschen und Betroffenen über den AMS-"
-"Algorithmus ins Gespräch kommen.<br>\n"
-"  Ihr findet uns zwischen 9.00 - 14.00 Uhr vor dem jeweiligen AMS Standort. "
-"Wir haben übrigens auch einen lustigen „einarmigen Banditen“ dabei, mit dem "
-"man seine Chancen auf AMS-Förderungen nachspielen kann. Zum Trost gibt es "
-"ein kleines Geschenk zum Naschen\n"
+"        Im Mai 2022 waren wir in Oberösterreich auf Tour und haben viele "
+"interessante Gespräche mit Betroffenen und Mitarbeitenden des AMS geführt. "
+"Alle waren sich meist einig, dass solch ein maschinelles System furchtbar "
+"ungerecht ist. Es bleibt reine Geldverschwendung, denn hilfreich ist es "
+"weder für die Seite der Arbeitssuchenden noch für die Beschäftigten des "
+"AMS , von denen sich viele mit unserer Aktion solidarisierten. \n"
+"        "
 msgstr ""
 "\n"
-"... да разговарамо са заинтересованим људима и онима на које то утиче о AMS "
-"алгоритму.<br> Наћи ћете нас између 9.00 и 14.00 часова испред одговарајуће "
-"локације AMS-а. Узгред, са нама имамо и смешног „једноруког разбојника” са "
-"којим можете да поновите своје шансе за финансирање AMS-а. За утеху је мали "
-"поклон за грицкање\n"
+"        У мају 2022. били смо на турнеји у Горњој Аустрији и имали смо много "
+"занимљивих разговора са погођеним особама и запосленима у АМС-у. Сви су се "
+"углавном сложили да је такав систем машина страшно неправедан. То остаје "
+"чисто бацање новца, јер није од помоћи ни страним тражитељима посла ни "
+"запосленима АМС-а, од којих су се многи солидарисали са нашом кампањом.\n"
+"        "
+
+#: templates/tour/tour_snippet.html:71
+msgid ""
+"\n"
+"            Unser einarmiger Bandit \"Algomat\" war ein voller Erfolg. Viele "
+"\"spielten\" mit dem Gerät, dessen Programmierung auf Basis der bekannten "
+"Daten über den AMS-Algorithmus erfolgt war. Die Maschine machte es leicht zu "
+"verstehen, wie ungerecht und zufallsbasiert das bestehende System ist. \n"
+"            "
+msgstr ""
+"\n"
+"            Наш једноруки разбојник „Алгомат“ је био пун погодак. Многи су "
+"се „поиграли” уређајем, који је програмиран на основу познатих података "
+"преко АМС алгоритма. Машина је олакшала разумевање колико је постојећи "
+"систем неправедан и насумичан.\n"
+"            "
+
+#: templates/tour/tour_snippet.html:76
+msgid ""
+"\n"
+"            Unser Fazit nach dieser Tour ist noch klarer: dieser AMS-"
+"Algorithmus ist eine teure Totgeburt einer Politik, die propagierte, mit "
+"Hilfe einer digitalen Maschine öffentliches Geld zu sparen. Erreicht wurde "
+"das Gegenteil, nämlich die Verschwendung von Steuergeld in eine teure "
+"Digitallösung, die nur ungerecht ist und bereits Anwälte, die "
+"Datenschutzbehörde und das Gericht beschäftigt.\n"
+"            "
+msgstr ""
+"\n"
+"            Наш закључак након ове турнеје је још јаснији: овај АМС "
+"алгоритам је скупи мртворођени од политике која се пропагирала коришћењем "
+"дигиталне машине ради уштеде јавног новца. Оно што је постигнуто је "
+"супротно, расипање новца пореских обвезника на скупо дигитално решење које "
+"је просто неправедно и које већ запошљава адвокате, орган за заштиту "
+"података и суд.\n"
+"            "
 
 #: templates/withdraw.html:10
 msgid "Wir haben deinen Widerruf erhalten und deine Daten gelöscht."
@@ -1267,3 +1359,31 @@ msgstr ""
 "        Послали смо вам имејл да потврдите,\n"
 "        кликните на везу у овој е-поруци да извршите свој опозив.\n"
 "        "
+
+#~ msgid "Deutsch"
+#~ msgstr "Немачки"
+
+#~ msgid "Englisch"
+#~ msgstr "енглески језик"
+
+#~ msgid "Alle Details"
+#~ msgstr "Сви детаљи"
+
+#~ msgid "Triff uns, <br>wir sind auf Tour ..."
+#~ msgstr "Упознајте нас<br> на турнеји смо..."
+
+#~ msgid ""
+#~ "\n"
+#~ "  ... um mit interessierten Menschen und Betroffenen über den AMS-"
+#~ "Algorithmus ins Gespräch kommen.<br>\n"
+#~ "  Ihr findet uns zwischen 9.00 - 14.00 Uhr vor dem jeweiligen AMS "
+#~ "Standort. Wir haben übrigens auch einen lustigen „einarmigen Banditen“ "
+#~ "dabei, mit dem man seine Chancen auf AMS-Förderungen nachspielen kann. "
+#~ "Zum Trost gibt es ein kleines Geschenk zum Naschen\n"
+#~ msgstr ""
+#~ "\n"
+#~ "... да разговарамо са заинтересованим људима и онима на које то утиче о "
+#~ "AMS алгоритму.<br> Наћи ћете нас између 9.00 и 14.00 часова испред "
+#~ "одговарајуће локације AMS-а. Узгред, са нама имамо и смешног „једноруког "
+#~ "разбојника” са којим можете да поновите своје шансе за финансирање AMS-а. "
+#~ "За утеху је мали поклон за грицкање\n"

@@ -4,6 +4,7 @@ __pycache__/
 .vscode/
 .venv/
 .history/
+build/
 
 *.log
 *-log.txt

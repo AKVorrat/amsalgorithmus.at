@@ -1,0 +1,81 @@
+{% load i18n %}
+
+<style>
+  #hero {
+    min-height: 45vh; 
+    background-position: right bottom  !important;
+  }
+  .zoomlink {
+    font-family: 'Poppins';
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: .2em;
+    border-bottom: 3px solid #fff;
+  }
+  .podiumdiskussion-video {
+    text-align: center;
+  }
+  .podiumdiskussion-video iframe {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 480px;
+    max-width: 100%;
+    height: 360px;
+  }
+  .livestream-layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1em;
+  }
+  .livestream-layout > div {
+    margin: 0 1em;
+  }
+</style>
+
+
+<div class="row center-xs">
+  <div class="container">
+    <div class="livestream">
+      <h2 style="margin: 0 0 1em; font-size: 1.6em;">{% trans "Paneldiskussion zum AMS-Algorithmus" %}</h2>
+      <div class="livestream-layout">
+
+        <div class="podiumdiskussion-video">
+          <iframe 
+            src="{% trans "https://embed.epicenter.works/yt/I9O8Az_E-VY" %}"
+            allowfullscreen="allowfullscreen"
+            frameborder="0"
+          ></iframe>
+          <p>
+            Dauer: 70 Minuten
+          </p>
+        </div>
+
+
+        <div style="max-width: 33em;">
+          <p style="font-size: 1.2em; margin-top: 0;">
+            {% blocktrans %}
+            Zum Start der Aktionswoche in Oberösterreich, Anfang Mai 2022, bei der für die Abschaffung eines solchen maschinenbasierten Systems geworben wurde, diskutierten Vertreter*innen aus Wissenschaft, Politik, Sozialpartnerschaft und Verwaltung über ihren Zugang zum AMS-Algorithmus.
+            Eine spannende Runde, mit vielen Argumenten und durchaus unerwarteten Wendungen.
+            {% endblocktrans %}
+          </p>
+          <p>
+            <u>Am Podium</u>:<br>
+            <strong>Dr. Doris Allhutter</strong>, Senior Scientist, Institut für Technikfolgen-Abschätzung<br>
+            <strong>Mag.a Dagmar Andree, MBA</strong>, Leiterin Abt. Wirtschafts-, Sozial- &amp; Gesellschaftspolitik, Kammer für Arbeiter &amp; Angestellte Oberösterreich<br>
+            <strong>Mag. Gerald Loacker</strong>, Abgeordneter zum Nationalrat, NEOS<br>
+            <strong>Thomas Lohninger</strong>, executive director ; epicenter.works<br>
+            <strong>Dr. Andreas Zavadil, </strong>CIPP/E, CIPM, Datenschutzbehörde / Austrian Data Protection Authority<br>
+            Durch das Gespräch führt : <strong>Mag. Daniela Soykan </strong>
+          </p>
+          <p>
+            <a href="https://concordia.at/stoppt-den-ams-algorithmus-sollen-maschinen-ueber-menschen-entscheiden-duerfen/" target="_blank">
+              Mehr Infos zur Veranstaltung
+            </a>
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>

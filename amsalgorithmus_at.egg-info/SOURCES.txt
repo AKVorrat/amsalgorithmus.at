@@ -1,0 +1,14 @@
+README.md
+setup.py
+ams/__init__.py
+ams/urls.py
+ams/settings/__init__.py
+ams/settings/base.py
+ams/settings/dev.py
+ams/settings/prod.py
+ams/templates/__init__.py
+amsalgorithmus_at.egg-info/PKG-INFO
+amsalgorithmus_at.egg-info/SOURCES.txt
+amsalgorithmus_at.egg-info/dependency_links.txt
+amsalgorithmus_at.egg-info/requires.txt
+amsalgorithmus_at.egg-info/top_level.txt

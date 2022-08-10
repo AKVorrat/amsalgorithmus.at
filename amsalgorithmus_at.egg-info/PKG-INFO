@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: amsalgorithmus-at
+Version: 0.1.1
+Summary: Insert Description
+Home-page: UNKNOWN
+Author: Andreas Demmelbauer, Max Wolschlager
+Author-email: andreas@notice.at, comms@meks.io
+Maintainer: Andreas Demmelbauer, Max Wolschlager
+Maintainer-email: andreas@notice.at, comms@meks.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: Prototyping
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Provides-Extra: dev
+Provides-Extra: prod
+
+# amsalgorithmus.at
+
+The code for the petition module closely resembles that of
+istkicklschonweg.at. Go to [AKVorrat/istkicklschonweg.at](https://github.com/AKVorrat/istkicklschonweg.at)
+for a more detailed commit history.
+
+## Setup
+
+```bash
+virtualenv .venv 
+source .venv/bin/activate
+
+pip install .[dev]
+
+python ./manage.py migrate
+```
+
+## Running
+
+```bash
+python ./manage.py runserver
+```
+
+## Scss
+
+Scss source files are located in `ams/static/scss`.
+
+
+
+## Translation
+```bash
+cd ams
+django-admin makemessages -a
+django-admin compilemessages
+```
+

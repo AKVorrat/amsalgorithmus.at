@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-23 20:55+0200\n"
-"PO-Revision-Date: 2022-05-23 21:13+0200\n"
+"POT-Creation-Date: 2022-08-10 16:24+0200\n"
+"PO-Revision-Date: 2022-08-10 16:31+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #: modules/petition/forms.py:16 modules/request/forms.py:8
 msgid "Vorname"
@@ -48,7 +48,7 @@ msgstr ""
 "Ano, souhlasím s <a target=\"_blank\" href=\"/privacy\">podmínkami ochrany "
 "osobních údajů</a>."
 
-#: modules/petition/models.py:17 templates/index.html:324
+#: modules/petition/models.py:17 templates/index.html:335
 #: templates/share.html:16
 msgid "E-Mail"
 msgstr "E-Mail"
@@ -68,14 +68,6 @@ msgstr "PSČ"
 #: modules/request/forms.py:37
 msgid "Ort"
 msgstr "Místo"
-
-#: settings/base.py:82
-msgid "Deutsch"
-msgstr "Němčina"
-
-#: settings/base.py:83
-msgid "Englisch"
-msgstr "Angličtina"
 
 #: templates/announcement.html:16
 msgid ""
@@ -575,7 +567,7 @@ msgstr ""
 
 #: templates/donate.html:3
 msgid "Da du hier bist…"
-msgstr "Když už jsi tady.."
+msgstr "Když už jsi tady... "
 
 #: templates/donate.html:5
 msgid "hätten wir eine kleine Bitte an dich."
@@ -793,11 +785,11 @@ msgstr "Zastaví <strong>algoritmus AMS</strong>"
 msgid "Computer dürfen nicht über Menschen entscheiden!"
 msgstr "Počítače nesmí rozhodovat o lidech!"
 
-#: templates/index.html:60 templates/index.html:163
+#: templates/index.html:60 templates/index.html:174
 msgid "Jetzt Forderungen unterstützen!"
 msgstr "Podpořte požadavky nyní!"
 
-#: templates/index.html:77
+#: templates/index.html:88
 msgid ""
 "\n"
 "          Die Einführung des AMS-Algorithmus ist ein\n"
@@ -809,7 +801,7 @@ msgstr ""
 "         <strong>nebezpečné protržení hráze</strong>.\n"
 "          "
 
-#: templates/index.html:85
+#: templates/index.html:96
 msgid ""
 "\n"
 "              Bislang war es so, dass der Einsatz ganz neuer Technologien\n"
@@ -825,7 +817,7 @@ msgstr ""
 "tomu tak není.\n"
 "              "
 
-#: templates/index.html:92
+#: templates/index.html:103
 msgid ""
 "\n"
 "              Dieses <strong>System wurde ohne öffentliche Debatte\n"
@@ -849,7 +841,7 @@ msgstr ""
 "toho, jak tento systém funguje a jak o nás rozhoduje.\n"
 "              "
 
-#: templates/index.html:101
+#: templates/index.html:112
 msgid ""
 "\n"
 "              Ein ähnliches System wurde <a href=\"https://epicenter.works/"
@@ -878,7 +870,7 @@ msgstr ""
 "              nezákonné a bylo ukončeno.\n"
 "</a>             "
 
-#: templates/index.html:109
+#: templates/index.html:120
 msgid ""
 "\n"
 "              Wir dürfen nicht zulassen, dass Merkmale,\n"
@@ -903,47 +895,50 @@ msgstr ""
 "              tyto nespravedlnosti <strong>stmelit</strong>.\n"
 "              "
 
-#: templates/index.html:121
+#: templates/index.html:132
 msgid "https://embed.epicenter.works/yt/VUoN61lKcMc"
 msgstr "https://embed.epicenter.works/yt/VUoN61lKcMc"
 
-#: templates/index.html:131
+#: templates/index.html:142
 msgid "Unsere <strong>7 Forderungen</strong>"
 msgstr "Našich <strong>7 požadavků</strong>"
 
-#: templates/index.html:136
+#: templates/index.html:147
 msgid "mehr"
 msgstr "více"
 
-#: templates/index.html:141
+#: templates/index.html:152
 msgid "Forderung im Detail:"
 msgstr "Podrobněji o poptávce:"
 
-#: templates/index.html:175
+#: templates/index.html:186
 msgid "AMS-Algorithmus stoppen"
 msgstr "Zastavení algoritmu AMS"
 
-#: templates/index.html:181
+#: templates/index.html:192
 msgid "Unsere 7 Forderungen"
 msgstr "Našich 7 požadavků"
 
-#: templates/index.html:238
+#: templates/index.html:249
 msgid "Unterschreiben"
 msgstr "Podepsat"
 
-#: templates/index.html:253
+#: templates/index.html:264
 msgid "Kontaktiere deinen <strong>Minister!</strong>"
 msgstr "Obraťte se na svého <strong>duchovního!</strong>"
 
-#: templates/index.html:267
+#: templates/index.html:278
 msgid "E-Mail schreiben"
 msgstr "Napište e-mail"
 
-#: templates/index.html:283
+#: templates/index.html:294
 msgid "Stelle ein <strong>Auskunftsbegehren!</strong>"
-msgstr " <strong>Požádejte o informace</strong>!"
+msgstr ""
+" <strong>Požádejte o informace</strong>!\n"
+"\n"
+" "
 
-#: templates/index.html:285
+#: templates/index.html:296
 msgid ""
 "Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und "
 "Behörden anfordern. Hier kannst du das für das AMS tun."
@@ -951,15 +946,15 @@ msgstr ""
 "Jednou ročně si můžete zdarma vyžádat všechny své údaje od všech společností "
 "a úřadů. Pro systém AMS to můžete udělat zde."
 
-#: templates/index.html:288
+#: templates/index.html:299
 msgid "Zum Generator"
 msgstr "Ke generátoru"
 
-#: templates/index.html:290
+#: templates/index.html:301
 msgid "Antrag gemäß Art. 15 DSGVO auf Auskunft"
 msgstr "Žádost o informace podle čl. 15 DSGVO"
 
-#: templates/index.html:298
+#: templates/index.html:309
 msgid ""
 "\n"
 "                    <strong>Nur wenn du seit 2019 arbeitslos warst hat das "
@@ -980,11 +975,11 @@ msgstr ""
 "poskytnout <strong>informace o vaší algoritmické klasifikaci</strong>.\n"
 "                  "
 
-#: templates/index.html:313
+#: templates/index.html:324
 msgid "Weitersagen!"
 msgstr "Pošli to dál!"
 
-#: templates/index.html:315
+#: templates/index.html:326
 msgid ""
 "Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug "
 "politischen Druck erzeugen, um den AMS-Algorithmus zu verhinden."
@@ -992,13 +987,66 @@ msgstr ""
 "Řekněte o této kampani svým přátelům! Jedině tak můžeme vytvořit dostatečný "
 "politický tlak na zastavení algoritmu AMS."
 
-#: templates/index.html:338
+#: templates/index.html:349
 msgid "Unterstützer*innen"
 msgstr "Příznivci"
 
-#: templates/index.html:339
+#: templates/index.html:350
 msgid "Die Kampagne wird von folgenden Organisationen getragen:"
 msgstr "Kampaň podporují následující organizace:"
+
+#: templates/news.html:18
+msgid "Was als nächstes passiert ..."
+msgstr "Co bude dál..."
+
+#: templates/news.html:19
+msgid ""
+"\n"
+"      <p>\n"
+"        Bis September 2022 sollen in gezielten Focusgruppen die detailierten "
+"Probleme eines maschinellen, automatisierten und intransparenten Systems "
+"besprochen werden. In moderierten Gruppen diskutieren und analysieren wir "
+"mit betroffenen Menschen, ob Algorithmen überhaupt für staatlich garantierte "
+"Versicherungsleistungen einsetzbar sind. Die Ergebnisse werden wir "
+"veröffentlichen.\n"
+"      </p>\n"
+"      <p>\n"
+"        Weiters werden wir nochmals  in Oberösterreich vor Ort sein. Mit "
+"unserem Tourbus und dem einarmigen Banditen \"Algomat\" möchten wir stark "
+"betroffene Communities besuchen und über das System und dessen Probleme "
+"aufklären. Aktuell suchen wir Organisationen und Vereine in Oberösterreich, "
+"die mit geflüchteten oder langzeitarbeitssuchenden Menschen arbeiten. Wenn "
+"ihr Vertreter*innen solch einer Community seid oder kennt, z.B. eine "
+"syrische Kulturgruppe oder ein kroatischer Kulturverein, udgl.\n"
+"        Sprecht uns bitte an: <a href=\"mailto:ams-algorithmus@epicenter."
+"works\">ams-algorithmus@epicenter.works</a><br>\n"
+"        Wir suchen auch aktuell noch Sprachmittler*innen, um einfacher vor "
+"Ort kommunizieren zu können. \n"
+"      </p>\n"
+"      "
+msgstr ""
+"\n"
+"      <p>\n"
+"        Do září 2022 budou v cílených fokusních skupinách projednány "
+"podrobné problémy strojového, automatizovaného a netransparentního systému. "
+"V moderovaných skupinách budeme s postiženými diskutovat a analyzovat, zda "
+"lze algoritmy vůbec použít pro státem garantované pojistné dávky. Výsledky "
+"zveřejníme.\n"
+"      </p>\n"
+"      <p>\n"
+"        Kromě toho budeme opět na místě v Horním Rakousku. S naším "
+"zájezdovým autobusem a jednorukým banditou \"Algomatem\" chceme navštívit "
+"silně postižené komunity a informovat je o systému a jeho problémech. V "
+"současné době hledáme organizace a sdružení v Horním Rakousku, které pracují "
+"s uprchlíky nebo dlouhodobě hledají práci. Pokud jste nebo znáte zástupce "
+"takové komunity, např. syrské kulturní skupiny nebo chorvatského kulturního "
+"sdružení apod., kontaktujte nás, prosím.\n"
+"        Kontaktujte nás prosím: <a href=\"mailto:ams-algorithmus@epicenter."
+"works\">ams-algorithmus@epicenter.works</a><br>\n"
+"        V současné době také hledáme jazykové prostředníky, abychom mohli "
+"snadněji komunikovat na místě \n"
+"     </br></p>\n"
+"      "
 
 #: templates/newsletter_snippet.html:5
 msgid "Bleib informiert!"
@@ -1209,27 +1257,46 @@ msgid ""
 "klicke noch schnell den Bestätigungslink, den du per E-Mail erhalten hast."
 msgstr "rychle klikněte na potvrzovací odkaz, který jste obdrželi e-mailem."
 
-#: templates/tour.html:39
+#: templates/tour.html:13
 msgid "Wir sind auf Tour"
 msgstr "Jsme na turné"
 
-#: templates/tour.html:41
+#: templates/tour.html:15
 msgid "Termine & Livestream"
 msgstr "Termíny & Livestream"
 
-#: templates/tour.html:71
+#: templates/tour.html:45
 msgid "Hauptseite & Petition"
 msgstr "Hlavní stránka a petice"
 
-#: templates/tour.html:112
+#: templates/tour/discussion.html:40
 msgid "Paneldiskussion zum AMS-Algorithmus"
 msgstr "Panelová diskuse o algoritmu AMS"
 
-#: templates/tour.html:117
+#: templates/tour/discussion.html:45
 msgid "https://embed.epicenter.works/yt/I9O8Az_E-VY"
 msgstr "https://embed.epicenter.works/yt/I9O8Az_E-VY"
 
-#: templates/tour/tour_dates.html:4
+#: templates/tour/discussion.html:57
+msgid ""
+"\n"
+"            Zum Start der Aktionswoche in Oberösterreich, Anfang Mai 2022, "
+"bei der für die Abschaffung eines solchen maschinenbasierten Systems "
+"geworben wurde, diskutierten Vertreter*innen aus Wissenschaft, Politik, "
+"Sozialpartnerschaft und Verwaltung über ihren Zugang zum AMS-Algorithmus.\n"
+"            Eine spannende Runde, mit vielen Argumenten und durchaus "
+"unerwarteten Wendungen.\n"
+"            "
+msgstr ""
+"\n"
+"            Na začátku akčního týdne v Horním Rakousku na začátku května "
+"2022, který byl kampaní za zrušení tohoto strojového systému, diskutovali "
+"zástupci vědy, politiky, sociálního partnerství a státní správy o svém "
+"přístupu k algoritmu AMS.\n"
+"            Napínavé kolo s mnoha argumenty a nečekanými zvraty.\n"
+"            "
+
+#: templates/tour/tour_dates.html:4 templates/tour/tour_snippet.html:83
 msgid "Termine"
 msgstr "Data"
 
@@ -1241,51 +1308,83 @@ msgstr "28. Duben"
 msgid "Panel / Livestream"
 msgstr "Panel / Livestream"
 
-#: templates/tour/tour_dates.html:7
+#: templates/tour/tour_dates.html:7 templates/tour/tour_snippet.html:85
 msgid "2. Mai"
 msgstr "2. Květen"
 
-#: templates/tour/tour_dates.html:8
+#: templates/tour/tour_dates.html:8 templates/tour/tour_snippet.html:86
 msgid "3. Mai"
 msgstr "3. Květen"
 
-#: templates/tour/tour_dates.html:9
+#: templates/tour/tour_dates.html:9 templates/tour/tour_snippet.html:87
 msgid "4. Mai"
 msgstr "4. Květen"
 
-#: templates/tour/tour_dates.html:10
+#: templates/tour/tour_dates.html:10 templates/tour/tour_snippet.html:88
 msgid "5. Mai"
 msgstr "5. Květen"
 
-#: templates/tour/tour_dates.html:11
+#: templates/tour/tour_dates.html:11 templates/tour/tour_snippet.html:89
 msgid "6. Mai"
 msgstr "6. Květen"
 
-#: templates/tour/tour_snippet.html:15
-msgid "Alle Details"
-msgstr "Všechny podrobnosti"
+#: templates/tour/tour_snippet.html:58
+msgid "Das war die Tour ..."
+msgstr "To bylo turné..."
 
-#: templates/tour/tour_teaser_text.html:4
-msgid "Triff uns, <br>wir sind auf Tour ..."
-msgstr "Seznamte se s námi, <br>jsme na turné</br>..."
-
-#: templates/tour/tour_teaser_text.html:6
+#: templates/tour/tour_snippet.html:61
 msgid ""
 "\n"
-"  ... um mit interessierten Menschen und Betroffenen über den AMS-"
-"Algorithmus ins Gespräch kommen.<br>\n"
-"  Ihr findet uns zwischen 9.00 - 14.00 Uhr vor dem jeweiligen AMS Standort. "
-"Wir haben übrigens auch einen lustigen „einarmigen Banditen“ dabei, mit dem "
-"man seine Chancen auf AMS-Förderungen nachspielen kann. Zum Trost gibt es "
-"ein kleines Geschenk zum Naschen\n"
+"        Im Mai 2022 waren wir in Oberösterreich auf Tour und haben viele "
+"interessante Gespräche mit Betroffenen und Mitarbeitenden des AMS geführt. "
+"Alle waren sich meist einig, dass solch ein maschinelles System furchtbar "
+"ungerecht ist. Es bleibt reine Geldverschwendung, denn hilfreich ist es "
+"weder für die Seite der Arbeitssuchenden noch für die Beschäftigten des "
+"AMS , von denen sich viele mit unserer Aktion solidarisierten. \n"
+"        "
 msgstr ""
 "\n"
-"  ... hovořit se zájemci a postiženými o algoritmu AMS.<br>\n"
-"  Najdete nás mezi 9.00 a 14.00 hodinou před příslušnou pobočkou AMS. "
-"Mimochodem, budeme mít také zábavný \"jednoruký bandita\", se kterým si "
-"můžete zahrát na své šance získat finanční prostředky AMS. Jako útěcha je "
-"zde malý dárek k občerstvení\n"
+"        V květnu 2022 jsme byli na turné v Horním Rakousku a vedli jsme "
+"mnoho zajímavých rozhovorů s postiženými a zaměstnanci AMS. Většina z nich "
+"se shodla na tom, že takový mechanický systém je strašně nespravedlivý. "
+"Zůstává plýtváním penězi, protože nepomáhá ani uchazečům o zaměstnání, ani "
+"zaměstnancům AMS, z nichž mnozí projevili solidaritu s naší kampaní\n"
+"        "
+
+#: templates/tour/tour_snippet.html:71
+msgid ""
 "\n"
+"            Unser einarmiger Bandit \"Algomat\" war ein voller Erfolg. Viele "
+"\"spielten\" mit dem Gerät, dessen Programmierung auf Basis der bekannten "
+"Daten über den AMS-Algorithmus erfolgt war. Die Maschine machte es leicht zu "
+"verstehen, wie ungerecht und zufallsbasiert das bestehende System ist. \n"
+"            "
+msgstr ""
+"\n"
+"            Náš jednoruký bandita \"Algomat\" byl naprosto úspěšný. Mnozí si "
+"\"hráli\" se strojem, jehož programování vycházelo ze známých údajů o "
+"algoritmu AMS. Stroj umožnil pochopit, jak nespravedlivý a náhodný je "
+"stávající systém\n"
+"            "
+
+#: templates/tour/tour_snippet.html:76
+msgid ""
+"\n"
+"            Unser Fazit nach dieser Tour ist noch klarer: dieser AMS-"
+"Algorithmus ist eine teure Totgeburt einer Politik, die propagierte, mit "
+"Hilfe einer digitalen Maschine öffentliches Geld zu sparen. Erreicht wurde "
+"das Gegenteil, nämlich die Verschwendung von Steuergeld in eine teure "
+"Digitallösung, die nur ungerecht ist und bereits Anwälte, die "
+"Datenschutzbehörde und das Gericht beschäftigt.\n"
+"            "
+msgstr ""
+"\n"
+"            Náš závěr po této prohlídce je ještě jasnější: tento algoritmus "
+"AMS je drahé mrtvé dítě politiky, která se propagovala, aby ušetřila veřejné "
+"peníze pomocí digitálního stroje. Došlo k opaku, tedy k plýtvání penězi "
+"daňových poplatníků na drahé digitální řešení, které je pouze nespravedlivé "
+"a již nyní zaměstnává právníky, úřad pro ochranu osobních údajů a soud.\n"
+"            "
 
 #: templates/withdraw.html:10
 msgid "Wir haben deinen Widerruf erhalten und deine Daten gelöscht."
@@ -1319,3 +1418,32 @@ msgstr ""
 "        Zaslali jsme vám potvrzovací e-mail,\n"
 "        klikněte na odkaz v tomto e-mailu a dokončete výběr.      \n"
 "        "
+
+#~ msgid "Deutsch"
+#~ msgstr "Němčina"
+
+#~ msgid "Englisch"
+#~ msgstr "Angličtina"
+
+#~ msgid "Alle Details"
+#~ msgstr "Všechny podrobnosti"
+
+#~ msgid "Triff uns, <br>wir sind auf Tour ..."
+#~ msgstr "Seznamte se s námi, <br>jsme na turné</br>..."
+
+#~ msgid ""
+#~ "\n"
+#~ "  ... um mit interessierten Menschen und Betroffenen über den AMS-"
+#~ "Algorithmus ins Gespräch kommen.<br>\n"
+#~ "  Ihr findet uns zwischen 9.00 - 14.00 Uhr vor dem jeweiligen AMS "
+#~ "Standort. Wir haben übrigens auch einen lustigen „einarmigen Banditen“ "
+#~ "dabei, mit dem man seine Chancen auf AMS-Förderungen nachspielen kann. "
+#~ "Zum Trost gibt es ein kleines Geschenk zum Naschen\n"
+#~ msgstr ""
+#~ "\n"
+#~ "  ... hovořit se zájemci a postiženými o algoritmu AMS.<br>\n"
+#~ "  Najdete nás mezi 9.00 a 14.00 hodinou před příslušnou pobočkou AMS. "
+#~ "Mimochodem, budeme mít také zábavný \"jednoruký bandita\", se kterým si "
+#~ "můžete zahrát na své šance získat finanční prostředky AMS. Jako útěcha je "
+#~ "zde malý dárek k občerstvení\n"
+#~ "\n"

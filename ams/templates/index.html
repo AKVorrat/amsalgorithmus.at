@@ -43,7 +43,7 @@
 {% block hero %}
 
   <div class="container">
-    <div>
+    <div style="margin: 2em 0">
       <h1>
         <div style="max-width:11em;">
           {% trans "Stoppt den <strong>AMS&#8209;Algorithmus</strong>" %}
@@ -68,9 +68,20 @@
 {% block content %}
     {% include 'announcement.html' %}
 
+
+    <section id="tour" class="light tour-startpage" style="padding: 2em 0;">
+      {% include 'tour/discussion.html' %}
+    </section>
+
+    <section class="dark">
+      {% include 'news.html' %}
+    </section>
+
     <section id="tour" class="light">
       {% include 'tour/tour_snippet.html' %}
     </section>
+
+
     <section id="info" class="dark pad info">
       <div class="container">
         <h2 style="max-width:20em;">

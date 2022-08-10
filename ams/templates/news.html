@@ -1,0 +1,36 @@
+{% load i18n %}
+<style>
+.news__layout {
+  margin: 3em 0;
+  display: flex;
+  line-height: 1.5em;
+}
+.news__roadmap_img {
+  max-width: 28%;
+  margin-left: 6%;
+}
+</style>
+
+
+<div class="container">
+  <div class="news__layout">
+    <div>
+      <h1 style=" margin-bottom: .4em;">{% trans "Was als nächstes passiert ..." %}</h1>
+      {% blocktrans %}
+      <p>
+        Bis September 2022 sollen in gezielten Focusgruppen die detailierten Probleme eines maschinellen, automatisierten und intransparenten Systems besprochen werden. In moderierten Gruppen diskutieren und analysieren wir mit betroffenen Menschen, ob Algorithmen überhaupt für staatlich garantierte Versicherungsleistungen einsetzbar sind. Die Ergebnisse werden wir veröffentlichen.
+      </p>
+      <p>
+        Weiters werden wir nochmals  in Oberösterreich vor Ort sein. Mit unserem Tourbus und dem einarmigen Banditen "Algomat" möchten wir stark betroffene Communities besuchen und über das System und dessen Probleme aufklären. Aktuell suchen wir Organisationen und Vereine in Oberösterreich, die mit geflüchteten oder langzeitarbeitssuchenden Menschen arbeiten. Wenn ihr Vertreter*innen solch einer Community seid oder kennt, z.B. eine syrische Kulturgruppe oder ein kroatischer Kulturverein, udgl.
+        Sprecht uns bitte an: <a href="mailto:ams-algorithmus@epicenter.works">ams-algorithmus@epicenter.works</a><br>
+        Wir suchen auch aktuell noch Sprachmittler*innen, um einfacher vor Ort kommunizieren zu können. 
+      </p>
+      {% endblocktrans %}
+    </div>
+  
+    <img src="/static/svg/roadmap.svg" class="news__roadmap_img"/>
+  </div>
+  
+</div>
+
+

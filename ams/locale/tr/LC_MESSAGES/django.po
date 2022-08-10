@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-23 20:55+0200\n"
-"PO-Revision-Date: 2022-05-23 21:17+0200\n"
+"POT-Creation-Date: 2022-08-10 16:24+0200\n"
+"PO-Revision-Date: 2022-08-10 16:31+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #: modules/petition/forms.py:16 modules/request/forms.py:8
 msgid "Vorname"
@@ -47,7 +47,7 @@ msgstr ""
 "Evet, <a target=\"_blank\" href=\"/privacy\">veri koruma koşullarını</a> "
 "kabul ediyorum."
 
-#: modules/petition/models.py:17 templates/index.html:324
+#: modules/petition/models.py:17 templates/index.html:335
 #: templates/share.html:16
 msgid "E-Mail"
 msgstr "E-posta"
@@ -67,14 +67,6 @@ msgstr "Posta kodu"
 #: modules/request/forms.py:37
 msgid "Ort"
 msgstr "Yer"
-
-#: settings/base.py:82
-msgid "Deutsch"
-msgstr "Alman"
-
-#: settings/base.py:83
-msgid "Englisch"
-msgstr "İngilizce"
 
 #: templates/announcement.html:16
 msgid ""
@@ -797,11 +789,11 @@ msgstr "<strong>AMS algoritmasını</strong>durdurur"
 msgid "Computer dürfen nicht über Menschen entscheiden!"
 msgstr "Bilgisayarlar insanlar üzerinde karar vermemelidir!"
 
-#: templates/index.html:60 templates/index.html:163
+#: templates/index.html:60 templates/index.html:174
 msgid "Jetzt Forderungen unterstützen!"
 msgstr "Destek talepleri şimdi!"
 
-#: templates/index.html:77
+#: templates/index.html:88
 msgid ""
 "\n"
 "          Die Einführung des AMS-Algorithmus ist ein\n"
@@ -813,7 +805,7 @@ msgstr ""
 "         <strong>barajın tehlikeli</strong> bir şekilde aşılması.\n"
 "          "
 
-#: templates/index.html:85
+#: templates/index.html:96
 msgid ""
 "\n"
 "              Bislang war es so, dass der Einsatz ganz neuer Technologien\n"
@@ -831,7 +823,7 @@ msgstr ""
 "algoritmasında durum böyle değildir.\n"
 "              "
 
-#: templates/index.html:92
+#: templates/index.html:103
 msgid ""
 "\n"
 "              Dieses <strong>System wurde ohne öffentliche Debatte\n"
@@ -853,7 +845,7 @@ msgstr ""
 "konusunda <strong>temel</strong> bir <strong>şeffaflık</strong> eksikliği.\n"
 "              "
 
-#: templates/index.html:101
+#: templates/index.html:112
 msgid ""
 "\n"
 "              Ein ähnliches System wurde <a href=\"https://epicenter.works/"
@@ -884,7 +876,7 @@ msgstr ""
 "              hukuka aykırıdır ve durdurulmuştur.</a>\n"
 "              "
 
-#: templates/index.html:109
+#: templates/index.html:120
 msgid ""
 "\n"
 "              Wir dürfen nicht zulassen, dass Merkmale,\n"
@@ -909,47 +901,47 @@ msgstr ""
 "              bu adaletsizlikleri yerinde <strong>çimentolamak</strong>.\n"
 "              "
 
-#: templates/index.html:121
+#: templates/index.html:132
 msgid "https://embed.epicenter.works/yt/VUoN61lKcMc"
 msgstr "https://embed.epicenter.works/yt/VUoN61lKcMc"
 
-#: templates/index.html:131
+#: templates/index.html:142
 msgid "Unsere <strong>7 Forderungen</strong>"
 msgstr "<strong>7 talebimiz</strong>"
 
-#: templates/index.html:136
+#: templates/index.html:147
 msgid "mehr"
 msgstr "daha fazla"
 
-#: templates/index.html:141
+#: templates/index.html:152
 msgid "Forderung im Detail:"
 msgstr "Ayrıntılı talep:"
 
-#: templates/index.html:175
+#: templates/index.html:186
 msgid "AMS-Algorithmus stoppen"
 msgstr "AMS algoritmasını durdurun"
 
-#: templates/index.html:181
+#: templates/index.html:192
 msgid "Unsere 7 Forderungen"
 msgstr "7 talebimiz"
 
-#: templates/index.html:238
+#: templates/index.html:249
 msgid "Unterschreiben"
 msgstr "İşaret"
 
-#: templates/index.html:253
+#: templates/index.html:264
 msgid "Kontaktiere deinen <strong>Minister!</strong>"
 msgstr "Papazınızla iletişime geçin <strong>!</strong>"
 
-#: templates/index.html:267
+#: templates/index.html:278
 msgid "E-Mail schreiben"
 msgstr "E-posta yazın"
 
-#: templates/index.html:283
+#: templates/index.html:294
 msgid "Stelle ein <strong>Auskunftsbegehren!</strong>"
 msgstr "<strong>Bilgi için talepte bulunun!</strong>"
 
-#: templates/index.html:285
+#: templates/index.html:296
 msgid ""
 "Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und "
 "Behörden anfordern. Hier kannst du das für das AMS tun."
@@ -957,15 +949,15 @@ msgstr ""
 "Yılda bir kez, tüm şirketlerden ve yetkililerden tüm verilerinizi ücretsiz "
 "olarak talep edebilirsiniz. AMS için bunu buradan yapabilirsiniz."
 
-#: templates/index.html:288
+#: templates/index.html:299
 msgid "Zum Generator"
 msgstr "Jeneratöre"
 
-#: templates/index.html:290
+#: templates/index.html:301
 msgid "Antrag gemäß Art. 15 DSGVO auf Auskunft"
 msgstr "DSGVO Madde 15 uyarınca bilgi talebi"
 
-#: templates/index.html:298
+#: templates/index.html:309
 msgid ""
 "\n"
 "                    <strong>Nur wenn du seit 2019 arbeitslos warst hat das "
@@ -987,11 +979,11 @@ msgstr ""
 "<strong>bilgi</strong>verebilir.\n"
 "                  "
 
-#: templates/index.html:313
+#: templates/index.html:324
 msgid "Weitersagen!"
 msgstr "İletin!"
 
-#: templates/index.html:315
+#: templates/index.html:326
 msgid ""
 "Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug "
 "politischen Druck erzeugen, um den AMS-Algorithmus zu verhinden."
@@ -999,13 +991,67 @@ msgstr ""
 "Arkadaşlarınıza bu kampanyadan bahsedin! AMS algoritmasını durdurmak için "
 "yeterli siyasi baskıyı yaratabilmemizin tek yolu budur."
 
-#: templates/index.html:338
+#: templates/index.html:349
 msgid "Unterstützer*innen"
 msgstr "Destekçiler"
 
-#: templates/index.html:339
+#: templates/index.html:350
 msgid "Die Kampagne wird von folgenden Organisationen getragen:"
 msgstr "Kampanya aşağıdaki kuruluşlar tarafından desteklenmektedir:"
+
+#: templates/news.html:18
+msgid "Was als nächstes passiert ..."
+msgstr "Bundan sonra ne olacak..."
+
+#: templates/news.html:19
+msgid ""
+"\n"
+"      <p>\n"
+"        Bis September 2022 sollen in gezielten Focusgruppen die detailierten "
+"Probleme eines maschinellen, automatisierten und intransparenten Systems "
+"besprochen werden. In moderierten Gruppen diskutieren und analysieren wir "
+"mit betroffenen Menschen, ob Algorithmen überhaupt für staatlich garantierte "
+"Versicherungsleistungen einsetzbar sind. Die Ergebnisse werden wir "
+"veröffentlichen.\n"
+"      </p>\n"
+"      <p>\n"
+"        Weiters werden wir nochmals  in Oberösterreich vor Ort sein. Mit "
+"unserem Tourbus und dem einarmigen Banditen \"Algomat\" möchten wir stark "
+"betroffene Communities besuchen und über das System und dessen Probleme "
+"aufklären. Aktuell suchen wir Organisationen und Vereine in Oberösterreich, "
+"die mit geflüchteten oder langzeitarbeitssuchenden Menschen arbeiten. Wenn "
+"ihr Vertreter*innen solch einer Community seid oder kennt, z.B. eine "
+"syrische Kulturgruppe oder ein kroatischer Kulturverein, udgl.\n"
+"        Sprecht uns bitte an: <a href=\"mailto:ams-algorithmus@epicenter."
+"works\">ams-algorithmus@epicenter.works</a><br>\n"
+"        Wir suchen auch aktuell noch Sprachmittler*innen, um einfacher vor "
+"Ort kommunizieren zu können. \n"
+"      </p>\n"
+"      "
+msgstr ""
+"\n"
+"      <p>\n"
+"        Eylül 2022'ye kadar, makine tabanlı, otomatik ve şeffaf olmayan bir "
+"sistemin ayrıntılı sorunları hedeflenen odak gruplarında tartışılacaktır. "
+"Moderatörlü gruplarda, algoritmaların devlet garantili sigorta yardımları "
+"için kullanılıp kullanılamayacağını etkilenen kişilerle tartışacak ve analiz "
+"edeceğiz. Sonuçları yayınlayacağız.\n"
+"      </p>\n"
+"      <p>\n"
+"        Ayrıca, Yukarı Avusturya'da tekrar sahada olacağız. Tur otobüsümüz "
+"ve tek kollu haydut \"Algomat\" ile bu durumdan fazlasıyla etkilenen "
+"toplulukları ziyaret etmek ve onları sistem ve sorunları hakkında "
+"bilgilendirmek istiyoruz. Şu anda Yukarı Avusturya'da mültecilerle veya uzun "
+"süreli iş arayanlarla çalışan kuruluşlar ve dernekler arıyoruz. Suriyeli bir "
+"kültür grubu veya Hırvat kültür derneği gibi bir topluluğun temsilcisiyseniz "
+"veya böyle bir topluluğun temsilcilerini tanıyorsanız, lütfen bizimle "
+"iletişime geçin.\n"
+"        Lütfen bizimle iletişime geçin: <a href=\"mailto:ams-"
+"algorithmus@epicenter.works\">ams-algorithmus@epicenter.works</a><br>\n"
+"        Ayrıca sahada daha kolay iletişim kurabilmek için şu anda dil "
+"arabulucuları arıyoruz \n"
+"     </br></p>\n"
+"      "
 
 #: templates/newsletter_snippet.html:5
 msgid "Bleib informiert!"
@@ -1217,27 +1263,47 @@ msgid ""
 "klicke noch schnell den Bestätigungslink, den du per E-Mail erhalten hast."
 msgstr "e-posta ile aldığınız onay bağlantısına hızlıca tıklayın."
 
-#: templates/tour.html:39
+#: templates/tour.html:13
 msgid "Wir sind auf Tour"
 msgstr "Turdayız"
 
-#: templates/tour.html:41
+#: templates/tour.html:15
 msgid "Termine & Livestream"
 msgstr "Tarihler ve Canlı Yayın"
 
-#: templates/tour.html:71
+#: templates/tour.html:45
 msgid "Hauptseite & Petition"
 msgstr "Ana Sayfa & Dilekçe"
 
-#: templates/tour.html:112
+#: templates/tour/discussion.html:40
 msgid "Paneldiskussion zum AMS-Algorithmus"
 msgstr "AMS algoritması üzerine panel tartışması"
 
-#: templates/tour.html:117
+#: templates/tour/discussion.html:45
 msgid "https://embed.epicenter.works/yt/I9O8Az_E-VY"
 msgstr "https://embed.epicenter.works/yt/I9O8Az_E-VY"
 
-#: templates/tour/tour_dates.html:4
+#: templates/tour/discussion.html:57
+msgid ""
+"\n"
+"            Zum Start der Aktionswoche in Oberösterreich, Anfang Mai 2022, "
+"bei der für die Abschaffung eines solchen maschinenbasierten Systems "
+"geworben wurde, diskutierten Vertreter*innen aus Wissenschaft, Politik, "
+"Sozialpartnerschaft und Verwaltung über ihren Zugang zum AMS-Algorithmus.\n"
+"            Eine spannende Runde, mit vielen Argumenten und durchaus "
+"unerwarteten Wendungen.\n"
+"            "
+msgstr ""
+"\n"
+"            Mayıs 2022'nin başında Yukarı Avusturya'da böyle bir makine "
+"tabanlı sistemin kaldırılması için kampanya yürüten eylem haftasının "
+"başlangıcında, bilim, siyaset, sosyal ortaklık ve yönetimden temsilciler AMS "
+"algoritmasına yaklaşımlarını tartıştılar.\n"
+"            Birçok tartışma ve beklenmedik sürprizlerle dolu heyecanlı bir "
+"tur.\n"
+"            "
+
+#: templates/tour/tour_dates.html:4 templates/tour/tour_snippet.html:83
 msgid "Termine"
 msgstr "Tarihler"
 
@@ -1249,51 +1315,84 @@ msgstr "28. Nisan"
 msgid "Panel / Livestream"
 msgstr "Panel / Canlı Yayın"
 
-#: templates/tour/tour_dates.html:7
+#: templates/tour/tour_dates.html:7 templates/tour/tour_snippet.html:85
 msgid "2. Mai"
 msgstr "2. Mayıs"
 
-#: templates/tour/tour_dates.html:8
+#: templates/tour/tour_dates.html:8 templates/tour/tour_snippet.html:86
 msgid "3. Mai"
 msgstr "3. Mayıs"
 
-#: templates/tour/tour_dates.html:9
+#: templates/tour/tour_dates.html:9 templates/tour/tour_snippet.html:87
 msgid "4. Mai"
 msgstr "4. Mayıs"
 
-#: templates/tour/tour_dates.html:10
+#: templates/tour/tour_dates.html:10 templates/tour/tour_snippet.html:88
 msgid "5. Mai"
 msgstr "5. Mayıs"
 
-#: templates/tour/tour_dates.html:11
+#: templates/tour/tour_dates.html:11 templates/tour/tour_snippet.html:89
 msgid "6. Mai"
 msgstr "6. Mayıs"
 
-#: templates/tour/tour_snippet.html:15
-msgid "Alle Details"
-msgstr "Tüm detaylar"
+#: templates/tour/tour_snippet.html:58
+msgid "Das war die Tour ..."
+msgstr "Bu turdu ..."
 
-#: templates/tour/tour_teaser_text.html:4
-msgid "Triff uns, <br>wir sind auf Tour ..."
-msgstr "Bizimle tanışın, <br>turdayız ..."
-
-#: templates/tour/tour_teaser_text.html:6
+#: templates/tour/tour_snippet.html:61
 msgid ""
 "\n"
-"  ... um mit interessierten Menschen und Betroffenen über den AMS-"
-"Algorithmus ins Gespräch kommen.<br>\n"
-"  Ihr findet uns zwischen 9.00 - 14.00 Uhr vor dem jeweiligen AMS Standort. "
-"Wir haben übrigens auch einen lustigen „einarmigen Banditen“ dabei, mit dem "
-"man seine Chancen auf AMS-Förderungen nachspielen kann. Zum Trost gibt es "
-"ein kleines Geschenk zum Naschen\n"
+"        Im Mai 2022 waren wir in Oberösterreich auf Tour und haben viele "
+"interessante Gespräche mit Betroffenen und Mitarbeitenden des AMS geführt. "
+"Alle waren sich meist einig, dass solch ein maschinelles System furchtbar "
+"ungerecht ist. Es bleibt reine Geldverschwendung, denn hilfreich ist es "
+"weder für die Seite der Arbeitssuchenden noch für die Beschäftigten des "
+"AMS , von denen sich viele mit unserer Aktion solidarisierten. \n"
+"        "
 msgstr ""
 "\n"
-"  ... aMS algoritması hakkında ilgili kişilerle ve etkilenenlerle konuşmak "
-"için.<br>\n"
-"  Bizi 9.00 ile 14.00 saatleri arasında ilgili AMS lokasyonunun önünde "
-"bulabilirsiniz. Bu arada, AMS fonu alma şansınızı canlandırabileceğiniz "
-"komik bir \"tek kollu haydut\" da olacak. Teselli olarak, atıştırmak için "
-"küçük bir hediye var\n"
+"        Mayıs 2022'de Yukarı Avusturya'da bir turdaydık ve etkilenen "
+"kişilerle ve AMS çalışanlarıyla birçok ilginç sohbet gerçekleştirdik. Çoğu, "
+"böyle mekanik bir sistemin son derece adaletsiz olduğu konusunda hemfikirdi. "
+"Ne iş arayanlara ne de birçoğu kampanyamızla dayanışma gösteren AMS "
+"çalışanlarına yardımcı olmadığı için para israfı olmaya devam ediyor\n"
+"        "
+
+#: templates/tour/tour_snippet.html:71
+msgid ""
+"\n"
+"            Unser einarmiger Bandit \"Algomat\" war ein voller Erfolg. Viele "
+"\"spielten\" mit dem Gerät, dessen Programmierung auf Basis der bekannten "
+"Daten über den AMS-Algorithmus erfolgt war. Die Maschine machte es leicht zu "
+"verstehen, wie ungerecht und zufallsbasiert das bestehende System ist. \n"
+"            "
+msgstr ""
+"\n"
+"            Tek kollu haydutumuz \"Algomat\" tam bir başarıydı. Birçok kişi, "
+"programlaması AMS algoritması hakkında bilinen verilere dayanan makine ile "
+"\"oynadı\". Makine, mevcut sistemin ne kadar adaletsiz ve rastgele olduğunu "
+"anlamayı kolaylaştırdı\n"
+"            "
+
+#: templates/tour/tour_snippet.html:76
+msgid ""
+"\n"
+"            Unser Fazit nach dieser Tour ist noch klarer: dieser AMS-"
+"Algorithmus ist eine teure Totgeburt einer Politik, die propagierte, mit "
+"Hilfe einer digitalen Maschine öffentliches Geld zu sparen. Erreicht wurde "
+"das Gegenteil, nämlich die Verschwendung von Steuergeld in eine teure "
+"Digitallösung, die nur ungerecht ist und bereits Anwälte, die "
+"Datenschutzbehörde und das Gericht beschäftigt.\n"
+"            "
+msgstr ""
+"\n"
+"            Bu turdan sonra vardığımız sonuç daha da net: AMS algoritması, "
+"dijital bir makine yardımıyla kamu parasından tasarruf etmek için yayılan "
+"bir politikanın pahalı bir ölü doğumu. Tam tersi bir sonuç elde edilmiş, "
+"yani vergi mükelleflerinin parası, sadece adil olmayan ve avukatları, veri "
+"koruma kurumunu ve mahkemeyi meşgul eden pahalı bir dijital çözümle boşa "
+"harcanmıştır.\n"
+"            "
 
 #: templates/withdraw.html:10
 msgid "Wir haben deinen Widerruf erhalten und deine Daten gelöscht."
@@ -1328,3 +1427,32 @@ msgstr ""
 "        para çekme işleminizi tamamlamak için bu e-postadaki bağlantıya "
 "tıklayın.      \n"
 "        "
+
+#~ msgid "Deutsch"
+#~ msgstr "Alman"
+
+#~ msgid "Englisch"
+#~ msgstr "İngilizce"
+
+#~ msgid "Alle Details"
+#~ msgstr "Tüm detaylar"
+
+#~ msgid "Triff uns, <br>wir sind auf Tour ..."
+#~ msgstr "Bizimle tanışın, <br>turdayız ..."
+
+#~ msgid ""
+#~ "\n"
+#~ "  ... um mit interessierten Menschen und Betroffenen über den AMS-"
+#~ "Algorithmus ins Gespräch kommen.<br>\n"
+#~ "  Ihr findet uns zwischen 9.00 - 14.00 Uhr vor dem jeweiligen AMS "
+#~ "Standort. Wir haben übrigens auch einen lustigen „einarmigen Banditen“ "
+#~ "dabei, mit dem man seine Chancen auf AMS-Förderungen nachspielen kann. "
+#~ "Zum Trost gibt es ein kleines Geschenk zum Naschen\n"
+#~ msgstr ""
+#~ "\n"
+#~ "  ... aMS algoritması hakkında ilgili kişilerle ve etkilenenlerle "
+#~ "konuşmak için.<br>\n"
+#~ "  Bizi 9.00 ile 14.00 saatleri arasında ilgili AMS lokasyonunun önünde "
+#~ "bulabilirsiniz. Bu arada, AMS fonu alma şansınızı canlandırabileceğiniz "
+#~ "komik bir \"tek kollu haydut\" da olacak. Teselli olarak, atıştırmak için "
+#~ "küçük bir hediye var\n"
