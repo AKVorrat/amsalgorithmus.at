@@ -8,3 +8,4 @@ weasyprint<53
 Django~=2.2
 ptvsd
 autopep8
+dotenv
