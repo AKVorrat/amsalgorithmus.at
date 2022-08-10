@@ -29,7 +29,7 @@ setup(
     ### Dependencies
     install_requires=[
         # 'python-dotenv',
-        # 'django-sass-compiler',
+        # 'django-sass-processor',
         # 'django-compressor==2.4.1',
         # 'django-inline-svg==0.1.1',
         # 'django-simple-captcha>=0.5',
