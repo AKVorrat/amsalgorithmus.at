@@ -28,15 +28,14 @@ setup(
     ],
     ### Dependencies
     install_requires=[
-        'python-dotenv',
-        'django-sass-processor==0.8',
-        'django-compressor==2.4.1',
-        'django-inline-svg==0.1.1',
-        'django-simple-captcha>=0.5',
-        'libsass==0.19.4',
-        'weasyprint<53',
-
-        'Django~=2.2',
+        # 'python-dotenv',
+        # 'django-sass-compiler',
+        # 'django-compressor==2.4.1',
+        # 'django-inline-svg==0.1.1',
+        # 'django-simple-captcha>=0.5',
+        # 'libsass==0.21.0',
+        # 'weasyprint<53',
+        # 'Django~=2.2',
     ],
     extras_require={
         'dev': [
