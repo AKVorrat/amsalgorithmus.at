@@ -13,7 +13,7 @@ build-test:
         - python3 -m venv .venv
         - . .venv/bin/activate
         - npm install
-        - python3 setup.py install
+        - pip3 install -r requirements.txt 
         - DJANGO_SETTINGS_MODULE=ams.settings.dev ./manage.py migrate
     only:
         - master
