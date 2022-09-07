@@ -81,6 +81,7 @@ USE_TZ = True
 LANGUAGES = [
   ('de', 'Deutsch - German'),
   ('en', 'English - Englisch'),
+  ('fr', 'français - Französisch'),
   ('sr', 'српски - Serbisch'),
   ('bs', 'bosanski - Bosnisch'),
   ('hr', 'hrvatski - Kroatisch'),
