@@ -1,0 +1,1378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-07 14:28+0200\n"
+"PO-Revision-Date: 2022-09-07 14:32+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: modules/petition/forms.py:16 modules/request/forms.py:8
+msgid "Vorname"
+msgstr "Ім'я та прізвище"
+
+#: modules/petition/forms.py:22 modules/request/forms.py:13
+msgid "Nachname"
+msgstr "Прізвище"
+
+#: modules/petition/forms.py:29 modules/petition/forms.py:72
+#: modules/request/forms.py:19
+msgid "E-Mail-Adresse"
+msgstr "Адреса електронної пошти"
+
+#: modules/petition/forms.py:40
+msgid ""
+"Ja, ich will den <a target=\"_blank\" href=\"https://epicenter.works/"
+"newsletter\">Newsletter</a> erhalten (optional)."
+msgstr ""
+"Так, я хочу отримувати <a target=\"_blank\" href=\"https://epicenter.works/"
+"newsletter\">інформаційний бюлетень</a> (необов'язково)."
+
+#: modules/petition/forms.py:46
+msgid ""
+"Ja, ich stimme den <a target=\"_blank\" href=\"/privacy"
+"\">Datenschutzbedingungen</a> zu."
+msgstr ""
+"Так, я згоден з умовами <a target=\"_blank\" href=\"/privacy\">захисту "
+"даних</a> ."
+
+#: modules/petition/models.py:17 templates/index.html:335
+#: templates/share.html:16
+msgid "E-Mail"
+msgstr "електронна пошта"
+
+#: modules/petition/models.py:56
+msgid "[amsalgorithmus.at] Bitte bestätige deine E-Mail-Adresse."
+msgstr "[amalgorithmus.at] Підтвердьте свою електронну адресу."
+
+#: modules/request/forms.py:25
+msgid "Adresse"
+msgstr "адресу"
+
+#: modules/request/forms.py:31
+msgid "PLZ"
+msgstr "Поштовий індекс"
+
+#: modules/request/forms.py:37
+msgid "Ort"
+msgstr "Місцезнаходження"
+
+#: templates/announcement.html:16
+msgid ""
+"\n"
+"        <b>Triff uns beim Tag der Arbeitslosen am Samstag den 30. April "
+"2022</b><br>\n"
+"        <div style=\"font-size: .9em;\">\n"
+"          in WIEN von 15:00 - 17:00 Mariahilfer Straße Ecke Neubaugasse oder "
+"<br>\n"
+"          in GRAZ von 11:00 - 13:00 Am eisernen Tor bei der AMSEL "
+"Veranstaltung\n"
+"        </div>\n"
+"        "
+msgstr ""
+"\n"
+"<b>Зустрічайте нас у суботу, 30 квітня 2022 року, у День безробіття</"
+"b><br><div style=\"font-size: .9em;\"> у ВІДНІ з 15:00 до 17:00 на розі "
+"Mariahilfer Straße та Neubaugasse або<br> у ГРАЦІ з 11:00 до 13:00 біля "
+"залізних воріт на заході AMSEL</div>"
+
+#: templates/base.html:7 templates/email/already_confirmed.html:3
+#: templates/email/confirm.html:3 templates/email/withdraw.html:3
+msgid "de"
+msgstr "en"
+
+#: templates/base.html:16
+msgid "https://amsalgorithmus.at/"
+msgstr "https://amalgorithmus.at/"
+
+#: templates/base.html:18
+msgid "Stoppt den AMS-Algorithmus!"
+msgstr "Зупиніть алгоритм AMS!"
+
+#: templates/base.html:19
+msgid ""
+"Wollen Sie, dass Computer darüber entscheiden, wen das AMS geförderte "
+"Ausbildungen und Schulungen machen lässt?"
+msgstr ""
+"Ви хочете, щоб комп’ютери вирішували, кому AMS дозволяє проводити навчання "
+"та освіту, що фінансується?"
+
+#: templates/base.html:35
+msgid "Stoppt den AMS-Algorithmus"
+msgstr "Зупиняє роботу алгоритму AMS"
+
+#: templates/base.html:55
+msgid "Design &amp; Entwicklung:"
+msgstr "Дизайн &amp; розвиток:"
+
+#: templates/base.html:60
+msgid "https://epicenter.works/"
+msgstr "https://epicenter.works/"
+
+#: templates/base.html:63
+msgid "Du findest unsere Arbeit gut?"
+msgstr "Вам подобається наша робота?"
+
+#: templates/base.html:65
+msgid ""
+"\n"
+"                <b>Bitte <u>unterstütze uns</u>!</b>\n"
+"                "
+msgstr ""
+"\n"
+"<b>Будь ласка <u>, підтримайте нас</u> !</b>"
+
+#: templates/base.html:71
+msgid "https://epicenter.works/kontakt"
+msgstr "https://epicenter.works/contact"
+
+#: templates/base.html:71
+msgid "Impressum"
+msgstr "відбиток"
+
+#: templates/base.html:71
+msgid "Datenschutz"
+msgstr "конфіденційність"
+
+#: templates/base.html:72
+msgid "https://epicenter.works"
+msgstr "https://epicenter.works"
+
+#: templates/base.html:77
+msgid "Feedback zu amsalgorithmus.at"
+msgstr "Відгук на amalgorithmus.at"
+
+#: templates/confirm.html:8 templates/withdraw.html:8
+msgid "Alles klar!"
+msgstr "Зрозумів!"
+
+#: templates/confirm.html:10 templates/withdraw.html:13
+msgid "<strong>Ein Fehler</strong> ist aufgetreten."
+msgstr "<strong>Сталася помилка</strong> ."
+
+#: templates/confirm.html:15
+msgid "Deine Teilnahme an der Petition wurde erfolgreich bestätigt."
+msgstr "Вашу участь у петиції успішно підтверджено."
+
+#: templates/confirm.html:16
+msgid "Vielen Dank für deine Unterstützung!"
+msgstr "Велике спасибі за вашу підтримку!"
+
+#: templates/confirm.html:18
+msgid ""
+"Bitte wende dich an <a href=\"mailto:ams@epicenter.works\">ams@epicenter."
+"works</a>, um deine Unterschrift zu bestätigen."
+msgstr ""
+"Щоб перевірити свій підпис, <a href=\"mailto:ams@epicenter.works"
+"\">зв’яжіться з ams@epicenter.works</a> ."
+
+#: templates/demands/faehigkeiten.html:3
+msgid "2. Fähigkeiten fördern, statt Schwächen bestrafen"
+msgstr "2. Заохочуйте навички замість того, щоб карати слабкі сторони"
+
+#: templates/demands/faehigkeiten.html:8
+msgid ""
+"Mehr Bildung ermöglichen, durch Förderung und Ermöglichung von "
+"(Weiter-)Bildung"
+msgstr ""
+"Сприяти більшій освіті шляхом сприяння та надання можливості (подальшої) "
+"освіти"
+
+#: templates/demands/faehigkeiten.html:13
+msgid ""
+"Menschen sollen aufgrund ihrer Fähigkeiten und Stärken gefördert werden, "
+"dazu braucht es eine Aufstockung der Weiterbildungs- und Schulungsmaßnahmen "
+"von Arbeitssuchenden."
+msgstr ""
+"Людей слід просувати на основі їхніх навичок і сильних сторін, і це вимагає "
+"посилення заходів з подальшої освіти та навчання для тих, хто шукає роботу."
+
+#: templates/demands/faehigkeiten.html:15
+msgid ""
+"Es muss Arbeitssuchenden erlaubt werden, ein Uni- oder FH-Studium zu "
+"beginnen (dies ist derzeit nur dann erlaubt, wenn Arbeitssuchende schon zu "
+"Berufszeiten parallel studiert haben). Auch soll das AMS selbstbezahlte "
+"Weiterbildungen, z. B. Kurse, die nur wenige Tage dauern, erlauben."
+msgstr ""
+"Особам, які шукають роботу, необхідно дозволити розпочати навчання в "
+"університеті чи технічному коледжі (наразі це дозволено, лише якщо шукачі "
+"роботи вже навчалися під час роботи). AMS має також пропонувати "
+"самооплачуване подальше навчання, напр. B. Дозволити курси, які тривають "
+"лише кілька днів."
+
+#: templates/demands/information.html:3
+msgid "4. Recht auf Information"
+msgstr "4. Право на інформацію"
+
+#: templates/demands/information.html:8
+msgid ""
+"Wir fordern eine umfassende proaktive Aufklärung über die Rechte von "
+"Arbeitssuchenden."
+msgstr ""
+"Ми закликаємо до всебічної проактивної освіти щодо прав шукачів роботи."
+
+#: templates/demands/information.html:13
+msgid ""
+"\n"
+"    Das AMS wird durch uns alle finanziert und ist daher ein "
+"Dienstleistungsanbieter mit dem Auftrag der Allgemeinheit zu helfen. Er muss "
+"allen Menschen auf Augenhöhe begegnen. Damit Menschen gleichberechtigt mit "
+"ihren Berater*innen reden können, brauchen sie zuallererst Informationen "
+"darüber, was ihre Rechte und Pflichten in Zusammenhang mit dem AMS sind; "
+"begonnen damit, woran ihr Anspruch auf Arbeitslosengeld geknüpft ist - Ob "
+"und unter welchen Umständen ihnen das Geld gestrichen werden darf - Ob sie "
+"eine Betreuungsvereinbarung mit dem AMS eingehen müssen oder ob dies "
+"optional ist - Wie ihre Informations- und Auskunftsrechte aussehen und wie "
+"das rechtliche Verhältnis zwischen ihnen und externen Partnerunternehmen des "
+"AMS geregelt ist.\n"
+"    "
+msgstr ""
+"\n"
+"    AMS фінансується всіма нами і, отже, є постачальником послуг із мандатом "
+"допомагати широкій громадськості. Він повинен ставитися до всіх як до "
+"рівних. Для того, щоб люди могли спілкуватися зі своїми радниками на рівних, "
+"їм насамперед потрібна інформація про їхні права та обов’язки у зв’язку з "
+"AMS; починаючи з того, з чим пов’язане ваше право на допомогу по безробіттю "
+"– чи можуть і за яких обставин гроші скоротити – чи потрібно вам укласти "
+"угоду про догляд із AMS чи це необов’язково – як виглядає ваша інформація та "
+"права на інформацію та які правові відносини між ними та зовнішніми "
+"партнерськими компаніями AMS.\n"
+"    "
+
+#: templates/demands/menschen.html:3
+msgid "1. Menschen, nicht Computer sollen entscheiden"
+msgstr "1. Вирішувати мають люди, а не комп’ютери"
+
+#: templates/demands/menschen.html:8
+msgid ""
+"\n"
+"      Menschen sollen anhand nachvollziehbarer Kriterien \n"
+"      über den Zugang zu staatlichen Leistungen entscheiden, \n"
+"      statt Entscheidungen eines Computers nur abzunicken.\n"
+"      "
+msgstr ""
+"\n"
+"      Люди повинні базуватися на зрозумілих критеріях\n"
+"      приймати рішення про доступ до державних пільг,\n"
+"      замість того, щоб просто кивати на рішення комп’ютера.\n"
+"      "
+
+#: templates/demands/menschen.html:17
+msgid ""
+"\n"
+"      Der AMS-Algorithmus ist abzulehnen und muss abgeschaltet werden. Ein "
+"Computer darf nicht über menschliche Schicksale entscheiden und der Zugang "
+"zu staatlichen Leistungen darf nicht von einem Computer reguliert werden. "
+"Entscheidungen müssen nachvollziehbar, transparent und mit menschlichem Maß "
+"getroffen werden. Das System ein gefährlicher Präzedenzfall politische "
+"Entscheidungen an Algorithmen auszulagern.\n"
+"      "
+msgstr ""
+"\n"
+"      Алгоритм AMS необхідно відхилити та вимкнути. Комп'ютер не повинен "
+"вирішувати людські долі і доступ до державних послуг не повинен регулюватися "
+"комп'ютером. Рішення мають прийматися зрозуміло, прозоро та гуманно. Система "
+"створює небезпечний прецедент для передачі політичних рішень алгоритмам.\n"
+"      "
+
+#: templates/demands/menschen.html:22
+msgid ""
+"\n"
+"      Selbst wenn <abbr title=\"Vom AMS „AMAS“ oder „PAMAS“ genannt\">das "
+"System</abbr> (noch) keine vollautomatischen Entscheidungen treffen sollte, "
+"darf es auch keine Entscheidungen vorgeben, die durch das AMS-Personal nur "
+"noch abgenickt werden. Die AMS-Beratungstermine dauern meist nur 15 Minuten "
+"und es besteht enormer Rechtfertigungsdruck dem Computer nicht zu "
+"widersprechen.\n"
+"      "
+msgstr ""
+"\n"
+"Навіть якщо <abbr title=\"Vom AMS „AMAS“ oder „PAMAS“ genannt\">система</"
+"abbr> (поки що) не приймає жодних повністю автоматичних рішень, вона не "
+"повинна приймати жодних рішень, які потім лише схвалюються персоналом AMS. "
+"Консультація AMS зазвичай триває лише 15 хвилин, і існує величезний тиск, "
+"щоб виправдати не суперечити комп’ютеру."
+
+#: templates/demands/optional.html:3
+msgid "7. Nur freiwillige Teilnahme am Algorithmus"
+msgstr "7. Тільки добровільна участь в алгоритмі"
+
+#: templates/demands/optional.html:8
+msgid ""
+"Wir fordern eine optionale Teilnahme am AMS-Algorithmus (Opt-In) und die "
+"Entkoppelung von jeder Fördervergabe. Wir wollen ein System, das so gut ist, "
+"dass die Betroffenen freiwillig daran teilnehmen"
+msgstr ""
+"Ми вимагаємо необов’язкової участі в алгоритмі AMS (опт-ін) і відокремлення "
+"від будь-якого фінансування. Ми хочемо, щоб система була настільки хорошою, "
+"щоб ті, кого це стосується, добровільно брали участь"
+
+#: templates/demands/optional.html:13
+msgid ""
+"\n"
+"    Das AMS ist in einer Machtposition gegenüber den Arbeitssuchenden. \n"
+"    Im Sinne des Datenschutzes fordern wir deshalb die Freiwilligkeit der "
+"Teilnahme \n"
+"    aller Arbeitssuchenden am AMS-Algorithmus. Arbeitssuchenden müssen "
+"ihre \n"
+"    informierte Zustimmung geben, bevor das System sie kategorisiert. "
+"Diese \n"
+"    Zustimmung kann jederzeit widerrufen werden, wodurch auch alle "
+"berechneten \n"
+"    Werte des Algorithmus gelöscht werden müssen. Aus der Weigerung an "
+"diesem \n"
+"    System teilzunehmen, dürfen den Arbeitssuchenden keine Nachteile "
+"entstehen.\n"
+"    "
+msgstr ""
+"\n"
+"    AMS має владу над шукачами роботи.\n"
+"    Тому з точки зору захисту даних ми вимагаємо, щоб участь була "
+"добровільною\n"
+"    усіх шукачів роботи за алгоритмом AMS. Шукачі роботи потребують своїх\n"
+"    давати інформовану згоду до того, як система класифікує їх. Це\n"
+"    Згоду можна відкликати в будь-який час, що також включає всі стягнення\n"
+"    Значення алгоритму необхідно очистити. Від відмови цього\n"
+"    Щоб брати участь у системі, шукачі роботи не повинні мати жодних "
+"недоліків.\n"
+"    "
+
+#: templates/demands/ressourcen.html:3
+msgid "3. Mehr Ressourcen für das AMS"
+msgstr "3. Більше ресурсів для AMS"
+
+#: templates/demands/ressourcen.html:8
+msgid ""
+"Wir fordern mehr und besser ausgebildete Berater*innen, die ausreichend Zeit "
+"für Beratungen haben."
+msgstr ""
+"Ми вимагаємо більше та краще підготовлених консультантів, які мають "
+"достатньо часу для консультацій."
+
+#: templates/demands/ressourcen.html:13
+msgid ""
+"\n"
+"    Das Verhältnis von Berater*innen zu Arbeitssuchenden <a href=\"https://"
+"netzpolitik.org/2018/oesterreichs-jobcenter-richten-kuenftig-mit-hilfe-von-"
+"software-ueber-arbeitslose/\" target=\"_blank\">beträgt in Deutschland "
+"1:100, in Österreich hingegen nur 1:250</a>. Daran sieht man, dass eine "
+"Aufstockung in diesem Bereich denkbar und durchaus sinnvoll wäre, denn ein "
+"besseres Betreuungsverhältnis bedeutet bessere Jobchancen und "
+"qualitätsvollere Betreuung. Das AMS braucht nicht nur mehr Geld für die Aus- "
+"und Weiterbildung seiner Berater*innen. Ebenso notwendig ist die qualitative "
+"Aufstockung von sinnvollen Weiterbildungs- und Schulungsmaßnahmen von "
+"Arbeitssuchenden.\n"
+"    "
+msgstr ""
+"\n"
+"Співвідношення консультантів до тих, хто шукає роботу <a href=\"https://"
+"netzpolitik.org/2018/oesterreichs-jobcenter-richten-kuenftig-mit-hilfe-von-"
+"software-ueber-arbeitslose/\" target=\"_blank\">, становить 1:100 у "
+"Німеччині, але лише 1:250 в Австрії</a> . Це свідчить про те, що розширення "
+"в цій сфері було б можливим і мало б сенс, оскільки кращий коефіцієнт "
+"нагляду означає кращі можливості працевлаштування та вищу якість нагляду. "
+"AMS потребує більше грошей не лише на навчання та підвищення кваліфікації "
+"своїх радників. Так само необхідним є якісне збільшення суттєвих заходів з "
+"подальшої освіти та навчання для шукачів роботи."
+
+#: templates/demands/risikocheck.html:3
+msgid "6. Risikocheck für Algorithmen"
+msgstr "6. Перевірка ризиків для алгоритмів"
+
+#: templates/demands/risikocheck.html:7
+msgid ""
+"Wir fordern eine Überprüfung von Algorithmen auf deren Technik und soziale "
+"Auswirkungen, bevor diese eingeführt werden (Verpflichtung für ein "
+"vorgelagertes Algorithmic Impact Assessment)."
+msgstr ""
+"Ми вимагаємо перегляду алгоритмів на предмет їхнього технологічного та "
+"соціального впливу перед їх запровадженням (зобов’язання попередньої оцінки "
+"впливу алгоритмів)."
+
+#: templates/demands/risikocheck.html:11
+msgid ""
+"\n"
+"    Automatisierte Systeme, die negative Konsequenzen für Menschen haben "
+"könnten, müssen vor ihrer Einführung genau auf Funktionsweise und eventuelle "
+"Folgewirkungen hin geprüft werden. Dies muss bei allen Algorithmen "
+"geschehen, die potentiell in Grundrechte eingreifen\n"
+"    "
+msgstr ""
+"\n"
+"    Автоматизовані системи, які можуть мати негативні наслідки для людей, "
+"повинні бути ретельно перевірені перед запровадженням, щоб переконатися, що "
+"вони працюють та будь-які наслідки. Це має статися з усіма алгоритмами, які "
+"потенційно можуть порушувати фундаментальні права\n"
+"    "
+
+#: templates/demands/risikocheck.html:16
+msgid ""
+"\n"
+"    Hier gibt es internationale Best-Practices der Kontrolle von "
+"Algorithmen, \n"
+"    ein sogenanntes Algorithmic Impact Assessment. Dies vorzunehmen wurde "
+"beim \n"
+"    AMS-Algorithmus verabsäumt und muss zukünftig verpflichtend sein.\n"
+"    "
+msgstr ""
+"\n"
+"    Існують найкращі міжнародні практики перевірки алгоритмів,\n"
+"    так звану алгоритмічну оцінку впливу. Це було зроблено в\n"
+"    Алгоритм AMS відсутній і має бути обов’язковим у майбутньому.\n"
+"    "
+
+#: templates/demands/risikocheck.html:23
+msgid ""
+"\n"
+"    Algorithmen müssen auf Fehler im System geprüft werden, Biases in den "
+"Daten \n"
+"    und daraus resultierende negative Feedback Zyklen müssen analysiert "
+"werden, \n"
+"    bevor solche Systeme gestartet und flächendeckend eingesetzt werden. \n"
+"    "
+msgstr ""
+"\n"
+"    Алгоритми повинні бути перевірені на помилки в системі, зміщення в "
+"даних\n"
+"    і отримані цикли негативного зворотного зв’язку необхідно "
+"проаналізувати,\n"
+"    до того, як такі системи будуть запущені та розгорнуті по всьому світу.\n"
+"    "
+
+#: templates/demands/risikocheck.html:30
+msgid ""
+"\n"
+"    Nicht jede statistische Regression folgt dem Prinzip von Ursache und \n"
+"    Wirkung. Negative Effekte auf Menschen aufgrund von Fehlanalysen "
+"müssen \n"
+"    vermieden werden. \n"
+"    "
+msgstr ""
+"\n"
+"    Не кожна статистична регресія дотримується принципу причини та помилки\n"
+"    Ефект. Негативний вплив на людей через неправильний аналіз повинен\n"
+"    уникати.\n"
+"    "
+
+#: templates/demands/risikocheck.html:37
+msgid ""
+"\n"
+"    Deswegen fordern wir ein Algorithmic Impact Assessment, wie es bereits \n"
+"    <a href=\"https://www.canada.ca/en/government/system/digital-government/"
+"digital-government-innovations/responsible-use-ai/algorithmic-impact-"
+"assessment.html\" target=\"_blank\">Kanada</a> \n"
+"    oder die \n"
+"    <a href=\"https://www.theverge.com/2019/4/15/18309437/new-york-city-"
+"accountability-task-force-law-algorithm-transparency-automation\" target="
+"\"_blank\">Stadt New York</a> \n"
+"    eingeführt haben.\n"
+"    "
+msgstr ""
+"\n"
+"Ось чому ми закликаємо до алгоритмічної оцінки впливу, як це вже запровадили "
+"<a href=\"https://www.canada.ca/en/government/system/digital-government/"
+"digital-government-innovations/responsible-use-ai/algorithmic-impact-"
+"assessment.html\" target=\"_blank\">Канада</a> та <a href=\"https://www."
+"theverge.com/2019/4/15/18309437/new-york-city-accountability-task-force-law-"
+"algorithm-transparency-automation\" target=\"_blank\">Нью-Йорк</a> ."
+
+#: templates/demands/transparenz.html:3
+msgid "5. Umfassende Transparenz"
+msgstr "5. Повна прозорість"
+
+#: templates/demands/transparenz.html:8
+msgid ""
+"Projekte und Programme, die mit unser aller Geld gestartet werden müssen "
+"höchstmögliche Transparenz aufweisen, um evaluierbar zu sein."
+msgstr ""
+"Проекти та програми, які розпочинаються на всі наші гроші, мають бути "
+"максимально прозорими, щоб їх можна було оцінити."
+
+#: templates/demands/transparenz.html:13
+msgid ""
+"\n"
+"    Der AMS-Algorithmus ist jahrelang mit hohen Kosten unter Ausschluss der "
+"Öffentlichkeit entwickelt worden. Eine informierte Debatte war schon allein "
+"deshalb nicht möglich, weil weder die Datenbasis des Systems noch seine "
+"Resultate veröffentlicht wurden. Die Schulungsunterlagen für Berater*innen "
+"und Prozesse für Widersprüche gegen dem Algorithmus werden weiterhin geheim "
+"gehalten. Eine wissenschaftliche Aufarbeitung und demokratische Debatte über "
+"das Projekt sind so ausgeschlossen.\n"
+"    "
+msgstr ""
+"\n"
+"    Алгоритм AMS був розроблений за великі кошти роками в камері. "
+"Обґрунтована дискусія була неможливою просто тому, що ні база даних, ні "
+"результати системи не були опубліковані. Навчальні матеріали для "
+"консультантів і процеси заперечень проти алгоритму продовжуватимуть "
+"зберігатися в секреті. Таким чином, наукова рецензія та демократична "
+"дискусія щодо проекту виключаються.\n"
+"    "
+
+#: templates/demands/transparenz.html:18
+msgid ""
+"\n"
+"    Wir fordern umfassende und proaktive Transparenz vom AMS. Aufklärung "
+"darf nicht erst durch öffentlichen Druck erfolgen. Veröffentlicht werden "
+"müssen zumindest die mathematischen Modelle, die eingesetzte Software, die "
+"anonymisierte Datenbasis, die konkrete Funktionsweise des Systems und die "
+"Ergebnisse des Berechnungsprozesses für einzelne Gruppen. Ebenso muss "
+"transparent dargelegt werden, wie sich der AMS-Algorithmus auf die "
+"praktische Beratung und Fördervergabe auswirkt. Auch die Maßnahmen, die das "
+"AMS bereits aufgrund der Kritik gesetzt hat, wie Schulungsunterlagen, das "
+"Zusammenspiel mit der Umstrukturierung des AMS und begleitende Prozesse, "
+"sowie Beschwerdemöglichkeiten für Betroffene, müssen endlich veröffentlicht "
+"werden.\n"
+"    "
+msgstr ""
+"\n"
+"    Ми вимагаємо від AMS всебічної та проактивної прозорості. Громадський "
+"тиск не повинен бути єдиним засобом роз’яснення. Щонайменше, математичні "
+"моделі, програмне забезпечення, що використовується, анонімна база даних, як "
+"працює система та результати процесу розрахунків для окремих груп повинні "
+"бути опубліковані. Також має бути прозорим те, як алгоритм AMS впливає на "
+"практичні поради та фінансування. Заходи, які AMS вже вжила у відповідь на "
+"критику, такі як навчальні документи, взаємодія з реструктуризацією AMS та "
+"супутніми процесами, а також варіанти скарг для тих, хто постраждав, повинні "
+"нарешті бути опубліковані.\n"
+"    "
+
+#: templates/donate.html:3
+msgid "Da du hier bist…"
+msgstr "Оскільки ти тут..."
+
+#: templates/donate.html:5
+msgid "hätten wir eine kleine Bitte an dich."
+msgstr "у нас є до вас маленьке прохання."
+
+#: templates/donate.html:6
+msgid ""
+"Diese Kampagne wird von der Grundrechts-NGO <a target=\"_blank\" href="
+"\"https://epicenter.works/\">epicenter.works</a> getragen."
+msgstr ""
+"Цю кампанію підтримує громадська організація з фундаментальних прав <a "
+"target=\"_blank\" href=\"https://epicenter.works/\">epicenter.works</a> ."
+
+#: templates/donate.html:7
+msgid ""
+"\n"
+"    Wir kämpfen seit über 10 Jahren für Grund- und Menschenrechte im "
+"digitalen Zeitalter,\n"
+"    haben die Vorratsdatenspeicherung und den Bundestrojaner abgeschafft und "
+"brauchen deine Unterstützung.\n"
+"    Hilf uns eine starke Stimme für die Zivilgesellschaft zu sein!\n"
+"    "
+msgstr ""
+"\n"
+"    Ми боремося за фундаментальні права та права людини в епоху цифрових "
+"технологій понад 10 років,\n"
+"    скасували збереження даних і федеральний троян і потребують вашої "
+"підтримки.\n"
+"    Допоможіть нам бути сильним голосом громадянського суспільства!\n"
+"    "
+
+#: templates/donate.html:14
+msgid "Jetzt Fördermitglied werden!"
+msgstr "Станьте підтримкою зараз!"
+
+#: templates/email/already_confirmed.html:20 templates/email/confirm.html:20
+#: templates/email/withdraw.html:20
+#, python-format
+msgid "Hallo %(full_name)s,"
+msgstr "Привіт %(full_name)s!"
+
+#: templates/email/already_confirmed.html:23
+msgid ""
+"danke für deine Unterstützung! <br/>\n"
+"                      Du warst allerdings bereits als UnterstützerIn "
+"eingetragen.<br/>"
+msgstr ""
+"Дякую за твою підтримку!<br/> Однак ви вже були зареєстровані як прихильник."
+"<br/>"
+
+#: templates/email/already_confirmed.html:27 templates/email/confirm.html:31
+msgid ""
+"Unsere Petition wird nur erfolgreich sein, wenn wir viele sind!<br/>\n"
+"                      <b>Teile daher unsere Seite auf Social Media!</b>"
+msgstr ""
+"Наша петиція матиме успіх лише тоді, коли нас буде багато!<br/> <b>Тож "
+"поділіться нашою сторінкою в соціальних мережах!</b>"
+
+#: templates/email/already_confirmed.html:33 templates/email/confirm.html:37
+msgid "Vielen Dank für deine Hilfe!"
+msgstr "Дякую за твою допомогу!"
+
+#: templates/email/already_confirmed.html:36 templates/email/confirm.html:40
+#: templates/email/withdraw.html:33
+msgid "Liebe Grüße,"
+msgstr "Теплі вітання,"
+
+#: templates/email/already_confirmed.txt:2
+#, python-format
+msgid ""
+"Hallo %(full_name)s, \n"
+"            \n"
+"danke für deine Unterstützung! \n"
+"\n"
+"Du warst allerdings bereits als UnterstützerIn eingetragen. Unsere \n"
+"Petition kann erfolgreicher sein, wenn du sie auf Social Media \n"
+"teilst. \n"
+"\n"
+"Vielen Dank für deine Hilfe! \n"
+"\n"
+"Liebe Grüße,\n"
+"epicenter.works"
+msgstr ""
+"Привіт %(full_name)s!\n"
+"            \n"
+"Дякую за твою підтримку!\n"
+"\n"
+"Однак ви вже були зареєстровані як прихильник. наш\n"
+"Петиція може бути більш успішною, якщо ви поширите її в соціальних мережах\n"
+"частка\n"
+"\n"
+"Дякую за твою допомогу!\n"
+"\n"
+"Теплі вітання,\n"
+"епіцентр.прац"
+
+#: templates/email/confirm.html:23
+msgid ""
+"danke für deine Unterstützung! <br/>\n"
+"                      Damit wir deine Stimme zählen können fehlt nur mehr "
+"ein kleiner Schritt!<br/>\n"
+"                      <b>Bitte klicke auf diesen Bestätigungslink:</b>"
+msgstr ""
+"Дякую за твою підтримку!<br/> Щоб ми могли порахувати ваш голос, не вистачає "
+"лише одного маленького кроку!<br/> <b>Будь ласка, натисніть на це посилання "
+"підтвердження:</b>"
+
+#: templates/email/confirm.txt:2
+#, python-format
+msgid ""
+"Hallo %(full_name)s,\n"
+"            \n"
+"danke für deine Unterstützung!\n"
+"Damit wir deine Stimme zählen können fehlt nur mehr ein kleiner Schritt!\n"
+"\n"
+"Bitte verwende diesen Bestätigungslink:\n"
+"\n"
+"%(confirmation_url|safe)s\n"
+"\n"
+"Vielen Dank für deine Hilfe!\n"
+"\n"
+"Liebe Grüße,\n"
+"epicenter.works"
+msgstr ""
+"Привіт %(full_name)s!\n"
+"            \n"
+"Дякую за твою підтримку!\n"
+"Щоб ми могли порахувати ваш голос, не вистачає лише одного маленького "
+"кроку!\n"
+"\n"
+"Скористайтеся цим посиланням для підтвердження:\n"
+"\n"
+"%(confirmation_url|safe)s\n"
+"\n"
+"Дякую за твою допомогу!\n"
+"\n"
+"Теплі вітання,\n"
+"епіцентр.прац"
+
+#: templates/email/withdraw.html:23
+msgid ""
+"Wir haben eine Meldung bekommen, dass du deine Einwilligung zur "
+"Datenverarbeitung\n"
+"                    widerrufen möchtest. Mit dem Widerruf wirst du aus der "
+"Liste der Unterzeichner\n"
+"                    entfernt und deine Daten werden gelöscht.\n"
+"\n"
+"                    <b>Um deinen Widerruf zu bestätigen, klicke den "
+"folgenden Bestätigungslink:</b>"
+msgstr ""
+"Ми отримали повідомлення про те, що ви хочете відкликати згоду на обробку "
+"даних. Після відкликання вас буде видалено зі списку підписантів, а ваші "
+"дані буде видалено. <b>Щоб підтвердити відкликання, натисніть таке посилання "
+"для підтвердження:</b>"
+
+#: templates/email/withdraw.txt:2
+#, python-format
+msgid ""
+"Hallo %(full_name)s,\n"
+"\n"
+"Wir haben eine Meldung bekommen, dass du deine Einwilligung zur\n"
+"Datenverarbeitung widerrufen willst. Mit dem Widerruf wirst du aus der "
+"Liste\n"
+"der Unterzeichner entfernt und deine Daten werden gelöscht.\n"
+"\n"
+"Um deinen Widerruf zu bestätigen, klicke den folgenden Bestätigungslink:\n"
+"\n"
+"%(withdrawal_url|safe)s\n"
+"\n"
+"Liebe Grüße,\n"
+"epicenter.works"
+msgstr ""
+"Привіт %(full_name)s!\n"
+"\n"
+"Ми отримали повідомлення про те, що ви дали згоду на\n"
+"хочете скасувати обробку даних. Після відкликання вас буде видалено зі "
+"списку\n"
+"підписувача буде видалено, а ваші дані – видалено.\n"
+"\n"
+"Щоб підтвердити відкликання, натисніть таке посилання для підтвердження:\n"
+"\n"
+"%(withdrawal_url|safe)s\n"
+"\n"
+"Теплі вітання,\n"
+"епіцентр.прац"
+
+#: templates/index.html:29
+msgid "Erklärvideo"
+msgstr "пояснювальне відео"
+
+#: templates/index.html:30
+msgid "Forderungen"
+msgstr "вимоги"
+
+#: templates/index.html:31
+msgid "Minister kontaktieren"
+msgstr "Звертайтеся до міністра"
+
+#: templates/index.html:32
+msgid "AMS-Daten anfordern"
+msgstr "Запит даних AMS"
+
+#: templates/index.html:33
+msgid "Weitersagen"
+msgstr "передати його на"
+
+#: templates/index.html:49
+msgid "Stoppt den <strong>AMS&#8209;Algorithmus</strong>"
+msgstr "Зупиняє роботу <strong>алгоритму AMS</strong>"
+
+#: templates/index.html:53
+msgid "Computer dürfen nicht über Menschen entscheiden!"
+msgstr "Комп’ютерам заборонено приймати рішення щодо людей!"
+
+#: templates/index.html:60 templates/index.html:174
+msgid "Jetzt Forderungen unterstützen!"
+msgstr "Підтримайте претензії зараз!"
+
+#: templates/index.html:88
+msgid ""
+"\n"
+"          Die Einführung des AMS-Algorithmus ist ein\n"
+"          <strong>gefährlicher Dammbruch</strong>.\n"
+"          "
+msgstr ""
+"\n"
+"Впровадження алгоритму AMS є <strong>небезпечним проривом дамби</strong> ."
+
+#: templates/index.html:96
+msgid ""
+"\n"
+"              Bislang war es so, dass der Einsatz ganz neuer Technologien\n"
+"              zumindest öffentlich debattiert und mit einem Gesetz\n"
+"              demokratisch legitimiert wurde. Das ist beim AMS-Algorithmus "
+"nicht so.\n"
+"              "
+msgstr ""
+"\n"
+"              Поки це було використання абсолютно нових технологій\n"
+"              принаймні публічно обговорений і з законом\n"
+"              демократично легітимований. Це не стосується алгоритму AMS.\n"
+"              "
+
+#: templates/index.html:103
+msgid ""
+"\n"
+"              Dieses <strong>System wurde ohne öffentliche Debatte\n"
+"              entwickelt</strong> und präsentiert. Die\n"
+"              <strong>Zivilgesellschaft</strong> war in diesen Prozess\n"
+"              <strong>nicht eingebunden</strong> und <strong>bis heute fehlt "
+"es</strong> hier\n"
+"              <strong>grundlegend</strong> an <strong>Transparenz</strong>, "
+"wie dieses System arbeitet und über uns entscheidet.\n"
+"              "
+msgstr ""
+"\n"
+"Ця <strong>система була розроблена та презентована без публічного "
+"обговорення</strong> . <strong>Громадянське суспільство</strong> <strong>не "
+"було залучене</strong> до цього процесу, і до сьогодні існує "
+"<strong>фундаментальна</strong> <strong>непрозорість</strong> щодо "
+"<strong>того</strong> , як ця система працює і як вона вирішує про нас."
+
+#: templates/index.html:112
+msgid ""
+"\n"
+"              Ein ähnliches System wurde <a href=\"https://epicenter.works/"
+"content/warum-der-polnische-ams-algorithmus-gescheitert-ist\" target=\"_blank"
+"\">in Polen vom Verfassungsgerichtshof\n"
+"              aufgehoben</a>. Auch in den Niederlanden wurde ein "
+"algorithmenbasiertes System,\n"
+"              das Sozialhilfeempfänger*innen kontrollieren sollte <a href="
+"\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
+"archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">für\n"
+"              rechtswidrig erklärt und eingestellt.</a>\n"
+"              "
+msgstr ""
+"\n"
+"Подібна система була <a href=\"https://epicenter.works/content/warum-der-"
+"polnische-ams-algorithmus-gescheitert-ist\" target=\"_blank\">скасована в "
+"Польщі Конституційним судом</a> . У Нідерландах також систему на основі "
+"алгоритму, яка мала контролювати отримувачів соціальної допомоги, <a href="
+"\"https://www.uni-muenster.de/NiederlandeNet/aktuelles/"
+"archiv/2020/0205GerichtverbietetSyRi.html\" target=\"_blank\">визнали "
+"незаконною та закрили.</a>"
+
+#: templates/index.html:120
+msgid ""
+"\n"
+"              Wir dürfen nicht zulassen, dass Merkmale,\n"
+"              auf die man keinen Einfluss hat, entscheidend dafür sind, ob "
+"Menschen\n"
+"              Aus- und Weiterbildungen verboten werden. "
+"<strong>Algorithmische\n"
+"              Systeme</strong> müssen Vorurteile und Ungerechtigkeiten "
+"bekämpfen\n"
+"              und <strong>dürfen diese Ungerechtigkeiten nicht</strong>\n"
+"              auch noch <strong>einzementieren</strong>.\n"
+"              "
+msgstr ""
+"\n"
+"Ми не повинні дозволяти характеристикам, над якими ми не маємо контролю, "
+"визначати, чи заборонено людям навчання та навчання. <strong>Алгоритмічні "
+"системи</strong> повинні боротися з упередженнями та несправедливістю, а не "
+"<strong>увічнювати</strong> <strong>ці несправедливості</strong> ."
+
+#: templates/index.html:132
+msgid "https://embed.epicenter.works/yt/VUoN61lKcMc"
+msgstr "https://embed.epicenter.works/yt/VUoN61lKcMc"
+
+#: templates/index.html:142
+msgid "Unsere <strong>7 Forderungen</strong>"
+msgstr "Наші <strong>7 вимог</strong>"
+
+#: templates/index.html:147
+msgid "mehr"
+msgstr "більше"
+
+#: templates/index.html:152
+msgid "Forderung im Detail:"
+msgstr "Попит детально:"
+
+#: templates/index.html:186
+msgid "AMS-Algorithmus stoppen"
+msgstr "Зупинити алгоритм AMS"
+
+#: templates/index.html:192
+msgid "Unsere 7 Forderungen"
+msgstr "Наші 7 вимог"
+
+#: templates/index.html:249
+msgid "Unterschreiben"
+msgstr "Знак"
+
+#: templates/index.html:264
+msgid "Kontaktiere deinen <strong>Minister!</strong>"
+msgstr "Звертайтеся до свого <strong>міністра!</strong>"
+
+#: templates/index.html:278
+msgid "E-Mail schreiben"
+msgstr "Написати електронну пошту"
+
+#: templates/index.html:294
+msgid "Stelle ein <strong>Auskunftsbegehren!</strong>"
+msgstr "Надішліть запит на <strong>інформацію!</strong>"
+
+#: templates/index.html:296
+msgid ""
+"Einmal im Jahr kannst du gratis all deine Daten von allen Firmen und "
+"Behörden anfordern. Hier kannst du das für das AMS tun."
+msgstr ""
+"Раз на рік ви можете безкоштовно запитувати всі свої дані в усіх компаніях і "
+"органах влади. Тут ви можете зробити це для AMS."
+
+#: templates/index.html:299
+msgid "Zum Generator"
+msgstr "До генератора"
+
+#: templates/index.html:301
+msgid "Antrag gemäß Art. 15 DSGVO auf Auskunft"
+msgstr "Запит на інформацію відповідно до статті 15 GDPR"
+
+#: templates/index.html:309
+msgid ""
+"\n"
+"                    <strong>Nur wenn du seit 2019 arbeitslos warst hat das "
+"AMS eine algorithmische Einstufung von dir, das sind in etwa 2 Seiten des "
+"Auskunftsbegehrens (eine Infoseite und eine Auskunftsseite).</strong> "
+"Durchschnittlich gesehen hat ein Auskunftsbegehren beim AMS (bei älteren "
+"Personen) ca 80-150 Seiten. Auf Nachfrage kann dir stattdessen auch "
+"<strong>dein/e AMS-Berater*in über deine algorithmische Einstufung Auskunft "
+"erteilen.</strong>\n"
+"                  "
+msgstr ""
+"\n"
+"<strong>Лише якщо ви безробітні з 2019 року, AMS має вашу алгоритмічну "
+"класифікацію, яка становить приблизно 2 сторінки запиту на інформацію "
+"(інформаційна сторінка та інформаційна сторінка).</strong> В середньому "
+"запит на інформацію від AMS (для людей похилого віку) має близько 80-150 "
+"сторінок. За запитом <strong>ваш консультант AMS може надати вам інформацію "
+"про вашу алгоритмічну класифікацію.</strong>"
+
+#: templates/index.html:324
+msgid "Weitersagen!"
+msgstr "Передати його на!"
+
+#: templates/index.html:326
+msgid ""
+"Erzähle deinen Freunden von dieser Kampagne! Nur so können wir genug "
+"politischen Druck erzeugen, um den AMS-Algorithmus zu verhinden."
+msgstr ""
+"Розкажіть друзям про цю акцію! Це єдиний спосіб створити достатній "
+"політичний тиск, щоб запобігти алгоритму AMS."
+
+#: templates/index.html:349
+msgid "Unterstützer*innen"
+msgstr "прихильників"
+
+#: templates/index.html:350
+msgid "Die Kampagne wird von folgenden Organisationen getragen:"
+msgstr "Акцію підтримують наступні організації:"
+
+#: templates/news.html:18
+msgid "Was als nächstes passiert ..."
+msgstr "Що буде далі..."
+
+#: templates/news.html:19
+msgid ""
+"\n"
+"      <p>\n"
+"        Bis September 2022 sollen in gezielten Focusgruppen die detailierten "
+"Probleme eines maschinellen, automatisierten und intransparenten Systems "
+"besprochen werden. In moderierten Gruppen diskutieren und analysieren wir "
+"mit betroffenen Menschen, ob Algorithmen überhaupt für staatlich garantierte "
+"Versicherungsleistungen einsetzbar sind. Die Ergebnisse werden wir "
+"veröffentlichen.\n"
+"      </p>\n"
+"      <p>\n"
+"        Weiters werden wir nochmals  in Oberösterreich vor Ort sein. Mit "
+"unserem Tourbus und dem einarmigen Banditen \"Algomat\" möchten wir stark "
+"betroffene Communities besuchen und über das System und dessen Probleme "
+"aufklären. Aktuell suchen wir Organisationen und Vereine in Oberösterreich, "
+"die mit geflüchteten oder langzeitarbeitssuchenden Menschen arbeiten. Wenn "
+"ihr Vertreter*innen solch einer Community seid oder kennt, z.B. eine "
+"syrische Kulturgruppe oder ein kroatischer Kulturverein, udgl.\n"
+"        Sprecht uns bitte an: <a href=\"mailto:ams-algorithmus@epicenter."
+"works\">ams-algorithmus@epicenter.works</a><br>\n"
+"        Wir suchen auch aktuell noch Sprachmittler*innen, um einfacher vor "
+"Ort kommunizieren zu können. \n"
+"      </p>\n"
+"      "
+msgstr ""
+"\n"
+"<p>До вересня 2022 року детальні проблеми машинної, автоматизованої та "
+"непрозорої системи мають бути обговорені в цільових фокус-групах. У "
+"модерованих групах ми обговорюємо та аналізуємо з постраждалими, чи можна "
+"взагалі використовувати алгоритми для гарантованих державою страхових "
+"виплат. Результати ми опублікуємо.</p><p> Ми також знову будемо на місці у "
+"Верхній Австрії. З нашим туристичним автобусом та одноруким бандитом "
+"«Алгомат» ми хочемо відвідати сильно постраждалі громади та розповісти їм "
+"про систему та її проблеми. На даний момент ми шукаємо організації та "
+"асоціації у Верхній Австрії, які працюють з біженцями або довгостроковими "
+"шукачами роботи. Якщо ви є або знаєте представника такої спільноти, "
+"наприклад, сирійської культурної групи чи хорватської культурної асоціації "
+"тощо. Будь ласка, зв'яжіться з нами: <a href=\"mailto:ams-"
+"algorithmus@epicenter.works\">ams-algorithmus@epicenter.works</a><br> Зараз "
+"ми також шукаємо мовних посередників, щоб мати можливість легше спілкуватися "
+"на місці.</p>"
+
+#: templates/newsletter_snippet.html:5
+msgid "Bleib informiert!"
+msgstr "Будьте в курсі!"
+
+#: templates/newsletter_snippet.html:7
+msgid ""
+"Mit dem epicenter.works Newsletter behältst du den Überblick über "
+"netzpolitische Themen in Österreich."
+msgstr ""
+"За допомогою інформаційного бюлетеня epicenter.works ви можете стежити за "
+"проблемами мережевої політики в Австрії."
+
+#: templates/newsletter_snippet.html:8
+msgid "https://epicenter.works/newsletter"
+msgstr "https://epicenter.works/newsletter"
+
+#: templates/newsletter_snippet.html:8
+msgid "Jetzt abonnieren"
+msgstr "Підпишіться зараз"
+
+#: templates/privacy.html:16
+msgid "Datenschutzbedingungen"
+msgstr "Політика конфіденційності"
+
+#: templates/privacy.html:18
+msgid ""
+"\n"
+"        Wenn du unsere Petition unterschreibst, speichern wir deinen Namen "
+"und deine E-Mail-Adresse, um deine Identität als TeilnehmerIn festzuhalten "
+"und um Mehrfachunterschriften auszuschließen. Diese Daten werden nach dem "
+"Ende der Unterzeichnungsfrist an das Bundesministerium für Arbeit, Familie "
+"und Jugend, Untere Donaustraße 13-15, 1020 Wien übergeben und daraufhin von "
+"uns gelöscht.\n"
+"        "
+msgstr ""
+"\n"
+"        Якщо ви підпишете нашу петицію, ми збережемо ваше ім’я та адресу "
+"електронної пошти, щоб зареєструвати вашу особу як учасника та запобігти "
+"багаторазовим підписам. Після завершення періоду підписання ці дані будуть "
+"передані до Федерального міністерства праці, сім’ї та молоді за адресою: "
+"Untere Donaustraße 13-15, 1020 Vienna, а потім ми їх видалимо.\n"
+"        "
+
+#: templates/privacy.html:23
+msgid ""
+"\n"
+"        Um Missbrauch zu vermeiden, speichern wir außerdem eine "
+"Zeichenkette, die wir für einen Bestätigungslink verwenden, den du per E-"
+"Mail zugesandt bekommst, wie häufig wir dir eine solche E-Mail geschickt "
+"haben und ob du deine Unterschrift bestätigt hast. Solltest du das "
+"Widerspruchsformular unten nutzen, speichern wir eine solche Zeichenkette "
+"und die Anzahl der zugesandten E-Mails auch bis zur vollständigen "
+"Bearbeitung des Widerspruchsvorgangs. Alle diese Daten werden nach dem Ende "
+"der Unterzeichnungsfrist von uns gelöscht.\n"
+"        "
+msgstr ""
+"\n"
+"        Щоб запобігти зловживанням, ми також зберігаємо рядок символів, який "
+"ми використовуємо для посилання для підтвердження, яке ви отримуєте "
+"електронною поштою, як часто ми надсилали вам такий електронний лист і чи "
+"підтвердили ви свій підпис. Якщо ви використовуєте форму заперечення нижче, "
+"ми зберігатимемо такий рядок символів і кількість надісланих електронних "
+"листів, доки процес заперечення не буде повністю оброблено. Усі ці дані буде "
+"видалено нами після закінчення періоду підписання.\n"
+"        "
+
+#: templates/privacy.html:28
+msgid ""
+"\n"
+"        Wir speichern außerdem, ob du wünschst, unseren Newsletter zu "
+"erhalten, und übertragen deine E-Mail-Adresse gegebenenfalls in unser "
+"Newslettersystem. Informationen zum Datenschutz bezüglich unseres "
+"Newsletters findest du <a href=\"https://epicenter.works/"
+"datenschutz#newsletter\">hier</a>.\n"
+"        "
+msgstr ""
+"\n"
+"Ми також зберігаємо, чи бажаєте ви отримувати нашу розсилку, і, якщо "
+"необхідно, передаємо вашу електронну адресу в нашу систему розсилки. "
+"Інформацію про захист даних щодо нашої розсилки можна <a href=\"https://"
+"epicenter.works/datenschutz#newsletter\">знайти тут</a> ."
+
+#: templates/privacy.html:33
+msgid ""
+"\n"
+"        Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 9 Abs. "
+"2 lit a DSGVO. Du kannst deine Einwilligung zur Verarbeitung mittels des "
+"Formulars unten jederzeit widerrufen. Weitere Informationen zum "
+"Verantwortlichen für die Verarbeitung, zu deinen Rechten, Kontaktdaten, "
+"sowie zu den Datenschutzbedingungen beim Besuch unserer Websites findest du "
+"<a href=\"https://epicenter.works/datenschutz\">hier</a>.\n"
+"        "
+msgstr ""
+"\n"
+"Ці дані обробляються на основі статті 9 абзацу 2 GDPR. Ви можете відкликати "
+"свою згоду на обробку в будь-який час, використовуючи форму нижче. Ви можете "
+"знайти більше інформації про особу, відповідальну за обробку, ваші права, "
+"контактні дані та умови захисту даних під час відвідування наших веб-сайтів "
+"<a href=\"https://epicenter.works/datenschutz\">тут</a>."
+
+#: templates/privacy.html:42
+msgid "Widerruf der Einwilligung zur Verarbeitung"
+msgstr "Відкликання згоди на обробку"
+
+#: templates/privacy.html:43
+msgid ""
+"Zum Widerruf gib die E-Mail-Adresse ein, mit der du unterschrieben hast. Du "
+"erhältst wieder eine E-Mail mit einem Link, mit dem du den Widerruf "
+"bestätigst."
+msgstr ""
+"Щоб скасувати, введіть адресу електронної пошти, якою ви ввійшли. Ви "
+"отримаєте інший електронний лист із посиланням, за допомогою якого ви "
+"зможете підтвердити відкликання."
+
+#: templates/privacy.html:49
+msgid "Einwilligung widerrufen"
+msgstr "відкликати згоду"
+
+#: templates/progressbar.html:17
+#, python-format
+msgid "Bisher %(signature_count)s von %(goal)s Unterschriften."
+msgstr "Наразі підписів: %(signature_count)s із %(goal)s."
+
+#: templates/request.html:8
+msgid "Auskunftsbegehren"
+msgstr "запит інформації"
+
+#: templates/request.html:18
+msgid ""
+"\n"
+"            Mithilfe dieses Formulars kannst du ein Auskunftsbegehren "
+"generieren, \n"
+"            welches dazu dient personenbezogene Daten die das "
+"Arbeitsmarktservice über dich \n"
+"            gesammelt hat einzusehen.\n"
+"            Schicke es an die enthaltene Adresse und lege eine Ausweiskopie "
+"bei!\n"
+"            "
+msgstr ""
+"\n"
+"            Ви можете використовувати цю форму для створення запиту на "
+"інформацію,\n"
+"            який використовується для збору персональних даних, якими "
+"володіє служба ринку праці про вас\n"
+"            зібрав.\n"
+"            Надішліть його на вказану адресу та додайте копію свого "
+"посвідчення особи!\n"
+"            "
+
+#: templates/request.html:26
+msgid ""
+"\n"
+"            Die Daten die du in diesem Formular angibst werden nur verwendet "
+"um \n"
+"            dein Auskunftsbegehren zu generieren und werden nicht "
+"gespeichert.\n"
+"            "
+msgstr ""
+"\n"
+"            Дані, які ви надаєте в цій формі, використовуватимуться лише "
+"для\n"
+"            для створення вашого запиту на інформацію та не буде збережено.\n"
+"            "
+
+#: templates/request.html:46
+msgid "Pflichtfelder"
+msgstr "Обов'язкові поля"
+
+#: templates/request.html:48
+msgid ""
+"Alternativ stellen wir auch einen <a href=\"https://epicenter.works/sites/"
+"default/files/ams-dsgvo-hoch.pdf\" target=\"_blank\">Musterbrief</a> als PDF "
+"für das Auskunftsbegehren zur Verfügung"
+msgstr ""
+"Крім того, ми також надаємо <a href=\"https://epicenter.works/sites/default/"
+"files/ams-dsgvo-hoch.pdf\" target=\"_blank\">зразок листа</a> у форматі PDF "
+"для запиту на інформацію"
+
+#: templates/request_call_to_action.html:4
+msgid ""
+"\n"
+"  Verwende unser Programm und generiere ein Dokument \n"
+"  um herauszufinden welche Daten das AMS über dich gespeichert hat.\n"
+"  "
+msgstr ""
+"\n"
+"  Скористайтеся нашою програмою та створіть документ\n"
+"  щоб дізнатися, які дані про вас зберігає AMS.\n"
+"  "
+
+#: templates/share.html:5
+msgid "Jede Stimme zählt!"
+msgstr "Кожен голос має значення!"
+
+#: templates/share.html:7
+msgid "Teile diese Seite auf Social Media damit wir unser Ziel erreichen!"
+msgstr ""
+"Поділіться цією сторінкою в соціальних мережах, щоб ми могли досягти своєї "
+"мети!"
+
+#: templates/thanks.html:7
+msgid "Danke,"
+msgstr "Спасибі,"
+
+#: templates/thanks.html:9
+msgid ""
+"klicke noch schnell den Bestätigungslink, den du per E-Mail erhalten hast."
+msgstr ""
+"швидко клацніть посилання підтвердження, яке ви отримали електронною поштою."
+
+#: templates/tour.html:13
+msgid "Wir sind auf Tour"
+msgstr "Ми в турі"
+
+#: templates/tour.html:15
+msgid "Termine & Livestream"
+msgstr "Дати та пряма трансляція"
+
+#: templates/tour.html:45
+msgid "Hauptseite & Petition"
+msgstr "Головна сторінка та петиція"
+
+#: templates/tour/discussion.html:40
+msgid "Paneldiskussion zum AMS-Algorithmus"
+msgstr "Панельна дискусія щодо алгоритму AMS"
+
+#: templates/tour/discussion.html:45
+msgid "https://embed.epicenter.works/yt/I9O8Az_E-VY"
+msgstr "https://embed.epicenter.works/yt/I9O8Az_E-VY"
+
+#: templates/tour/discussion.html:57
+msgid ""
+"\n"
+"            Zum Start der Aktionswoche in Oberösterreich, Anfang Mai 2022, "
+"bei der für die Abschaffung eines solchen maschinenbasierten Systems "
+"geworben wurde, diskutierten Vertreter*innen aus Wissenschaft, Politik, "
+"Sozialpartnerschaft und Verwaltung über ihren Zugang zum AMS-Algorithmus.\n"
+"            Eine spannende Runde, mit vielen Argumenten und durchaus "
+"unerwarteten Wendungen.\n"
+"            "
+msgstr ""
+"\n"
+"            На початку тижня кампанії у Верхній Австрії, на початку травня "
+"2022 року, під час якого пропагувалося скасування такої машинної системи, "
+"представники науки, політики, соціального партнерства та адміністрації "
+"обговорили свій доступ до алгоритму AMS.\n"
+"            Захоплюючий раунд, з багатьма суперечками та досить "
+"несподіваними поворотами.\n"
+"            "
+
+#: templates/tour/tour_dates.html:4 templates/tour/tour_snippet.html:83
+msgid "Termine"
+msgstr "Події"
+
+#: templates/tour/tour_dates.html:6
+msgid "28. April"
+msgstr "28 квітня"
+
+#: templates/tour/tour_dates.html:6
+msgid "Panel / Livestream"
+msgstr "панель / пряма трансляція"
+
+#: templates/tour/tour_dates.html:7 templates/tour/tour_snippet.html:85
+msgid "2. Mai"
+msgstr "2.травень"
+
+#: templates/tour/tour_dates.html:8 templates/tour/tour_snippet.html:86
+msgid "3. Mai"
+msgstr "3 травня"
+
+#: templates/tour/tour_dates.html:9 templates/tour/tour_snippet.html:87
+msgid "4. Mai"
+msgstr "4 травня"
+
+#: templates/tour/tour_dates.html:10 templates/tour/tour_snippet.html:88
+msgid "5. Mai"
+msgstr "5 травня"
+
+#: templates/tour/tour_dates.html:11 templates/tour/tour_snippet.html:89
+msgid "6. Mai"
+msgstr "6 травня"
+
+#: templates/tour/tour_snippet.html:58
+msgid "Das war die Tour ..."
+msgstr "Це був тур..."
+
+#: templates/tour/tour_snippet.html:61
+msgid ""
+"\n"
+"        Im Mai 2022 waren wir in Oberösterreich auf Tour und haben viele "
+"interessante Gespräche mit Betroffenen und Mitarbeitenden des AMS geführt. "
+"Alle waren sich meist einig, dass solch ein maschinelles System furchtbar "
+"ungerecht ist. Es bleibt reine Geldverschwendung, denn hilfreich ist es "
+"weder für die Seite der Arbeitssuchenden noch für die Beschäftigten des "
+"AMS , von denen sich viele mit unserer Aktion solidarisierten. \n"
+"        "
+msgstr ""
+"\n"
+"        У травні 2022 року ми були в турі у Верхній Австрії та мали багато "
+"цікавих дискусій з постраждалими та співробітниками AMS. Переважно всі "
+"погодилися, що така машинна система є страшенно несправедливою. Це "
+"залишається марною тратою грошей, тому що це не корисно ні шукачам роботи, "
+"ні працівникам АМС, багато з яких виявили солідарність з нашою акцією.\n"
+"        "
+
+#: templates/tour/tour_snippet.html:71
+msgid ""
+"\n"
+"            Unser einarmiger Bandit \"Algomat\" war ein voller Erfolg. Viele "
+"\"spielten\" mit dem Gerät, dessen Programmierung auf Basis der bekannten "
+"Daten über den AMS-Algorithmus erfolgt war. Die Maschine machte es leicht zu "
+"verstehen, wie ungerecht und zufallsbasiert das bestehende System ist. \n"
+"            "
+msgstr ""
+"\n"
+"            Наш однорукий бандит «Алгомат» вдався на повну. Багато хто "
+"«бавився» з пристроєм, який був запрограмований на основі відомих даних "
+"через алгоритм AMS. Машина дозволила легко зрозуміти, наскільки "
+"несправедливою та випадковою є існуюча система.\n"
+"            "
+
+#: templates/tour/tour_snippet.html:76
+msgid ""
+"\n"
+"            Unser Fazit nach dieser Tour ist noch klarer: dieser AMS-"
+"Algorithmus ist eine teure Totgeburt einer Politik, die propagierte, mit "
+"Hilfe einer digitalen Maschine öffentliches Geld zu sparen. Erreicht wurde "
+"das Gegenteil, nämlich die Verschwendung von Steuergeld in eine teure "
+"Digitallösung, die nur ungerecht ist und bereits Anwälte, die "
+"Datenschutzbehörde und das Gericht beschäftigt.\n"
+"            "
+msgstr ""
+"\n"
+"            Наш висновок після цієї екскурсії ще більш ясний: цей алгоритм "
+"AMS є дорогим мертвонародженим політикою, яка поширювалася за допомогою "
+"цифрової машини для економії державних грошей. Те, що було досягнуто, є "
+"протилежним, витрачаючи гроші платників податків на дороге цифрове рішення, "
+"яке є просто несправедливим і вже залучає юристів, орган із захисту даних і "
+"суд.\n"
+"            "
+
+#: templates/withdraw.html:10
+msgid "Wir haben deinen Widerruf erhalten und deine Daten gelöscht."
+msgstr "Ми отримали ваше відкликання та видалили ваші дані."
+
+#: templates/withdraw.html:15
+msgid "Vielleicht wurden deine Daten bereits gelöscht?"
+msgstr "Можливо, ваші дані вже видалено?"
+
+#: templates/withdraw.html:16
+msgid ""
+"Bitte wende dich an <a href=\"mailto:ams@epicenter.works\">ams@epicenter."
+"works</a>, um sicherzugehen, dass deine Daten gelöscht wurden."
+msgstr ""
+"Щоб переконатися, що ваші дані видалено, <a href=\"mailto:ams@epicenter.works"
+"\">зв’яжіться з ams@epicenter.works</a> ."
+
+#: templates/withdrawal_sent.html:7
+msgid "Bestätige deinen Widerruf."
+msgstr "Підтвердьте відкликання."
+
+#: templates/withdrawal_sent.html:9
+msgid ""
+"\n"
+"        Wir haben dir eine E-Mail zur Bestätigung geschickt, \n"
+"        klicke auf den Link in dieser E-Mail, um deinen Widerruf "
+"durchzuführen.      \n"
+"        "
+msgstr ""
+"\n"
+"        Ми надіслали вам електронний лист для підтвердження,\n"
+"        натисніть на посилання в цьому електронному листі, щоб виконати "
+"відкликання.\n"
+"        "

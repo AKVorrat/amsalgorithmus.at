@@ -85,6 +85,7 @@ LANGUAGES = [
   ('sr', 'српски - Serbisch'),
   ('bs', 'bosanski - Bosnisch'),
   ('hr', 'hrvatski - Kroatisch'),
+  ('uk', 'українська мова - Ukainisch'),
   ('tr', 'Türkçe - Türkisch'),
   ('cs', 'čeština - Tschechisch'),
   ('ar', 'اَلْعَرَبِيَّة - Arabisch'),

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-07 13:56+0200\n"
-"PO-Revision-Date: 2022-09-07 14:07+0200\n"
+"POT-Creation-Date: 2022-09-07 14:28+0200\n"
+"PO-Revision-Date: 2022-09-07 14:29+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -66,7 +66,7 @@ msgstr "Code postal"
 
 #: modules/request/forms.py:37
 msgid "Ort"
-msgstr "Localité "
+msgstr "Localité"
 
 #: templates/announcement.html:16
 msgid ""
@@ -584,7 +584,7 @@ msgstr ""
 
 #: templates/donate.html:3
 msgid "Da du hier bist…"
-msgstr "Puisque tu es là.."
+msgstr "Puisque tu es là ..."
 
 #: templates/donate.html:5
 msgid "hätten wir eine kleine Bitte an dich."
